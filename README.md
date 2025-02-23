@@ -3,6 +3,8 @@
 Welcome to my repository where I share my notes on various programming languages, testing methodologies, and other tech-related topics! 
 🚀 This repository is a collection of my learning journey, and I hope it can be a valuable resource for you too. 🌟
 
+** All materials in this repository are written in Russian.** 🇷🇺
+
 ## About the Author 👨‍💻
 
 Hey there! I'm **removespread**, a tech enthusiast who loves to learn and share knowledge. You can find more about me and my work on my Telegram channel:
