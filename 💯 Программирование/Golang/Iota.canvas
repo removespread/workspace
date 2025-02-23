@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"a7d95aa8f38bd613","x":-160,"y":-223,"width":1880,"height":515,"type":"group","label":"Iota"},
+		{"id":"d841f4c54336bbd2","type":"text","text":"```go\nconst (\n\tc0 = iota\n\tc1 = iota\n\tc2 = iota\n)\nfmt.Println(c0, c1, c2) // 0, 1, 2\n\nconst(\n\tSunday = iota // 0\n\tMonday\n\tTuesday\n\tWednesday\n\tThursday\n\tFriday\n\tSaturday\n\t_ // skip, placeholder, will be 7\n\tAdd // 8\n)\nfmt.Println(Sunday, Saturday, Add) // 0, 6, 8\n```","x":580,"y":-203,"width":460,"height":475},
+		{"id":"808eaad58c0fbd77","type":"text","text":"```go\nconst (\n\tu = iota * 42 // 0 * 42 = 0\n\tv float64 = iota * 42 = 1 * 42 = 42\n\tw = iota * 42 = 2 * 42 = 84\n)\n\nconst x = iota // 0, потому что iota не в одном блоке констант\nconst y = iota // 0, потому что iota не в одном блоке констант","x":1100,"y":-84,"width":600,"height":238},
+		{"id":"a8bbbfce5cae4cc9","type":"text","text":"```go\nconst (\n\tSunday = iota // 0\n\tMonday\n\tTuesday\n\tWednesday\n\tThursday\n\tFriday\n\tSaturday\n)\n\nfunc main() {\n\tfmt.Println(Sunday) // 0\n\tfmt.Println(Saturday) // 6\n}\n```","x":180,"y":-150,"width":347,"height":370},
+		{"id":"6101565ef146ea6f","type":"text","text":"`Iota` - идентификатор, который используется в объявлениях констант для упрощения определений увеличивающихся чисел","x":-140,"y":-53,"width":250,"height":177}
+	],
+	"edges":[
+		{"id":"a32685cafc686f7e","fromNode":"6101565ef146ea6f","fromSide":"right","toNode":"a8bbbfce5cae4cc9","toSide":"left"},
+		{"id":"4ac99d5926e3a0c1","fromNode":"a8bbbfce5cae4cc9","fromSide":"right","toNode":"d841f4c54336bbd2","toSide":"left"},
+		{"id":"844c138ef112384d","fromNode":"d841f4c54336bbd2","fromSide":"right","toNode":"808eaad58c0fbd77","toSide":"left"}
+	]
+}
