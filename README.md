@@ -12,7 +12,7 @@ Feel free to reach out to me via telegram with your suggestions or proposals.
 
 Hey there! I'm **removespread**, a tech enthusiast who loves to learn and share knowledge. You can find more about me and my work on my Telegram channel:
 
-- **Telegram Channel**: [t.me/removespread](https://t.me/removespreadblog)
+- **Telegram Channel**: [t.me/removespreadblog](https://t.me/removespreadblog)
 - **Telegram Profile**: [t.me/removespread](https://t.me/removespread)
 
 Feel free to reach out if you have any questions or just want to chat about tech! 😊
