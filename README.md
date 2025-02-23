@@ -3,7 +3,10 @@
 Welcome to my repository where I share my notes on various programming languages, testing methodologies, and other tech-related topics! 
 🚀 This repository is a collection of my learning journey, and I hope it can be a valuable resource for you too. 🌟
 
-** All materials in this repository are written in Russian.** 🇷🇺
+**All materials in this repository are written in Russian.**
+If you are a native English speaker and would like to help improve the content for a global audience, I would greatly appreciate your assistance!
+Feel free to reach out to me via **Telegram**([t.me/removesrpread](https://t.me/removespread) with your suggestions or proposals.
+
 
 ## About the Author 👨‍💻
 
