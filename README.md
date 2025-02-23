@@ -7,7 +7,7 @@ Welcome to my repository where I share my notes on various programming languages
 
 Hey there! I'm **removespread**, a tech enthusiast who loves to learn and share knowledge. You can find more about me and my work on my Telegram channel:
 
-- **Telegram Channel**: [t.me/removespread](https://t.me/removespread)
+- **Telegram Channel**: [t.me/removespread](https://t.me/removespreadblog)
 - **Telegram Profile**: [t.me/removespread](https://t.me/removespread)
 
 Feel free to reach out if you have any questions or just want to chat about tech! 😊
