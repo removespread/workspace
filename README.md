@@ -32,3 +32,10 @@ This repository contains notes on the following topics:
 2. **Download Obsidian - The best note-taking program**: [Click here to download it](https://obsidian.md)
 3. **Create a new vault (your local storage for notes)**
 4. **Transfer files from the repo into your newly created Obsidian vault**
+
+## To-Do List 📝
+
+Here's what's coming soon to this repository:
+   - **Information about DB Indexes**
+   - **Golang (Go): Including concurrency, in-depth information about structures in Go (maps, slices, arrays), etc.**
+   - **Information about autotests for QA specialists**
