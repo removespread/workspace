@@ -39,3 +39,15 @@ Here's what's coming soon to this repository:
    - **Information about DB Indexes**
    - **Golang (Go): Including concurrency, in-depth information about structures in Go (maps, slices, arrays), etc.**
    - **Information about autotests for QA specialists**
+
+## Contributing 🤝
+
+Contributions are always welcome! If you have any notes, corrections, or additional resources, feel free to open a pull request. Let's learn together! 🌍
+
+## A Note on Sharing and Authorhip 📢
+
+If you find this repository useful and want to share it in your Telegram channels or other platforms, please give proper credit to the author. 
+It’s really important to respect the effort and time put into creating these materials.
+
+Happy learning! 🎉
+
