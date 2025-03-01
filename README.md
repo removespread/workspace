@@ -39,6 +39,7 @@ This repository contains notes on the following topics:
 2. **Download Obsidian - The best note-taking program**: [Click here to download it](https://obsidian.md)
 3. **Create a new vault (your local storage for notes)**
 4. **Transfer files from the repo into your newly created Obsidian vault**
+5. **Open obsidian settings, click to "Files and links", in "Attachment folder path" option type "Cache" (you'll setup folder for screenshots)**
 
 ## To-Do List 📝
 
@@ -97,6 +98,7 @@ Happy learning! 🎉
 2. **[Скачайте](https://obsidian.md) Obsidian — лучшую программу для создания заметок**:
 3. **Создайте новое хранилище (локальное хранилище для заметок)**
 4. **Перенесите файлы из репозитория в недавно созданное хранилище Obsidian**
+5. **Откройте настройки обсидиана, кликните на пункт "Files and links" (третий по списку), в качестве специальной папки для фотографий - выберите папку Cache** 
 
 ## Будущее репозитория 📝
 
