@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"6fcf7c2ac46ab706","x":-307,"y":-46,"width":250,"height":60,"type":"text","text":"Строки"},
+		{"id":"4d7d01d672aa893b","x":0,"y":-89,"width":250,"height":147,"type":"text","text":"Строковые литералы могут быть созданы с помощью двойных кавычек или с помощью обратных апострофов"},
+		{"id":"47c5df0d66ba797b","x":0,"y":120,"width":250,"height":177,"type":"text","text":"Строки в двойных кавычках позволяют использовать особые последовательности символов. К примеру: `\\n`"},
+		{"id":"604612f4cccb9a57","x":300,"y":-74,"width":250,"height":117,"type":"text","text":"Представляет собой неизменяемую последовательность байтов"},
+		{"id":"5b69b82b50f49e69","x":680,"y":-89,"width":250,"height":87,"type":"text","text":"К строке применимы операции, применимые к массивам и среза"},
+		{"id":"7bcd1e9ae2907f92","x":680,"y":14,"width":250,"height":87,"type":"text","text":"Чтобы изменить строку, нужно создать новую строку"},
+		{"id":"a32d3755dc8256b6","x":680,"y":120,"width":250,"height":207,"type":"text","text":"Есть возможность итерировать по строке как и по любой последовательности, но результат итерации будут байты, а не символы"},
+		{"id":"c753242ddd4461a1","x":680,"y":340,"width":250,"height":60,"type":"text","text":"Можно определить в строке подстроку"},
+		{"id":"09223c352de3b26c","x":1007,"y":-89,"width":250,"height":87,"type":"text","text":"Для работы со строками используется пакет `strings`"},
+		{"id":"3334a426028ad95b","x":1340,"y":-388,"width":823,"height":685,"type":"text","text":"```go\nimport \"strings\"\n\nfunc main() {\nstrings.Contains(\"test\", \"es\"), // результат: true\n// Кол-во подстрок в строке \nstrings.Count(\"test\", \"t\"), // результат: 2 \n// Начинается ли строка с префикса \nstrings.HasPrefix(\"test\", \"te\"), // результат: true \n// Заканчивается ли строка суффиксом \nstrings.HasSuffix(\"test\", \"st\"), // результат: true \n// Возвращает начальный индекс подстроки в строке, а при отсутствии вхождения возвращает -1 \nstrings.Index(\"test\", \"e\"), // результат: 1 \n// объединяет массив строк через символ \nstrings.Join([]string{\"hello\",\"world\"}, \"-\"), // результат: \"hello-world\" \n// Повторяет строку n раз подряд \nstrings.Repeat(\"a\", 5), // результат: \"aaaaa\" \n// Функция Replace заменяет любое вхождение old в вашей строке на new \n// Если значение n равно -1, то будут заменены все вхождения. \n// Общий вид: func Replace(s, old, new string, n int) string // Пример: \nstrings.Replace(\"blanotblanot\", \"not\", \"***\", -1), // результат: \"bla***bla***\" // Разбивает строку согласно разделителю \nstrings.Split(\"a-b-c-d-e\", \"-\"), // результат: []string{\"a\",\"b\",\"c\",\"d\",\"e\"} \n// Возвращает строку c нижним регистром \nstrings.ToLower(\"TEST\"), // результат: \"test\" \n// Возвращает строку c верхним регистром \nstrings.ToUpper(\"test\"), // результат: \"TEST\" \n// Возвращает строку с вырезанным набором \nstrings.Trim(\"tetstet\", \"te\"), // результат: s\n} \n```"},
+		{"id":"b30d9ff288ee5a12","x":-307,"y":640,"width":250,"height":60,"type":"text","text":"Байтовые срезы (\\[]byte)"},
+		{"id":"4ffa57923a1fae1d","x":0,"y":627,"width":250,"height":87,"type":"text","text":"Изменяемая последовательность чисел, т.к. byte == uint8"},
+		{"id":"65222326cfed0601","x":360,"y":553,"width":250,"height":87,"type":"text","text":"Байтовые срез можно изменять (в отличие от строки)"},
+		{"id":"3139223cbe357e63","x":360,"y":654,"width":250,"height":147,"type":"text","text":"К байтовому срезу применимо все, что применимо к массиву и к срезам других типов (взятие/итерация)"},
+		{"id":"a5c53ecc3da4de2f","x":360,"y":820,"width":250,"height":87,"type":"text","text":"К отдельным байтам применимы операции, применимые к числам"},
+		{"id":"502ccbb9943840bf","x":-308,"y":1028,"width":250,"height":60,"type":"text","text":"Срезы рун (\\[]rune)"},
+		{"id":"8a07198e52596ba8","x":0,"y":1000,"width":250,"height":117,"type":"text","text":"Последовательность кодов символов, где 1 символ состоит из 1 кода (rune == int32)"}
+	],
+	"edges":[
+		{"id":"38fafc83444ce2c8","fromNode":"6fcf7c2ac46ab706","fromSide":"right","toNode":"4d7d01d672aa893b","toSide":"left"},
+		{"id":"6db37f7607a21738","fromNode":"4d7d01d672aa893b","fromSide":"bottom","toNode":"47c5df0d66ba797b","toSide":"top"},
+		{"id":"c698d84760190144","fromNode":"4d7d01d672aa893b","fromSide":"right","toNode":"604612f4cccb9a57","toSide":"left"},
+		{"id":"589fd8699c667277","fromNode":"604612f4cccb9a57","fromSide":"right","toNode":"5b69b82b50f49e69","toSide":"left"},
+		{"id":"24e25d6a14114af9","fromNode":"604612f4cccb9a57","fromSide":"right","toNode":"7bcd1e9ae2907f92","toSide":"left"},
+		{"id":"ae0e76a6e752c271","fromNode":"604612f4cccb9a57","fromSide":"right","toNode":"a32d3755dc8256b6","toSide":"left"},
+		{"id":"8d6ecc9712e23bea","fromNode":"604612f4cccb9a57","fromSide":"right","toNode":"c753242ddd4461a1","toSide":"left"},
+		{"id":"f42c091c478fa646","fromNode":"5b69b82b50f49e69","fromSide":"right","toNode":"09223c352de3b26c","toSide":"left"},
+		{"id":"d8f000e9f3602b9f","fromNode":"09223c352de3b26c","fromSide":"right","toNode":"3334a426028ad95b","toSide":"left"},
+		{"id":"c0fa1b2af4187b09","fromNode":"6fcf7c2ac46ab706","fromSide":"bottom","toNode":"b30d9ff288ee5a12","toSide":"top"},
+		{"id":"2d15afa685cd80d4","fromNode":"b30d9ff288ee5a12","fromSide":"right","toNode":"4ffa57923a1fae1d","toSide":"left"},
+		{"id":"cfbe481bf0e93040","fromNode":"4ffa57923a1fae1d","fromSide":"right","toNode":"65222326cfed0601","toSide":"left"},
+		{"id":"fa1f30714ccdc510","fromNode":"4ffa57923a1fae1d","fromSide":"right","toNode":"3139223cbe357e63","toSide":"left"},
+		{"id":"22955dd1e888dd72","fromNode":"4ffa57923a1fae1d","fromSide":"right","toNode":"a5c53ecc3da4de2f","toSide":"left"},
+		{"id":"f92f3696929f11ab","fromNode":"b30d9ff288ee5a12","fromSide":"bottom","toNode":"502ccbb9943840bf","toSide":"top"},
+		{"id":"fe6e1ee5d70fb099","fromNode":"502ccbb9943840bf","fromSide":"right","toNode":"8a07198e52596ba8","toSide":"left"}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"ca2ee2b23c9fc0f1","x":-153,"y":-55,"width":250,"height":60,"type":"text","text":"Указатели"},
+		{"id":"f1c2b8cd0c8128a3","x":159,"y":-68,"width":250,"height":87,"type":"text","text":"Значение, которое указывает на адрес другой переменной"},
+		{"id":"46cc2f8d8e44101a","x":460,"y":-117,"width":250,"height":185,"type":"text","text":"```go\nfunc main() {\n\ta := 200\n\tb := &a\n\t*b++\n\tfmt.Println(a)\n}\n```"},
+		{"id":"5bb628f4a71f30ee","x":760,"y":-113,"width":250,"height":177,"type":"text","text":"`*` - является признаком указателя. В данном примере идет работа не с переменной `b`, а с переменной, на которой ссылается указатель"},
+		{"id":"ed495d1ac636b957","x":1060,"y":-77,"width":292,"height":106,"type":"text","text":"```go\na := 200\nvar b *int = &a \n// альтернативная запись\n```"},
+		{"id":"e013103ba557867e","x":1081,"y":100,"width":250,"height":117,"type":"text","text":"`*int` - значит переменная указывает на другую переменную типа `int`"},
+		{"id":"91924ee7e94f193f","x":460,"y":100,"width":250,"height":316,"type":"text","text":"Переменная `b` ссылается на переменную `a`. Оператор `&` говорит о том, что в переменную записывается не значение переменной, а адрес в ее памяти. В данном случае, переменная `b` считается указателем"},
+		{"id":"c16bb1fc1e16e867","x":460,"y":440,"width":250,"height":177,"type":"text","text":"В примере увеличивается значение переменной `a`, т.к. переменная `b` ссылается на адрес переменной `a`"},
+		{"id":"b0cfa551fdcedb82","x":141,"y":748,"width":250,"height":87,"type":"text","text":"Использование встроенной функции `new()`"},
+		{"id":"10128d06820eaace","x":-153,"y":762,"width":250,"height":60,"type":"text","text":"Альтернативный способ получения указателя"},
+		{"id":"a224f9ecc87217df","x":460,"y":660,"width":317,"height":264,"type":"text","text":"```go\nfunc one(xPtr *int) {\n\t*xPtr = 1\n}\n\nfunc main() {\n\txPtr := new(int)\n\tone(xPtr)\n\tfmt.Println(*xPtr) // 1\n}\n```"},
+		{"id":"759651d86ef6c7c7","x":141,"y":928,"width":250,"height":147,"type":"text","text":"Функция `new()` принимает аргументом тип, выделяет для него память и возвращает указатель на эту память"},
+		{"id":"0541ffdc1a52245c","x":851,"y":762,"width":250,"height":60,"type":"text","text":"Можно создать указатель на указатель"},
+		{"id":"48f64e3b67210f0f","x":1183,"y":673,"width":377,"height":238,"type":"text","text":"```go\nfunc main() {\n\ta := 200\n\tb := &a\n\t*b++\n\tc := &b\n\t**c++ // Указатель на указатель\n\tfmt.Println(a) // 202\n}\n```"}
+	],
+	"edges":[
+		{"id":"93ad3d49e18ce833","fromNode":"ca2ee2b23c9fc0f1","fromSide":"right","toNode":"f1c2b8cd0c8128a3","toSide":"left"},
+		{"id":"95a07926791da980","fromNode":"f1c2b8cd0c8128a3","fromSide":"right","toNode":"46cc2f8d8e44101a","toSide":"left"},
+		{"id":"da5e1a94c5114e14","fromNode":"46cc2f8d8e44101a","fromSide":"bottom","toNode":"91924ee7e94f193f","toSide":"top"},
+		{"id":"8e2d829bdefce19f","fromNode":"46cc2f8d8e44101a","fromSide":"right","toNode":"5bb628f4a71f30ee","toSide":"left"},
+		{"id":"286dcfaffeda843b","fromNode":"5bb628f4a71f30ee","fromSide":"right","toNode":"ed495d1ac636b957","toSide":"left"},
+		{"id":"386865f7c98c184a","fromNode":"ed495d1ac636b957","fromSide":"bottom","toNode":"e013103ba557867e","toSide":"top"},
+		{"id":"ab1bbb89bf437d8e","fromNode":"91924ee7e94f193f","fromSide":"bottom","toNode":"c16bb1fc1e16e867","toSide":"top"},
+		{"id":"b8e405119cbeb26c","fromNode":"10128d06820eaace","fromSide":"right","toNode":"b0cfa551fdcedb82","toSide":"left"},
+		{"id":"54b4508d793aa5d4","fromNode":"b0cfa551fdcedb82","fromSide":"right","toNode":"a224f9ecc87217df","toSide":"left"},
+		{"id":"f7b7ebac62a10a76","fromNode":"b0cfa551fdcedb82","fromSide":"bottom","toNode":"759651d86ef6c7c7","toSide":"top"},
+		{"id":"ad881687827783da","fromNode":"a224f9ecc87217df","fromSide":"right","toNode":"0541ffdc1a52245c","toSide":"left"},
+		{"id":"8eea5d2475af9811","fromNode":"0541ffdc1a52245c","fromSide":"right","toNode":"48f64e3b67210f0f","toSide":"left"}
+	]
+}
