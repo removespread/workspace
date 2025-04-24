@@ -1,0 +1,622 @@
+{
+  "edges": [
+    {
+      "fromNode": "3f3314e5a172912c",
+      "fromSide": "right",
+      "id": "5c175a01f3d10268",
+      "toNode": "e49c4ef5692955aa",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e49c4ef5692955aa",
+      "fromSide": "right",
+      "id": "04989a8ba5ad3e7b",
+      "toNode": "0c391f2f6767dd74",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0c391f2f6767dd74",
+      "fromSide": "bottom",
+      "id": "a1aea34c0290c218",
+      "toNode": "65ce97cd935723af",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "65ce97cd935723af",
+      "fromSide": "right",
+      "id": "8e9a446defc98939",
+      "toNode": "71b8e81aa8386a82",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71b8e81aa8386a82",
+      "fromSide": "right",
+      "id": "3e5b3e3af81295b8",
+      "toNode": "0c5099e03604b07a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "65ce97cd935723af",
+      "fromSide": "right",
+      "id": "39fc4fe4675b41b0",
+      "toNode": "12c79a3851a058c5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "12c79a3851a058c5",
+      "fromSide": "right",
+      "id": "a2e12d20945e1f00",
+      "toNode": "66eb09982764b316",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "65ce97cd935723af",
+      "fromSide": "right",
+      "id": "957b4201dbc48f3e",
+      "toNode": "539c67b937c99d83",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "539c67b937c99d83",
+      "fromSide": "right",
+      "id": "4d4df2073e39805c",
+      "toNode": "78bde507b406d954",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "539c67b937c99d83",
+      "fromSide": "right",
+      "id": "11f4e2698c23e3fa",
+      "toNode": "1a3de611e910f02d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1a3de611e910f02d",
+      "fromSide": "right",
+      "id": "9d5d24a3ee720b25",
+      "toNode": "ace4cb7b399776f9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1a3de611e910f02d",
+      "fromSide": "right",
+      "id": "8a2d2b9bdae6187f",
+      "toNode": "2c77b9cdee671f07",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1a3de611e910f02d",
+      "fromSide": "right",
+      "id": "48c67c18683c97e7",
+      "toNode": "6756aaf498a4ce3b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1a3de611e910f02d",
+      "fromSide": "right",
+      "id": "a6fcb1efa26942cf",
+      "toNode": "0be43c386c238ddc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1a3de611e910f02d",
+      "fromSide": "right",
+      "id": "c623756e286e3615",
+      "toNode": "cb827d4b60f7c946",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1a3de611e910f02d",
+      "fromSide": "right",
+      "id": "25313dcebfdc2428",
+      "toNode": "bfdc1b5538336830",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e49c4ef5692955aa",
+      "fromSide": "bottom",
+      "id": "250c99aec38b82cd",
+      "toNode": "266b2dd8f5f172c3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "266b2dd8f5f172c3",
+      "fromSide": "bottom",
+      "id": "45ac67656ede059c",
+      "toNode": "ee0f27b805bfddbf",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ee0f27b805bfddbf",
+      "fromSide": "right",
+      "id": "f754e9691f062cc7",
+      "toNode": "35885e6c7496179b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ee0f27b805bfddbf",
+      "fromSide": "right",
+      "id": "f98a7e052e091ef8",
+      "toNode": "c61f16dc2f364d42",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ee0f27b805bfddbf",
+      "fromSide": "bottom",
+      "id": "15563e658688322c",
+      "toNode": "be8e5b34243fbeb9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "be8e5b34243fbeb9",
+      "fromSide": "right",
+      "id": "e049c37a28938a20",
+      "toNode": "24e78704bec5f8bd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "24e78704bec5f8bd",
+      "fromSide": "right",
+      "id": "673d85e4b6bf02d0",
+      "toNode": "3a97a339652b16ca",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "be8e5b34243fbeb9",
+      "fromSide": "right",
+      "id": "a0863452c7567905",
+      "toNode": "4a10ba0771ac33ca",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4a10ba0771ac33ca",
+      "fromSide": "right",
+      "id": "0cdb7e57757d0802",
+      "toNode": "e83bf5c96ba670f3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "be8e5b34243fbeb9",
+      "fromSide": "right",
+      "id": "ec613cf211c300a9",
+      "toNode": "ef7c18a33c52703a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ef7c18a33c52703a",
+      "fromSide": "right",
+      "id": "9d437abf2be72769",
+      "toNode": "45c6a2120b3c1e89",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "be8e5b34243fbeb9",
+      "fromSide": "right",
+      "id": "64379d136ca4dc3e",
+      "toNode": "b96259c62d562602",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b96259c62d562602",
+      "fromSide": "right",
+      "id": "e353d9f88726af00",
+      "toNode": "1dc23da83720d644",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "be8e5b34243fbeb9",
+      "fromSide": "right",
+      "id": "5ad9c8e927634ab0",
+      "toNode": "353eaac51eab00bc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "353eaac51eab00bc",
+      "fromSide": "right",
+      "id": "ed86a175a05da40e",
+      "toNode": "ba6f0efe36a19ad5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "be8e5b34243fbeb9",
+      "fromSide": "right",
+      "id": "05f2cc7460ffddb9",
+      "toNode": "2317af0ca8ba23cd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2317af0ca8ba23cd",
+      "fromSide": "right",
+      "id": "c82141579c23d53f",
+      "toNode": "5bbeed14fa34156e",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 2078,
+      "id": "4c53ab7255e8954c",
+      "label": "Базовая информация о Kubernetes",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1878,
+      "x": -208,
+      "y": -139
+    },
+    {
+      "height": 60,
+      "id": "3f3314e5a172912c",
+      "styleAttributes": {
+      },
+      "text": "Kubernetes (K8s)",
+      "type": "text",
+      "width": 250,
+      "x": -188,
+      "y": -39
+    },
+    {
+      "height": 177,
+      "id": "e49c4ef5692955aa",
+      "styleAttributes": {
+      },
+      "text": "Программная платформа для автоматического управления контейнеризованными приложениями",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": -97
+    },
+    {
+      "height": 147,
+      "id": "0c391f2f6767dd74",
+      "styleAttributes": {
+      },
+      "text": "Предлагает базовые механизмы для их развертывания, масштабирования и поддержки",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": -82
+    },
+    {
+      "height": 87,
+      "id": "65ce97cd935723af",
+      "styleAttributes": {
+      },
+      "text": "Что представляет собой контейнеризация",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "71b8e81aa8386a82",
+      "styleAttributes": {
+      },
+      "text": "Традиционный способ",
+      "type": "text",
+      "width": 250,
+      "x": 760,
+      "y": -61
+    },
+    {
+      "height": 60,
+      "id": "12c79a3851a058c5",
+      "styleAttributes": {
+      },
+      "text": "Виртуальная машина",
+      "type": "text",
+      "width": 250,
+      "x": 760,
+      "y": 154
+    },
+    {
+      "height": 292,
+      "id": "266b2dd8f5f172c3",
+      "styleAttributes": {
+      },
+      "text": "Платформа может масштабировать приложения и обрабатывать возникающие ошибки, распределять ресурсы, поддерживать баланс между контейнерами и т.д",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "539c67b937c99d83",
+      "styleAttributes": {
+      },
+      "text": "Контейнер",
+      "type": "text",
+      "width": 250,
+      "x": 760,
+      "y": 358
+    },
+    {
+      "height": 117,
+      "id": "3a97a339652b16ca",
+      "styleAttributes": {
+      },
+      "text": "Разработчик видит в интуитивно понятном виде информацию о работе сервисов",
+      "type": "text",
+      "width": 250,
+      "x": 760,
+      "y": 782
+    },
+    {
+      "height": 177,
+      "id": "0c5099e03604b07a",
+      "styleAttributes": {
+      },
+      "text": "Запуск одной программы на одном физическом сервере. Иметь несколько серверов было невыгодно",
+      "type": "text",
+      "width": 250,
+      "x": 1080,
+      "y": -119
+    },
+    {
+      "height": 208,
+      "id": "66eb09982764b316",
+      "styleAttributes": {
+      },
+      "text": "Программная или аппаратная эмуляция работы одной или нескольких гостевых платформ (guest) на платформе-хозяине (host). Виртуальная машина имитирует компоненты аппаратного обеспечения или целый ПК с отдельной ОС. Позволило эффективнее разграничить ресурсы физического сервера между виртуальной машиной и масштабировать их работу",
+      "type": "text",
+      "width": 500,
+      "x": 1080,
+      "y": 80
+    },
+    {
+      "height": 148,
+      "id": "78bde507b406d954",
+      "styleAttributes": {
+      },
+      "text": "Усовершенствованный вариант виртуальной машины с максимальной изоляцией в рамках одной ОС. В отличие от обычной ВМ, он не связан с базовой аппаратной инфраструктурой и может легко переноситься между облаками и несколькими ОС",
+      "type": "text",
+      "width": 500,
+      "x": 1080,
+      "y": 314
+    },
+    {
+      "height": 60,
+      "id": "1a3de611e910f02d",
+      "styleAttributes": {
+      },
+      "text": "Преимущества",
+      "type": "text",
+      "width": 250,
+      "x": 1080,
+      "y": 540
+    },
+    {
+      "height": 117,
+      "id": "ace4cb7b399776f9",
+      "styleAttributes": {
+      },
+      "text": "Простота и гибкость развертывания приложений по сравнению с ВМ",
+      "type": "text",
+      "width": 250,
+      "x": 1400,
+      "y": 512
+    },
+    {
+      "height": 177,
+      "id": "2c77b9cdee671f07",
+      "styleAttributes": {
+      },
+      "text": "Непрерывность создания, интеграции и развертывания контейнера с возможностью быстро откатить изменения",
+      "type": "text",
+      "width": 250,
+      "x": 1400,
+      "y": 640
+    },
+    {
+      "height": 207,
+      "id": "6756aaf498a4ce3b",
+      "styleAttributes": {
+      },
+      "text": "Создание контейнеров приложений в процессе сборки/релиза и отделение приложения от аппаратной инфраструктуры",
+      "type": "text",
+      "width": 250,
+      "x": 1400,
+      "y": 840
+    },
+    {
+      "height": 177,
+      "id": "0be43c386c238ddc",
+      "styleAttributes": {
+      },
+      "text": "Идентичность среды разработки и тестирования на сервере и терминалах разработчика (ноутбук, ПК)",
+      "type": "text",
+      "width": 250,
+      "x": 1400,
+      "y": 1060
+    },
+    {
+      "height": 88,
+      "id": "35885e6c7496179b",
+      "styleAttributes": {
+      },
+      "text": "Декларативный - разработчик задает цели, а не пути их достижения, которые система автоматически выбирает сама",
+      "type": "text",
+      "width": 401,
+      "x": 420,
+      "y": 460
+    },
+    {
+      "height": 60,
+      "id": "24e78704bec5f8bd",
+      "styleAttributes": {
+      },
+      "text": "Наблюдение за работой сервисов",
+      "type": "text",
+      "width": 250,
+      "x": 462,
+      "y": 810
+    },
+    {
+      "height": 178,
+      "id": "5bbeed14fa34156e",
+      "styleAttributes": {
+      },
+      "text": "Может сохранять и контролировать чувствительные данные (пароли, SSH-ключи, OAuth-токены), распределять права доступа к системе. Обновление и развертывание приложений не затрагивает образы контейнеров и не раскрывает секретные сведения в конфигурации стека",
+      "type": "text",
+      "width": 522,
+      "x": 760,
+      "y": 1741
+    },
+    {
+      "height": 117,
+      "id": "cb827d4b60f7c946",
+      "styleAttributes": {
+      },
+      "text": "Возможность переносить приложения между облаками и ОС",
+      "type": "text",
+      "width": 250,
+      "x": 1400,
+      "y": 1260
+    },
+    {
+      "height": 237,
+      "id": "bfdc1b5538336830",
+      "styleAttributes": {
+      },
+      "text": "Разделение приложений на изолированные, распределенные, гибкие микросервисы с динамическим развертыванием и управлением",
+      "type": "text",
+      "width": 250,
+      "x": 1400,
+      "y": 1400
+    },
+    {
+      "height": 177,
+      "id": "ee0f27b805bfddbf",
+      "styleAttributes": {
+      },
+      "text": "Действует на уровне логики, а не аппаратного обеспечения, по принципу \"ведущий - ведомый\"",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 480
+    },
+    {
+      "height": 87,
+      "id": "c61f16dc2f364d42",
+      "styleAttributes": {
+      },
+      "text": "Императивный - разработчик может распоряжаться ресурсами с помощью команд \"Создать\", \"Изменить\", \"Удалить\"",
+      "type": "text",
+      "width": 401,
+      "x": 420,
+      "y": 600
+    },
+    {
+      "height": 60,
+      "id": "be8e5b34243fbeb9",
+      "styleAttributes": {
+      },
+      "text": "Возможности",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 810
+    },
+    {
+      "height": 60,
+      "id": "4a10ba0771ac33ca",
+      "styleAttributes": {
+      },
+      "text": "Распределение нагрузки",
+      "type": "text",
+      "width": 250,
+      "x": 462,
+      "y": 973
+    },
+    {
+      "height": 60,
+      "id": "ef7c18a33c52703a",
+      "styleAttributes": {
+      },
+      "text": "Оркестрация хранилища",
+      "type": "text",
+      "width": 250,
+      "x": 462,
+      "y": 1144
+    },
+    {
+      "height": 178,
+      "id": "e83bf5c96ba670f3",
+      "styleAttributes": {
+      },
+      "text": "Автоматически отслеживает нагрузку в контейнерах, и если в каком-то из них обнаруживается высокий трафик, то платформа распределяет его между другими контейнерами. Это может сделать и сам разработчик, указав платформе имеющиеся ресурсы, а также их количество, необходимые для работы приложений",
+      "type": "text",
+      "width": 540,
+      "x": 760,
+      "y": 914
+    },
+    {
+      "height": 118,
+      "id": "45c6a2120b3c1e89",
+      "styleAttributes": {
+      },
+      "text": "Разработчик может выбрать систему хранения: локальное, облако и т.д. Платформа автоматически создаст и настроит под потребности проекта",
+      "type": "text",
+      "width": 360,
+      "x": 760,
+      "y": 1115
+    },
+    {
+      "height": 60,
+      "id": "2317af0ca8ba23cd",
+      "styleAttributes": {
+      },
+      "text": "Безопасность и конфиденциальность",
+      "type": "text",
+      "width": 250,
+      "x": 462,
+      "y": 1800
+    },
+    {
+      "height": 178,
+      "id": "1dc23da83720d644",
+      "styleAttributes": {
+      },
+      "text": "Позволяет развертывать приложения в автоматическом и ручном режимах. Есть вариант канареечного развертывания, когда изменения, внесенные разработчиком, применяются только на некоторой части контейнеров. Изменения можно автоматически откатить, а также позволяет осторожно тестировать обновления",
+      "type": "text",
+      "width": 522,
+      "x": 760,
+      "y": 1241
+    },
+    {
+      "height": 60,
+      "id": "b96259c62d562602",
+      "styleAttributes": {
+      },
+      "text": "Развертывание и откаты",
+      "type": "text",
+      "width": 250,
+      "x": 462,
+      "y": 1300
+    },
+    {
+      "height": 267,
+      "id": "ba6f0efe36a19ad5",
+      "styleAttributes": {
+      },
+      "text": "Если контейнер отказывает или сбоит, Kubernetes автоматически перезапуска или останавливает его. Освободившиеся ресурсы она распределяет на другие приложения. Система контролирует систему в соответствии с выставленными параметрами разработчика. Если контейнер не соответствует им, платформа отключает или заменяет его на другой, а также скрывает от клиента, пока он не будет готов к обслуживанию",
+      "type": "text",
+      "width": 522,
+      "x": 760,
+      "y": 1440
+    },
+    {
+      "height": 60,
+      "id": "353eaac51eab00bc",
+      "styleAttributes": {
+      },
+      "text": "Самоконтроль",
+      "type": "text",
+      "width": 250,
+      "x": 462,
+      "y": 1544
+    }
+  ]
+}
