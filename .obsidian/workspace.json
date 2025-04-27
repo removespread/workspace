@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "7d391471c50780c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "b141579f980acc87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce65e909f29d5e1c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "🌐 Web, protocols/1. HTTP + HTTPS/03. Коды состояний.canvas",
+                "viewState": {
+                  "x": 2930,
+                  "y": 1304.5,
+                  "zoom": -2.048828599053217
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "03. Коды состояний"
+            }
+          },
+          {
+            "id": "cd5372275e80c6fc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "🧩 QA/Книги/Артем Русов - Тестировщик с нуля.canvas",
+                "viewState": {
+                  "x": 1793.7214870542148,
+                  "y": 2755.862915316144,
+                  "zoom": -1.6666666666666656
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Артем Русов - Тестировщик с нуля"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f04e3c03c1db788c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddc3dacb3c5cf22c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04ac0127c92f47a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7ba97c5cea663369",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1ecdd415102d6218",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 427.5
+  },
+  "right": {
+    "id": "49f600ee51d03e07",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1095bf3d87bf141",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "131c2f16171309e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🌐 Web, protocols/1. HTTP + HTTPS/📚 Полезные ссылки на самостоятельное изучение.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 📚 Полезные ссылки на самостоятельное изучение"
+            }
+          },
+          {
+            "id": "d329173666464800",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "🌐 Web, protocols/1. HTTP + HTTPS/📚 Полезные ссылки на самостоятельное изучение.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 📚 Полезные ссылки на самостоятельное изучение"
+            }
+          },
+          {
+            "id": "f9c8fdaa1416fbef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8c0e4d9c38f3bd53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🌐 Web, protocols/1. HTTP + HTTPS/📚 Полезные ссылки на самостоятельное изучение.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 📚 Полезные ссылки на самостоятельное изучение"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "meld-encrypt:Encrypt/Decrypt In-place": false
+    }
+  },
+  "active": "ce65e909f29d5e1c",
+  "lastOpenFiles": [
+    "🌐 Web, protocols/1. HTTP + HTTPS/01. HTTP + HTTPS.canvas",
+    "🌐 Web, protocols/1. HTTP + HTTPS/02. HTTP-методы.canvas",
+    "🌐 Web, protocols/1. HTTP + HTTPS/📚 Полезные ссылки на самостоятельное изучение.md",
+    "⚙️ DevOps/02. Основные объекты кластера.canvas",
+    "⚙️ DevOps/01. Теоретическая база.canvas",
+    "⚡ Git/Git.canvas",
+    "README.md",
+    "🌐 Web, protocols/1. HTTP + HTTPS/03. Коды состояний.canvas",
+    "Cache/Pasted image 20250428001847.png",
+    "NOT EVEN SPECIALIST.md",
+    "🧩 QA/Книги/Артем Русов - Тестировщик с нуля.canvas",
+    "🧩 QA/Книги/Роман Савин - Тестирование дот ком.canvas",
+    "🧩 QA/Курсы/Основы тестирования, краш-курс.md",
+    "🌐 Web, protocols/1. HTTP + HTTPS/03. HTTP-заголовки.canvas",
+    "Cache/Pasted image 20250427112733.png",
+    "🌐 Web, protocols/1. HTTP + HTTPS",
+    "Cache/Pasted image 20250426002029.png",
+    "Cache/Pasted image 20250426001636.png",
+    "Cache/Pasted image 20250426001619.png",
+    "Cache/Pasted image 20250426000916.png",
+    "Cache/Pasted image 20250425235934.png",
+    "Cache/Pasted image 20250425235837.png",
+    "Pasted image 20250425235812.png",
+    "🌐 Web, protocols/refactoring/OSI.canvas",
+    "🌐 Web, protocols/refactoring"
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "edges": [
+    {
+      "fromNode": "daf8c84e20682733",
+      "fromSide": "right",
+      "id": "f0612daf5667861d",
+      "styleAttributes": {
+      },
+      "toNode": "05b62b4decfc4ead",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "e8fb77cb53bd4c5a",
+      "styleAttributes": {
+      },
+      "toNode": "9334dfb1bc0516fd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9334dfb1bc0516fd",
+      "fromSide": "right",
+      "id": "5e9f640ab6f8e4c7",
+      "styleAttributes": {
+      },
+      "toNode": "adcbbed9868ceea0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "f76d9116e8a377d8",
+      "styleAttributes": {
+      },
+      "toNode": "4c6f3258ce344f14",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4c6f3258ce344f14",
+      "fromSide": "right",
+      "id": "ef7da8df9060d81c",
+      "styleAttributes": {
+      },
+      "toNode": "81736fb723bfa44a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "81736fb723bfa44a",
+      "fromSide": "right",
+      "id": "202d45e1e538db34",
+      "styleAttributes": {
+      },
+      "toNode": "f0e95d95301d3d6a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "56e89e74b09986f9",
+      "styleAttributes": {
+      },
+      "toNode": "decec8bd35978fc5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "decec8bd35978fc5",
+      "fromSide": "right",
+      "id": "29057b40fc38cba4",
+      "styleAttributes": {
+      },
+      "toNode": "efaf92c74bee24a0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "4d36fda55f1d0c6e",
+      "styleAttributes": {
+      },
+      "toNode": "aafaac9008a40255",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aafaac9008a40255",
+      "fromSide": "right",
+      "id": "a945da03258edb91",
+      "styleAttributes": {
+      },
+      "toNode": "f90a3bb8944a33c7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f90a3bb8944a33c7",
+      "fromSide": "right",
+      "id": "6e606f8eef7aa401",
+      "styleAttributes": {
+      },
+      "toNode": "0a9f61baa3f11267",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "312183b9a7328972",
+      "styleAttributes": {
+      },
+      "toNode": "85a4ee4c646dd630",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "85a4ee4c646dd630",
+      "fromSide": "right",
+      "id": "3de616781b51e463",
+      "styleAttributes": {
+      },
+      "toNode": "07d038f71b0e03b9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "07d038f71b0e03b9",
+      "fromSide": "right",
+      "id": "f67bc635c0c81156",
+      "styleAttributes": {
+      },
+      "toNode": "eb84ec9342ae87a2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "37922ab3145067c4",
+      "styleAttributes": {
+      },
+      "toNode": "0eb0920f130d68fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0eb0920f130d68fc",
+      "fromSide": "right",
+      "id": "b024e594af8c5f74",
+      "styleAttributes": {
+      },
+      "toNode": "3951b33382595eb3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "455b1383cfd81891",
+      "styleAttributes": {
+      },
+      "toNode": "6f4d21d2b9637692",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6f4d21d2b9637692",
+      "fromSide": "right",
+      "id": "c56ebc6fe7f4ee5a",
+      "styleAttributes": {
+      },
+      "toNode": "3eb0c365f6d9abe1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "08c66024ceb9ea1e",
+      "styleAttributes": {
+      },
+      "toNode": "1b14ed92fac9ae7b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1b14ed92fac9ae7b",
+      "fromSide": "right",
+      "id": "a744b2de0847963b",
+      "styleAttributes": {
+      },
+      "toNode": "8e04acec1358079d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05b62b4decfc4ead",
+      "fromSide": "right",
+      "id": "8d067be288b77a6d",
+      "styleAttributes": {
+      },
+      "toNode": "f1f129edf0821165",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f1f129edf0821165",
+      "fromSide": "right",
+      "id": "2c74e3adf1c43647",
+      "styleAttributes": {
+      },
+      "toNode": "c4cc74724983331b",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1638,
+      "id": "7e0376582f15a000",
+      "label": "HTTP-методы",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1440,
+      "x": 260,
+      "y": -160
+    },
+    {
+      "height": 60,
+      "id": "daf8c84e20682733",
+      "styleAttributes": {
+      },
+      "text": "HTTP-метод",
+      "type": "text",
+      "width": 260,
+      "x": -460,
+      "y": -120
+    },
+    {
+      "height": 267,
+      "id": "05b62b4decfc4ead",
+      "styleAttributes": {
+      },
+      "text": "Представляет собой последовательность из любых символов, кроме управляющих и разделителей, и определяет операцию, которую нужно осуществить с указанным ресурсом",
+      "type": "text",
+      "width": 260,
+      "x": -120,
+      "y": -223
+    },
+    {
+      "height": 178,
+      "id": "f90a3bb8944a33c7",
+      "styleAttributes": {
+      },
+      "text": "Используется для передачи пользовательских данных к заданному ресурсу. В отличие от метода `GET`, метод `POST` не считается идемпотентным. При результате выполнения `200 (OK)` в тело ответа следует включить сообщение об итоге выполнения запроса. Сообщение ответа не кэшируется",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": 422
+    },
+    {
+      "height": 178,
+      "id": "0a9f61baa3f11267",
+      "styleAttributes": {
+      },
+      "text": "Пример: в блогах посетители обычно могут вводить свои комментарии к записям в HTML-форму, после чего они передаются серверу методом `POST` и он помещает их на страницу. Передаваемые данные включаются в тело запроса. Также, с помощью метода `POST` обычно загружаются файлы на сервер",
+      "type": "text",
+      "width": 500,
+      "x": 1180,
+      "y": 422
+    },
+    {
+      "height": 178,
+      "id": "07d038f71b0e03b9",
+      "styleAttributes": {
+      },
+      "text": "Используется для загрузки содержимого ресурса на указанный в запросе URL. Если по заданному URL не существует ресурс, то сервер создаёт его и возвращает `200 (OK)` или `204 (No Content)`. Сообщения ответа сервера не кэшируются",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": 642
+    },
+    {
+      "height": 60,
+      "id": "9334dfb1bc0516fd",
+      "styleAttributes": {
+      },
+      "text": "`OPTIONS`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": -119
+    },
+    {
+      "height": 60,
+      "id": "aafaac9008a40255",
+      "styleAttributes": {
+      },
+      "text": "`POST`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 481
+    },
+    {
+      "height": 60,
+      "id": "4c6f3258ce344f14",
+      "styleAttributes": {
+      },
+      "text": "`GET`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 58
+    },
+    {
+      "height": 60,
+      "id": "decec8bd35978fc5",
+      "styleAttributes": {
+      },
+      "text": "`HEAD`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 265
+    },
+    {
+      "height": 178,
+      "id": "eb84ec9342ae87a2",
+      "styleAttributes": {
+      },
+      "text": "Различие методов `POST` и `PUT` заключается в их предназначении. `POST` предполагает, что по указанному URL будет производиться обработка передаваемого клиентом содержимого. Используя `PUT`, клиент предполагает, что загружаемое содержимое соответствует находящемуся по данному URL ресурсу",
+      "type": "text",
+      "width": 500,
+      "x": 1180,
+      "y": 642
+    },
+    {
+      "height": 58,
+      "id": "3951b33382595eb3",
+      "styleAttributes": {
+      },
+      "text": "Аналогичен `PUT`, но применяется только к фрагменту ресурса",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": 902
+    },
+    {
+      "height": 60,
+      "id": "3eb0c365f6d9abe1",
+      "styleAttributes": {
+      },
+      "text": "Удаляет указанный ресурс",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 1061
+    },
+    {
+      "height": 88,
+      "id": "8e04acec1358079d",
+      "styleAttributes": {
+      },
+      "text": "Возвращает полученный запрос так, что клиент может увидеть, какую информацию промежуточные серверы добавляют или изменяют в запросе",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": 1187
+    },
+    {
+      "height": 117,
+      "id": "c4cc74724983331b",
+      "styleAttributes": {
+      },
+      "text": "Преобразует соединение запроса в прозрачный TCP/IP-туннель, обычно, чтобы содействовать установлению защищенного SSL-соединения через нешифрованный прокси",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": 1333
+    },
+    {
+      "height": 60,
+      "id": "85a4ee4c646dd630",
+      "styleAttributes": {
+      },
+      "text": "`PUT`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 701
+    },
+    {
+      "height": 60,
+      "id": "0eb0920f130d68fc",
+      "styleAttributes": {
+      },
+      "text": "`PATCH`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 901
+    },
+    {
+      "height": 60,
+      "id": "6f4d21d2b9637692",
+      "styleAttributes": {
+      },
+      "text": "`DELETE`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1061
+    },
+    {
+      "height": 60,
+      "id": "1b14ed92fac9ae7b",
+      "styleAttributes": {
+      },
+      "text": "`TRACE`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1201
+    },
+    {
+      "height": 60,
+      "id": "f1f129edf0821165",
+      "styleAttributes": {
+      },
+      "text": "`CONNECT`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1361
+    },
+    {
+      "height": 178,
+      "id": "efaf92c74bee24a0",
+      "styleAttributes": {
+      },
+      "text": "Используется для извлечения метаданных, проверки наличия ресурса (валидация URL) и чтобы узнать, не изменился ли он с момента последнего обновления. Заголовки ответа могут кэшироваться. При несовпадении метаданных ресурса с информацией кэше - копия ресурса помечается как устаревшая",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": 206
+    },
+    {
+      "height": 118,
+      "id": "adcbbed9868ceea0",
+      "styleAttributes": {
+      },
+      "text": "Используется для определения возможностей веб-сервера или параметров соединения для конкретного ресурса. Результат выполнения этого метода не кэшируется",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": -148
+    },
+    {
+      "height": 178,
+      "id": "81736fb723bfa44a",
+      "styleAttributes": {
+      },
+      "text": "Используется для запроса содержимого указанного ресурса. С помощью него можно также начать какой-либо процесс. В этом случае в тело ответного сообщения следует включить информацию о ходе выполнения процесса. Запросы подобного типа считаются идемпотентными",
+      "type": "text",
+      "width": 460,
+      "x": 640,
+      "y": -1
+    },
+    {
+      "height": 178,
+      "id": "f0e95d95301d3d6a",
+      "styleAttributes": {
+      },
+      "text": "Метод считается идемпотентным, если повторный идентичный запрос, сделанный один или несколько раз подряд, имеет один и тот же эффект, не изменяющий состояние сервера. Запрос не должен иметь никаких \"побочных эффектов\", кроме сбора статистики или подобных операций",
+      "type": "text",
+      "width": 500,
+      "x": 1180,
+      "y": -1
+    }
+  ]
+}
