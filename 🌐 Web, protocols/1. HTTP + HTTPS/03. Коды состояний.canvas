@@ -926,6 +926,204 @@
       },
       "toNode": "6fc6f4f334c3e2a7",
       "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "49f22fc098c857ad",
+      "styleAttributes": {
+      },
+      "toNode": "ac6681f98201bce6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ac6681f98201bce6",
+      "fromSide": "right",
+      "id": "a9873efd1c400431",
+      "styleAttributes": {
+      },
+      "toNode": "2e8a660beecc49f0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "c97b88fc9f8ff2b1",
+      "styleAttributes": {
+      },
+      "toNode": "6a56675cb22852bb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6a56675cb22852bb",
+      "fromSide": "right",
+      "id": "6f58aab7b5dc415f",
+      "styleAttributes": {
+      },
+      "toNode": "4b082135eb31a4d6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "4c0cc4e2c08540b9",
+      "styleAttributes": {
+      },
+      "toNode": "a4ca43fb2b5bc46e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a4ca43fb2b5bc46e",
+      "fromSide": "right",
+      "id": "2b412f8362eabe39",
+      "styleAttributes": {
+      },
+      "toNode": "370703e00232e70c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "b53359d051249caf",
+      "styleAttributes": {
+      },
+      "toNode": "b90201ab9a5b5bb4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b90201ab9a5b5bb4",
+      "fromSide": "right",
+      "id": "e2715dbaa0ee6940",
+      "styleAttributes": {
+      },
+      "toNode": "ccdef8eb87bc1efb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "9f57048ddc43f99a",
+      "styleAttributes": {
+      },
+      "toNode": "4c91fabffd117c8a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4c91fabffd117c8a",
+      "fromSide": "right",
+      "id": "1f7be12444c63c27",
+      "styleAttributes": {
+      },
+      "toNode": "7fb8d046d64d160d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "4a370b849882253a",
+      "styleAttributes": {
+      },
+      "toNode": "de5a82ef71693bda",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "de5a82ef71693bda",
+      "fromSide": "right",
+      "id": "d61ed43f7b264d45",
+      "styleAttributes": {
+      },
+      "toNode": "dc46edce549e5e68",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "52984e919be244a2",
+      "styleAttributes": {
+      },
+      "toNode": "3995203f384e76f8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3995203f384e76f8",
+      "fromSide": "right",
+      "id": "49b3fd5909755eb4",
+      "styleAttributes": {
+      },
+      "toNode": "425e468261206fe6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "63dc222b209a0e0d",
+      "fromSide": "right",
+      "id": "c34cf46e8bc84a34",
+      "styleAttributes": {
+      },
+      "toNode": "9f0efa310a8caab6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5e8478351aa1917e",
+      "fromSide": "right",
+      "id": "3fb42adb7cdbd5e4",
+      "styleAttributes": {
+      },
+      "toNode": "5f5506962ece41b8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "75f2d440c08c557c",
+      "fromSide": "right",
+      "id": "9a2a648c233be212",
+      "styleAttributes": {
+      },
+      "toNode": "b2f6a07427767bc9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ca16e118f08e43b9",
+      "fromSide": "right",
+      "id": "8585283296bf2963",
+      "styleAttributes": {
+      },
+      "toNode": "1ae30a16d3161d22",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "6ae0fcce224fe97f",
+      "styleAttributes": {
+      },
+      "toNode": "63dc222b209a0e0d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "760b73e080ccd44a",
+      "styleAttributes": {
+      },
+      "toNode": "5e8478351aa1917e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "198d542451739cc9",
+      "styleAttributes": {
+      },
+      "toNode": "75f2d440c08c557c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ae4c69685d4343eb",
+      "fromSide": "right",
+      "id": "cc5cdff40867e791",
+      "styleAttributes": {
+      },
+      "toNode": "ca16e118f08e43b9",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -950,6 +1148,15 @@
       "width": 1560,
       "x": 1240,
       "y": -260
+    },
+    {
+      "height": 2101,
+      "id": "96ce662d024a227f",
+      "label": "06. Ошибки сервера",
+      "type": "group",
+      "width": 1140,
+      "x": 4700,
+      "y": -1180
     },
     {
       "height": 1052,
@@ -983,138 +1190,6 @@
       "width": 1100,
       "x": -180,
       "y": -240
-    },
-    {
-      "height": 88,
-      "id": "7372d32b627e2322",
-      "styleAttributes": {
-      },
-      "text": "`GET` - ресурс был получен и передан в теле сообщения",
-      "type": "text",
-      "width": 260,
-      "x": 2520,
-      "y": -234
-    },
-    {
-      "height": 87,
-      "id": "4d550c61f2c4e653",
-      "styleAttributes": {
-      },
-      "text": "`HEAD` - ответ содержит заголовки, но тела сообщения нет",
-      "type": "text",
-      "width": 260,
-      "x": 2520,
-      "y": -117
-    },
-    {
-      "height": 60,
-      "id": "631380d3d078de38",
-      "styleAttributes": {
-      },
-      "text": "`204` - No Content",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": 588
-    },
-    {
-      "height": 237,
-      "id": "46a739292b432cd2",
-      "styleAttributes": {
-      },
-      "text": "Запрос получен, но еще не обработан. Предназначен для тех случаев, когда запрос обрабатывается другим процессом или сервером, а также для пакетной обработки",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 212
-    },
-    {
-      "height": 316,
-      "id": "85ac85764e999015",
-      "styleAttributes": {
-      },
-      "text": "Для запроса нет содержимого для отправки, но заголовки ответа могут быть полезны. Пользовательский агент может их использовать для обновления закешированных заголовков, полученных ранее от ресурса",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 460
-    },
-    {
-      "height": 177,
-      "id": "e11ffea5b189080b",
-      "styleAttributes": {
-      },
-      "text": "Сообщает пользовательскому агенту, что необходимо сбросить отображение документа, который отправил этот запрос",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 800
-    },
-    {
-      "height": 117,
-      "id": "25df6ef6bb9c30a9",
-      "styleAttributes": {
-      },
-      "text": "`PUT`, `POST` - ресурс, описывающий результат действия, передан в теле сообщения",
-      "type": "text",
-      "width": 260,
-      "x": 2520,
-      "y": -7
-    },
-    {
-      "height": 117,
-      "id": "2e95a8cadbc9c704",
-      "styleAttributes": {
-      },
-      "text": "`TRACE` - тело сообщения содержит сообщение запроса, полученное сервером",
-      "type": "text",
-      "width": 260,
-      "x": 2520,
-      "y": 135
-    },
-    {
-      "height": 60,
-      "id": "ab12d4782a491140",
-      "styleAttributes": {
-      },
-      "text": "`202` - Accepted",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": 301
-    },
-    {
-      "height": 60,
-      "id": "cfb981b1f2a63e60",
-      "styleAttributes": {
-      },
-      "text": "Группы кодов состояний",
-      "type": "text",
-      "width": 260,
-      "x": -160,
-      "y": -40
-    },
-    {
-      "height": 147,
-      "id": "8632d3686e9ad6eb",
-      "styleAttributes": {
-      },
-      "text": "Используются для определения состояния запроса, разделены на 5 групп. Каждая группа имеет \"общий смысл\".",
-      "type": "text",
-      "width": 260,
-      "x": 220,
-      "y": -83
-    },
-    {
-      "height": 87,
-      "id": "4375a7442fe95d73",
-      "styleAttributes": {
-      },
-      "text": "`1xx` - информационные. Описывают процесс передачи",
-      "type": "text",
-      "width": 260,
-      "x": 640,
-      "y": -230
     },
     {
       "height": 60,
@@ -1172,28 +1247,6 @@
       "y": 88
     },
     {
-      "height": 60,
-      "id": "25b8990cf515697e",
-      "styleAttributes": {
-      },
-      "text": "`200` - OK",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": -37
-    },
-    {
-      "height": 60,
-      "id": "28a60990ea573088",
-      "styleAttributes": {
-      },
-      "text": "`1xx` - информационная группа",
-      "type": "text",
-      "width": 260,
-      "x": 1260,
-      "y": -820
-    },
-    {
       "height": 87,
       "id": "b116e5af1a878dbb",
       "styleAttributes": {
@@ -1227,39 +1280,6 @@
       "y": -1157
     },
     {
-      "height": 60,
-      "id": "f0f7a827c4f23358",
-      "styleAttributes": {
-      },
-      "text": "Запрос успешно выполнен",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": -37
-    },
-    {
-      "height": 177,
-      "id": "d00ff101ed662b0d",
-      "styleAttributes": {
-      },
-      "text": "Запрос выполнен успешно, и в результате был создан новый ресурс. Ответ обычно используется для методов `POST`, `PUT`",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 30
-    },
-    {
-      "height": 60,
-      "id": "537f397900516c96",
-      "styleAttributes": {
-      },
-      "text": "`100` - Continue",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": -1099
-    },
-    {
       "height": 177,
       "id": "e56965f5b1afcd24",
       "styleAttributes": {
@@ -1269,6 +1289,39 @@
       "width": 260,
       "x": 2080,
       "y": -967
+    },
+    {
+      "height": 60,
+      "id": "ab12d4782a491140",
+      "styleAttributes": {
+      },
+      "text": "`202` - Accepted",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 301
+    },
+    {
+      "height": 60,
+      "id": "25b8990cf515697e",
+      "styleAttributes": {
+      },
+      "text": "`200` - OK",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": -37
+    },
+    {
+      "height": 60,
+      "id": "f0f7a827c4f23358",
+      "styleAttributes": {
+      },
+      "text": "Запрос успешно выполнен",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": -37
     },
     {
       "height": 60,
@@ -1282,6 +1335,578 @@
       "y": 88
     },
     {
+      "height": 60,
+      "id": "28a60990ea573088",
+      "styleAttributes": {
+      },
+      "text": "`1xx` - информационная группа",
+      "type": "text",
+      "width": 260,
+      "x": 1260,
+      "y": -820
+    },
+    {
+      "height": 60,
+      "id": "537f397900516c96",
+      "styleAttributes": {
+      },
+      "text": "`100` - Continue",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": -1099
+    },
+    {
+      "height": 60,
+      "id": "3bfb0f5f77e3049a",
+      "styleAttributes": {
+      },
+      "text": "`101` - Switching protocols",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": -909
+    },
+    {
+      "height": 60,
+      "id": "a46c13b3cc38fd66",
+      "styleAttributes": {
+      },
+      "text": "`102` - Processing",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": -766
+    },
+    {
+      "height": 60,
+      "id": "27268252dac6f279",
+      "styleAttributes": {
+      },
+      "text": "`103` - Early hints",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": -539
+    },
+    {
+      "height": 88,
+      "id": "7372d32b627e2322",
+      "styleAttributes": {
+      },
+      "text": "`GET` - ресурс был получен и передан в теле сообщения",
+      "type": "text",
+      "width": 260,
+      "x": 2520,
+      "y": -234
+    },
+    {
+      "height": 87,
+      "id": "4d550c61f2c4e653",
+      "styleAttributes": {
+      },
+      "text": "`HEAD` - ответ содержит заголовки, но тела сообщения нет",
+      "type": "text",
+      "width": 260,
+      "x": 2520,
+      "y": -117
+    },
+    {
+      "height": 117,
+      "id": "25df6ef6bb9c30a9",
+      "styleAttributes": {
+      },
+      "text": "`PUT`, `POST` - ресурс, описывающий результат действия, передан в теле сообщения",
+      "type": "text",
+      "width": 260,
+      "x": 2520,
+      "y": -7
+    },
+    {
+      "height": 117,
+      "id": "2e95a8cadbc9c704",
+      "styleAttributes": {
+      },
+      "text": "`TRACE` - тело сообщения содержит сообщение запроса, полученное сервером",
+      "type": "text",
+      "width": 260,
+      "x": 2520,
+      "y": 135
+    },
+    {
+      "height": 60,
+      "id": "631380d3d078de38",
+      "styleAttributes": {
+      },
+      "text": "`204` - No Content",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 588
+    },
+    {
+      "height": 237,
+      "id": "46a739292b432cd2",
+      "styleAttributes": {
+      },
+      "text": "Запрос получен, но еще не обработан. Предназначен для тех случаев, когда запрос обрабатывается другим процессом или сервером, а также для пакетной обработки",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 212
+    },
+    {
+      "height": 316,
+      "id": "85ac85764e999015",
+      "styleAttributes": {
+      },
+      "text": "Для запроса нет содержимого для отправки, но заголовки ответа могут быть полезны. Пользовательский агент может их использовать для обновления закешированных заголовков, полученных ранее от ресурса",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 460
+    },
+    {
+      "height": 177,
+      "id": "d00ff101ed662b0d",
+      "styleAttributes": {
+      },
+      "text": "Запрос выполнен успешно, и в результате был создан новый ресурс. Ответ обычно используется для методов `POST`, `PUT`",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 30
+    },
+    {
+      "height": 147,
+      "id": "b5f238179bd81297",
+      "styleAttributes": {
+      },
+      "text": "Используется в тех случаях, когда от клиента отправляется заголовок `Range` для запроса только части ресурса",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 1000
+    },
+    {
+      "height": 147,
+      "id": "797c3ab87ff7468c",
+      "styleAttributes": {
+      },
+      "text": "Передаёт информацию о нескольких ресурсах в случаях, когда могут быть уместны несколько кодов состояния",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 1167
+    },
+    {
+      "height": 147,
+      "id": "57664bbf9fbc7ff6",
+      "styleAttributes": {
+      },
+      "text": "У запроса более одного возможного ответа, пользовательский агент или пользователь должен выбрать один из них",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 1737
+    },
+    {
+      "height": 60,
+      "id": "24bfd2ccdd156778",
+      "styleAttributes": {
+      },
+      "text": "`205` - Reset Content",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 858
+    },
+    {
+      "height": 177,
+      "id": "4873ce6d8df5a5b0",
+      "styleAttributes": {
+      },
+      "text": "Используется для ответы на запросы `GET` в случаях, когда сервер хочет отправить только измененную часть ресурса (то есть \"дельту\")",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 1482
+    },
+    {
+      "height": 60,
+      "id": "995f1b9d94f87d1c",
+      "styleAttributes": {
+      },
+      "text": "`206` - Partial Content",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 1043
+    },
+    {
+      "height": 60,
+      "id": "9ade369aac5d86ac",
+      "styleAttributes": {
+      },
+      "text": "`207` - Multi-status",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 1211
+    },
+    {
+      "height": 60,
+      "id": "69a95b1b1a64acbf",
+      "styleAttributes": {
+      },
+      "text": "`208` - Already Reported",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 1371
+    },
+    {
+      "height": 177,
+      "id": "e11ffea5b189080b",
+      "styleAttributes": {
+      },
+      "text": "Сообщает пользовательскому агенту, что необходимо сбросить отображение документа, который отправил этот запрос",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 800
+    },
+    {
+      "height": 147,
+      "id": "5286a53da338de13",
+      "styleAttributes": {
+      },
+      "text": "Используется в тех случаях, когда нужно избежать повторного перечисления \"привязок\" и дублирования данных",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 1327
+    },
+    {
+      "height": 60,
+      "id": "cce380d1ebf7b4b3",
+      "styleAttributes": {
+      },
+      "text": "`226` - IM Used",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 1540
+    },
+    {
+      "height": 60,
+      "id": "f21f0b3033baf4be",
+      "styleAttributes": {
+      },
+      "text": "`304` - Not Modified",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 2248
+    },
+    {
+      "height": 60,
+      "id": "dc4e3a5734ed26c6",
+      "styleAttributes": {
+      },
+      "text": "`307` - Temporary Redirect",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 2458
+    },
+    {
+      "height": 177,
+      "id": "780662845ded1f34",
+      "styleAttributes": {
+      },
+      "text": "Клиенту необходимо получить запрошенный ресурс по другому URL тем же методом, который использовался в предыдущем запросе",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 2400
+    },
+    {
+      "height": 117,
+      "id": "02d04fd9f25269cf",
+      "styleAttributes": {
+      },
+      "text": "Ресурс теперь находится по другому URL, указанному в заголовке ответа Location",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 2632
+    },
+    {
+      "height": 60,
+      "id": "75b96451c6ab9a60",
+      "styleAttributes": {
+      },
+      "text": "`308` - Permament Redirect",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 2660
+    },
+    {
+      "height": 60,
+      "id": "cfb981b1f2a63e60",
+      "styleAttributes": {
+      },
+      "text": "Группы кодов состояний",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": -40
+    },
+    {
+      "height": 147,
+      "id": "8632d3686e9ad6eb",
+      "styleAttributes": {
+      },
+      "text": "Используются для определения состояния запроса, разделены на 5 групп. Каждая группа имеет \"общий смысл\".",
+      "type": "text",
+      "width": 260,
+      "x": 220,
+      "y": -83
+    },
+    {
+      "height": 87,
+      "id": "4375a7442fe95d73",
+      "styleAttributes": {
+      },
+      "text": "`1xx` - информационные. Описывают процесс передачи",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": -230
+    },
+    {
+      "height": 60,
+      "id": "cfc686319b4c4199",
+      "styleAttributes": {
+      },
+      "text": "`3xx` - сообщения о перенаправлении",
+      "type": "text",
+      "width": 260,
+      "x": 1260,
+      "y": 1781
+    },
+    {
+      "height": 237,
+      "id": "6b046ae5dbfeafc3",
+      "styleAttributes": {
+      },
+      "text": "Используется для целей кэширования. Он сообщает клиенту, что ответ не был изменен, поэтому клиент может продолжать использовать кэшированную версию ответа",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 2160
+    },
+    {
+      "height": 60,
+      "id": "16b7c6920f1149e9",
+      "styleAttributes": {
+      },
+      "text": "`303` - See Order",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 2060
+    },
+    {
+      "height": 117,
+      "id": "79bef92f2906c3c6",
+      "styleAttributes": {
+      },
+      "text": "Клиенту необходимо получить запрошенный ресурс по другому URL с помощью запроса `GET`",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 2032
+    },
+    {
+      "height": 177,
+      "id": "257da2813bd1f035",
+      "styleAttributes": {
+      },
+      "text": "Сервер не может дать ответ. Возможно, сервер не настроен для комбинации схемы и полномочий, указанных в URL запроса",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 2060
+    },
+    {
+      "height": 147,
+      "id": "c5aef517d3c7e689",
+      "styleAttributes": {
+      },
+      "text": "Запрос сформирован правильно, но его невозможно выполнить из-за семантических ошибок",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 2260
+    },
+    {
+      "height": 60,
+      "id": "580b0aed976446ad",
+      "styleAttributes": {
+      },
+      "text": "`301` - Moved Permamently",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 1920
+    },
+    {
+      "height": 117,
+      "id": "5c4e1747d2e4155d",
+      "styleAttributes": {
+      },
+      "text": "URL-адрес запрошенного ресурса был изменен всегда. Новый URL-адрес указан в ответе",
+      "type": "text",
+      "width": 260,
+      "x": 2080,
+      "y": 1892
+    },
+    {
+      "height": 60,
+      "id": "a4fd930bc0435884",
+      "styleAttributes": {
+      },
+      "text": "`300` - Multiple Choices",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 1780
+    },
+    {
+      "height": 60,
+      "id": "03eba29844fa5cea",
+      "styleAttributes": {
+      },
+      "text": "`422` - Unprocessable Content",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 2303
+    },
+    {
+      "height": 60,
+      "id": "27df67e22b908620",
+      "styleAttributes": {
+      },
+      "text": "`421` - Misdirected Request",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 2118
+    },
+    {
+      "height": 60,
+      "id": "836988e3a130bff0",
+      "styleAttributes": {
+      },
+      "text": "`423` - Locked",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 2420
+    },
+    {
+      "height": 87,
+      "id": "18bcd3a231726b1c",
+      "styleAttributes": {
+      },
+      "text": "Запрос не выполнен из-за проблем в предыдущем запросе",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 2500
+    },
+    {
+      "height": 60,
+      "id": "49881cc31e077423",
+      "styleAttributes": {
+      },
+      "text": "`416` - Range Not Satisfiable",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 1703
+    },
+    {
+      "height": 60,
+      "id": "f0f31a37bc0c343a",
+      "styleAttributes": {
+      },
+      "text": "`417` - Expectation Failed",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 1848
+    },
+    {
+      "height": 60,
+      "id": "d2e91c9978ab0b9a",
+      "styleAttributes": {
+      },
+      "text": "`418` - I'm a teapot",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 1973
+    },
+    {
+      "height": 117,
+      "id": "ce53f3e1a340b936",
+      "styleAttributes": {
+      },
+      "text": "Сервер не может выполнить ожидание, указанное в поле заголовка запроса `Except`",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 1820
+    },
+    {
+      "height": 87,
+      "id": "63cfae2818e02001",
+      "styleAttributes": {
+      },
+      "text": "\"Шуточный\" ответ: сервер отклоняет попытку заварить кофе в чайнике",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 1960
+    },
+    {
+      "height": 60,
+      "id": "68df3f9bd5063aac",
+      "styleAttributes": {
+      },
+      "text": "Запрашиваемый ресурс заблокирован",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 2420
+    },
+    {
+      "height": 60,
+      "id": "221e4567fd040ce3",
+      "styleAttributes": {
+      },
+      "text": "`414` - URL Too Long",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 1389
+    },
+    {
       "height": 267,
       "id": "e523fe8a3289d356",
       "styleAttributes": {
@@ -1291,6 +1916,61 @@
       "width": 260,
       "x": 3840,
       "y": 2860
+    },
+    {
+      "height": 207,
+      "id": "c79b9a9981b345e0",
+      "styleAttributes": {
+      },
+      "text": "Метод запроса известен серверу, но не поддерживается целевым ресурсом. Например, API может не разрешать вызов `DELETE` для удаления ресурса",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": -387
+    },
+    {
+      "height": 237,
+      "id": "ba212d1d6064c3aa",
+      "styleAttributes": {
+      },
+      "text": "Сервер после выполнения согласования контента не нашел содержимого, соответствующего критериям, заданным пользовательским агентом",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": -168
+    },
+    {
+      "height": 117,
+      "id": "c3b76ede13ae7e0e",
+      "styleAttributes": {
+      },
+      "text": "Похож на `401`, но аутентификация должна выполняться через прокси-сервер",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 80
+    },
+    {
+      "height": 147,
+      "id": "41e6eeab1c2a9552",
+      "styleAttributes": {
+      },
+      "text": "Сервер не может или не будет обрабатывать запрос из-за чего-то, что воспринимается как ошибка клиента",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": -1162
+    },
+    {
+      "height": 178,
+      "id": "75c8565c8d7b3d86",
+      "styleAttributes": {
+      },
+      "text": "Клиент не авторизован в системе. Это значит, что клиент должен аутентифицировать себя, чтобы получить запрошенный ответ",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": -987
     },
     {
       "height": 117,
@@ -1349,393 +2029,6 @@
     },
     {
       "height": 60,
-      "id": "6fc6f4f334c3e2a7",
-      "styleAttributes": {
-      },
-      "text": "`451` - Unavailable For Legal Reasons",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 3633
-    },
-    {
-      "height": 60,
-      "id": "3bfb0f5f77e3049a",
-      "styleAttributes": {
-      },
-      "text": "`101` - Switching protocols",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": -909
-    },
-    {
-      "height": 60,
-      "id": "a46c13b3cc38fd66",
-      "styleAttributes": {
-      },
-      "text": "`102` - Processing",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": -766
-    },
-    {
-      "height": 60,
-      "id": "27268252dac6f279",
-      "styleAttributes": {
-      },
-      "text": "`103` - Early hints",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": -539
-    },
-    {
-      "height": 60,
-      "id": "f21f0b3033baf4be",
-      "styleAttributes": {
-      },
-      "text": "`304` - Not Modified",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": 2248
-    },
-    {
-      "height": 237,
-      "id": "6b046ae5dbfeafc3",
-      "styleAttributes": {
-      },
-      "text": "Используется для целей кэширования. Он сообщает клиенту, что ответ не был изменен, поэтому клиент может продолжать использовать кэшированную версию ответа",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 2160
-    },
-    {
-      "height": 60,
-      "id": "dc4e3a5734ed26c6",
-      "styleAttributes": {
-      },
-      "text": "`307` - Temporary Redirect",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": 2458
-    },
-    {
-      "height": 177,
-      "id": "780662845ded1f34",
-      "styleAttributes": {
-      },
-      "text": "Клиенту необходимо получить запрошенный ресурс по другому URL тем же методом, который использовался в предыдущем запросе",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 2400
-    },
-    {
-      "height": 117,
-      "id": "02d04fd9f25269cf",
-      "styleAttributes": {
-      },
-      "text": "Ресурс теперь находится по другому URL, указанному в заголовке ответа Location",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 2632
-    },
-    {
-      "height": 207,
-      "id": "9b140e68f3f2e5b0",
-      "styleAttributes": {
-      },
-      "text": "Пользовательский агент запросил ресурс, который не может быть предоставлен по закону, например веб-страницу, подвергнутую цензуре со стороны правительства",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 3560
-    },
-    {
-      "height": 60,
-      "id": "cf3b2c196b08b34d",
-      "styleAttributes": {
-      },
-      "text": "`424` - Failed Dependency",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 2513
-    },
-    {
-      "height": 60,
-      "id": "e4a4e06b7c69bdb0",
-      "styleAttributes": {
-      },
-      "text": "`426` - Upgrade Required",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 2688
-    },
-    {
-      "height": 237,
-      "id": "07526d8a67cce243",
-      "styleAttributes": {
-      },
-      "text": "Сервер отказывается выполнять ресурс с использованием текущего протокола, но может быть готов сделать это после смены протокола на указанный в заголовке ответа `Upgrade`",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 2600
-    },
-    {
-      "height": 60,
-      "id": "c8411bb3195bef5c",
-      "styleAttributes": {
-      },
-      "text": "`404` - Not Found",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": -520
-    },
-    {
-      "height": 267,
-      "id": "ae41d4f5e537d077",
-      "styleAttributes": {
-      },
-      "text": "Сервер может отправить этот код ответа при неиспользовании соединения, даже без предварительного запроса со стороны клиента. Он означает, что сервер хотел бы закрыть такое соединение",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 220
-    },
-    {
-      "height": 60,
-      "id": "d4bd5aedee5c8548",
-      "styleAttributes": {
-      },
-      "text": "`408` - Request Timeout",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 324
-    },
-    {
-      "height": 60,
-      "id": "19b48971497781e4",
-      "styleAttributes": {
-      },
-      "text": "`405` - Method Not Allowed",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": -314
-    },
-    {
-      "height": 60,
-      "id": "3a0683a5cafd08f1",
-      "styleAttributes": {
-      },
-      "text": "`406` - Not Acceptable",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": -80
-    },
-    {
-      "height": 60,
-      "id": "6424136624510b94",
-      "styleAttributes": {
-      },
-      "text": "`407` - Proxy Authentication Required",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 108
-    },
-    {
-      "height": 207,
-      "id": "c79b9a9981b345e0",
-      "styleAttributes": {
-      },
-      "text": "Метод запроса известен серверу, но не поддерживается целевым ресурсом. Например, API может не разрешать вызов `DELETE` для удаления ресурса",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": -387
-    },
-    {
-      "height": 237,
-      "id": "ba212d1d6064c3aa",
-      "styleAttributes": {
-      },
-      "text": "Сервер после выполнения согласования контента не нашел содержимого, соответствующего критериям, заданным пользовательским агентом",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": -168
-    },
-    {
-      "height": 117,
-      "id": "c3b76ede13ae7e0e",
-      "styleAttributes": {
-      },
-      "text": "Похож на `401`, но аутентификация должна выполняться через прокси-сервер",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 80
-    },
-    {
-      "color": "1",
-      "height": 980,
-      "id": "32e159c097f1cadb",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "500 - to be continued",
-      "type": "text",
-      "width": 1140,
-      "x": 4900,
-      "y": -820
-    },
-    {
-      "height": 87,
-      "id": "03ced3ab7506b9aa",
-      "styleAttributes": {
-      },
-      "text": "Отличие от `401` в том, что сервер при `403` знает клиента",
-      "type": "text",
-      "width": 260,
-      "x": 4180,
-      "y": -739
-    },
-    {
-      "height": 60,
-      "id": "03eba29844fa5cea",
-      "styleAttributes": {
-      },
-      "text": "`422` - Unprocessable Content",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 2303
-    },
-    {
-      "height": 60,
-      "id": "836988e3a130bff0",
-      "styleAttributes": {
-      },
-      "text": "`423` - Locked",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 2420
-    },
-    {
-      "height": 87,
-      "id": "63cfae2818e02001",
-      "styleAttributes": {
-      },
-      "text": "\"Шуточный\" ответ: сервер отклоняет попытку заварить кофе в чайнике",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 1960
-    },
-    {
-      "height": 177,
-      "id": "257da2813bd1f035",
-      "styleAttributes": {
-      },
-      "text": "Сервер не может дать ответ. Возможно, сервер не настроен для комбинации схемы и полномочий, указанных в URL запроса",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 2060
-    },
-    {
-      "height": 147,
-      "id": "c5aef517d3c7e689",
-      "styleAttributes": {
-      },
-      "text": "Запрос сформирован правильно, но его невозможно выполнить из-за семантических ошибок",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 2260
-    },
-    {
-      "height": 60,
-      "id": "68df3f9bd5063aac",
-      "styleAttributes": {
-      },
-      "text": "Запрашиваемый ресурс заблокирован",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 2420
-    },
-    {
-      "height": 60,
-      "id": "27df67e22b908620",
-      "styleAttributes": {
-      },
-      "text": "`421` - Misdirected Request",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 2118
-    },
-    {
-      "height": 87,
-      "id": "16b3dc05e2f97170",
-      "styleAttributes": {
-      },
-      "text": "Запрос конфликтует с текущем состоянием сервера",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 500
-    },
-    {
-      "height": 237,
-      "id": "fb470a895a1f19ea",
-      "styleAttributes": {
-      },
-      "text": "Запрошенное содержимое было удалено с сервера, и отсутствует возможность переадресации. Ожидается, что клиенты удалят свои кэши и ссылки на этот ресурс",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 600
-    },
-    {
-      "height": 60,
-      "id": "39c68fe3610c7512",
-      "styleAttributes": {
-      },
-      "text": "`409` - Conflict",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 513
-    },
-    {
-      "height": 87,
-      "id": "18bcd3a231726b1c",
-      "styleAttributes": {
-      },
-      "text": "Запрос не выполнен из-за проблем в предыдущем запросе",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": 2500
-    },
-    {
-      "height": 60,
       "id": "98aeddba8c5fa56c",
       "styleAttributes": {
       },
@@ -1744,39 +2037,6 @@
       "width": 260,
       "x": 3420,
       "y": 1544
-    },
-    {
-      "height": 60,
-      "id": "49881cc31e077423",
-      "styleAttributes": {
-      },
-      "text": "`416` - Range Not Satisfiable",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 1703
-    },
-    {
-      "height": 60,
-      "id": "f0f31a37bc0c343a",
-      "styleAttributes": {
-      },
-      "text": "`417` - Expectation Failed",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 1848
-    },
-    {
-      "height": 60,
-      "id": "d2e91c9978ab0b9a",
-      "styleAttributes": {
-      },
-      "text": "`418` - I'm a teapot",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 1973
     },
     {
       "height": 147,
@@ -1790,37 +2050,15 @@
       "y": 1660
     },
     {
-      "height": 117,
-      "id": "ce53f3e1a340b936",
+      "height": 237,
+      "id": "fb470a895a1f19ea",
       "styleAttributes": {
       },
-      "text": "Сервер не может выполнить ожидание, указанное в поле заголовка запроса `Except`",
+      "text": "Запрошенное содержимое было удалено с сервера, и отсутствует возможность переадресации. Ожидается, что клиенты удалят свои кэши и ссылки на этот ресурс",
       "type": "text",
       "width": 260,
       "x": 3840,
-      "y": 1820
-    },
-    {
-      "height": 60,
-      "id": "9047466b8d0985ac",
-      "styleAttributes": {
-      },
-      "text": "`412` - Precondition Failed",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 1032
-    },
-    {
-      "height": 60,
-      "id": "7b8c6129a8890c1e",
-      "styleAttributes": {
-      },
-      "text": "`413` - Payload Too Large",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 1220
+      "y": 600
     },
     {
       "height": 207,
@@ -1832,28 +2070,6 @@
       "width": 260,
       "x": 3840,
       "y": 1146
-    },
-    {
-      "height": 60,
-      "id": "f9249b07dc400571",
-      "styleAttributes": {
-      },
-      "text": "`410` - Gone",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 688
-    },
-    {
-      "height": 60,
-      "id": "6547fd58652db299",
-      "styleAttributes": {
-      },
-      "text": "`411` - Length Required",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 891
     },
     {
       "height": 147,
@@ -1879,36 +2095,14 @@
     },
     {
       "height": 60,
-      "id": "0fa39125c6d81bf0",
+      "id": "cf3b2c196b08b34d",
       "styleAttributes": {
       },
-      "text": "`400` - Bad Request",
+      "text": "`424` - Failed Dependency",
       "type": "text",
       "width": 260,
       "x": 3420,
-      "y": -1119
-    },
-    {
-      "height": 147,
-      "id": "41e6eeab1c2a9552",
-      "styleAttributes": {
-      },
-      "text": "Сервер не может или не будет обрабатывать запрос из-за чего-то, что воспринимается как ошибка клиента",
-      "type": "text",
-      "width": 260,
-      "x": 3840,
-      "y": -1162
-    },
-    {
-      "height": 60,
-      "id": "221e4567fd040ce3",
-      "styleAttributes": {
-      },
-      "text": "`414` - URL Too Long",
-      "type": "text",
-      "width": 260,
-      "x": 3420,
-      "y": 1389
+      "y": 2513
     },
     {
       "height": 117,
@@ -1933,48 +2127,158 @@
       "y": 1500
     },
     {
+      "height": 207,
+      "id": "64939125bbeb25ef",
+      "styleAttributes": {
+      },
+      "text": "Клиент не имеет прав доступа к контенту, то есть он не авторизован, поэтому сервер отказывается предоставить запрошенный ресурс",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": -799
+    },
+    {
+      "height": 87,
+      "id": "16b3dc05e2f97170",
+      "styleAttributes": {
+      },
+      "text": "Запрос конфликтует с текущем состоянием сервера",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 500
+    },
+    {
       "height": 60,
-      "id": "580b0aed976446ad",
+      "id": "39c68fe3610c7512",
       "styleAttributes": {
       },
-      "text": "`301` - Moved Permamently",
+      "text": "`409` - Conflict",
       "type": "text",
       "width": 260,
-      "x": 1680,
-      "y": 1920
-    },
-    {
-      "height": 117,
-      "id": "5c4e1747d2e4155d",
-      "styleAttributes": {
-      },
-      "text": "URL-адрес запрошенного ресурса был изменен всегда. Новый URL-адрес указан в ответе",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 1892
+      "x": 3420,
+      "y": 513
     },
     {
       "height": 60,
-      "id": "16b7c6920f1149e9",
+      "id": "e4a4e06b7c69bdb0",
       "styleAttributes": {
       },
-      "text": "`303` - See Order",
+      "text": "`426` - Upgrade Required",
       "type": "text",
       "width": 260,
-      "x": 1680,
-      "y": 2060
+      "x": 3420,
+      "y": 2688
     },
     {
-      "height": 117,
-      "id": "79bef92f2906c3c6",
+      "height": 237,
+      "id": "07526d8a67cce243",
       "styleAttributes": {
       },
-      "text": "Клиенту необходимо получить запрошенный ресурс по другому URL с помощью запроса `GET`",
+      "text": "Сервер отказывается выполнять ресурс с использованием текущего протокола, но может быть готов сделать это после смены протокола на указанный в заголовке ответа `Upgrade`",
       "type": "text",
       "width": 260,
-      "x": 2080,
-      "y": 2032
+      "x": 3840,
+      "y": 2600
+    },
+    {
+      "height": 60,
+      "id": "d4bd5aedee5c8548",
+      "styleAttributes": {
+      },
+      "text": "`408` - Request Timeout",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 324
+    },
+    {
+      "height": 60,
+      "id": "9047466b8d0985ac",
+      "styleAttributes": {
+      },
+      "text": "`412` - Precondition Failed",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 1032
+    },
+    {
+      "height": 60,
+      "id": "7b8c6129a8890c1e",
+      "styleAttributes": {
+      },
+      "text": "`413` - Payload Too Large",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 1220
+    },
+    {
+      "height": 60,
+      "id": "f9249b07dc400571",
+      "styleAttributes": {
+      },
+      "text": "`410` - Gone",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 688
+    },
+    {
+      "height": 60,
+      "id": "6547fd58652db299",
+      "styleAttributes": {
+      },
+      "text": "`411` - Length Required",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": 891
+    },
+    {
+      "height": 267,
+      "id": "ae41d4f5e537d077",
+      "styleAttributes": {
+      },
+      "text": "Сервер может отправить этот код ответа при неиспользовании соединения, даже без предварительного запроса со стороны клиента. Он означает, что сервер хотел бы закрыть такое соединение",
+      "type": "text",
+      "width": 260,
+      "x": 3840,
+      "y": 220
+    },
+    {
+      "height": 60,
+      "id": "3a0683a5cafd08f1",
+      "styleAttributes": {
+      },
+      "text": "`406` - Not Acceptable",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": -80
+    },
+    {
+      "height": 60,
+      "id": "19b48971497781e4",
+      "styleAttributes": {
+      },
+      "text": "`405` - Method Not Allowed",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": -314
+    },
+    {
+      "height": 87,
+      "id": "03ced3ab7506b9aa",
+      "styleAttributes": {
+      },
+      "text": "Отличие от `401` в том, что сервер при `403` знает клиента",
+      "type": "text",
+      "width": 260,
+      "x": 4180,
+      "y": -739
     },
     {
       "height": 177,
@@ -1989,6 +2293,39 @@
     },
     {
       "height": 60,
+      "id": "d41264b0a7a5dd2b",
+      "styleAttributes": {
+      },
+      "text": "`403` - Forbidden",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": -726
+    },
+    {
+      "height": 60,
+      "id": "c8411bb3195bef5c",
+      "styleAttributes": {
+      },
+      "text": "`404` - Not Found",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": -520
+    },
+    {
+      "height": 60,
+      "id": "0fa39125c6d81bf0",
+      "styleAttributes": {
+      },
+      "text": "`400` - Bad Request",
+      "type": "text",
+      "width": 260,
+      "x": 3420,
+      "y": -1119
+    },
+    {
+      "height": 60,
       "id": "2aca585af60156af",
       "styleAttributes": {
       },
@@ -2000,36 +2337,36 @@
     },
     {
       "height": 60,
-      "id": "d41264b0a7a5dd2b",
+      "id": "6424136624510b94",
       "styleAttributes": {
       },
-      "text": "`403` - Forbidden",
+      "text": "`407` - Proxy Authentication Required",
       "type": "text",
       "width": 260,
       "x": 3420,
-      "y": -726
+      "y": 108
     },
     {
-      "height": 178,
-      "id": "75c8565c8d7b3d86",
+      "height": 60,
+      "id": "6fc6f4f334c3e2a7",
       "styleAttributes": {
       },
-      "text": "Клиент не авторизован в системе. Это значит, что клиент должен аутентифицировать себя, чтобы получить запрошенный ответ",
+      "text": "`451` - Unavailable For Legal Reasons",
       "type": "text",
       "width": 260,
-      "x": 3840,
-      "y": -987
+      "x": 3420,
+      "y": 3633
     },
     {
       "height": 207,
-      "id": "64939125bbeb25ef",
+      "id": "9b140e68f3f2e5b0",
       "styleAttributes": {
       },
-      "text": "Клиент не имеет прав доступа к контенту, то есть он не авторизован, поэтому сервер отказывается предоставить запрошенный ресурс",
+      "text": "Пользовательский агент запросил ресурс, который не может быть предоставлен по закону, например веб-страницу, подвергнутую цензуре со стороны правительства",
       "type": "text",
       "width": 260,
       "x": 3840,
-      "y": -799
+      "y": 3560
     },
     {
       "height": 60,
@@ -2043,147 +2380,257 @@
       "y": -1119
     },
     {
-      "height": 147,
-      "id": "57664bbf9fbc7ff6",
-      "styleAttributes": {
-      },
-      "text": "У запроса более одного возможного ответа, пользовательский агент или пользователь должен выбрать один из них",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 1737
-    },
-    {
       "height": 60,
-      "id": "a4fd930bc0435884",
+      "id": "ac6681f98201bce6",
       "styleAttributes": {
       },
-      "text": "`300` - Multiple Choices",
+      "text": "`500` - Internal Server Error",
       "type": "text",
       "width": 260,
-      "x": 1680,
-      "y": 1780
-    },
-    {
-      "height": 60,
-      "id": "cfc686319b4c4199",
-      "styleAttributes": {
-      },
-      "text": "`3xx` - сообщения о перенаправлении",
-      "type": "text",
-      "width": 260,
-      "x": 1260,
-      "y": 1781
-    },
-    {
-      "height": 60,
-      "id": "24bfd2ccdd156778",
-      "styleAttributes": {
-      },
-      "text": "`205` - Reset Content",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": 858
-    },
-    {
-      "height": 177,
-      "id": "4873ce6d8df5a5b0",
-      "styleAttributes": {
-      },
-      "text": "Используется для ответы на запросы `GET` в случаях, когда сервер хочет отправить только измененную часть ресурса (то есть \"дельту\")",
-      "type": "text",
-      "width": 260,
-      "x": 2080,
-      "y": 1482
-    },
-    {
-      "height": 60,
-      "id": "995f1b9d94f87d1c",
-      "styleAttributes": {
-      },
-      "text": "`206` - Partial Content",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": 1043
-    },
-    {
-      "height": 60,
-      "id": "9ade369aac5d86ac",
-      "styleAttributes": {
-      },
-      "text": "`207` - Multi-status",
-      "type": "text",
-      "width": 260,
-      "x": 1680,
-      "y": 1211
+      "x": 5200,
+      "y": -1119
     },
     {
       "height": 147,
-      "id": "b5f238179bd81297",
+      "id": "2e8a660beecc49f0",
       "styleAttributes": {
       },
-      "text": "Используется в тех случаях, когда от клиента отправляется заголовок `Range` для запроса только части ресурса",
+      "text": "На сервере произошла ошибка, в результате которой он не может успешно обработать запрос",
       "type": "text",
       "width": 260,
-      "x": 2080,
-      "y": 1000
+      "x": 5560,
+      "y": -1162
+    },
+    {
+      "height": 60,
+      "id": "6a56675cb22852bb",
+      "styleAttributes": {
+      },
+      "text": "`501` - Not Implemented",
+      "type": "text",
+      "width": 260,
+      "x": 5200,
+      "y": -871
+    },
+    {
+      "height": 292,
+      "id": "4b082135eb31a4d6",
+      "styleAttributes": {
+      },
+      "text": "Метод запроса не поддерживается сервером и поэтому он не может быть обработан. Методы `GET` & `HEAD` должны всегда поддерживаться сервером и для них не должен возвращаться этот код",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": -987
+    },
+    {
+      "height": 60,
+      "id": "ae4c69685d4343eb",
+      "styleAttributes": {
+      },
+      "text": "`5xx` - ошибки сервера",
+      "type": "text",
+      "width": 260,
+      "x": 4720,
+      "y": -1119
+    },
+    {
+      "height": 60,
+      "id": "a4ca43fb2b5bc46e",
+      "styleAttributes": {
+      },
+      "text": "`502` - Bad Gateway",
+      "type": "text",
+      "width": 260,
+      "x": 5200,
+      "y": -592
+    },
+    {
+      "height": 237,
+      "id": "370703e00232e70c",
+      "styleAttributes": {
+      },
+      "text": "Такой ответ может прислать сервер, который выступает в качестве шлюза, если в процессе обработки запроса он получил недопустимый ответ от целевого сервера",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": -680
+    },
+    {
+      "height": 207,
+      "id": "ccdef8eb87bc1efb",
+      "styleAttributes": {
+      },
+      "text": "Сервер не готов обработать запрос в данный момент. Скорее всего на сервере проходит техническое обслуживание или перегрузка сервера",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": -436
+    },
+    {
+      "height": 60,
+      "id": "b90201ab9a5b5bb4",
+      "styleAttributes": {
+      },
+      "text": "`503` - Service Unavailable",
+      "type": "text",
+      "width": 260,
+      "x": 5200,
+      "y": -363
+    },
+    {
+      "height": 60,
+      "id": "4c91fabffd117c8a",
+      "styleAttributes": {
+      },
+      "text": "`504` - Gateway Timeout",
+      "type": "text",
+      "width": 260,
+      "x": 5200,
+      "y": -129
+    },
+    {
+      "height": 237,
+      "id": "7fb8d046d64d160d",
+      "styleAttributes": {
+      },
+      "text": "Такой ответ может прислать сервер, который выступает в качестве шлюза, если в процессе обработки запроса он не может вовремя получить ответ от целевого сервера",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": -218
+    },
+    {
+      "height": 117,
+      "id": "dc46edce549e5e68",
+      "styleAttributes": {
+      },
+      "text": "Используемая в запросе версия HTTP не поддерживается сервером",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": 40
+    },
+    {
+      "height": 60,
+      "id": "de5a82ef71693bda",
+      "styleAttributes": {
+      },
+      "text": "`505` - HTTP Version Not Supported",
+      "type": "text",
+      "width": 260,
+      "x": 5200,
+      "y": 68
     },
     {
       "height": 147,
-      "id": "797c3ab87ff7468c",
+      "id": "5f5506962ece41b8",
       "styleAttributes": {
       },
-      "text": "Передаёт информацию о нескольких ресурсах в случаях, когда могут быть уместны несколько кодов состояния",
+      "text": "Запрос не выполнен, потому что на сервере был обнаружен бесконечный цикл обработки данных",
       "type": "text",
       "width": 260,
-      "x": 2080,
-      "y": 1167
+      "x": 5560,
+      "y": 524
     },
     {
       "height": 60,
-      "id": "cce380d1ebf7b4b3",
+      "id": "5e8478351aa1917e",
       "styleAttributes": {
       },
-      "text": "`226` - IM Used",
+      "text": "`508` - Loop Detected",
       "type": "text",
       "width": 260,
-      "x": 1680,
-      "y": 1540
+      "x": 5200,
+      "y": 567
+    },
+    {
+      "height": 87,
+      "id": "b2f6a07427767bc9",
+      "styleAttributes": {
+      },
+      "text": "Для выполнения запроса необходимо его расширить",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": 682
     },
     {
       "height": 60,
-      "id": "75b96451c6ab9a60",
+      "id": "75f2d440c08c557c",
       "styleAttributes": {
       },
-      "text": "`308` - Permament Redirect",
+      "text": "`510` - Not Extended",
       "type": "text",
       "width": 260,
-      "x": 1680,
-      "y": 2660
+      "x": 5200,
+      "y": 696
     },
     {
-      "height": 147,
-      "id": "5286a53da338de13",
+      "height": 207,
+      "id": "425e468261206fe6",
       "styleAttributes": {
       },
-      "text": "Используется в тех случаях, когда нужно избежать повторного перечисления \"привязок\" и дублирования данных",
+      "text": "На сервере произошла внутренняя ошибка конфигурации: выбранный в процессе согласования вариант ресурса не является подходящим",
       "type": "text",
       "width": 260,
-      "x": 2080,
-      "y": 1327
+      "x": 5560,
+      "y": 179
+    },
+    {
+      "height": 58,
+      "id": "3995203f384e76f8",
+      "styleAttributes": {
+      },
+      "text": "`506` - Variant Also Negotiates",
+      "type": "text",
+      "width": 260,
+      "x": 5200,
+      "y": 254
+    },
+    {
+      "height": 117,
+      "id": "9f0efa310a8caab6",
+      "styleAttributes": {
+      },
+      "text": "Запрос не выполнен, потому что серверу не удалось сохранить данные",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": 395
     },
     {
       "height": 60,
-      "id": "69a95b1b1a64acbf",
+      "id": "63dc222b209a0e0d",
       "styleAttributes": {
       },
-      "text": "`208` - Already Reported",
+      "text": "`507` - Insufficient Storage",
       "type": "text",
       "width": 260,
-      "x": 1680,
-      "y": 1371
+      "x": 5200,
+      "y": 423
+    },
+    {
+      "height": 117,
+      "id": "1ae30a16d3161d22",
+      "styleAttributes": {
+      },
+      "text": "Клиенту необходимо пройти аутентификацию для получения доступа к сети",
+      "type": "text",
+      "width": 260,
+      "x": 5560,
+      "y": 782
+    },
+    {
+      "height": 60,
+      "id": "ca16e118f08e43b9",
+      "styleAttributes": {
+      },
+      "text": "`511` - Network Authentication Required",
+      "type": "text",
+      "width": 260,
+      "x": 5200,
+      "y": 811
     }
   ]
 }
