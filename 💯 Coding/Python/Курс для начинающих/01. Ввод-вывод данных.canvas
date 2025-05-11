@@ -1,180 +1,1588 @@
 {
-	"nodes":[
-		{"id":"04ffa45fbe820ac9","x":1480,"y":2108,"width":2067,"height":2025,"type":"group","label":"Работа с числами"},
-		{"id":"c597399c00c8bddb","type":"group","x":160,"y":803,"width":2097,"height":776,"label":"Ввод текста - input()"},
-		{"id":"b8a86aa3b046bf61","type":"group","x":160,"y":-95,"width":1898,"height":792,"label":"Вывод текста - print()"},
-		{"id":"ab1dcf8c50b9cbff","type":"group","x":160,"y":1640,"width":1270,"height":1035,"label":"Параметры sep и end внутри команды print()"},
-		{"id":"ef4629dccc9ef7e3","type":"group","x":1480,"y":1640,"width":1418,"height":416,"label":"Множественное присваивание"},
-		{"id":"8aeb0d7fa941c0b8","type":"text","text":"Ссылка на курс - [клик](https://stepik.org/lesson/265077/step/1?unit=246025)","x":-222,"y":-16,"width":250,"height":60},
-		{"id":"424935ca06a3594e","type":"text","text":"Для вывода на экран используется команда `print()`","x":180,"y":-35,"width":250,"height":99},
-		{"id":"e4ad2af9853e3feb","type":"text","text":"Если необходимо вывести текст, то он указывается внутри ковычек","x":640,"y":-39,"width":250,"height":108},
-		{"id":"a71f7f2abe0050b5","type":"text","text":"Все что, что пишется в скобках, называется аргументами команды","x":180,"y":99,"width":250,"height":101},
-		{"id":"edb54e8b1cb4b049","type":"text","text":"Между аргументами используется ровно один пробел","x":180,"y":400,"width":250,"height":99},
-		{"id":"40e6f2c14d738b20","type":"text","text":"Аргументы - конкретные значения, которые передаются в функцию при вызове","x":180,"y":240,"width":250,"height":131},
-		{"id":"8a3dee03f7f23dcf","type":"text","text":"```python\nprint('Hello, World!')\n```","x":460,"y":225,"width":281,"height":60},
-		{"id":"4de42d34a4d334e9","type":"text","text":"```python\nprint(\"Hello, World!\")\n```","x":800,"y":225,"width":269,"height":60},
-		{"id":"9c7c97a16cfc5969","type":"text","text":"Команда `print()` с пустым списком аргументов просто вставляет новую пустую строку","x":1280,"y":153,"width":250,"height":146},
-		{"id":"5071bf4a6d7ad554","type":"text","text":"```python\nprint(\"removespread\")\nprint()\nprint('test')\n# Вывод:\n# removespread\n#\n# test\n```","x":1600,"y":121,"width":289,"height":210},
-		{"id":"2f105023e59f0619","type":"text","text":"Особенности","x":944,"y":-15,"width":250,"height":60},
-		{"id":"d60761a27313c466","type":"text","text":"Команда `print()` выводит указанный текст с новой строки","x":1280,"y":-39,"width":250,"height":108},
-		{"id":"33e537d4e0454a41","type":"text","text":"```python\nprint(\"removespread\")\nprint('Test')\n# Вывод:\n# removespread\n# test\n```","x":1600,"y":-75,"width":289,"height":181},
-		{"id":"5d6b93d31fd5a260","type":"text","text":"Внутри команды используются два вида скобок, т.к. скобки могут быть частью текста","x":1280,"y":360,"width":250,"height":115},
-		{"id":"041c9e359bfe1c4d","type":"text","text":"```python\nprint('В тексте есть \"двойные\" кавычки')\nprint(\"В тексте есть 'одинарные' кавычки\")\n```","x":1600,"y":362,"width":438,"height":111},
-		{"id":"fe1a42665923fbed","type":"text","text":"Мы можем комбинировать одинарные и двойные кавычки, для включения кавычек и апострофов в наш текст","x":1280,"y":500,"width":250,"height":177},
-		{"id":"a2e8bbeba20e7a12","type":"text","text":"```python\nprint(\"I'm\", 'the', \"BAD\", 'guy')\n```","x":1600,"y":559,"width":364,"height":60},
-		{"id":"801e43ff71a45e8f","type":"text","text":"Для считывания данных используется команда `input()`","x":180,"y":840,"width":250,"height":89},
-		{"id":"45b5fcacf1fc8688","type":"text","text":"Когда программа доходит до места, где есть `input()`, она ждет, пока пользователь введет текст с клавиатуры. Введенная строка подставляется на место `input()`","x":180,"y":960,"width":250,"height":221},
-		{"id":"8779fbc3c1e5c327","type":"text","text":"Таким образом, команда `input()` получает от пользователя какие-то данные и вместо вызова подставляет строковое значение","x":180,"y":1220,"width":250,"height":181},
-		{"id":"632e0dc459fc9040","type":"text","text":"Переменные - область в памяти компьютера","x":515,"y":855,"width":250,"height":60},
-		{"id":"5e5d7e69ce4699e0","type":"text","text":"В имени переменной рекомендуется использовать только латинские буквы \"a-z\", \"A-Z\", цифры и символ нижнего подчеркивания (_)","x":840,"y":960,"width":250,"height":218},
-		{"id":"841e8c60e6ce1dd4","type":"text","text":"Любая переменная имеет имя и значение","x":515,"y":1039,"width":250,"height":60},
-		{"id":"5d10ec64a844b606","type":"text","text":"Имя переменной не может начинаться с цифры","x":840,"y":1206,"width":250,"height":93},
-		{"id":"e5a2dbd7e9417957","type":"text","text":"Имя переменной не может содержать пробелы","x":840,"y":1331,"width":250,"height":101},
-		{"id":"96e0e7228216ac78","type":"text","text":"Имя переменной по возможности должно отражать ее назначение","x":840,"y":1459,"width":250,"height":100},
-		{"id":"32f92dec4381707a","type":"text","text":"Для инициализации переменной используется оператор присваивания \"=\"","x":1120,"y":823,"width":250,"height":124},
-		{"id":"2cfadc0a9ddde4b9","type":"text","text":"```python\na = 123\n```","x":1469,"y":855,"width":250,"height":60},
-		{"id":"1d65c89120df7da6","type":"text","text":"Комбинация вместе с `input()` и `print()`","x":1469,"y":1010,"width":250,"height":60},
-		{"id":"850f33e492777db2","type":"text","text":"```python\nprint(\"Enter your name:\")\n\nname = input()\nprint(\"Hello,\", name) # Hello, %user_input%\n\nname = 'Viktor'\nprint(\"Hello,\", name) # Hello, Viktor\n```","x":1782,"y":935,"width":455,"height":211},
-		{"id":"62215dc2cc3993ad","type":"text","text":"Можно принимать сразу несколько строк и работать с ними","x":1469,"y":1237,"width":250,"height":94},
-		{"id":"97e31fac40a89685","type":"text","text":"```python\na = input()\nb = input()\n\nprint(a, b)\n```","x":1782,"y":1211,"width":250,"height":147},
-		{"id":"09480af212b9ef26","type":"text","text":"Отвечает параметр `sep` (separator - разделитель). По умолчанию равен символу пробела","x":507,"y":1660,"width":250,"height":133},
-		{"id":"93f029f1b394c477","type":"text","text":"```python\nprint(\"aa\", \"bb\", \"cc\")\nprint(\"aa\", \"bb\", \"cc\", sep=' ')\n# Две строки эквивалентны между собой\n# aa bb cc\n```","x":807,"y":1660,"width":421,"height":134},
-		{"id":"f1ecc7f93170a582","type":"text","text":"```python\nprint('aa', 'bb', 'cc', sep=\"*\")\n# Вывод: aa*bb*cc\n```","x":841,"y":1850,"width":354,"height":96},
-		{"id":"ca06973892674348","type":"text","text":"Параметр является разделителем только для нескольких аргументов. Если аргумент в команде `print()` только один, то параметру `sep` нечего разделять","x":507,"y":1861,"width":250,"height":209},
-		{"id":"9673f38c736a0e2d","type":"text","text":"```python\nseparation = \"*\"\nprint('aa', 'bb', 'cc', sep=separation)\n# Вывод: aa*bb*cc\n# В качестве значения для аргумента sep можно использовать переменные\n```","x":805,"y":1990,"width":426,"height":160},
-		{"id":"5cfe94b39a5b9d79","type":"text","text":"```python\nprint(\"A great man doesn't seek to lead.\", end='\\n')\nprint(\"He's called to it. And he answers.\", end='\\n')\n\nprint(\"A great man doesn't seek to lead.\")\nprint(\"He's called to it. And he answers.\")\n#  Строки идентичны по выводу между собой\n```","x":841,"y":2241,"width":569,"height":199},
-		{"id":"540f4f200d55f308","type":"text","text":"Отвечает параметр `end`. По умолчанию параметр равен символу перевода строки \"\\n\"","x":507,"y":2280,"width":250,"height":120},
-		{"id":"cccf2764b12d30f6","type":"text","text":"```python\nprint(\"a\", \"\\n\", 'b', '\\n', 'c', sep=\"*\", end=\"#)\n# Вывод:\n# a*\n# *b*\n# *c#\n```\n","x":841,"y":2485,"width":500,"height":170},
-		{"id":"867be2ad44f85e89","type":"text","text":"Последовательность символов \"\\n\" называется управляющей последовательностью и задает перевод строки","x":507,"y":2490,"width":250,"height":159},
-		{"id":"5c871d4e8e7d29bd","type":"text","text":"У команды `print()` есть параметр, который отвечает за разделение аргументов при выводе","x":180,"y":1664,"width":250,"height":126},
-		{"id":"fd46bb481fbc82e4","type":"text","text":"У команды `print()` есть параметр, который отвечает за специальное окончание для вывода","x":180,"y":2270,"width":250,"height":140},
-		{"id":"09e300daa52031ff","type":"text","text":"Множественное присваивание","x":1500,"y":1736,"width":250,"height":60},
-		{"id":"a92987393f16e0b4","type":"text","text":"За одну инструкцию присваивания можно задавать значения сразу нескольким переменным","x":1829,"y":1707,"width":250,"height":118},
-		{"id":"9cefc99eb96ceed4","type":"text","text":"```python\nname, surname = input(), input()\n\nprint(\"Hello,\", name, surname)\n```","x":2149,"y":1703,"width":358,"height":127},
-		{"id":"cb3bd80ebaab6561","type":"text","text":"Слева от знака \"=\" в множественном присваивании должны стоять через запятую имена переменных, то справа могут стоять произвольные выражения, разделенные запятыми","x":2589,"y":1660,"width":289,"height":213},
-		{"id":"102441ac9d1f61fc","type":"text","text":"```python\nname1 = \"Ruslan\"\nname2 = 'Viktor'\n\nname1, name2 = name2, name1\n```","x":2144,"y":1899,"width":368,"height":137},
-		{"id":"317e5c39191f15b9","type":"text","text":"Удобно использовать, когда нужно обменять значения двух переменных","x":1829,"y":1902,"width":250,"height":132},
-		{"id":"0c453dbc8b153344","type":"text","text":"Работа с целыми числами","x":1500,"y":2181,"width":250,"height":60},
-		{"id":"dd297db0a70f3c40","type":"text","text":"Можно совершать 4 основные операции","x":1824,"y":2181,"width":250,"height":60},
-		{"id":"1f78a249a5a79a29","type":"text","text":"\"+\" Сложение","x":2198,"y":2182,"width":250,"height":60},
-		{"id":"e28eca7857aab032","type":"text","text":"\"-\" Вычитание","x":2198,"y":2260,"width":250,"height":60},
-		{"id":"c5d4342302a03821","type":"text","text":"\"\\*\" Умножение","x":2198,"y":2340,"width":250,"height":60},
-		{"id":"b73af49e96253410","type":"text","text":"\"\\\\\" Деление","x":2198,"y":2420,"width":250,"height":60},
-		{"id":"89ee67053090dcc0","type":"text","text":"Порядок выполнения операций в Python аналогичен порядку выполнения операций, как в обычной школьной математике","x":2609,"y":2253,"width":250,"height":177},
-		{"id":"67da8eccdfb31a13","type":"text","text":"Для изменения порядка выполнения операций под свои нужны, необходимо использовать скобки","x":2940,"y":2268,"width":250,"height":148},
-		{"id":"76ea74d0cc1e4148","type":"text","text":"Минус может быть как бинарным, так и унарным","x":2707,"y":2138,"width":250,"height":60},
-		{"id":"5a160d6d40c28fda","type":"text","text":"```python\nnum1 = -6 # Унарный минус\nnum2 = 17 - 7 # Бинарный минус\n```","x":3081,"y":2128,"width":361,"height":80},
-		{"id":"8777c95e8dbc79eb","type":"text","text":"\"**\" Возведение в степень","x":2198,"y":2567,"width":250,"height":60},
-		{"id":"bda4c66b8ee533f8","type":"text","text":"\"%\" Остаток от деления","x":2198,"y":2663,"width":250,"height":60},
-		{"id":"8aea56b3de74504e","type":"text","text":"\"//\" - Целочисленное деление","x":2198,"y":2759,"width":250,"height":60},
-		{"id":"f9c582dd78b12073","type":"text","text":"Может возводить не только в положительную степень, но и в отрицательную. Аналогично, основание степени также может быть отрицательным числом","x":2582,"y":2494,"width":250,"height":207},
-		{"id":"448759d5f50392eb","type":"text","text":"Оператор считается правоассоциативным (значение выражения вычисляется справа налево)","x":2900,"y":2524,"width":250,"height":148},
-		{"id":"ab07e8011d27a081","type":"text","text":"```python\nprint(2 ** 2 ** 3)\n# 2 ** (2 ** 3) = 2 ** 8\n```","x":3240,"y":2545,"width":287,"height":106},
-		{"id":"4032e791e66014eb","type":"text","text":"Оператор \"ведет себя\" как обычное деление, за исключением того, что он отбрасывает десятичную часть результата","x":2582,"y":2715,"width":250,"height":147},
-		{"id":"8ab4826a705451b3","type":"text","text":"Округление при делении всегда в меньшую сторону от позиции нуля","x":2900,"y":2745,"width":250,"height":88},
-		{"id":"ecd10d8b52df7f60","type":"text","text":"```python\nprint(10 // 3) # 3\nprint(-10 // 3) # -4\n```","x":3240,"y":2749,"width":250,"height":80},
-		{"id":"fdd39eea488039d0","type":"text","text":"Переменная \"s\" имеет строковый тип данных. С помощью команды `int()` было преобразование из строки к целому числу, а результат был записан в переменную \"year\"","x":2484,"y":2920,"width":250,"height":207},
-		{"id":"e4432ebc664b7ff5","type":"text","text":"```python\nnumber = int(input())\nnumber_a = int(input())\n\nprint(number + number_a)\n```","x":3096,"y":2957,"width":330,"height":133},
-		{"id":"1f84782c7f997194","type":"text","text":"```python\ns = '1992'\nyear = int(s)\nprint(year)\n```","x":2149,"y":2971,"width":250,"height":106},
-		{"id":"a0e2572cf53e0776","type":"text","text":"Тоже самое работает с функцией `input()`","x":2788,"y":2993,"width":250,"height":60},
-		{"id":"4e69ce33bbc068ae","type":"text","text":"Переменная \"number\" имеет числовой тип данных. С помощью команды `str()` было преобразование из целого числа к строке, а результат записан в переменную \"stringnumber\"","x":2484,"y":3173,"width":250,"height":267},
-		{"id":"1fab99202aba6108","type":"text","text":"```python\nnumber = 17\nstringnumber = str(number)\n```","x":2128,"y":3253,"width":307,"height":106},
-		{"id":"42a9f67ddd6fa847","type":"text","text":"Чтобы преобразовать число в строку, используется команда `str()`","x":1829,"y":3247,"width":250,"height":118},
-		{"id":"9b1693183aab0274","type":"text","text":"Преобразование типов","x":1500,"y":2993,"width":250,"height":60},
-		{"id":"8d7e8b0b0d10801b","type":"text","text":"Чтобы преобразовать строку к целому числу, используется команда `int()`","x":1824,"y":2965,"width":250,"height":117},
-		{"id":"50457e93fa29cca6","type":"text","text":"Можно совершать 3 дополнительные операции","x":1824,"y":2554,"width":250,"height":87},
-		{"id":"739eeb5b0cf2e59c","type":"text","text":"Обработка цифр числа","x":1500,"y":3560,"width":250,"height":60},
-		{"id":"dc68198635e21c04","type":"text","text":"При помощи операции нахождения остатка и целочисленного деления можно вычислить любую цифру числа","x":1829,"y":3516,"width":250,"height":148},
-		{"id":"820b4e84a3765c19","type":"text","text":"```python\nnumber = 17\na = number % 10\nb = number // 10\nprint(a) # 7\nprint(b) # 1\n```","x":2157,"y":3511,"width":250,"height":159},
-		{"id":"8ce8aea23f5609b4","x":2484,"y":3472,"width":250,"height":237,"type":"text","text":"Последняя цифра числа определяется всегда как остаток от деления числа на 10 (% 10). Чтобы отщепить последнюю цифру от числа, необходимо разделить его нацело на 10 (// 10)"},
-		{"id":"9cac1f43adabe478","x":2151,"y":3902,"width":262,"height":211,"type":"text","text":"```python\nnumber = 754\na = num % 10\nb = (num % 100) // 10\nc = num // 100\nprint(a) # 4\nprint(b) # 5\nprint(c) # 7\n```"},
-		{"id":"de100232c766783b","x":2484,"y":3949,"width":250,"height":117,"type":"text","text":"Сначала выводится последняя цифра числа, затем средняя, а после и первая цифра числа"},
-		{"id":"b15cd0666ade775f","x":2748,"y":3808,"width":250,"height":60,"type":"text","text":"Алгоритм получения цифр n-значного числа"},
-		{"id":"78f394850bf90558","x":3080,"y":3749,"width":440,"height":178,"type":"text","text":"Последняя цифра: (num % 10^1) // 10^0\nПредпоследняя цифра: (num % 10^2) // 10^1\nПредпредпоследняя цифра: (num % 10^3) // 10^2\n...\nВторая цифра: (num % 10^n-1) // 10^n-2\nПервая цифра: (num % 10^n) // 10^n-1"}
-	],
-	"edges":[
-		{"id":"22241c9e997256bb","fromNode":"424935ca06a3594e","fromSide":"right","toNode":"e4ad2af9853e3feb","toSide":"left"},
-		{"id":"c8710bcd66fa7714","fromNode":"e4ad2af9853e3feb","fromSide":"bottom","toNode":"8a3dee03f7f23dcf","toSide":"top"},
-		{"id":"899a29f8865f40cd","fromNode":"424935ca06a3594e","fromSide":"bottom","toNode":"a71f7f2abe0050b5","toSide":"top"},
-		{"id":"869457f0b8983b46","fromNode":"a71f7f2abe0050b5","fromSide":"bottom","toNode":"40e6f2c14d738b20","toSide":"top"},
-		{"id":"d60bfe2249d4bf45","fromNode":"40e6f2c14d738b20","fromSide":"bottom","toNode":"edb54e8b1cb4b049","toSide":"top"},
-		{"id":"d64aaab1bffe33c8","fromNode":"e4ad2af9853e3feb","fromSide":"bottom","toNode":"4de42d34a4d334e9","toSide":"top"},
-		{"id":"53b3240ec897d181","fromNode":"d60761a27313c466","fromSide":"right","toNode":"33e537d4e0454a41","toSide":"left"},
-		{"id":"277eda254b4d9c62","fromNode":"9c7c97a16cfc5969","fromSide":"right","toNode":"5071bf4a6d7ad554","toSide":"left"},
-		{"id":"ae44a7678f826203","fromNode":"e4ad2af9853e3feb","fromSide":"right","toNode":"2f105023e59f0619","toSide":"left"},
-		{"id":"f671c5d39148b3d6","fromNode":"2f105023e59f0619","fromSide":"right","toNode":"d60761a27313c466","toSide":"left"},
-		{"id":"7c63fa3c346e1cfc","fromNode":"2f105023e59f0619","fromSide":"right","toNode":"9c7c97a16cfc5969","toSide":"left"},
-		{"id":"0aad3b05cbb864aa","fromNode":"2f105023e59f0619","fromSide":"right","toNode":"5d6b93d31fd5a260","toSide":"left"},
-		{"id":"e32607679fae9d62","fromNode":"5d6b93d31fd5a260","fromSide":"right","toNode":"041c9e359bfe1c4d","toSide":"left"},
-		{"id":"286017df561b70a9","fromNode":"2f105023e59f0619","fromSide":"right","toNode":"fe1a42665923fbed","toSide":"left"},
-		{"id":"c4494eab549747c4","fromNode":"fe1a42665923fbed","fromSide":"right","toNode":"a2e8bbeba20e7a12","toSide":"left"},
-		{"id":"4f642c50b7dffb36","fromNode":"801e43ff71a45e8f","fromSide":"bottom","toNode":"45b5fcacf1fc8688","toSide":"top"},
-		{"id":"4cd87ea76bc27345","fromNode":"45b5fcacf1fc8688","fromSide":"bottom","toNode":"8779fbc3c1e5c327","toSide":"top"},
-		{"id":"2413f59c6c7cf4da","fromNode":"801e43ff71a45e8f","fromSide":"right","toNode":"632e0dc459fc9040","toSide":"left"},
-		{"id":"716b25dafeced849","fromNode":"632e0dc459fc9040","fromSide":"bottom","toNode":"841e8c60e6ce1dd4","toSide":"top"},
-		{"id":"47a01ce9501a1cb4","fromNode":"841e8c60e6ce1dd4","fromSide":"right","toNode":"5e5d7e69ce4699e0","toSide":"left"},
-		{"id":"107113b0f6780781","fromNode":"841e8c60e6ce1dd4","fromSide":"right","toNode":"5d10ec64a844b606","toSide":"left"},
-		{"id":"923808c4d03e1741","fromNode":"841e8c60e6ce1dd4","fromSide":"right","toNode":"e5a2dbd7e9417957","toSide":"left"},
-		{"id":"2ef83bd5b3b70983","fromNode":"841e8c60e6ce1dd4","fromSide":"right","toNode":"96e0e7228216ac78","toSide":"left"},
-		{"id":"1634d3891a71361d","fromNode":"632e0dc459fc9040","fromSide":"right","toNode":"32f92dec4381707a","toSide":"left"},
-		{"id":"9a05852ef75ffd0c","fromNode":"32f92dec4381707a","fromSide":"right","toNode":"2cfadc0a9ddde4b9","toSide":"left"},
-		{"id":"66da6fd101e4bffc","fromNode":"32f92dec4381707a","fromSide":"right","toNode":"1d65c89120df7da6","toSide":"left"},
-		{"id":"21bcb7ca7d700306","fromNode":"1d65c89120df7da6","fromSide":"right","toNode":"850f33e492777db2","toSide":"left"},
-		{"id":"87c7c8b178ddfd78","fromNode":"32f92dec4381707a","fromSide":"right","toNode":"62215dc2cc3993ad","toSide":"left"},
-		{"id":"f863295136921e8b","fromNode":"62215dc2cc3993ad","fromSide":"right","toNode":"97e31fac40a89685","toSide":"left"},
-		{"id":"ea80306c3bef7bab","fromNode":"5c871d4e8e7d29bd","fromSide":"right","toNode":"09480af212b9ef26","toSide":"left"},
-		{"id":"f5f605b7222059a5","fromNode":"09480af212b9ef26","fromSide":"right","toNode":"93f029f1b394c477","toSide":"left"},
-		{"id":"f44a1649816cff17","fromNode":"93f029f1b394c477","fromSide":"bottom","toNode":"f1ecc7f93170a582","toSide":"top"},
-		{"id":"dd459e1de1cecf77","fromNode":"f1ecc7f93170a582","fromSide":"bottom","toNode":"9673f38c736a0e2d","toSide":"top"},
-		{"id":"436234f19fa444a3","fromNode":"fd46bb481fbc82e4","fromSide":"right","toNode":"540f4f200d55f308","toSide":"left"},
-		{"id":"2440c8f5a4783617","fromNode":"540f4f200d55f308","fromSide":"right","toNode":"5cfe94b39a5b9d79","toSide":"left"},
-		{"id":"2531e664d11c704a","fromNode":"540f4f200d55f308","fromSide":"bottom","toNode":"867be2ad44f85e89","toSide":"top"},
-		{"id":"10d92c40305220c7","fromNode":"867be2ad44f85e89","fromSide":"right","toNode":"cccf2764b12d30f6","toSide":"left"},
-		{"id":"d047bcadaf022654","fromNode":"09480af212b9ef26","fromSide":"bottom","toNode":"ca06973892674348","toSide":"top"},
-		{"id":"d6c270ea3637a66b","fromNode":"09e300daa52031ff","fromSide":"right","toNode":"a92987393f16e0b4","toSide":"left"},
-		{"id":"3c7f0b5b8fb70288","fromNode":"a92987393f16e0b4","fromSide":"right","toNode":"9cefc99eb96ceed4","toSide":"left"},
-		{"id":"fa0791f7f8e6f354","fromNode":"9cefc99eb96ceed4","fromSide":"right","toNode":"cb3bd80ebaab6561","toSide":"left"},
-		{"id":"23c7f64da0d02f2b","fromNode":"a92987393f16e0b4","fromSide":"bottom","toNode":"317e5c39191f15b9","toSide":"top"},
-		{"id":"b78ba339e92b5fc5","fromNode":"317e5c39191f15b9","fromSide":"right","toNode":"102441ac9d1f61fc","toSide":"left"},
-		{"id":"6a037bf5c2eed37f","fromNode":"0c453dbc8b153344","fromSide":"right","toNode":"dd297db0a70f3c40","toSide":"left"},
-		{"id":"f6fa6b906915bfa0","fromNode":"dd297db0a70f3c40","fromSide":"right","toNode":"1f78a249a5a79a29","toSide":"left"},
-		{"id":"e9075c9776b4970f","fromNode":"dd297db0a70f3c40","fromSide":"right","toNode":"e28eca7857aab032","toSide":"left"},
-		{"id":"cc015dfe76e4683c","fromNode":"dd297db0a70f3c40","fromSide":"right","toNode":"c5d4342302a03821","toSide":"left"},
-		{"id":"8630f11765207e0e","fromNode":"dd297db0a70f3c40","fromSide":"right","toNode":"b73af49e96253410","toSide":"left"},
-		{"id":"5924348a4dc44ac2","fromNode":"1f78a249a5a79a29","fromSide":"right","toNode":"89ee67053090dcc0","toSide":"left"},
-		{"id":"5d6e427dfeea7b71","fromNode":"e28eca7857aab032","fromSide":"right","toNode":"89ee67053090dcc0","toSide":"left"},
-		{"id":"738dc5598e685805","fromNode":"c5d4342302a03821","fromSide":"right","toNode":"89ee67053090dcc0","toSide":"left"},
-		{"id":"49c60ac41450c279","fromNode":"b73af49e96253410","fromSide":"right","toNode":"89ee67053090dcc0","toSide":"left"},
-		{"id":"75b03fa9cf52cb13","fromNode":"89ee67053090dcc0","fromSide":"right","toNode":"67da8eccdfb31a13","toSide":"left"},
-		{"id":"d17c922c365f3bf2","fromNode":"9b1693183aab0274","fromSide":"right","toNode":"8d7e8b0b0d10801b","toSide":"left"},
-		{"id":"739ef25b1a18af60","fromNode":"8d7e8b0b0d10801b","fromSide":"right","toNode":"1f84782c7f997194","toSide":"left"},
-		{"id":"4a1f223ee707e9be","fromNode":"1f84782c7f997194","fromSide":"right","toNode":"fdd39eea488039d0","toSide":"left"},
-		{"id":"aaf5d0ccda556184","fromNode":"fdd39eea488039d0","fromSide":"right","toNode":"a0e2572cf53e0776","toSide":"left"},
-		{"id":"fe0f1433c30a88fc","fromNode":"a0e2572cf53e0776","fromSide":"right","toNode":"e4432ebc664b7ff5","toSide":"left"},
-		{"id":"4272f0f9f40b58c4","fromNode":"9b1693183aab0274","fromSide":"right","toNode":"42a9f67ddd6fa847","toSide":"left"},
-		{"id":"aaf6ac5a228a37b9","fromNode":"42a9f67ddd6fa847","fromSide":"right","toNode":"1fab99202aba6108","toSide":"left"},
-		{"id":"1a61b6262f05fe84","fromNode":"1fab99202aba6108","fromSide":"right","toNode":"4e69ce33bbc068ae","toSide":"left"},
-		{"id":"effd118246585c7b","fromNode":"e28eca7857aab032","fromSide":"right","toNode":"76ea74d0cc1e4148","toSide":"left"},
-		{"id":"517a8b65d27900f8","fromNode":"76ea74d0cc1e4148","fromSide":"right","toNode":"5a160d6d40c28fda","toSide":"left"},
-		{"id":"ef91d7bcdcda495c","fromNode":"0c453dbc8b153344","fromSide":"right","toNode":"50457e93fa29cca6","toSide":"left"},
-		{"id":"4f8f69bfb15be3dc","fromNode":"50457e93fa29cca6","fromSide":"right","toNode":"8777c95e8dbc79eb","toSide":"left"},
-		{"id":"bb219ad56750737a","fromNode":"50457e93fa29cca6","fromSide":"right","toNode":"bda4c66b8ee533f8","toSide":"left"},
-		{"id":"fd22b3d6b3f33386","fromNode":"50457e93fa29cca6","fromSide":"right","toNode":"8aea56b3de74504e","toSide":"left"},
-		{"id":"fccb4368eead7352","fromNode":"8777c95e8dbc79eb","fromSide":"right","toNode":"f9c582dd78b12073","toSide":"left"},
-		{"id":"5c109b54383261bb","fromNode":"f9c582dd78b12073","fromSide":"right","toNode":"448759d5f50392eb","toSide":"left"},
-		{"id":"611a74408a008f43","fromNode":"448759d5f50392eb","fromSide":"right","toNode":"ab07e8011d27a081","toSide":"left"},
-		{"id":"4519beb30ad2ce61","fromNode":"8aea56b3de74504e","fromSide":"right","toNode":"4032e791e66014eb","toSide":"left"},
-		{"id":"0261bc8575da56a2","fromNode":"4032e791e66014eb","fromSide":"right","toNode":"8ab4826a705451b3","toSide":"left"},
-		{"id":"ab000bd5ca91b9c2","fromNode":"8ab4826a705451b3","fromSide":"right","toNode":"ecd10d8b52df7f60","toSide":"left"},
-		{"id":"04ea709d3cdf4941","fromNode":"0c453dbc8b153344","fromSide":"bottom","toNode":"9b1693183aab0274","toSide":"top"},
-		{"id":"78ddac54063a9398","fromNode":"9b1693183aab0274","fromSide":"bottom","toNode":"739eeb5b0cf2e59c","toSide":"top"},
-		{"id":"6deb5825e4d740e4","fromNode":"739eeb5b0cf2e59c","fromSide":"right","toNode":"dc68198635e21c04","toSide":"left"},
-		{"id":"3d2feefd3f5b1d5c","fromNode":"dc68198635e21c04","fromSide":"right","toNode":"820b4e84a3765c19","toSide":"left"},
-		{"id":"79ae0e27e984dd36","fromNode":"820b4e84a3765c19","fromSide":"right","toNode":"8ce8aea23f5609b4","toSide":"left"},
-		{"id":"58a6c61683dc19ac","fromNode":"dc68198635e21c04","fromSide":"right","toNode":"9cac1f43adabe478","toSide":"left"},
-		{"id":"996708916d2a2c19","fromNode":"9cac1f43adabe478","fromSide":"right","toNode":"de100232c766783b","toSide":"left"},
-		{"id":"7ee3f7d4a8c39317","fromNode":"9cac1f43adabe478","fromSide":"right","toNode":"b15cd0666ade775f","toSide":"left"},
-		{"id":"1cee14289ea188ec","fromNode":"820b4e84a3765c19","fromSide":"right","toNode":"b15cd0666ade775f","toSide":"left"},
-		{"id":"8a34f05aaab8058f","fromNode":"b15cd0666ade775f","fromSide":"right","toNode":"78f394850bf90558","toSide":"left"}
-	]
+  "edges": [
+    {
+      "fromNode": "424935ca06a3594e",
+      "fromSide": "right",
+      "id": "22241c9e997256bb",
+      "toNode": "e4ad2af9853e3feb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e4ad2af9853e3feb",
+      "fromSide": "bottom",
+      "id": "c8710bcd66fa7714",
+      "toNode": "8a3dee03f7f23dcf",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "424935ca06a3594e",
+      "fromSide": "bottom",
+      "id": "899a29f8865f40cd",
+      "toNode": "a71f7f2abe0050b5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a71f7f2abe0050b5",
+      "fromSide": "bottom",
+      "id": "869457f0b8983b46",
+      "toNode": "40e6f2c14d738b20",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "40e6f2c14d738b20",
+      "fromSide": "bottom",
+      "id": "d60bfe2249d4bf45",
+      "toNode": "edb54e8b1cb4b049",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e4ad2af9853e3feb",
+      "fromSide": "bottom",
+      "id": "d64aaab1bffe33c8",
+      "toNode": "4de42d34a4d334e9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d60761a27313c466",
+      "fromSide": "right",
+      "id": "53b3240ec897d181",
+      "toNode": "33e537d4e0454a41",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9c7c97a16cfc5969",
+      "fromSide": "right",
+      "id": "277eda254b4d9c62",
+      "toNode": "5071bf4a6d7ad554",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e4ad2af9853e3feb",
+      "fromSide": "right",
+      "id": "ae44a7678f826203",
+      "toNode": "2f105023e59f0619",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2f105023e59f0619",
+      "fromSide": "right",
+      "id": "f671c5d39148b3d6",
+      "toNode": "d60761a27313c466",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2f105023e59f0619",
+      "fromSide": "right",
+      "id": "7c63fa3c346e1cfc",
+      "toNode": "9c7c97a16cfc5969",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2f105023e59f0619",
+      "fromSide": "right",
+      "id": "0aad3b05cbb864aa",
+      "toNode": "5d6b93d31fd5a260",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5d6b93d31fd5a260",
+      "fromSide": "right",
+      "id": "e32607679fae9d62",
+      "toNode": "041c9e359bfe1c4d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2f105023e59f0619",
+      "fromSide": "right",
+      "id": "286017df561b70a9",
+      "toNode": "fe1a42665923fbed",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fe1a42665923fbed",
+      "fromSide": "right",
+      "id": "c4494eab549747c4",
+      "toNode": "a2e8bbeba20e7a12",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "801e43ff71a45e8f",
+      "fromSide": "bottom",
+      "id": "4f642c50b7dffb36",
+      "toNode": "45b5fcacf1fc8688",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "45b5fcacf1fc8688",
+      "fromSide": "bottom",
+      "id": "4cd87ea76bc27345",
+      "toNode": "8779fbc3c1e5c327",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "801e43ff71a45e8f",
+      "fromSide": "right",
+      "id": "2413f59c6c7cf4da",
+      "toNode": "632e0dc459fc9040",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "632e0dc459fc9040",
+      "fromSide": "bottom",
+      "id": "716b25dafeced849",
+      "toNode": "841e8c60e6ce1dd4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "841e8c60e6ce1dd4",
+      "fromSide": "right",
+      "id": "47a01ce9501a1cb4",
+      "toNode": "5e5d7e69ce4699e0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "841e8c60e6ce1dd4",
+      "fromSide": "right",
+      "id": "107113b0f6780781",
+      "toNode": "5d10ec64a844b606",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "841e8c60e6ce1dd4",
+      "fromSide": "right",
+      "id": "923808c4d03e1741",
+      "toNode": "e5a2dbd7e9417957",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "841e8c60e6ce1dd4",
+      "fromSide": "right",
+      "id": "2ef83bd5b3b70983",
+      "toNode": "96e0e7228216ac78",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "632e0dc459fc9040",
+      "fromSide": "right",
+      "id": "1634d3891a71361d",
+      "toNode": "32f92dec4381707a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "32f92dec4381707a",
+      "fromSide": "right",
+      "id": "9a05852ef75ffd0c",
+      "toNode": "2cfadc0a9ddde4b9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "32f92dec4381707a",
+      "fromSide": "right",
+      "id": "66da6fd101e4bffc",
+      "toNode": "1d65c89120df7da6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1d65c89120df7da6",
+      "fromSide": "right",
+      "id": "21bcb7ca7d700306",
+      "toNode": "850f33e492777db2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "32f92dec4381707a",
+      "fromSide": "right",
+      "id": "87c7c8b178ddfd78",
+      "toNode": "62215dc2cc3993ad",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "62215dc2cc3993ad",
+      "fromSide": "right",
+      "id": "f863295136921e8b",
+      "toNode": "97e31fac40a89685",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5c871d4e8e7d29bd",
+      "fromSide": "right",
+      "id": "ea80306c3bef7bab",
+      "toNode": "09480af212b9ef26",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "09480af212b9ef26",
+      "fromSide": "right",
+      "id": "f5f605b7222059a5",
+      "toNode": "93f029f1b394c477",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "93f029f1b394c477",
+      "fromSide": "bottom",
+      "id": "f44a1649816cff17",
+      "toNode": "f1ecc7f93170a582",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f1ecc7f93170a582",
+      "fromSide": "bottom",
+      "id": "dd459e1de1cecf77",
+      "toNode": "9673f38c736a0e2d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "fd46bb481fbc82e4",
+      "fromSide": "right",
+      "id": "436234f19fa444a3",
+      "toNode": "540f4f200d55f308",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "540f4f200d55f308",
+      "fromSide": "right",
+      "id": "2440c8f5a4783617",
+      "toNode": "5cfe94b39a5b9d79",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "540f4f200d55f308",
+      "fromSide": "bottom",
+      "id": "2531e664d11c704a",
+      "toNode": "867be2ad44f85e89",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "867be2ad44f85e89",
+      "fromSide": "right",
+      "id": "10d92c40305220c7",
+      "toNode": "cccf2764b12d30f6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "09480af212b9ef26",
+      "fromSide": "bottom",
+      "id": "d047bcadaf022654",
+      "toNode": "ca06973892674348",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "09e300daa52031ff",
+      "fromSide": "right",
+      "id": "d6c270ea3637a66b",
+      "toNode": "a92987393f16e0b4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a92987393f16e0b4",
+      "fromSide": "right",
+      "id": "3c7f0b5b8fb70288",
+      "toNode": "9cefc99eb96ceed4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9cefc99eb96ceed4",
+      "fromSide": "right",
+      "id": "fa0791f7f8e6f354",
+      "toNode": "cb3bd80ebaab6561",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a92987393f16e0b4",
+      "fromSide": "bottom",
+      "id": "23c7f64da0d02f2b",
+      "toNode": "317e5c39191f15b9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "317e5c39191f15b9",
+      "fromSide": "right",
+      "id": "b78ba339e92b5fc5",
+      "toNode": "102441ac9d1f61fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0c453dbc8b153344",
+      "fromSide": "right",
+      "id": "6a037bf5c2eed37f",
+      "toNode": "dd297db0a70f3c40",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "dd297db0a70f3c40",
+      "fromSide": "right",
+      "id": "f6fa6b906915bfa0",
+      "toNode": "1f78a249a5a79a29",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "dd297db0a70f3c40",
+      "fromSide": "right",
+      "id": "e9075c9776b4970f",
+      "toNode": "e28eca7857aab032",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "dd297db0a70f3c40",
+      "fromSide": "right",
+      "id": "cc015dfe76e4683c",
+      "toNode": "c5d4342302a03821",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "dd297db0a70f3c40",
+      "fromSide": "right",
+      "id": "8630f11765207e0e",
+      "toNode": "b73af49e96253410",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1f78a249a5a79a29",
+      "fromSide": "right",
+      "id": "5924348a4dc44ac2",
+      "toNode": "89ee67053090dcc0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28eca7857aab032",
+      "fromSide": "right",
+      "id": "5d6e427dfeea7b71",
+      "toNode": "89ee67053090dcc0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c5d4342302a03821",
+      "fromSide": "right",
+      "id": "738dc5598e685805",
+      "toNode": "89ee67053090dcc0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b73af49e96253410",
+      "fromSide": "right",
+      "id": "49c60ac41450c279",
+      "toNode": "89ee67053090dcc0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "89ee67053090dcc0",
+      "fromSide": "right",
+      "id": "75b03fa9cf52cb13",
+      "toNode": "67da8eccdfb31a13",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9b1693183aab0274",
+      "fromSide": "right",
+      "id": "d17c922c365f3bf2",
+      "toNode": "8d7e8b0b0d10801b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8d7e8b0b0d10801b",
+      "fromSide": "right",
+      "id": "739ef25b1a18af60",
+      "toNode": "1f84782c7f997194",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1f84782c7f997194",
+      "fromSide": "right",
+      "id": "4a1f223ee707e9be",
+      "toNode": "fdd39eea488039d0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fdd39eea488039d0",
+      "fromSide": "right",
+      "id": "aaf5d0ccda556184",
+      "toNode": "a0e2572cf53e0776",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a0e2572cf53e0776",
+      "fromSide": "right",
+      "id": "fe0f1433c30a88fc",
+      "toNode": "e4432ebc664b7ff5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9b1693183aab0274",
+      "fromSide": "right",
+      "id": "4272f0f9f40b58c4",
+      "toNode": "42a9f67ddd6fa847",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "42a9f67ddd6fa847",
+      "fromSide": "right",
+      "id": "aaf6ac5a228a37b9",
+      "toNode": "1fab99202aba6108",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1fab99202aba6108",
+      "fromSide": "right",
+      "id": "1a61b6262f05fe84",
+      "toNode": "4e69ce33bbc068ae",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28eca7857aab032",
+      "fromSide": "right",
+      "id": "effd118246585c7b",
+      "toNode": "76ea74d0cc1e4148",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "76ea74d0cc1e4148",
+      "fromSide": "right",
+      "id": "517a8b65d27900f8",
+      "toNode": "5a160d6d40c28fda",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0c453dbc8b153344",
+      "fromSide": "right",
+      "id": "ef91d7bcdcda495c",
+      "toNode": "50457e93fa29cca6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "50457e93fa29cca6",
+      "fromSide": "right",
+      "id": "4f8f69bfb15be3dc",
+      "toNode": "8777c95e8dbc79eb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "50457e93fa29cca6",
+      "fromSide": "right",
+      "id": "bb219ad56750737a",
+      "toNode": "bda4c66b8ee533f8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "50457e93fa29cca6",
+      "fromSide": "right",
+      "id": "fd22b3d6b3f33386",
+      "toNode": "8aea56b3de74504e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8777c95e8dbc79eb",
+      "fromSide": "right",
+      "id": "fccb4368eead7352",
+      "toNode": "f9c582dd78b12073",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f9c582dd78b12073",
+      "fromSide": "right",
+      "id": "5c109b54383261bb",
+      "toNode": "448759d5f50392eb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "448759d5f50392eb",
+      "fromSide": "right",
+      "id": "611a74408a008f43",
+      "toNode": "ab07e8011d27a081",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8aea56b3de74504e",
+      "fromSide": "right",
+      "id": "4519beb30ad2ce61",
+      "toNode": "4032e791e66014eb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4032e791e66014eb",
+      "fromSide": "right",
+      "id": "0261bc8575da56a2",
+      "toNode": "8ab4826a705451b3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8ab4826a705451b3",
+      "fromSide": "right",
+      "id": "ab000bd5ca91b9c2",
+      "toNode": "ecd10d8b52df7f60",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0c453dbc8b153344",
+      "fromSide": "bottom",
+      "id": "04ea709d3cdf4941",
+      "toNode": "9b1693183aab0274",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9b1693183aab0274",
+      "fromSide": "bottom",
+      "id": "78ddac54063a9398",
+      "toNode": "739eeb5b0cf2e59c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "739eeb5b0cf2e59c",
+      "fromSide": "right",
+      "id": "6deb5825e4d740e4",
+      "toNode": "dc68198635e21c04",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "dc68198635e21c04",
+      "fromSide": "right",
+      "id": "3d2feefd3f5b1d5c",
+      "toNode": "820b4e84a3765c19",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "820b4e84a3765c19",
+      "fromSide": "right",
+      "id": "79ae0e27e984dd36",
+      "toNode": "8ce8aea23f5609b4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "dc68198635e21c04",
+      "fromSide": "right",
+      "id": "58a6c61683dc19ac",
+      "toNode": "9cac1f43adabe478",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9cac1f43adabe478",
+      "fromSide": "right",
+      "id": "996708916d2a2c19",
+      "toNode": "de100232c766783b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9cac1f43adabe478",
+      "fromSide": "right",
+      "id": "7ee3f7d4a8c39317",
+      "toNode": "b15cd0666ade775f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "820b4e84a3765c19",
+      "fromSide": "right",
+      "id": "1cee14289ea188ec",
+      "toNode": "b15cd0666ade775f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b15cd0666ade775f",
+      "fromSide": "right",
+      "id": "8a34f05aaab8058f",
+      "toNode": "78f394850bf90558",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 2025,
+      "id": "04ffa45fbe820ac9",
+      "label": "Работа с числами",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2067,
+      "x": 1480,
+      "y": 2108
+    },
+    {
+      "height": 776,
+      "id": "c597399c00c8bddb",
+      "label": "Ввод текста - input()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2097,
+      "x": 160,
+      "y": 803
+    },
+    {
+      "height": 792,
+      "id": "b8a86aa3b046bf61",
+      "label": "Вывод текста - print()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1898,
+      "x": 160,
+      "y": -95
+    },
+    {
+      "height": 1035,
+      "id": "ab1dcf8c50b9cbff",
+      "label": "Параметры sep и end внутри команды print()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1270,
+      "x": 160,
+      "y": 1640
+    },
+    {
+      "height": 416,
+      "id": "ef4629dccc9ef7e3",
+      "label": "Множественное присваивание",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1418,
+      "x": 1480,
+      "y": 1640
+    },
+    {
+      "height": 99,
+      "id": "edb54e8b1cb4b049",
+      "styleAttributes": {
+      },
+      "text": "Между аргументами используется ровно один пробел",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 400
+    },
+    {
+      "height": 131,
+      "id": "40e6f2c14d738b20",
+      "styleAttributes": {
+      },
+      "text": "Аргументы - конкретные значения, которые передаются в функцию при вызове",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 240
+    },
+    {
+      "height": 60,
+      "id": "8a3dee03f7f23dcf",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint('Hello, World!')\n```",
+      "type": "text",
+      "width": 281,
+      "x": 460,
+      "y": 225
+    },
+    {
+      "height": 60,
+      "id": "4de42d34a4d334e9",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"Hello, World!\")\n```",
+      "type": "text",
+      "width": 269,
+      "x": 800,
+      "y": 225
+    },
+    {
+      "height": 146,
+      "id": "9c7c97a16cfc5969",
+      "styleAttributes": {
+      },
+      "text": "Команда `print()` с пустым списком аргументов просто вставляет новую пустую строку",
+      "type": "text",
+      "width": 250,
+      "x": 1280,
+      "y": 153
+    },
+    {
+      "height": 108,
+      "id": "d60761a27313c466",
+      "styleAttributes": {
+      },
+      "text": "Команда `print()` выводит указанный текст с новой строки",
+      "type": "text",
+      "width": 250,
+      "x": 1280,
+      "y": -39
+    },
+    {
+      "height": 115,
+      "id": "5d6b93d31fd5a260",
+      "styleAttributes": {
+      },
+      "text": "Внутри команды используются два вида скобок, т.к. скобки могут быть частью текста",
+      "type": "text",
+      "width": 250,
+      "x": 1280,
+      "y": 360
+    },
+    {
+      "height": 111,
+      "id": "041c9e359bfe1c4d",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint('В тексте есть \"двойные\" кавычки')\nprint(\"В тексте есть 'одинарные' кавычки\")\n```",
+      "type": "text",
+      "width": 438,
+      "x": 1600,
+      "y": 362
+    },
+    {
+      "height": 177,
+      "id": "fe1a42665923fbed",
+      "styleAttributes": {
+      },
+      "text": "Мы можем комбинировать одинарные и двойные кавычки, для включения кавычек и апострофов в наш текст",
+      "type": "text",
+      "width": 250,
+      "x": 1280,
+      "y": 500
+    },
+    {
+      "height": 60,
+      "id": "a2e8bbeba20e7a12",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"I'm\", 'the', \"BAD\", 'guy')\n```",
+      "type": "text",
+      "width": 364,
+      "x": 1600,
+      "y": 559
+    },
+    {
+      "height": 60,
+      "id": "8aeb0d7fa941c0b8",
+      "styleAttributes": {
+      },
+      "text": "Ссылка на курс - [клик](https://stepik.org/lesson/265077/step/1?unit=246025)",
+      "type": "text",
+      "width": 250,
+      "x": -222,
+      "y": -16
+    },
+    {
+      "height": 99,
+      "id": "424935ca06a3594e",
+      "styleAttributes": {
+      },
+      "text": "Для вывода на экран используется команда `print()`",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": -35
+    },
+    {
+      "height": 108,
+      "id": "e4ad2af9853e3feb",
+      "styleAttributes": {
+      },
+      "text": "Если необходимо вывести текст, то он указывается внутри ковычек",
+      "type": "text",
+      "width": 250,
+      "x": 640,
+      "y": -39
+    },
+    {
+      "height": 101,
+      "id": "a71f7f2abe0050b5",
+      "styleAttributes": {
+      },
+      "text": "Все что, что пишется в скобках, называется аргументами команды",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 99
+    },
+    {
+      "height": 210,
+      "id": "5071bf4a6d7ad554",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"removespread\")\nprint()\nprint('test')\n# Вывод:\n# removespread\n#\n# test\n```",
+      "type": "text",
+      "width": 289,
+      "x": 1600,
+      "y": 121
+    },
+    {
+      "height": 60,
+      "id": "2f105023e59f0619",
+      "styleAttributes": {
+      },
+      "text": "Особенности",
+      "type": "text",
+      "width": 250,
+      "x": 944,
+      "y": -15
+    },
+    {
+      "height": 181,
+      "id": "33e537d4e0454a41",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"removespread\")\nprint('Test')\n# Вывод:\n# removespread\n# test\n```",
+      "type": "text",
+      "width": 289,
+      "x": 1600,
+      "y": -75
+    },
+    {
+      "height": 181,
+      "id": "8779fbc3c1e5c327",
+      "styleAttributes": {
+      },
+      "text": "Таким образом, команда `input()` получает от пользователя какие-то данные и вместо вызова подставляет строковое значение",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 1220
+    },
+    {
+      "height": 60,
+      "id": "841e8c60e6ce1dd4",
+      "styleAttributes": {
+      },
+      "text": "Любая переменная имеет имя и значение",
+      "type": "text",
+      "width": 250,
+      "x": 515,
+      "y": 1039
+    },
+    {
+      "height": 93,
+      "id": "5d10ec64a844b606",
+      "styleAttributes": {
+      },
+      "text": "Имя переменной не может начинаться с цифры",
+      "type": "text",
+      "width": 250,
+      "x": 840,
+      "y": 1206
+    },
+    {
+      "height": 101,
+      "id": "e5a2dbd7e9417957",
+      "styleAttributes": {
+      },
+      "text": "Имя переменной не может содержать пробелы",
+      "type": "text",
+      "width": 250,
+      "x": 840,
+      "y": 1331
+    },
+    {
+      "height": 100,
+      "id": "96e0e7228216ac78",
+      "styleAttributes": {
+      },
+      "text": "Имя переменной по возможности должно отражать ее назначение",
+      "type": "text",
+      "width": 250,
+      "x": 840,
+      "y": 1459
+    },
+    {
+      "height": 60,
+      "id": "2cfadc0a9ddde4b9",
+      "styleAttributes": {
+      },
+      "text": "```python\na = 123\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1469,
+      "y": 855
+    },
+    {
+      "height": 133,
+      "id": "09480af212b9ef26",
+      "styleAttributes": {
+      },
+      "text": "Отвечает параметр `sep` (separator - разделитель). По умолчанию равен символу пробела",
+      "type": "text",
+      "width": 250,
+      "x": 507,
+      "y": 1660
+    },
+    {
+      "height": 134,
+      "id": "93f029f1b394c477",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"aa\", \"bb\", \"cc\")\nprint(\"aa\", \"bb\", \"cc\", sep=' ')\n# Две строки эквивалентны между собой\n# aa bb cc\n```",
+      "type": "text",
+      "width": 421,
+      "x": 807,
+      "y": 1660
+    },
+    {
+      "height": 209,
+      "id": "ca06973892674348",
+      "styleAttributes": {
+      },
+      "text": "Параметр является разделителем только для нескольких аргументов. Если аргумент в команде `print()` только один, то параметру `sep` нечего разделять",
+      "type": "text",
+      "width": 250,
+      "x": 507,
+      "y": 1861
+    },
+    {
+      "height": 126,
+      "id": "5c871d4e8e7d29bd",
+      "styleAttributes": {
+      },
+      "text": "У команды `print()` есть параметр, который отвечает за разделение аргументов при выводе",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 1664
+    },
+    {
+      "height": 140,
+      "id": "fd46bb481fbc82e4",
+      "styleAttributes": {
+      },
+      "text": "У команды `print()` есть параметр, который отвечает за специальное окончание для вывода",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 2270
+    },
+    {
+      "height": 89,
+      "id": "801e43ff71a45e8f",
+      "styleAttributes": {
+      },
+      "text": "Для считывания данных используется команда `input()`",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 840
+    },
+    {
+      "height": 221,
+      "id": "45b5fcacf1fc8688",
+      "styleAttributes": {
+      },
+      "text": "Когда программа доходит до места, где есть `input()`, она ждет, пока пользователь введет текст с клавиатуры. Введенная строка подставляется на место `input()`",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 960
+    },
+    {
+      "height": 60,
+      "id": "632e0dc459fc9040",
+      "styleAttributes": {
+      },
+      "text": "Переменные - область в памяти компьютера",
+      "type": "text",
+      "width": 250,
+      "x": 515,
+      "y": 855
+    },
+    {
+      "height": 218,
+      "id": "5e5d7e69ce4699e0",
+      "styleAttributes": {
+      },
+      "text": "В имени переменной рекомендуется использовать только латинские буквы \"a-z\", \"A-Z\", цифры и символ нижнего подчеркивания (_)",
+      "type": "text",
+      "width": 250,
+      "x": 840,
+      "y": 960
+    },
+    {
+      "height": 124,
+      "id": "32f92dec4381707a",
+      "styleAttributes": {
+      },
+      "text": "Для инициализации переменной используется оператор присваивания \"=\"",
+      "type": "text",
+      "width": 250,
+      "x": 1120,
+      "y": 823
+    },
+    {
+      "height": 60,
+      "id": "1d65c89120df7da6",
+      "styleAttributes": {
+      },
+      "text": "Комбинация вместе с `input()` и `print()`",
+      "type": "text",
+      "width": 250,
+      "x": 1469,
+      "y": 1010
+    },
+    {
+      "height": 211,
+      "id": "850f33e492777db2",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"Enter your name:\")\n\nname = input()\nprint(\"Hello,\", name) # Hello, %user_input%\n\nname = 'Viktor'\nprint(\"Hello,\", name) # Hello, Viktor\n```",
+      "type": "text",
+      "width": 455,
+      "x": 1782,
+      "y": 935
+    },
+    {
+      "height": 94,
+      "id": "62215dc2cc3993ad",
+      "styleAttributes": {
+      },
+      "text": "Можно принимать сразу несколько строк и работать с ними",
+      "type": "text",
+      "width": 250,
+      "x": 1469,
+      "y": 1237
+    },
+    {
+      "height": 147,
+      "id": "97e31fac40a89685",
+      "styleAttributes": {
+      },
+      "text": "```python\na = input()\nb = input()\n\nprint(a, b)\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1782,
+      "y": 1211
+    },
+    {
+      "height": 118,
+      "id": "a92987393f16e0b4",
+      "styleAttributes": {
+      },
+      "text": "За одну инструкцию присваивания можно задавать значения сразу нескольким переменным",
+      "type": "text",
+      "width": 250,
+      "x": 1829,
+      "y": 1707
+    },
+    {
+      "height": 132,
+      "id": "317e5c39191f15b9",
+      "styleAttributes": {
+      },
+      "text": "Удобно использовать, когда нужно обменять значения двух переменных",
+      "type": "text",
+      "width": 250,
+      "x": 1829,
+      "y": 1902
+    },
+    {
+      "height": 60,
+      "id": "b73af49e96253410",
+      "styleAttributes": {
+      },
+      "text": "\"\\\\\" Деление",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2420
+    },
+    {
+      "height": 177,
+      "id": "89ee67053090dcc0",
+      "styleAttributes": {
+      },
+      "text": "Порядок выполнения операций в Python аналогичен порядку выполнения операций, как в обычной школьной математике",
+      "type": "text",
+      "width": 250,
+      "x": 2609,
+      "y": 2253
+    },
+    {
+      "height": 148,
+      "id": "67da8eccdfb31a13",
+      "styleAttributes": {
+      },
+      "text": "Для изменения порядка выполнения операций под свои нужны, необходимо использовать скобки",
+      "type": "text",
+      "width": 250,
+      "x": 2940,
+      "y": 2268
+    },
+    {
+      "height": 60,
+      "id": "76ea74d0cc1e4148",
+      "styleAttributes": {
+      },
+      "text": "Минус может быть как бинарным, так и унарным",
+      "type": "text",
+      "width": 250,
+      "x": 2707,
+      "y": 2138
+    },
+    {
+      "height": 80,
+      "id": "5a160d6d40c28fda",
+      "styleAttributes": {
+      },
+      "text": "```python\nnum1 = -6 # Унарный минус\nnum2 = 17 - 7 # Бинарный минус\n```",
+      "type": "text",
+      "width": 361,
+      "x": 3081,
+      "y": 2128
+    },
+    {
+      "height": 60,
+      "id": "8777c95e8dbc79eb",
+      "styleAttributes": {
+      },
+      "text": "\"**\" Возведение в степень",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2567
+    },
+    {
+      "height": 60,
+      "id": "bda4c66b8ee533f8",
+      "styleAttributes": {
+      },
+      "text": "\"%\" Остаток от деления",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2663
+    },
+    {
+      "height": 60,
+      "id": "8aea56b3de74504e",
+      "styleAttributes": {
+      },
+      "text": "\"//\" - Целочисленное деление",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2759
+    },
+    {
+      "height": 127,
+      "id": "9cefc99eb96ceed4",
+      "styleAttributes": {
+      },
+      "text": "```python\nname, surname = input(), input()\n\nprint(\"Hello,\", name, surname)\n```",
+      "type": "text",
+      "width": 358,
+      "x": 2149,
+      "y": 1703
+    },
+    {
+      "height": 213,
+      "id": "cb3bd80ebaab6561",
+      "styleAttributes": {
+      },
+      "text": "Слева от знака \"=\" в множественном присваивании должны стоять через запятую имена переменных, то справа могут стоять произвольные выражения, разделенные запятыми",
+      "type": "text",
+      "width": 289,
+      "x": 2589,
+      "y": 1660
+    },
+    {
+      "height": 137,
+      "id": "102441ac9d1f61fc",
+      "styleAttributes": {
+      },
+      "text": "```python\nname1 = \"Ruslan\"\nname2 = 'Viktor'\n\nname1, name2 = name2, name1\n```",
+      "type": "text",
+      "width": 368,
+      "x": 2144,
+      "y": 1899
+    },
+    {
+      "height": 60,
+      "id": "dd297db0a70f3c40",
+      "styleAttributes": {
+      },
+      "text": "Можно совершать 4 основные операции",
+      "type": "text",
+      "width": 250,
+      "x": 1824,
+      "y": 2181
+    },
+    {
+      "height": 60,
+      "id": "1f78a249a5a79a29",
+      "styleAttributes": {
+      },
+      "text": "\"+\" Сложение",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2182
+    },
+    {
+      "height": 60,
+      "id": "e28eca7857aab032",
+      "styleAttributes": {
+      },
+      "text": "\"-\" Вычитание",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2260
+    },
+    {
+      "height": 60,
+      "id": "c5d4342302a03821",
+      "styleAttributes": {
+      },
+      "text": "\"\\*\" Умножение",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2340
+    },
+    {
+      "height": 159,
+      "id": "820b4e84a3765c19",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumber = 17\na = number % 10\nb = number // 10\nprint(a) # 7\nprint(b) # 1\n```",
+      "type": "text",
+      "width": 250,
+      "x": 2157,
+      "y": 3511
+    },
+    {
+      "height": 237,
+      "id": "8ce8aea23f5609b4",
+      "styleAttributes": {
+      },
+      "text": "Последняя цифра числа определяется всегда как остаток от деления числа на 10 (% 10). Чтобы отщепить последнюю цифру от числа, необходимо разделить его нацело на 10 (// 10)",
+      "type": "text",
+      "width": 250,
+      "x": 2484,
+      "y": 3472
+    },
+    {
+      "height": 211,
+      "id": "9cac1f43adabe478",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumber = 754\na = num % 10\nb = (num % 100) // 10\nc = num // 100\nprint(a) # 4\nprint(b) # 5\nprint(c) # 7\n```",
+      "type": "text",
+      "width": 262,
+      "x": 2151,
+      "y": 3902
+    },
+    {
+      "height": 207,
+      "id": "fdd39eea488039d0",
+      "styleAttributes": {
+      },
+      "text": "Переменная \"s\" имеет строковый тип данных. С помощью команды `int()` было преобразование из строки к целому числу, а результат был записан в переменную \"year\"",
+      "type": "text",
+      "width": 250,
+      "x": 2484,
+      "y": 2920
+    },
+    {
+      "height": 133,
+      "id": "e4432ebc664b7ff5",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumber = int(input())\nnumber_a = int(input())\n\nprint(number + number_a)\n```",
+      "type": "text",
+      "width": 330,
+      "x": 3096,
+      "y": 2957
+    },
+    {
+      "height": 106,
+      "id": "1f84782c7f997194",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = '1992'\nyear = int(s)\nprint(year)\n```",
+      "type": "text",
+      "width": 250,
+      "x": 2149,
+      "y": 2971
+    },
+    {
+      "height": 60,
+      "id": "a0e2572cf53e0776",
+      "styleAttributes": {
+      },
+      "text": "Тоже самое работает с функцией `input()`",
+      "type": "text",
+      "width": 250,
+      "x": 2788,
+      "y": 2993
+    },
+    {
+      "height": 267,
+      "id": "4e69ce33bbc068ae",
+      "styleAttributes": {
+      },
+      "text": "Переменная \"number\" имеет числовой тип данных. С помощью команды `str()` было преобразование из целого числа к строке, а результат записан в переменную \"stringnumber\"",
+      "type": "text",
+      "width": 250,
+      "x": 2484,
+      "y": 3173
+    },
+    {
+      "height": 106,
+      "id": "1fab99202aba6108",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumber = 17\nstringnumber = str(number)\n```",
+      "type": "text",
+      "width": 307,
+      "x": 2128,
+      "y": 3253
+    },
+    {
+      "height": 118,
+      "id": "42a9f67ddd6fa847",
+      "styleAttributes": {
+      },
+      "text": "Чтобы преобразовать число в строку, используется команда `str()`",
+      "type": "text",
+      "width": 250,
+      "x": 1829,
+      "y": 3247
+    },
+    {
+      "height": 60,
+      "id": "9b1693183aab0274",
+      "styleAttributes": {
+      },
+      "text": "Преобразование типов",
+      "type": "text",
+      "width": 250,
+      "x": 1500,
+      "y": 2993
+    },
+    {
+      "height": 60,
+      "id": "739eeb5b0cf2e59c",
+      "styleAttributes": {
+      },
+      "text": "Обработка цифр числа",
+      "type": "text",
+      "width": 250,
+      "x": 1500,
+      "y": 3560
+    },
+    {
+      "height": 117,
+      "id": "de100232c766783b",
+      "styleAttributes": {
+      },
+      "text": "Сначала выводится последняя цифра числа, затем средняя, а после и первая цифра числа",
+      "type": "text",
+      "width": 250,
+      "x": 2484,
+      "y": 3949
+    },
+    {
+      "height": 160,
+      "id": "9673f38c736a0e2d",
+      "styleAttributes": {
+      },
+      "text": "```python\nseparation = \"*\"\nprint('aa', 'bb', 'cc', sep=separation)\n# Вывод: aa*bb*cc\n# В качестве значения для аргумента sep можно использовать переменные\n```",
+      "type": "text",
+      "width": 426,
+      "x": 805,
+      "y": 1990
+    },
+    {
+      "height": 207,
+      "id": "f9c582dd78b12073",
+      "styleAttributes": {
+      },
+      "text": "Может возводить не только в положительную степень, но и в отрицательную. Аналогично, основание степени также может быть отрицательным числом",
+      "type": "text",
+      "width": 250,
+      "x": 2582,
+      "y": 2494
+    },
+    {
+      "height": 148,
+      "id": "448759d5f50392eb",
+      "styleAttributes": {
+      },
+      "text": "Оператор считается правоассоциативным (значение выражения вычисляется справа налево)",
+      "type": "text",
+      "width": 250,
+      "x": 2900,
+      "y": 2524
+    },
+    {
+      "height": 106,
+      "id": "ab07e8011d27a081",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(2 ** 2 ** 3)\n# 2 ** (2 ** 3) = 2 ** 8\n```",
+      "type": "text",
+      "width": 287,
+      "x": 3240,
+      "y": 2545
+    },
+    {
+      "height": 147,
+      "id": "4032e791e66014eb",
+      "styleAttributes": {
+      },
+      "text": "Оператор \"ведет себя\" как обычное деление, за исключением того, что он отбрасывает десятичную часть результата",
+      "type": "text",
+      "width": 250,
+      "x": 2582,
+      "y": 2715
+    },
+    {
+      "height": 88,
+      "id": "8ab4826a705451b3",
+      "styleAttributes": {
+      },
+      "text": "Округление при делении всегда в меньшую сторону от позиции нуля",
+      "type": "text",
+      "width": 250,
+      "x": 2900,
+      "y": 2745
+    },
+    {
+      "height": 80,
+      "id": "ecd10d8b52df7f60",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(10 // 3) # 3\nprint(-10 // 3) # -4\n```",
+      "type": "text",
+      "width": 250,
+      "x": 3240,
+      "y": 2749
+    },
+    {
+      "height": 117,
+      "id": "8d7e8b0b0d10801b",
+      "styleAttributes": {
+      },
+      "text": "Чтобы преобразовать строку к целому числу, используется команда `int()`",
+      "type": "text",
+      "width": 250,
+      "x": 1824,
+      "y": 2965
+    },
+    {
+      "height": 87,
+      "id": "50457e93fa29cca6",
+      "styleAttributes": {
+      },
+      "text": "Можно совершать 3 дополнительные операции",
+      "type": "text",
+      "width": 250,
+      "x": 1824,
+      "y": 2554
+    },
+    {
+      "height": 148,
+      "id": "dc68198635e21c04",
+      "styleAttributes": {
+      },
+      "text": "При помощи операции нахождения остатка и целочисленного деления можно вычислить любую цифру числа",
+      "type": "text",
+      "width": 250,
+      "x": 1829,
+      "y": 3516
+    },
+    {
+      "height": 96,
+      "id": "f1ecc7f93170a582",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint('aa', 'bb', 'cc', sep=\"*\")\n# Вывод: aa*bb*cc\n```",
+      "type": "text",
+      "width": 354,
+      "x": 841,
+      "y": 1850
+    },
+    {
+      "height": 199,
+      "id": "5cfe94b39a5b9d79",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"A great man doesn't seek to lead.\", end='\\n')\nprint(\"He's called to it. And he answers.\", end='\\n')\n\nprint(\"A great man doesn't seek to lead.\")\nprint(\"He's called to it. And he answers.\")\n#  Строки идентичны по выводу между собой\n```",
+      "type": "text",
+      "width": 569,
+      "x": 841,
+      "y": 2241
+    },
+    {
+      "height": 120,
+      "id": "540f4f200d55f308",
+      "styleAttributes": {
+      },
+      "text": "Отвечает параметр `end`. По умолчанию параметр равен символу перевода строки \"\\n\"",
+      "type": "text",
+      "width": 250,
+      "x": 507,
+      "y": 2280
+    },
+    {
+      "height": 170,
+      "id": "cccf2764b12d30f6",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"a\", \"\\n\", 'b', '\\n', 'c', sep=\"*\", end=\"#)\n# Вывод:\n# a*\n# *b*\n# *c#\n```\n",
+      "type": "text",
+      "width": 500,
+      "x": 841,
+      "y": 2485
+    },
+    {
+      "height": 159,
+      "id": "867be2ad44f85e89",
+      "styleAttributes": {
+      },
+      "text": "Последовательность символов \"\\n\" называется управляющей последовательностью и задает перевод строки",
+      "type": "text",
+      "width": 250,
+      "x": 507,
+      "y": 2490
+    },
+    {
+      "height": 60,
+      "id": "09e300daa52031ff",
+      "styleAttributes": {
+      },
+      "text": "Множественное присваивание",
+      "type": "text",
+      "width": 250,
+      "x": 1500,
+      "y": 1736
+    },
+    {
+      "height": 60,
+      "id": "0c453dbc8b153344",
+      "styleAttributes": {
+      },
+      "text": "Работа с целыми числами",
+      "type": "text",
+      "width": 250,
+      "x": 1500,
+      "y": 2181
+    },
+    {
+      "height": 60,
+      "id": "b15cd0666ade775f",
+      "styleAttributes": {
+      },
+      "text": "Алгоритм получения цифр n-значного числа",
+      "type": "text",
+      "width": 250,
+      "x": 2748,
+      "y": 3808
+    },
+    {
+      "height": 178,
+      "id": "78f394850bf90558",
+      "styleAttributes": {
+      },
+      "text": "Последняя цифра: (num % 10^1) // 10^0\nПредпоследняя цифра: (num % 10^2) // 10^1\nПредпредпоследняя цифра: (num % 10^3) // 10^2\n...\nВторая цифра: (num % 10^n-1) // 10^n-2\nПервая цифра: (num % 10^n) // 10^n-1",
+      "type": "text",
+      "width": 440,
+      "x": 3080,
+      "y": 3749
+    }
+  ]
 }

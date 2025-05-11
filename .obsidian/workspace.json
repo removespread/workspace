@@ -13,18 +13,33 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "🌐 Web, protocols/1. HTTP + HTTPS/03. Коды состояний.canvas",
+                "file": "💯 Coding/Python/Курс для начинающих/13. Списки.canvas",
                 "viewState": {
-                  "x": 2830,
-                  "y": 1304.5,
-                  "zoom": -2.048828599053217
+                  "x": 1990,
+                  "y": 1361.5,
+                  "zoom": -1.3029316834643896
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "03. Коды состояний"
+              "title": "13. Списки"
+            }
+          },
+          {
+            "id": "2c5377ba81cb6bfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,22 +186,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a374f97346b7b1e4",
+  "active": "2c5377ba81cb6bfb",
   "lastOpenFiles": [
-    "🌐 Web, protocols/1. HTTP + HTTPS/📚 Полезные ссылки на самостоятельное изучение.md",
-    "🌐 Web, protocols/1. HTTP + HTTPS/03. Коды состояний.canvas",
-    "🧩 QA/Книги/Артем Русов - Тестировщик с нуля.canvas",
-    "🌐 Web, protocols/1. HTTP + HTTPS/01. HTTP + HTTPS.canvas",
-    "🌐 Web, protocols/1. HTTP + HTTPS/02. HTTP-методы.canvas",
-    "⚙️ DevOps/02. Основные объекты кластера.canvas",
-    "⚙️ DevOps/01. Теоретическая база.canvas",
-    "⚡ Git/Git.canvas",
+    "test.md",
     "README.md",
+    "💯 Coding/Python/Курс для начинающих/14. Методы списков.canvas",
+    "🌐 Web, protocols/1. HTTP + HTTPS/01. HTTP + HTTPS.canvas",
+    "🌐 Web, protocols/1. HTTP + HTTPS/📚 Полезные ссылки на самостоятельное изучение.md",
+    "💯 Coding/Java",
+    "🏛️ Database/System Design - шардирование.canvas",
+    "🏛️ Database/Нормальные формы в базе данных.canvas",
+    "🧩 QA/Книги/Роман Савин - Тестирование дот ком.canvas",
+    "🧩 QA/Книги/Артем Русов - Тестировщик с нуля.canvas",
+    "💯 Coding/Python/Курс для начинающих/13. Списки.canvas",
+    "⚙️ DevOps/Docker/Введение в контейнеры.canvas",
+    "Cache/Pasted image 20250506220933.png",
+    "Cache/Pasted image 20250506215604.png",
+    "⚙️ DevOps/01. Теоретическая база.canvas",
+    "⚙️ DevOps/Kubernetes",
+    "⚙️ DevOps/Docker",
+    "⚙️ DevOps/02. Основные объекты кластера.canvas",
     "Cache/Pasted image 20250428001847.png",
     "NOT EVEN SPECIALIST.md",
-    "🧩 QA/Книги/Роман Савин - Тестирование дот ком.canvas",
     "🧩 QA/Курсы/Основы тестирования, краш-курс.md",
-    "🌐 Web, protocols/1. HTTP + HTTPS/03. HTTP-заголовки.canvas",
     "Cache/Pasted image 20250427112733.png",
     "🌐 Web, protocols/1. HTTP + HTTPS",
     "Cache/Pasted image 20250426002029.png",
@@ -195,8 +217,6 @@
     "Cache/Pasted image 20250426000916.png",
     "Cache/Pasted image 20250425235934.png",
     "Cache/Pasted image 20250425235837.png",
-    "Pasted image 20250425235812.png",
-    "🌐 Web, protocols/refactoring/OSI.canvas",
     "🌐 Web, protocols/refactoring"
   ]
 }

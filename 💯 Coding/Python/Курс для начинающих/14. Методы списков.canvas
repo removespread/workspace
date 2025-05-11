@@ -1,0 +1,390 @@
+{
+  "edges": [
+    {
+      "fromNode": "a4d009cb30a5b54f",
+      "fromSide": "right",
+      "id": "a8e3bd42b4791a32",
+      "styleAttributes": {
+      },
+      "toNode": "f50826503aa974e6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f50826503aa974e6",
+      "fromSide": "right",
+      "id": "c5865c7f43bcf166",
+      "styleAttributes": {
+      },
+      "toNode": "e38c005ad33c1428",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e38c005ad33c1428",
+      "fromSide": "right",
+      "id": "b87847b540f3b20b",
+      "styleAttributes": {
+      },
+      "toNode": "aa352f1bd259934e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa352f1bd259934e",
+      "fromSide": "right",
+      "id": "ab3e6c957dc4e735",
+      "styleAttributes": {
+      },
+      "toNode": "ee7600a68ce42a5b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ee7600a68ce42a5b",
+      "fromSide": "bottom",
+      "id": "a0efb44e864dae16",
+      "styleAttributes": {
+      },
+      "toNode": "f7f5794b746ad644",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f7f5794b746ad644",
+      "fromSide": "right",
+      "id": "f327c9741198d0fd",
+      "styleAttributes": {
+      },
+      "toNode": "691992f74e4a0517",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a4d009cb30a5b54f",
+      "fromSide": "right",
+      "id": "93c5103968f49327",
+      "styleAttributes": {
+      },
+      "toNode": "aa4c0b5d2fabeb7a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa4c0b5d2fabeb7a",
+      "fromSide": "right",
+      "id": "60ed14f207256300",
+      "styleAttributes": {
+      },
+      "toNode": "31daaeab99a98e69",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "31daaeab99a98e69",
+      "fromSide": "right",
+      "id": "5ec5989a07cdbc10",
+      "styleAttributes": {
+      },
+      "toNode": "86db3511634c4f24",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "86db3511634c4f24",
+      "fromSide": "bottom",
+      "id": "01b2be881fa45914",
+      "styleAttributes": {
+      },
+      "toNode": "bf0a1b03f5aafdfc",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a4d009cb30a5b54f",
+      "fromSide": "right",
+      "id": "d012adbb1bec5fcb",
+      "styleAttributes": {
+      },
+      "toNode": "83568da2e0773220",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "83568da2e0773220",
+      "fromSide": "right",
+      "id": "45a196471c3e9a9a",
+      "styleAttributes": {
+      },
+      "toNode": "1b194ada2d8fb165",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1b194ada2d8fb165",
+      "fromSide": "right",
+      "id": "03ef52e533235e3f",
+      "styleAttributes": {
+      },
+      "toNode": "8b37aa2f941e2e91",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1b194ada2d8fb165",
+      "fromSide": "bottom",
+      "id": "33aa198d3357614a",
+      "styleAttributes": {
+      },
+      "toNode": "8812957d13362b4a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "8812957d13362b4a",
+      "fromSide": "right",
+      "id": "5b107dd23875c7f8",
+      "styleAttributes": {
+      },
+      "toNode": "7eba45e5786dd5fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8812957d13362b4a",
+      "fromSide": "bottom",
+      "id": "7ff510de821db279",
+      "styleAttributes": {
+      },
+      "toNode": "558703e50cce24a9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "558703e50cce24a9",
+      "fromSide": "right",
+      "id": "427f3e7284d77193",
+      "styleAttributes": {
+      },
+      "toNode": "45181c642a01ac77",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 499,
+      "id": "a38d5921fffea52d",
+      "label": "01. Метод append()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2046,
+      "x": 240,
+      "y": -780
+    },
+    {
+      "height": 535,
+      "id": "584d7aa9874daa4e",
+      "label": "02. Метод extend()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1352,
+      "x": 240,
+      "y": -160
+    },
+    {
+      "height": 573,
+      "id": "3be76cfdaf6450a9",
+      "label": "03. Удаление элементов с помощью оператора del",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1126,
+      "x": 240,
+      "y": 720
+    },
+    {
+      "height": 60,
+      "id": "a4d009cb30a5b54f",
+      "styleAttributes": {
+      },
+      "text": "Методы добавления и удаления элементов",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": -60
+    },
+    {
+      "height": 117,
+      "id": "aa4c0b5d2fabeb7a",
+      "styleAttributes": {
+      },
+      "text": "Метод `extend()` используется для расширения списка другим списком",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": -88
+    },
+    {
+      "height": 147,
+      "id": "31daaeab99a98e69",
+      "styleAttributes": {
+      },
+      "text": "Отличие между методами `append()` и `extend()` проявляется при добавлении строки к списку",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -103
+    },
+    {
+      "height": 238,
+      "id": "86db3511634c4f24",
+      "styleAttributes": {
+      },
+      "text": "```python\nwords1 = ['iq option', 'stepik', 'beegeek']\nwords2 = ['iq option', 'stepik', 'beegeek']\n\nwords1.append('python')\nwords2.extend('python')\n\nprint(words1) # ['iq option', 'stepik', 'beegeek', 'python']\nprint(words2) # ['iq option', 'stepik', 'beegeek', 'p', 'y', 't', 'h', 'o', 'n']\n```",
+      "type": "text",
+      "width": 712,
+      "x": 860,
+      "y": -148
+    },
+    {
+      "height": 207,
+      "id": "bf0a1b03f5aafdfc",
+      "styleAttributes": {
+      },
+      "text": "Метод `append()` добавляет строку целиком к списку, а метод `extend()` разбивает строку на символ и добавляет их в качестве элементов списка",
+      "type": "text",
+      "width": 260,
+      "x": 1086,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "83568da2e0773220",
+      "styleAttributes": {
+      },
+      "text": "Удаление элементов",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": 780
+    },
+    {
+      "height": 117,
+      "id": "1b194ada2d8fb165",
+      "styleAttributes": {
+      },
+      "text": "С помощью оператора `del` можно удалить элементы списка по определенному индексу",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": 752
+    },
+    {
+      "height": 133,
+      "id": "8b37aa2f941e2e91",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\ndel numbers[0]\nprint(numbers) # [2, 3, 4, 5, 6, 7, 8, 9]\n# Первый элемент отсутствует \n```",
+      "type": "text",
+      "width": 412,
+      "x": 934,
+      "y": 744
+    },
+    {
+      "height": 117,
+      "id": "f50826503aa974e6",
+      "styleAttributes": {
+      },
+      "text": "Метод `append()` используется для добавления нового элемента в конец списка",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": -713
+    },
+    {
+      "height": 185,
+      "id": "e38c005ad33c1428",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [1, 1, 2, 3, 5, 8, 13]\n\nnumbers.append(21)\nnumbers.append(34)\n\nprint(numbers) # [1, 1, 2, 3, 5, 8, 13, 21, 34]\n```",
+      "type": "text",
+      "width": 458,
+      "x": 560,
+      "y": -747
+    },
+    {
+      "height": 117,
+      "id": "aa352f1bd259934e",
+      "styleAttributes": {
+      },
+      "text": "Для использования метода, нужно, чтобы список был создан (он может быть и пустым)",
+      "type": "text",
+      "width": 260,
+      "x": 1080,
+      "y": -713
+    },
+    {
+      "height": 211,
+      "id": "ee7600a68ce42a5b",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = []\n\nnumbers.append(1)\nnumbers.append(2)\nnumbers.append(3)\n\nprint(numbers) # [1, 2, 3]\n```",
+      "type": "text",
+      "width": 297,
+      "x": 1420,
+      "y": -760
+    },
+    {
+      "height": 147,
+      "id": "f7f5794b746ad644",
+      "styleAttributes": {
+      },
+      "text": "Важно понимать, что нельзя использовать индексацию при вставке значений в список, если он пустой",
+      "type": "text",
+      "width": 260,
+      "x": 1439,
+      "y": -493
+    },
+    {
+      "height": 117,
+      "id": "8812957d13362b4a",
+      "styleAttributes": {
+      },
+      "text": "Удалять можно и сразу несколько элементов: для этого используется конструкция срезов",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": 960
+    },
+    {
+      "height": 106,
+      "id": "7eba45e5786dd5fc",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\ndel numbers[0:8]\nprint(numbers) # [9]\n```",
+      "type": "text",
+      "width": 381,
+      "x": 934,
+      "y": 966
+    },
+    {
+      "height": 106,
+      "id": "45181c642a01ac77",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\ndel numbers[::2]\nprint(numbers) # [2, 4, 6, 8]\n```",
+      "type": "text",
+      "width": 381,
+      "x": 934,
+      "y": 1171
+    },
+    {
+      "height": 87,
+      "id": "558703e50cce24a9",
+      "styleAttributes": {
+      },
+      "text": "Можно удалить все элементы на четных позициях, к примеру",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": 1180
+    },
+    {
+      "height": 237,
+      "id": "691992f74e4a0517",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = []\n\nnumbers[0] = 1\nnumbers[1] = 2\nnumbers[2] = 3\n\nprint(numbers)\n# IndexError: list assignment index out of range\n```",
+      "type": "text",
+      "width": 466,
+      "x": 1800,
+      "y": -538
+    }
+  ]
+}

@@ -842,226 +842,6 @@
       "y": -1055
     },
     {
-      "height": 92,
-      "id": "44e599757598eb55",
-      "styleAttributes": {
-      },
-      "text": "Непротиворечивость внутри спека и с другими спеками",
-      "type": "text",
-      "width": 250,
-      "x": 516,
-      "y": 758
-    },
-    {
-      "height": 60,
-      "id": "f937a8c8e8772ed5",
-      "styleAttributes": {
-      },
-      "text": "Логическая взаимосвязь компонентов",
-      "type": "text",
-      "width": 250,
-      "x": 516,
-      "y": 880
-    },
-    {
-      "height": 60,
-      "id": "d3859b1ae18ce2bf",
-      "styleAttributes": {
-      },
-      "text": "Полнота охвата предмета",
-      "type": "text",
-      "width": 250,
-      "x": 516,
-      "y": 960
-    },
-    {
-      "height": 60,
-      "id": "3f31be4b82b76679",
-      "styleAttributes": {
-      },
-      "text": "Соответствие нормативнвым актам",
-      "type": "text",
-      "width": 250,
-      "x": 516,
-      "y": 1040
-    },
-    {
-      "height": 60,
-      "id": "89c8505db64f24f5",
-      "styleAttributes": {
-      },
-      "text": "Соответствие деловой практике",
-      "type": "text",
-      "width": 250,
-      "x": 516,
-      "y": 1120
-    },
-    {
-      "height": 60,
-      "id": "c8925539c8304586",
-      "styleAttributes": {
-      },
-      "text": "Забота о недопущении неверного толкования",
-      "type": "text",
-      "width": 250,
-      "x": 516,
-      "y": 668
-    },
-    {
-      "height": 60,
-      "id": "09c666d112e65c64",
-      "styleAttributes": {
-      },
-      "text": "Известен фактический результат",
-      "type": "text",
-      "width": 250,
-      "x": 366,
-      "y": -945
-    },
-    {
-      "height": 60,
-      "id": "49c5808794020378",
-      "styleAttributes": {
-      },
-      "text": "Известен ожидаемый результат",
-      "type": "text",
-      "width": 250,
-      "x": 366,
-      "y": -857
-    },
-    {
-      "height": 98,
-      "id": "0b2f86b4f8a9266c",
-      "styleAttributes": {
-      },
-      "text": "Известно, что результат из пункта 1 != результату из пункта 2",
-      "type": "text",
-      "width": 250,
-      "x": 366,
-      "y": -784
-    },
-    {
-      "height": 60,
-      "id": "f14603c3531ce28e",
-      "styleAttributes": {
-      },
-      "text": "Количество багов на 1000 строк кода",
-      "type": "text",
-      "width": 250,
-      "x": 345,
-      "y": -111
-    },
-    {
-      "height": 60,
-      "id": "bc147c81ee0780ee",
-      "styleAttributes": {
-      },
-      "text": "Акцент на деталях и их четкое определение",
-      "type": "text",
-      "width": 250,
-      "x": 516,
-      "y": 575
-    },
-    {
-      "height": 60,
-      "id": "bad767c06adaa3c6",
-      "styleAttributes": {
-      },
-      "text": "Даже если их миллионы",
-      "type": "text",
-      "width": 250,
-      "x": -30,
-      "y": 62
-    },
-    {
-      "height": 94,
-      "id": "8c4aad8d901f0de7",
-      "styleAttributes": {
-      },
-      "text": "После каждого релиза данные о багах, найденных после релиза",
-      "type": "text",
-      "width": 250,
-      "x": -30,
-      "y": 144
-    },
-    {
-      "height": 129,
-      "id": "cbce94d4c128968d",
-      "styleAttributes": {
-      },
-      "text": " Забота о качестве в виде обнаружения багов до того, как их найдут пользователи",
-      "type": "text",
-      "width": 250,
-      "x": -30,
-      "y": 287
-    },
-    {
-      "height": 193,
-      "id": "213a89a1acfcba28",
-      "styleAttributes": {
-      },
-      "text": "Классифицируются по заданным критериям и анализируются на предмет нахождения слабого звена в процессе разработки ПО",
-      "type": "text",
-      "width": 250,
-      "x": 290,
-      "y": 95
-    },
-    {
-      "height": 60,
-      "id": "21eeba6ed9e5a870",
-      "styleAttributes": {
-      },
-      "text": "Ввод недействительных данных",
-      "type": "text",
-      "width": 250,
-      "x": 415,
-      "y": -206
-    },
-    {
-      "height": 180,
-      "id": "74d72fe60cbd438c",
-      "styleAttributes": {
-      },
-      "text": "Важно находить подробности в спеке, если таковых нету - писать продюсеру (человеку, который отвечает за спеку)",
-      "type": "text",
-      "width": 250,
-      "x": 366,
-      "y": -597
-    },
-    {
-      "height": 60,
-      "id": "9009e62f2de1677e",
-      "styleAttributes": {
-      },
-      "text": "Ввод действительных данных",
-      "type": "text",
-      "width": 250,
-      "x": 415,
-      "y": -369
-    },
-    {
-      "height": 78,
-      "id": "4fb706e9300f3644",
-      "styleAttributes": {
-      },
-      "text": "Тестирование",
-      "type": "text",
-      "width": 250,
-      "x": 290,
-      "y": 313
-    },
-    {
-      "height": 60,
-      "id": "e20746df4ffbf28a",
-      "styleAttributes": {
-      },
-      "text": "Везде, где есть ввод данных, есть два пути",
-      "type": "text",
-      "width": 250,
-      "x": 40,
-      "y": -295
-    },
-    {
       "height": 60,
       "id": "160ef6e5fa20f8c5",
       "styleAttributes": {
@@ -1071,39 +851,6 @@
       "width": 250,
       "x": -600,
       "y": -539
-    },
-    {
-      "height": 100,
-      "id": "acf5d54386d42d3f",
-      "styleAttributes": {
-      },
-      "text": "Баг живет и процветает при одновременном выполнении трех условий",
-      "type": "text",
-      "width": 250,
-      "x": 40,
-      "y": -877
-    },
-    {
-      "height": 60,
-      "id": "16673938fd2b4244",
-      "styleAttributes": {
-      },
-      "text": "Один из критериев качества кода",
-      "type": "text",
-      "width": 250,
-      "x": 40,
-      "y": -111
-    },
-    {
-      "height": 102,
-      "id": "f467fdc0fb3dd5aa",
-      "styleAttributes": {
-      },
-      "text": "В большинстве случаев баг - отклонение от спецификации",
-      "type": "text",
-      "width": 250,
-      "x": -280,
-      "y": -1059
     },
     {
       "height": 60,
@@ -1117,15 +864,15 @@
       "y": -538
     },
     {
-      "height": 99,
-      "id": "97f4c270a02f2ff5",
+      "height": 102,
+      "id": "f467fdc0fb3dd5aa",
       "styleAttributes": {
       },
-      "text": "Является основным источником ожидаемого результата",
+      "text": "В большинстве случаев баг - отклонение от спецификации",
       "type": "text",
       "width": 250,
-      "x": 40,
-      "y": -557
+      "x": -280,
+      "y": -1059
     },
     {
       "height": 97,
@@ -1159,50 +906,6 @@
       "width": 250,
       "x": -280,
       "y": -312
-    },
-    {
-      "height": 125,
-      "id": "4bb5c8c72cd3a6cb",
-      "styleAttributes": {
-      },
-      "text": "Вклад тестировщика в счастье пользователя - приоритет в нахождении багов",
-      "type": "text",
-      "width": 250,
-      "x": -278,
-      "y": -144
-    },
-    {
-      "height": 60,
-      "id": "5bc84450a27354d0",
-      "styleAttributes": {
-      },
-      "text": "Цикл разработки ПО",
-      "type": "text",
-      "width": 250,
-      "x": -640,
-      "y": 580
-    },
-    {
-      "height": 100,
-      "id": "94e0f0cac77d7359",
-      "styleAttributes": {
-      },
-      "text": "Путь от идеи до поддержки готового продукта",
-      "type": "text",
-      "width": 250,
-      "x": -332,
-      "y": 560
-    },
-    {
-      "height": 60,
-      "id": "b2d3bf4e3b46233b",
-      "styleAttributes": {
-      },
-      "text": "Идея продукта",
-      "type": "text",
-      "width": 250,
-      "x": -644,
-      "y": 698
     },
     {
       "height": 60,
@@ -1249,6 +952,17 @@
       "y": 321
     },
     {
+      "height": 125,
+      "id": "4bb5c8c72cd3a6cb",
+      "styleAttributes": {
+      },
+      "text": "Вклад тестировщика в счастье пользователя - приоритет в нахождении багов",
+      "type": "text",
+      "width": 250,
+      "x": -278,
+      "y": -144
+    },
+    {
       "height": 60,
       "id": "bcdc0e9b202046f9",
       "styleAttributes": {
@@ -1283,6 +997,39 @@
     },
     {
       "height": 60,
+      "id": "5bc84450a27354d0",
+      "styleAttributes": {
+      },
+      "text": "Цикл разработки ПО",
+      "type": "text",
+      "width": 250,
+      "x": -640,
+      "y": 580
+    },
+    {
+      "height": 100,
+      "id": "94e0f0cac77d7359",
+      "styleAttributes": {
+      },
+      "text": "Путь от идеи до поддержки готового продукта",
+      "type": "text",
+      "width": 250,
+      "x": -332,
+      "y": 560
+    },
+    {
+      "height": 60,
+      "id": "b2d3bf4e3b46233b",
+      "styleAttributes": {
+      },
+      "text": "Идея продукта",
+      "type": "text",
+      "width": 250,
+      "x": -644,
+      "y": 698
+    },
+    {
+      "height": 60,
       "id": "9aa7ea09c6dc8539",
       "styleAttributes": {
       },
@@ -1313,743 +1060,6 @@
       "width": 250,
       "x": -332,
       "y": 820
-    },
-    {
-      "height": 60,
-      "id": "f1a9cd07167132fa",
-      "styleAttributes": {
-      },
-      "text": "Хорошую спеку отличают следующие вещи",
-      "type": "text",
-      "width": 250,
-      "x": 176,
-      "y": 575
-    },
-    {
-      "height": 60,
-      "id": "b861a3008ec6dc16",
-      "styleAttributes": {
-      },
-      "text": "Нажать кнопку \"Войти\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -738
-    },
-    {
-      "height": 60,
-      "id": "bd1a3584a0e3d8b8",
-      "styleAttributes": {
-      },
-      "text": "Нажать на кнопку \"Оплатить\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -422
-    },
-    {
-      "height": 125,
-      "id": "d533f42a8effdd5e",
-      "styleAttributes": {
-      },
-      "text": "Сделать запрос в базу:\nSELECT result FROM transactions WHERE id = \"номер заказа\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": 245
-    },
-    {
-      "height": 60,
-      "id": "90c6676665ca5339",
-      "styleAttributes": {
-      },
-      "text": "Ввести в поле \"CVV\": 999",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -16
-    },
-    {
-      "height": 60,
-      "id": "ca432c9d73467d02",
-      "styleAttributes": {
-      },
-      "text": "Нажать на кнопку \"Завершить заказ\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": 64
-    },
-    {
-      "height": 60,
-      "id": "d12001bfe5f1a557",
-      "styleAttributes": {
-      },
-      "text": "Записать номер заказа",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": 152
-    },
-    {
-      "height": 60,
-      "id": "2866f478dacb0533",
-      "styleAttributes": {
-      },
-      "text": "Подготовительная часть",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -649
-    },
-    {
-      "height": 60,
-      "id": "5769315d83f7a675",
-      "styleAttributes": {
-      },
-      "text": "История редактирования",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -530
-    },
-    {
-      "height": 60,
-      "id": "0140ff21ed52cf5a",
-      "styleAttributes": {
-      },
-      "text": "Кликнуть кнопку \"Добавить в корзину\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -576
-    },
-    {
-      "height": 60,
-      "id": "d1bac9138aad96a1",
-      "styleAttributes": {
-      },
-      "text": "Ввести в поле \"Пароль\": \"testpass\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -816
-    },
-    {
-      "height": 60,
-      "id": "807017a3d39e0d8a",
-      "styleAttributes": {
-      },
-      "text": "Атрибуты тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 3360,
-      "y": -757
-    },
-    {
-      "height": 60,
-      "id": "619a9cf45016084e",
-      "styleAttributes": {
-      },
-      "text": "Нажать на кнопку \"Корзина\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -496
-    },
-    {
-      "height": 60,
-      "id": "c5381ea33b463b47",
-      "styleAttributes": {
-      },
-      "text": "Ввести в поле \"Поиск\": \"testbook\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -656
-    },
-    {
-      "height": 60,
-      "id": "85e2ebb84efbf9d6",
-      "styleAttributes": {
-      },
-      "text": "Состояние тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 3993,
-      "y": -121
-    },
-    {
-      "height": 60,
-      "id": "b22edfae7a490466",
-      "styleAttributes": {
-      },
-      "text": "Важность тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 4025,
-      "y": -869
-    },
-    {
-      "height": 60,
-      "id": "7815572f4b9cadde",
-      "styleAttributes": {
-      },
-      "text": "Зайти на сайт example.com",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -972
-    },
-    {
-      "height": 60,
-      "id": "483e6515d9b26bfb",
-      "styleAttributes": {
-      },
-      "text": "Ввести в поле \"Имя пользователя\": \"testuser\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -900
-    },
-    {
-      "height": 60,
-      "id": "5efc5b279a404259",
-      "styleAttributes": {
-      },
-      "text": "Пример тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 2182,
-      "y": -402
-    },
-    {
-      "height": 163,
-      "id": "76765184f3d04790",
-      "styleAttributes": {
-      },
-      "text": "Тест-кейс может полностью состоять только из ожидаемого результата, без фактического",
-      "type": "text",
-      "width": 250,
-      "x": 1862,
-      "y": -454
-    },
-    {
-      "height": 60,
-      "id": "19d382866b86fa77",
-      "styleAttributes": {
-      },
-      "text": "Исполнение тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 1252,
-      "y": -402
-    },
-    {
-      "height": 100,
-      "id": "45af6ebd8966f7fc",
-      "styleAttributes": {
-      },
-      "text": "Процесс проверки написанного материала на действительность",
-      "type": "text",
-      "width": 250,
-      "x": 1560,
-      "y": -422
-    },
-    {
-      "height": 60,
-      "id": "ff496c012315ae00",
-      "styleAttributes": {
-      },
-      "text": "Создание тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 1252,
-      "y": -548
-    },
-    {
-      "height": 104,
-      "id": "32ac626484322e51",
-      "styleAttributes": {
-      },
-      "text": "Процесс придумывания и написания каждой строки списка",
-      "type": "text",
-      "width": 250,
-      "x": 1560,
-      "y": -570
-    },
-    {
-      "height": 183,
-      "id": "1c10c70d5578a5aa",
-      "styleAttributes": {
-      },
-      "text": "Используются сценарии и данные, которые, как ожидается, будут реализовываться и вводиться пользователями",
-      "type": "text",
-      "width": 250,
-      "x": 5340,
-      "y": 569
-    },
-    {
-      "height": 125,
-      "id": "03544fc3905b93fc",
-      "styleAttributes": {
-      },
-      "text": "С одной стороны это тестирование со стороны пользователя (черный ящик)",
-      "type": "text",
-      "width": 250,
-      "x": 5360,
-      "y": 937
-    },
-    {
-      "height": 91,
-      "id": "19f0b7ff3f57406f",
-      "styleAttributes": {
-      },
-      "text": "Вынести во внешний документ повторяющееся сценарии",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -37
-    },
-    {
-      "height": 60,
-      "id": "1ed4587d2c0fb409",
-      "styleAttributes": {
-      },
-      "text": "Наличие 1+ ОР - нормальная практика",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": 83
-    },
-    {
-      "height": 60,
-      "id": "3317b4171bd05be1",
-      "styleAttributes": {
-      },
-      "text": "Черный ящик",
-      "type": "text",
-      "width": 250,
-      "x": 4740,
-      "y": 630
-    },
-    {
-      "height": 148,
-      "id": "5d37ac5399cbf7ec",
-      "styleAttributes": {
-      },
-      "text": "Тестирование продукта, где есть только входные и выходные данные, но детали реализации неизвестны",
-      "type": "text",
-      "width": 250,
-      "x": 5039,
-      "y": 586
-    },
-    {
-      "height": 60,
-      "id": "0202f467b364e0b4",
-      "styleAttributes": {
-      },
-      "text": "Белый ящик",
-      "type": "text",
-      "width": 250,
-      "x": 4740,
-      "y": 880
-    },
-    {
-      "height": 101,
-      "id": "196a8f3a5774be5e",
-      "styleAttributes": {
-      },
-      "text": "Тестирование продукта, в котором известны детали реализации",
-      "type": "text",
-      "width": 250,
-      "x": 5039,
-      "y": 860
-    },
-    {
-      "height": 60,
-      "id": "d61db1de4dee066b",
-      "styleAttributes": {
-      },
-      "text": "Серый ящик",
-      "type": "text",
-      "width": 250,
-      "x": 4740,
-      "y": 1062
-    },
-    {
-      "height": 60,
-      "id": "5b1a68a672701ea8",
-      "styleAttributes": {
-      },
-      "text": "Совмещает два других подхода, т.к.",
-      "type": "text",
-      "width": 250,
-      "x": 5041,
-      "y": 1060
-    },
-    {
-      "height": 126,
-      "id": "7f1e9ee5f28a30e5",
-      "styleAttributes": {
-      },
-      "text": "С другой стороны это информированное тестирование, т.е. есть информация о часть бэка",
-      "type": "text",
-      "width": 250,
-      "x": 5360,
-      "y": 1120
-    },
-    {
-      "height": 159,
-      "id": "639e9f369a800d54",
-      "styleAttributes": {
-      },
-      "text": "К примеру, тестирование проходит только в браузере, а отдельно ручки нельзя протестировать",
-      "type": "text",
-      "width": 250,
-      "x": 5640,
-      "y": 831
-    },
-    {
-      "height": 122,
-      "id": "6f923038ff4d387d",
-      "styleAttributes": {
-      },
-      "text": "Перечисляющиеся в тест-кейсе шаги должны быть объективно четкими и ясными",
-      "type": "text",
-      "width": 250,
-      "x": 3721,
-      "y": 241
-    },
-    {
-      "height": 60,
-      "id": "7f0f21eb021870b4",
-      "styleAttributes": {
-      },
-      "text": "Независим от других тест-кейсов",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": 165
-    },
-    {
-      "height": 60,
-      "id": "d23027ba4b3c93fd",
-      "styleAttributes": {
-      },
-      "text": "Возможные атрибуты",
-      "type": "text",
-      "width": 250,
-      "x": 4349,
-      "y": -648
-    },
-    {
-      "height": 89,
-      "id": "a58e032fd7943435",
-      "styleAttributes": {
-      },
-      "text": "Запросы к БД, используемые в тест-кейсе",
-      "type": "text",
-      "width": 250,
-      "x": 4725,
-      "y": -498
-    },
-    {
-      "height": 118,
-      "id": "981320a3e1cd17e7",
-      "styleAttributes": {
-      },
-      "text": "Другие вещи, облегчающие исполнение/поддержку тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 4725,
-      "y": -396
-    },
-    {
-      "height": 100,
-      "id": "ebb291bd1f214376",
-      "styleAttributes": {
-      },
-      "text": "Комментарии для помощи/объяснения команде",
-      "type": "text",
-      "width": 250,
-      "x": 4725,
-      "y": -618
-    },
-    {
-      "height": 60,
-      "id": "fdfe00fb765a5451",
-      "styleAttributes": {
-      },
-      "text": "Тест-сьюты",
-      "type": "text",
-      "width": 250,
-      "x": 5147,
-      "y": -835
-    },
-    {
-      "height": 60,
-      "id": "18ba5c5d1f4322fd",
-      "styleAttributes": {
-      },
-      "text": "Могут проверять определенную проекта",
-      "type": "text",
-      "width": 250,
-      "x": 5509,
-      "y": -976
-    },
-    {
-      "height": 60,
-      "id": "e8d0cb6b18615525",
-      "styleAttributes": {
-      },
-      "text": "Могут проверять определенный спек",
-      "type": "text",
-      "width": 250,
-      "x": 5508,
-      "y": -745
-    },
-    {
-      "height": 81,
-      "id": "288dd8c2787c8c17",
-      "styleAttributes": {
-      },
-      "text": "Классификация по знанию внутренностей системы",
-      "type": "text",
-      "width": 250,
-      "x": 4443,
-      "y": 619
-    },
-    {
-      "height": 104,
-      "id": "f7fdf9dbc7e50f3d",
-      "styleAttributes": {
-      },
-      "text": "Выражается по шкале от 1 до N, где 1 - высший приоритет, N - низший",
-      "type": "text",
-      "width": 250,
-      "x": 4342,
-      "y": -891
-    },
-    {
-      "height": 84,
-      "id": "1ffa8853b99c3dce",
-      "styleAttributes": {
-      },
-      "text": "Отвечает на вопросы \"Кто, что, когда, зачем, почему\"",
-      "type": "text",
-      "width": 250,
-      "x": 4025,
-      "y": -542
-    },
-    {
-      "height": 131,
-      "id": "b65507cd60785184",
-      "styleAttributes": {
-      },
-      "text": "Должен быть уникальным не только в пределах документа, но и всего департамента качества",
-      "type": "text",
-      "width": 250,
-      "x": 4025,
-      "y": -1035
-    },
-    {
-      "height": 60,
-      "id": "ce22ba0cd14fc191",
-      "styleAttributes": {
-      },
-      "text": "Является первой редакцией тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 4630,
-      "y": -216
-    },
-    {
-      "height": 113,
-      "id": "152721b24c904e74",
-      "styleAttributes": {
-      },
-      "text": "Связаны с изменением спека, затрагивающий этот тест-кейс",
-      "type": "text",
-      "width": 250,
-      "x": 4630,
-      "y": -147
-    },
-    {
-      "height": 60,
-      "id": "d9746fe2472e9cac",
-      "styleAttributes": {
-      },
-      "text": "Тест-кейс не актуален",
-      "type": "text",
-      "width": 250,
-      "x": 4630,
-      "y": -25
-    },
-    {
-      "height": 89,
-      "id": "fb7bb89ee40b6981",
-      "styleAttributes": {
-      },
-      "text": "Описание конкретной вещи, проверяемой тест-кейсом",
-      "type": "text",
-      "width": 250,
-      "x": 4025,
-      "y": -771
-    },
-    {
-      "height": 60,
-      "id": "355bb3bffbe7320d",
-      "styleAttributes": {
-      },
-      "text": "Измененный ",
-      "type": "text",
-      "width": 250,
-      "x": 4322,
-      "y": -121
-    },
-    {
-      "height": 60,
-      "id": "1d81dde81a1392ce",
-      "styleAttributes": {
-      },
-      "text": "Новый",
-      "type": "text",
-      "width": 250,
-      "x": 4322,
-      "y": -216
-    },
-    {
-      "height": 101,
-      "id": "57b9f0575ab5bb0d",
-      "styleAttributes": {
-      },
-      "text": "Настройка окружения. Как пример - кулинарный рецепт (список продуктов)",
-      "type": "text",
-      "width": 250,
-      "x": 4025,
-      "y": -669
-    },
-    {
-      "height": 117,
-      "id": "a67394e5e2b6009d",
-      "styleAttributes": {
-      },
-      "text": "Не давать конкретных деталей, если они не играют важную роль при исполнении",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -169
-    },
-    {
-      "height": 135,
-      "id": "5126f04734308e86",
-      "styleAttributes": {
-      },
-      "text": "Data-driven формат, можно изменить входящие данные и все будет хорошо",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -424
-    },
-    {
-      "height": 95,
-      "id": "3bd3c430419d1af3",
-      "styleAttributes": {
-      },
-      "text": "Не описывать слишком явные шаги (например: логин в систему)",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -277
-    },
-    {
-      "height": 60,
-      "id": "9139c34d77dfe11d",
-      "styleAttributes": {
-      },
-      "text": "Более недействительный",
-      "type": "text",
-      "width": 250,
-      "x": 4320,
-      "y": -25
-    },
-    {
-      "height": 132,
-      "id": "81cc572887bf5f73",
-      "styleAttributes": {
-      },
-      "text": "Данные о существующем аккаунте пользователя или инструкции по созданию нового",
-      "type": "text",
-      "width": 250,
-      "x": 4725,
-      "y": -928
-    },
-    {
-      "height": 133,
-      "id": "c1cf54a317cc15af",
-      "styleAttributes": {
-      },
-      "text": "Другие данные, которые используются в тест-кейсе, например - данные карты",
-      "type": "text",
-      "width": 250,
-      "x": 4725,
-      "y": -773
-    },
-    {
-      "height": 60,
-      "id": "1d220db5918c137d",
-      "styleAttributes": {
-      },
-      "text": "Уникальный ID (Unique ID)",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -1000
-    },
-    {
-      "height": 60,
-      "id": "2466f188ad194c32",
-      "styleAttributes": {
-      },
-      "text": "Приоритет тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -869
-    },
-    {
-      "height": 60,
-      "id": "792ecd61a127e907",
-      "styleAttributes": {
-      },
-      "text": "Идея",
-      "type": "text",
-      "width": 250,
-      "x": 3720,
-      "y": -757
-    },
-    {
-      "height": 60,
-      "id": "42f2321c8f006f2e",
-      "styleAttributes": {
-      },
-      "text": "Межличностное общение",
-      "type": "text",
-      "width": 250,
-      "x": 2980,
-      "y": 880
-    },
-    {
-      "height": 93,
-      "id": "6acbead7a6f271cc",
-      "styleAttributes": {
-      },
-      "text": "Спеки должны иллюстрироватсься (по хорошему)",
-      "type": "text",
-      "width": 250,
-      "x": 845,
-      "y": 927
     },
     {
       "height": 96,
@@ -2086,25 +1096,14 @@
     },
     {
       "height": 60,
-      "id": "cf2cdac43b427817",
+      "id": "0dd0f353d19895ef",
       "styleAttributes": {
       },
-      "text": "Блок-схемами",
+      "text": "Во время написания - черновик",
       "type": "text",
       "width": 250,
       "x": 1168,
-      "y": 1040
-    },
-    {
-      "height": 60,
-      "id": "e1895df4942b4646",
-      "styleAttributes": {
-      },
-      "text": "Примерами",
-      "type": "text",
-      "width": 250,
-      "x": 1168,
-      "y": 1120
+      "y": 575
     },
     {
       "height": 60,
@@ -2116,39 +1115,6 @@
       "width": 250,
       "x": 1486,
       "y": 570
-    },
-    {
-      "height": 60,
-      "id": "2854aea33639d4ce",
-      "styleAttributes": {
-      },
-      "text": "Исследовательское тестирование продукта",
-      "type": "text",
-      "width": 250,
-      "x": 2980,
-      "y": 960
-    },
-    {
-      "height": 99,
-      "id": "423186b135765245",
-      "styleAttributes": {
-      },
-      "text": "Применяется при отсутствии документации и написанным кодом",
-      "type": "text",
-      "width": 250,
-      "x": 3280,
-      "y": 940
-    },
-    {
-      "height": 104,
-      "id": "a200b5a6d14e51fb",
-      "styleAttributes": {
-      },
-      "text": "Применяется для самообучения новых сотрудников",
-      "type": "text",
-      "width": 250,
-      "x": 3280,
-      "y": 1060
     },
     {
       "height": 60,
@@ -2207,14 +1173,1147 @@
     },
     {
       "height": 60,
-      "id": "0654d0d96875fed4",
+      "id": "d3859b1ae18ce2bf",
       "styleAttributes": {
       },
-      "text": "Функциональность",
+      "text": "Полнота охвата предмета",
       "type": "text",
       "width": 250,
-      "x": 2645,
-      "y": 537
+      "x": 516,
+      "y": 960
+    },
+    {
+      "height": 60,
+      "id": "3f31be4b82b76679",
+      "styleAttributes": {
+      },
+      "text": "Соответствие нормативнвым актам",
+      "type": "text",
+      "width": 250,
+      "x": 516,
+      "y": 1040
+    },
+    {
+      "height": 60,
+      "id": "89c8505db64f24f5",
+      "styleAttributes": {
+      },
+      "text": "Соответствие деловой практике",
+      "type": "text",
+      "width": 250,
+      "x": 516,
+      "y": 1120
+    },
+    {
+      "height": 93,
+      "id": "6acbead7a6f271cc",
+      "styleAttributes": {
+      },
+      "text": "Спеки должны иллюстрироватсься (по хорошему)",
+      "type": "text",
+      "width": 250,
+      "x": 845,
+      "y": 927
+    },
+    {
+      "height": 60,
+      "id": "cf2cdac43b427817",
+      "styleAttributes": {
+      },
+      "text": "Блок-схемами",
+      "type": "text",
+      "width": 250,
+      "x": 1168,
+      "y": 1040
+    },
+    {
+      "height": 92,
+      "id": "44e599757598eb55",
+      "styleAttributes": {
+      },
+      "text": "Непротиворечивость внутри спека и с другими спеками",
+      "type": "text",
+      "width": 250,
+      "x": 516,
+      "y": 758
+    },
+    {
+      "height": 60,
+      "id": "f937a8c8e8772ed5",
+      "styleAttributes": {
+      },
+      "text": "Логическая взаимосвязь компонентов",
+      "type": "text",
+      "width": 250,
+      "x": 516,
+      "y": 880
+    },
+    {
+      "height": 60,
+      "id": "c8925539c8304586",
+      "styleAttributes": {
+      },
+      "text": "Забота о недопущении неверного толкования",
+      "type": "text",
+      "width": 250,
+      "x": 516,
+      "y": 668
+    },
+    {
+      "height": 60,
+      "id": "bc147c81ee0780ee",
+      "styleAttributes": {
+      },
+      "text": "Акцент на деталях и их четкое определение",
+      "type": "text",
+      "width": 250,
+      "x": 516,
+      "y": 575
+    },
+    {
+      "height": 60,
+      "id": "e1895df4942b4646",
+      "styleAttributes": {
+      },
+      "text": "Примерами",
+      "type": "text",
+      "width": 250,
+      "x": 1168,
+      "y": 1120
+    },
+    {
+      "height": 100,
+      "id": "acf5d54386d42d3f",
+      "styleAttributes": {
+      },
+      "text": "Баг живет и процветает при одновременном выполнении трех условий",
+      "type": "text",
+      "width": 250,
+      "x": 40,
+      "y": -877
+    },
+    {
+      "height": 60,
+      "id": "21eeba6ed9e5a870",
+      "styleAttributes": {
+      },
+      "text": "Ввод недействительных данных",
+      "type": "text",
+      "width": 250,
+      "x": 415,
+      "y": -206
+    },
+    {
+      "height": 60,
+      "id": "9009e62f2de1677e",
+      "styleAttributes": {
+      },
+      "text": "Ввод действительных данных",
+      "type": "text",
+      "width": 250,
+      "x": 415,
+      "y": -369
+    },
+    {
+      "height": 154,
+      "id": "eaf5fd27a2e62cc6",
+      "styleAttributes": {
+      },
+      "text": "Пустой ввод может принадлежать как к действительному, так и к недействительному вводу в зависимости от спеки",
+      "type": "text",
+      "width": 250,
+      "x": 720,
+      "y": -342
+    },
+    {
+      "height": 60,
+      "id": "d80da08182b4bcf4",
+      "styleAttributes": {
+      },
+      "text": "Отрицательный исход (FAIL)",
+      "type": "text",
+      "width": 250,
+      "x": 1589,
+      "y": -150
+    },
+    {
+      "height": 60,
+      "id": "dfadeff9b39c7f13",
+      "styleAttributes": {
+      },
+      "text": "Исход исполнения тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 1252,
+      "y": -202
+    },
+    {
+      "height": 60,
+      "id": "caea0a2a72f22354",
+      "styleAttributes": {
+      },
+      "text": "Положительный исход (PASS)",
+      "type": "text",
+      "width": 250,
+      "x": 1589,
+      "y": -235
+    },
+    {
+      "height": 60,
+      "id": "09c666d112e65c64",
+      "styleAttributes": {
+      },
+      "text": "Известен фактический результат",
+      "type": "text",
+      "width": 250,
+      "x": 366,
+      "y": -945
+    },
+    {
+      "height": 60,
+      "id": "49c5808794020378",
+      "styleAttributes": {
+      },
+      "text": "Известен ожидаемый результат",
+      "type": "text",
+      "width": 250,
+      "x": 366,
+      "y": -857
+    },
+    {
+      "height": 60,
+      "id": "42ed36e13a987324",
+      "styleAttributes": {
+      },
+      "text": "Спеки имеют статусы",
+      "type": "text",
+      "width": 250,
+      "x": 845,
+      "y": 575
+    },
+    {
+      "height": 94,
+      "id": "8c4aad8d901f0de7",
+      "styleAttributes": {
+      },
+      "text": "После каждого релиза данные о багах, найденных после релиза",
+      "type": "text",
+      "width": 250,
+      "x": -30,
+      "y": 144
+    },
+    {
+      "height": 129,
+      "id": "cbce94d4c128968d",
+      "styleAttributes": {
+      },
+      "text": " Забота о качестве в виде обнаружения багов до того, как их найдут пользователи",
+      "type": "text",
+      "width": 250,
+      "x": -30,
+      "y": 287
+    },
+    {
+      "height": 193,
+      "id": "213a89a1acfcba28",
+      "styleAttributes": {
+      },
+      "text": "Классифицируются по заданным критериям и анализируются на предмет нахождения слабого звена в процессе разработки ПО",
+      "type": "text",
+      "width": 250,
+      "x": 290,
+      "y": 95
+    },
+    {
+      "height": 78,
+      "id": "4fb706e9300f3644",
+      "styleAttributes": {
+      },
+      "text": "Тестирование",
+      "type": "text",
+      "width": 250,
+      "x": 290,
+      "y": 313
+    },
+    {
+      "height": 60,
+      "id": "16673938fd2b4244",
+      "styleAttributes": {
+      },
+      "text": "Один из критериев качества кода",
+      "type": "text",
+      "width": 250,
+      "x": 40,
+      "y": -111
+    },
+    {
+      "height": 99,
+      "id": "97f4c270a02f2ff5",
+      "styleAttributes": {
+      },
+      "text": "Является основным источником ожидаемого результата",
+      "type": "text",
+      "width": 250,
+      "x": 40,
+      "y": -557
+    },
+    {
+      "height": 60,
+      "id": "f1a9cd07167132fa",
+      "styleAttributes": {
+      },
+      "text": "Хорошую спеку отличают следующие вещи",
+      "type": "text",
+      "width": 250,
+      "x": 176,
+      "y": 575
+    },
+    {
+      "height": 60,
+      "id": "e20746df4ffbf28a",
+      "styleAttributes": {
+      },
+      "text": "Везде, где есть ввод данных, есть два пути",
+      "type": "text",
+      "width": 250,
+      "x": 40,
+      "y": -295
+    },
+    {
+      "height": 98,
+      "id": "0b2f86b4f8a9266c",
+      "styleAttributes": {
+      },
+      "text": "Известно, что результат из пункта 1 != результату из пункта 2",
+      "type": "text",
+      "width": 250,
+      "x": 366,
+      "y": -784
+    },
+    {
+      "height": 180,
+      "id": "74d72fe60cbd438c",
+      "styleAttributes": {
+      },
+      "text": "Важно находить подробности в спеке, если таковых нету - писать продюсеру (человеку, который отвечает за спеку)",
+      "type": "text",
+      "width": 250,
+      "x": 366,
+      "y": -597
+    },
+    {
+      "height": 60,
+      "id": "bad767c06adaa3c6",
+      "styleAttributes": {
+      },
+      "text": "Даже если их миллионы",
+      "type": "text",
+      "width": 250,
+      "x": -30,
+      "y": 62
+    },
+    {
+      "height": 60,
+      "id": "f14603c3531ce28e",
+      "styleAttributes": {
+      },
+      "text": "Количество багов на 1000 строк кода",
+      "type": "text",
+      "width": 250,
+      "x": 345,
+      "y": -111
+    },
+    {
+      "height": 60,
+      "id": "d23027ba4b3c93fd",
+      "styleAttributes": {
+      },
+      "text": "Возможные атрибуты",
+      "type": "text",
+      "width": 250,
+      "x": 4349,
+      "y": -648
+    },
+    {
+      "height": 89,
+      "id": "fb7bb89ee40b6981",
+      "styleAttributes": {
+      },
+      "text": "Описание конкретной вещи, проверяемой тест-кейсом",
+      "type": "text",
+      "width": 250,
+      "x": 4025,
+      "y": -771
+    },
+    {
+      "height": 60,
+      "id": "355bb3bffbe7320d",
+      "styleAttributes": {
+      },
+      "text": "Измененный ",
+      "type": "text",
+      "width": 250,
+      "x": 4322,
+      "y": -121
+    },
+    {
+      "height": 60,
+      "id": "1d81dde81a1392ce",
+      "styleAttributes": {
+      },
+      "text": "Новый",
+      "type": "text",
+      "width": 250,
+      "x": 4322,
+      "y": -216
+    },
+    {
+      "height": 84,
+      "id": "1ffa8853b99c3dce",
+      "styleAttributes": {
+      },
+      "text": "Отвечает на вопросы \"Кто, что, когда, зачем, почему\"",
+      "type": "text",
+      "width": 250,
+      "x": 4025,
+      "y": -542
+    },
+    {
+      "height": 131,
+      "id": "b65507cd60785184",
+      "styleAttributes": {
+      },
+      "text": "Должен быть уникальным не только в пределах документа, но и всего департамента качества",
+      "type": "text",
+      "width": 250,
+      "x": 4025,
+      "y": -1035
+    },
+    {
+      "height": 117,
+      "id": "a67394e5e2b6009d",
+      "styleAttributes": {
+      },
+      "text": "Не давать конкретных деталей, если они не играют важную роль при исполнении",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -169
+    },
+    {
+      "height": 135,
+      "id": "5126f04734308e86",
+      "styleAttributes": {
+      },
+      "text": "Data-driven формат, можно изменить входящие данные и все будет хорошо",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -424
+    },
+    {
+      "height": 89,
+      "id": "a58e032fd7943435",
+      "styleAttributes": {
+      },
+      "text": "Запросы к БД, используемые в тест-кейсе",
+      "type": "text",
+      "width": 250,
+      "x": 4725,
+      "y": -498
+    },
+    {
+      "height": 118,
+      "id": "981320a3e1cd17e7",
+      "styleAttributes": {
+      },
+      "text": "Другие вещи, облегчающие исполнение/поддержку тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 4725,
+      "y": -396
+    },
+    {
+      "height": 100,
+      "id": "ebb291bd1f214376",
+      "styleAttributes": {
+      },
+      "text": "Комментарии для помощи/объяснения команде",
+      "type": "text",
+      "width": 250,
+      "x": 4725,
+      "y": -618
+    },
+    {
+      "height": 104,
+      "id": "f7fdf9dbc7e50f3d",
+      "styleAttributes": {
+      },
+      "text": "Выражается по шкале от 1 до N, где 1 - высший приоритет, N - низший",
+      "type": "text",
+      "width": 250,
+      "x": 4342,
+      "y": -891
+    },
+    {
+      "height": 60,
+      "id": "d9746fe2472e9cac",
+      "styleAttributes": {
+      },
+      "text": "Тест-кейс не актуален",
+      "type": "text",
+      "width": 250,
+      "x": 4630,
+      "y": -25
+    },
+    {
+      "height": 132,
+      "id": "81cc572887bf5f73",
+      "styleAttributes": {
+      },
+      "text": "Данные о существующем аккаунте пользователя или инструкции по созданию нового",
+      "type": "text",
+      "width": 250,
+      "x": 4725,
+      "y": -928
+    },
+    {
+      "height": 60,
+      "id": "ce22ba0cd14fc191",
+      "styleAttributes": {
+      },
+      "text": "Является первой редакцией тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 4630,
+      "y": -216
+    },
+    {
+      "height": 113,
+      "id": "152721b24c904e74",
+      "styleAttributes": {
+      },
+      "text": "Связаны с изменением спека, затрагивающий этот тест-кейс",
+      "type": "text",
+      "width": 250,
+      "x": 4630,
+      "y": -147
+    },
+    {
+      "height": 101,
+      "id": "57b9f0575ab5bb0d",
+      "styleAttributes": {
+      },
+      "text": "Настройка окружения. Как пример - кулинарный рецепт (список продуктов)",
+      "type": "text",
+      "width": 250,
+      "x": 4025,
+      "y": -669
+    },
+    {
+      "height": 60,
+      "id": "9139c34d77dfe11d",
+      "styleAttributes": {
+      },
+      "text": "Более недействительный",
+      "type": "text",
+      "width": 250,
+      "x": 4320,
+      "y": -25
+    },
+    {
+      "height": 60,
+      "id": "85e2ebb84efbf9d6",
+      "styleAttributes": {
+      },
+      "text": "Состояние тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 3993,
+      "y": -121
+    },
+    {
+      "height": 60,
+      "id": "a82fdce930a601c3",
+      "styleAttributes": {
+      },
+      "text": "Хороший тест-кейс, это тот, который",
+      "type": "text",
+      "width": 250,
+      "x": 3360,
+      "y": -327
+    },
+    {
+      "height": 98,
+      "id": "c04604307c1ddd2a",
+      "styleAttributes": {
+      },
+      "text": "Ввести в поле номер карты: \"0000 0000 0000 0000\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -256
+    },
+    {
+      "height": 58,
+      "id": "1e60413fda2e85d6",
+      "styleAttributes": {
+      },
+      "text": "Выбрать из меню \"Вид карты\": \"Visa\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -336
+    },
+    {
+      "height": 60,
+      "id": "bd1a3584a0e3d8b8",
+      "styleAttributes": {
+      },
+      "text": "Нажать на кнопку \"Оплатить\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -422
+    },
+    {
+      "height": 60,
+      "id": "90c6676665ca5339",
+      "styleAttributes": {
+      },
+      "text": "Ввести в поле \"CVV\": 999",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -16
+    },
+    {
+      "height": 60,
+      "id": "ca432c9d73467d02",
+      "styleAttributes": {
+      },
+      "text": "Нажать на кнопку \"Завершить заказ\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": 64
+    },
+    {
+      "height": 60,
+      "id": "d12001bfe5f1a557",
+      "styleAttributes": {
+      },
+      "text": "Записать номер заказа",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": 152
+    },
+    {
+      "height": 133,
+      "id": "c1cf54a317cc15af",
+      "styleAttributes": {
+      },
+      "text": "Другие данные, которые используются в тест-кейсе, например - данные карты",
+      "type": "text",
+      "width": 250,
+      "x": 4725,
+      "y": -773
+    },
+    {
+      "height": 95,
+      "id": "3bd3c430419d1af3",
+      "styleAttributes": {
+      },
+      "text": "Не описывать слишком явные шаги (например: логин в систему)",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -277
+    },
+    {
+      "height": 60,
+      "id": "ed8f68d0c9660c17",
+      "styleAttributes": {
+      },
+      "text": "ФР == ОР",
+      "type": "text",
+      "width": 250,
+      "x": 1908,
+      "y": -235
+    },
+    {
+      "height": 60,
+      "id": "bc75b194fd786e96",
+      "styleAttributes": {
+      },
+      "text": "ФР != ОР, значит это BUG",
+      "type": "text",
+      "width": 250,
+      "x": 1908,
+      "y": -150
+    },
+    {
+      "height": 60,
+      "id": "5769315d83f7a675",
+      "styleAttributes": {
+      },
+      "text": "История редактирования",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -530
+    },
+    {
+      "height": 60,
+      "id": "0140ff21ed52cf5a",
+      "styleAttributes": {
+      },
+      "text": "Кликнуть кнопку \"Добавить в корзину\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -576
+    },
+    {
+      "height": 60,
+      "id": "807017a3d39e0d8a",
+      "styleAttributes": {
+      },
+      "text": "Атрибуты тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 3360,
+      "y": -757
+    },
+    {
+      "height": 60,
+      "id": "619a9cf45016084e",
+      "styleAttributes": {
+      },
+      "text": "Нажать на кнопку \"Корзина\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -496
+    },
+    {
+      "height": 60,
+      "id": "c5381ea33b463b47",
+      "styleAttributes": {
+      },
+      "text": "Ввести в поле \"Поиск\": \"testbook\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -656
+    },
+    {
+      "height": 125,
+      "id": "d533f42a8effdd5e",
+      "styleAttributes": {
+      },
+      "text": "Сделать запрос в базу:\nSELECT result FROM transactions WHERE id = \"номер заказа\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": 245
+    },
+    {
+      "height": 60,
+      "id": "2866f478dacb0533",
+      "styleAttributes": {
+      },
+      "text": "Подготовительная часть",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -649
+    },
+    {
+      "height": 60,
+      "id": "792ecd61a127e907",
+      "styleAttributes": {
+      },
+      "text": "Идея",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -757
+    },
+    {
+      "height": 60,
+      "id": "5efc5b279a404259",
+      "styleAttributes": {
+      },
+      "text": "Пример тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 2182,
+      "y": -402
+    },
+    {
+      "height": 60,
+      "id": "19d382866b86fa77",
+      "styleAttributes": {
+      },
+      "text": "Исполнение тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 1252,
+      "y": -402
+    },
+    {
+      "height": 91,
+      "id": "10a240027568ab9f",
+      "styleAttributes": {
+      },
+      "text": "Ввести в поле \"Действительна до\": \"99/99\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -136
+    },
+    {
+      "height": 60,
+      "id": "483e6515d9b26bfb",
+      "styleAttributes": {
+      },
+      "text": "Ввести в поле \"Имя пользователя\": \"testuser\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -900
+    },
+    {
+      "height": 60,
+      "id": "7815572f4b9cadde",
+      "styleAttributes": {
+      },
+      "text": "Зайти на сайт example.com",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -972
+    },
+    {
+      "height": 163,
+      "id": "76765184f3d04790",
+      "styleAttributes": {
+      },
+      "text": "Тест-кейс может полностью состоять только из ожидаемого результата, без фактического",
+      "type": "text",
+      "width": 250,
+      "x": 1862,
+      "y": -454
+    },
+    {
+      "height": 100,
+      "id": "45af6ebd8966f7fc",
+      "styleAttributes": {
+      },
+      "text": "Процесс проверки написанного материала на действительность",
+      "type": "text",
+      "width": 250,
+      "x": 1560,
+      "y": -422
+    },
+    {
+      "height": 60,
+      "id": "ff496c012315ae00",
+      "styleAttributes": {
+      },
+      "text": "Создание тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 1252,
+      "y": -548
+    },
+    {
+      "height": 104,
+      "id": "32ac626484322e51",
+      "styleAttributes": {
+      },
+      "text": "Процесс придумывания и написания каждой строки списка",
+      "type": "text",
+      "width": 250,
+      "x": 1560,
+      "y": -570
+    },
+    {
+      "height": 60,
+      "id": "b861a3008ec6dc16",
+      "styleAttributes": {
+      },
+      "text": "Нажать кнопку \"Войти\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -738
+    },
+    {
+      "height": 60,
+      "id": "d1bac9138aad96a1",
+      "styleAttributes": {
+      },
+      "text": "Ввести в поле \"Пароль\": \"testpass\"",
+      "type": "text",
+      "width": 250,
+      "x": 2815,
+      "y": -816
+    },
+    {
+      "height": 81,
+      "id": "288dd8c2787c8c17",
+      "styleAttributes": {
+      },
+      "text": "Классификация по знанию внутренностей системы",
+      "type": "text",
+      "width": 250,
+      "x": 4443,
+      "y": 619
+    },
+    {
+      "height": 60,
+      "id": "1d220db5918c137d",
+      "styleAttributes": {
+      },
+      "text": "Уникальный ID (Unique ID)",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -1000
+    },
+    {
+      "height": 60,
+      "id": "2466f188ad194c32",
+      "styleAttributes": {
+      },
+      "text": "Приоритет тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -869
+    },
+    {
+      "height": 60,
+      "id": "42f2321c8f006f2e",
+      "styleAttributes": {
+      },
+      "text": "Межличностное общение",
+      "type": "text",
+      "width": 250,
+      "x": 2980,
+      "y": 880
+    },
+    {
+      "height": 60,
+      "id": "2854aea33639d4ce",
+      "styleAttributes": {
+      },
+      "text": "Исследовательское тестирование продукта",
+      "type": "text",
+      "width": 250,
+      "x": 2980,
+      "y": 960
+    },
+    {
+      "height": 99,
+      "id": "423186b135765245",
+      "styleAttributes": {
+      },
+      "text": "Применяется при отсутствии документации и написанным кодом",
+      "type": "text",
+      "width": 250,
+      "x": 3280,
+      "y": 940
+    },
+    {
+      "height": 104,
+      "id": "a200b5a6d14e51fb",
+      "styleAttributes": {
+      },
+      "text": "Применяется для самообучения новых сотрудников",
+      "type": "text",
+      "width": 250,
+      "x": 3280,
+      "y": 1060
+    },
+    {
+      "height": 100,
+      "id": "583e919aebcbcf97",
+      "styleAttributes": {
+      },
+      "text": "Документация - спеки, макеты, блок-схемы, документы",
+      "type": "text",
+      "width": 250,
+      "x": 2980,
+      "y": 760
+    },
+    {
+      "height": 183,
+      "id": "1c10c70d5578a5aa",
+      "styleAttributes": {
+      },
+      "text": "Используются сценарии и данные, которые, как ожидается, будут реализовываться и вводиться пользователями",
+      "type": "text",
+      "width": 250,
+      "x": 5340,
+      "y": 569
+    },
+    {
+      "height": 125,
+      "id": "03544fc3905b93fc",
+      "styleAttributes": {
+      },
+      "text": "С одной стороны это тестирование со стороны пользователя (черный ящик)",
+      "type": "text",
+      "width": 250,
+      "x": 5360,
+      "y": 937
+    },
+    {
+      "height": 148,
+      "id": "5d37ac5399cbf7ec",
+      "styleAttributes": {
+      },
+      "text": "Тестирование продукта, где есть только входные и выходные данные, но детали реализации неизвестны",
+      "type": "text",
+      "width": 250,
+      "x": 5039,
+      "y": 586
+    },
+    {
+      "height": 101,
+      "id": "196a8f3a5774be5e",
+      "styleAttributes": {
+      },
+      "text": "Тестирование продукта, в котором известны детали реализации",
+      "type": "text",
+      "width": 250,
+      "x": 5039,
+      "y": 860
+    },
+    {
+      "height": 60,
+      "id": "5b1a68a672701ea8",
+      "styleAttributes": {
+      },
+      "text": "Совмещает два других подхода, т.к.",
+      "type": "text",
+      "width": 250,
+      "x": 5041,
+      "y": 1060
+    },
+    {
+      "height": 60,
+      "id": "3317b4171bd05be1",
+      "styleAttributes": {
+      },
+      "text": "Черный ящик",
+      "type": "text",
+      "width": 250,
+      "x": 4740,
+      "y": 630
+    },
+    {
+      "height": 60,
+      "id": "0202f467b364e0b4",
+      "styleAttributes": {
+      },
+      "text": "Белый ящик",
+      "type": "text",
+      "width": 250,
+      "x": 4740,
+      "y": 880
+    },
+    {
+      "height": 60,
+      "id": "d61db1de4dee066b",
+      "styleAttributes": {
+      },
+      "text": "Серый ящик",
+      "type": "text",
+      "width": 250,
+      "x": 4740,
+      "y": 1062
+    },
+    {
+      "height": 126,
+      "id": "7f1e9ee5f28a30e5",
+      "styleAttributes": {
+      },
+      "text": "С другой стороны это информированное тестирование, т.е. есть информация о часть бэка",
+      "type": "text",
+      "width": 250,
+      "x": 5360,
+      "y": 1120
+    },
+    {
+      "height": 159,
+      "id": "639e9f369a800d54",
+      "styleAttributes": {
+      },
+      "text": "К примеру, тестирование проходит только в браузере, а отдельно ручки нельзя протестировать",
+      "type": "text",
+      "width": 250,
+      "x": 5640,
+      "y": 831
+    },
+    {
+      "height": 60,
+      "id": "b22edfae7a490466",
+      "styleAttributes": {
+      },
+      "text": "Важность тест-кейса",
+      "type": "text",
+      "width": 250,
+      "x": 4025,
+      "y": -869
+    },
+    {
+      "height": 91,
+      "id": "19f0b7ff3f57406f",
+      "styleAttributes": {
+      },
+      "text": "Вынести во внешний документ повторяющееся сценарии",
+      "type": "text",
+      "width": 250,
+      "x": 3720,
+      "y": -37
+    },
+    {
+      "height": 60,
+      "id": "fdfe00fb765a5451",
+      "styleAttributes": {
+      },
+      "text": "Тест-сьюты",
+      "type": "text",
+      "width": 250,
+      "x": 5147,
+      "y": -835
+    },
+    {
+      "height": 60,
+      "id": "18ba5c5d1f4322fd",
+      "styleAttributes": {
+      },
+      "text": "Могут проверять определенную проекта",
+      "type": "text",
+      "width": 250,
+      "x": 5509,
+      "y": -976
+    },
+    {
+      "height": 60,
+      "id": "e8d0cb6b18615525",
+      "styleAttributes": {
+      },
+      "text": "Могут проверять определенный спек",
+      "type": "text",
+      "width": 250,
+      "x": 5508,
+      "y": -745
     },
     {
       "height": 60,
@@ -2240,6 +2339,17 @@
     },
     {
       "height": 60,
+      "id": "0654d0d96875fed4",
+      "styleAttributes": {
+      },
+      "text": "Функциональность",
+      "type": "text",
+      "width": 250,
+      "x": 2645,
+      "y": 537
+    },
+    {
+      "height": 60,
       "id": "f3f2bed1c1082846",
       "styleAttributes": {
       },
@@ -2261,147 +2371,37 @@
       "y": 760
     },
     {
-      "height": 154,
-      "id": "eaf5fd27a2e62cc6",
+      "height": 60,
+      "id": "1ed4587d2c0fb409",
       "styleAttributes": {
       },
-      "text": "Пустой ввод может принадлежать как к действительному, так и к недействительному вводу в зависимости от спеки",
+      "text": "Наличие 1+ ОР - нормальная практика",
       "type": "text",
       "width": 250,
-      "x": 720,
-      "y": -342
+      "x": 3720,
+      "y": 83
+    },
+    {
+      "height": 122,
+      "id": "6f923038ff4d387d",
+      "styleAttributes": {
+      },
+      "text": "Перечисляющиеся в тест-кейсе шаги должны быть объективно четкими и ясными",
+      "type": "text",
+      "width": 250,
+      "x": 3721,
+      "y": 241
     },
     {
       "height": 60,
-      "id": "a82fdce930a601c3",
+      "id": "7f0f21eb021870b4",
       "styleAttributes": {
       },
-      "text": "Хороший тест-кейс, это тот, который",
+      "text": "Независим от других тест-кейсов",
       "type": "text",
       "width": 250,
-      "x": 3360,
-      "y": -327
-    },
-    {
-      "height": 98,
-      "id": "c04604307c1ddd2a",
-      "styleAttributes": {
-      },
-      "text": "Ввести в поле номер карты: \"0000 0000 0000 0000\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -256
-    },
-    {
-      "height": 91,
-      "id": "10a240027568ab9f",
-      "styleAttributes": {
-      },
-      "text": "Ввести в поле \"Действительна до\": \"99/99\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -136
-    },
-    {
-      "height": 58,
-      "id": "1e60413fda2e85d6",
-      "styleAttributes": {
-      },
-      "text": "Выбрать из меню \"Вид карты\": \"Visa\"",
-      "type": "text",
-      "width": 250,
-      "x": 2815,
-      "y": -336
-    },
-    {
-      "height": 60,
-      "id": "d80da08182b4bcf4",
-      "styleAttributes": {
-      },
-      "text": "Отрицательный исход (FAIL)",
-      "type": "text",
-      "width": 250,
-      "x": 1589,
-      "y": -150
-    },
-    {
-      "height": 60,
-      "id": "ed8f68d0c9660c17",
-      "styleAttributes": {
-      },
-      "text": "ФР == ОР",
-      "type": "text",
-      "width": 250,
-      "x": 1908,
-      "y": -235
-    },
-    {
-      "height": 60,
-      "id": "caea0a2a72f22354",
-      "styleAttributes": {
-      },
-      "text": "Положительный исход (PASS)",
-      "type": "text",
-      "width": 250,
-      "x": 1589,
-      "y": -235
-    },
-    {
-      "height": 60,
-      "id": "bc75b194fd786e96",
-      "styleAttributes": {
-      },
-      "text": "ФР != ОР, значит это BUG",
-      "type": "text",
-      "width": 250,
-      "x": 1908,
-      "y": -150
-    },
-    {
-      "height": 100,
-      "id": "583e919aebcbcf97",
-      "styleAttributes": {
-      },
-      "text": "Документация - спеки, макеты, блок-схемы, документы",
-      "type": "text",
-      "width": 250,
-      "x": 2980,
-      "y": 760
-    },
-    {
-      "height": 60,
-      "id": "42ed36e13a987324",
-      "styleAttributes": {
-      },
-      "text": "Спеки имеют статусы",
-      "type": "text",
-      "width": 250,
-      "x": 845,
-      "y": 575
-    },
-    {
-      "height": 60,
-      "id": "0dd0f353d19895ef",
-      "styleAttributes": {
-      },
-      "text": "Во время написания - черновик",
-      "type": "text",
-      "width": 250,
-      "x": 1168,
-      "y": 575
-    },
-    {
-      "height": 60,
-      "id": "dfadeff9b39c7f13",
-      "styleAttributes": {
-      },
-      "text": "Исход исполнения тест-кейса",
-      "type": "text",
-      "width": 250,
-      "x": 1252,
-      "y": -202
+      "x": 3720,
+      "y": 165
     }
   ]
 }

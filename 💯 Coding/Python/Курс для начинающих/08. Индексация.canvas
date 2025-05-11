@@ -1,77 +1,651 @@
 {
-	"nodes":[
-		{"id":"8267a0533017a5b2","type":"group","x":260,"y":680,"width":2570,"height":701,"label":"Работа с циклами и индексацией"},
-		{"id":"899af32d8fbdcc22","type":"group","x":260,"y":-131,"width":1693,"height":744,"label":"Индексация по строке"},
-		{"id":"b5ee4222c7efc252","type":"group","x":260,"y":-980,"width":1413,"height":779,"label":"Базовая работа со строкой"},
-		{"id":"7cfc8ad6d4256e85","type":"text","text":"Строки в Python используются, когда надо работать с текстовыми данными","x":280,"y":-771,"width":250,"height":117},
-		{"id":"b1ecae0ad2c99a1a","type":"text","text":"На каждой строке будет выводится по 1 символу","x":959,"y":922,"width":250,"height":60},
-		{"id":"e520f7f5d0974b57","type":"text","text":"Очень часто нужно просканировать всю строку целиком, обрабатывая каждый ее символ","x":280,"y":759,"width":250,"height":147},
-		{"id":"76a74bbe0daa6536","type":"text","text":"Для этого удобно использовать цикл `for`","x":598,"y":803,"width":250,"height":60},
-		{"id":"6d765230e0ab901c","type":"text","text":"```python\ns = input() # Считывание текста\nnum = int(input()) # Считывание текста и преобразование в целое число\n```","x":990,"y":-852,"width":663,"height":80},
-		{"id":"47c75caf404da6b6","type":"text","text":"```python\ns1 = 'Python' # Одинарные кавычки\ns2 = \"Pascal\" # Двойные кавычки\n```","x":990,"y":-960,"width":371,"height":80},
-		{"id":"430cb0209b461afe","type":"text","text":"Считывать","x":680,"y":-842,"width":250,"height":60},
-		{"id":"e2a25db7ff490c2d","type":"text","text":"Создавать","x":680,"y":-950,"width":250,"height":60},
-		{"id":"c0e4dcc4be36c989","type":"text","text":"Если не нужен индекс самого символа, то можно использовать более короткий способ итерации","x":1933,"y":1014,"width":250,"height":147},
-		{"id":"adb509038b2d9f62","type":"text","text":"```python\ns = 'abcdef'\nfor c in s:\n\tprint(c)\n```","x":2240,"y":1035,"width":250,"height":106},
-		{"id":"a577e849aaeda093","type":"text","text":"`i` - стандартная идеология наименования переменных цикла\n`c` - первая буква слова `char (символ)`","x":2240,"y":1214,"width":250,"height":147},
-		{"id":"bbed5d1ab1402c2d","type":"text","text":"В функцию `range()` передается длина строки `len(s)`. В данном случае длина строки `s`, равна `6`. Таким образом, вызов функции `range(len(s))` имеет вид `range(6)` и переменная цикла `i` последовательно перебирает все значения от 0 до 5.","x":1320,"y":774,"width":540,"height":118},
-		{"id":"648ea9f1fd1cd8e0","type":"text","text":"Это означает, что выражение `s[i]` последовательно вернет все символы строки `s`. Такой способ итерации строки удобен, когда нужен не только сам элемент `s[i]`, но и его индекс `i`","x":1933,"y":700,"width":250,"height":267},
-		{"id":"46b70f007587f59d","type":"text","text":"```python\ns = 'Hello'\nn = len(s) # Значение переменной = 5\nprint(n)\n```","x":990,"y":-654,"width":383,"height":106},
-		{"id":"665523e1e85b6f03","type":"text","text":"```python\nresult1 = 'AB' + 'cd' # 'ABcd'\nresult2 = 'A' + '7' + 'B' # A7B\nresult3 = 'Hi' * 4 # HiHiHiHi\n```","x":990,"y":-520,"width":356,"height":106},
-		{"id":"72c594997c1d17ff","type":"text","text":"```python\ns = 'All you need is love'\nif 'love' in s: # Проверка подстроки в строке\n\tprint('YES') # Вывод YES если подстрока присутствует в строке\nelse:\n\tprint('NO') # Вывод NO если подстрока отсутствует в строке\n```","x":990,"y":-380,"width":629,"height":159},
-		{"id":"12ac985e2945ccb1","type":"text","text":"Пустая строка - аналог числа `0`","x":1283,"y":-743,"width":250,"height":60},
-		{"id":"5eb43c50fc676126","type":"text","text":"```python\ns = 'abcdef'\nfor i in range(len(s)):\n\tprint(s[i])\n```","x":905,"y":780,"width":359,"height":106},
-		{"id":"3148b1c33bf952a4","type":"text","text":"Данный цикл пройдет по строке `s`, придавая переменной цикла `c` значение каждого символа (!) в отличие от предыдущего цикла, в котором переменная цикла \"бегала\" по индексам строки","x":2560,"y":955,"width":250,"height":267},
-		{"id":"2a693feb0de4a0de","type":"text","text":"Использовать оператор принадлежности `in`","x":679,"y":-330,"width":250,"height":60},
-		{"id":"8d311fa9c900c9ad","type":"text","text":"```python\ns1 = \"\"\ns2 = ''\n```","x":990,"y":-753,"width":250,"height":80},
-		{"id":"64e8a6b777985061","type":"text","text":"Очень часто бывает необходимо обратиться к конкретному символу в строке","x":280,"y":-51,"width":250,"height":117},
-		{"id":"a4bd0d202b1bfaea","type":"text","text":"Но стоит помнить, что при попытке обращения по несуществующему индексу в строке, будет ошибка:\n`IndexError: string index out of range`","x":505,"y":460,"width":400,"height":118},
-		{"id":"5575728dda5e951c","type":"text","text":"В `Python` используются квадратные скобки `[]`, в которых указывается индекс (номер) нужного символа в строке","x":580,"y":-66,"width":250,"height":147},
-		{"id":"398ff4696b8c5482","type":"text","text":"В `Python` также можно работать с отрицательными индексами. Если первый символ строки имеет индекс `0`, то последнему элементу присваивается индекс `-1`","x":580,"y":174,"width":250,"height":237},
-		{"id":"06be93f014490280","type":"text","text":"Если длина строки `s` равна `len(s)`, то при положительной нумерации слева направо, последний элемент имеет индекс равный `len(s)-1`, а при отрицательной индексации справа налево, первый элемент имеет индекс равный `-len(s)`","x":914,"y":445,"width":462,"height":148},
-		{"id":"9ee17d25d71222a2","type":"text","text":"Индексация","x":-100,"y":-22,"width":250,"height":60},
-		{"id":"4a2433064c095e5c","type":"text","text":"Узнать длину строки","x":680,"y":-631,"width":250,"height":60},
-		{"id":"a80f4e2b6e4fa1a0","type":"text","text":"Конкатенация и умножение на число","x":680,"y":-497,"width":250,"height":60},
-		{"id":"5cc7084cd09dbe89","type":"text","text":"Создавать пустую строку","x":680,"y":-743,"width":250,"height":60},
-		{"id":"f4632b559ef4e5d3","type":"text","text":"```python\ns = 'Python'\nprint(s[0]) # P - первый символ строки\nprint(s[1]) # y - второй символ строки\nprint(s[2]) # t - третий символ строки\nprint(s[3]) # h - четвертый символ строки\nprint(s[4]) # o - пятый символ строки\nprint(s[5]) # n - шестой символ строки\n```","x":885,"y":-98,"width":461,"height":211},
-		{"id":"1f83230b3745a1fa","type":"text","text":"```python\ns = 'Python'\nprint(s[-6]) # P - первый символ строки\nprint(s[-5]) # y - второй символ строки\nprint(s[-4]) # t - третий символ строки\nprint(s[-3]) # h - четвертый символ строки\nprint(s[-2]) # o - пятый символ строки\nprint(s[-1]) # n - шестой символ строки\n```","x":885,"y":187,"width":520,"height":211},
-		{"id":"72e5c37d46e0104b","type":"file","file":"Cache/Pasted image 20250402093131.png","x":1533,"y":224,"width":399,"height":138},
-		{"id":"f13c25ce56376520","type":"text","text":"В `Python` индексация начинается с `0`, по аналогии с функцией `range(n)`, которая генерировала последовательность натуральных чисел от `0` до `n-1`","x":1683,"y":-111,"width":250,"height":237}
-	],
-	"edges":[
-		{"id":"4aafde4e78df3b27","fromNode":"9ee17d25d71222a2","fromSide":"right","toNode":"7cfc8ad6d4256e85","toSide":"left"},
-		{"id":"d71d2f21bd9d4241","fromNode":"e2a25db7ff490c2d","fromSide":"right","toNode":"47c75caf404da6b6","toSide":"left"},
-		{"id":"b47543ab87dfa0ad","fromNode":"430cb0209b461afe","fromSide":"right","toNode":"6d765230e0ab901c","toSide":"left"},
-		{"id":"c4214f86df5540e5","fromNode":"5cc7084cd09dbe89","fromSide":"right","toNode":"8d311fa9c900c9ad","toSide":"left"},
-		{"id":"308b3366b8bbc518","fromNode":"8d311fa9c900c9ad","fromSide":"right","toNode":"12ac985e2945ccb1","toSide":"left"},
-		{"id":"5150085dc28bbbec","fromNode":"4a2433064c095e5c","fromSide":"right","toNode":"46b70f007587f59d","toSide":"left"},
-		{"id":"defb9b3ea96f2ec9","fromNode":"7cfc8ad6d4256e85","fromSide":"right","toNode":"e2a25db7ff490c2d","toSide":"left"},
-		{"id":"7dc3be5916ebd0cd","fromNode":"7cfc8ad6d4256e85","fromSide":"right","toNode":"430cb0209b461afe","toSide":"left"},
-		{"id":"2ab24910896ff40d","fromNode":"7cfc8ad6d4256e85","fromSide":"right","toNode":"5cc7084cd09dbe89","toSide":"left"},
-		{"id":"d75b4cfd998b81a1","fromNode":"7cfc8ad6d4256e85","fromSide":"right","toNode":"4a2433064c095e5c","toSide":"left"},
-		{"id":"d9587d115f8488af","fromNode":"7cfc8ad6d4256e85","fromSide":"right","toNode":"a80f4e2b6e4fa1a0","toSide":"left"},
-		{"id":"73903e5564a9222f","fromNode":"a80f4e2b6e4fa1a0","fromSide":"right","toNode":"665523e1e85b6f03","toSide":"left"},
-		{"id":"e3d361b77c5fc6a0","fromNode":"7cfc8ad6d4256e85","fromSide":"right","toNode":"2a693feb0de4a0de","toSide":"left"},
-		{"id":"3c387cf17963a626","fromNode":"2a693feb0de4a0de","fromSide":"right","toNode":"72c594997c1d17ff","toSide":"left"},
-		{"id":"dee7a60bb132660b","fromNode":"9ee17d25d71222a2","fromSide":"right","toNode":"64e8a6b777985061","toSide":"left"},
-		{"id":"1aa7713b164e0bc4","fromNode":"64e8a6b777985061","fromSide":"right","toNode":"5575728dda5e951c","toSide":"left"},
-		{"id":"b6cd0d4143aea81b","fromNode":"5575728dda5e951c","fromSide":"right","toNode":"f4632b559ef4e5d3","toSide":"left"},
-		{"id":"c8927dd38172be38","fromNode":"f4632b559ef4e5d3","fromSide":"right","toNode":"f13c25ce56376520","toSide":"left"},
-		{"id":"5d83722c7af6e343","fromNode":"5575728dda5e951c","fromSide":"bottom","toNode":"398ff4696b8c5482","toSide":"top"},
-		{"id":"eaabb96f88c9f148","fromNode":"398ff4696b8c5482","fromSide":"right","toNode":"1f83230b3745a1fa","toSide":"left"},
-		{"id":"0245dcb09c89eacf","fromNode":"f4632b559ef4e5d3","fromSide":"right","toNode":"72e5c37d46e0104b","toSide":"left"},
-		{"id":"56167eb1fd1612e6","fromNode":"1f83230b3745a1fa","fromSide":"right","toNode":"72e5c37d46e0104b","toSide":"left"},
-		{"id":"530613d6bab31b0b","fromNode":"398ff4696b8c5482","fromSide":"bottom","toNode":"a4bd0d202b1bfaea","toSide":"top"},
-		{"id":"8df401c6a68659b9","fromNode":"1f83230b3745a1fa","fromSide":"bottom","toNode":"06be93f014490280","toSide":"top"},
-		{"id":"fc7df8c6c035465d","fromNode":"9ee17d25d71222a2","fromSide":"right","toNode":"e520f7f5d0974b57","toSide":"left"},
-		{"id":"4397e3ca4040a805","fromNode":"e520f7f5d0974b57","fromSide":"right","toNode":"76a74bbe0daa6536","toSide":"left"},
-		{"id":"d6cff68437b0d405","fromNode":"76a74bbe0daa6536","fromSide":"right","toNode":"5eb43c50fc676126","toSide":"left"},
-		{"id":"e2b2fed08a033cf1","fromNode":"5eb43c50fc676126","fromSide":"bottom","toNode":"b1ecae0ad2c99a1a","toSide":"top"},
-		{"id":"79ef86a777c052ae","fromNode":"5eb43c50fc676126","fromSide":"right","toNode":"bbed5d1ab1402c2d","toSide":"left"},
-		{"id":"5c044d422cef5d00","fromNode":"bbed5d1ab1402c2d","fromSide":"right","toNode":"648ea9f1fd1cd8e0","toSide":"left"},
-		{"id":"8710a67839a0c057","fromNode":"648ea9f1fd1cd8e0","fromSide":"bottom","toNode":"c0e4dcc4be36c989","toSide":"top"},
-		{"id":"1c5c8e3a3b8f9f20","fromNode":"c0e4dcc4be36c989","fromSide":"right","toNode":"adb509038b2d9f62","toSide":"left"},
-		{"id":"28b95cb993454bc9","fromNode":"adb509038b2d9f62","fromSide":"right","toNode":"3148b1c33bf952a4","toSide":"left"},
-		{"id":"e0055bfeceabdd44","fromNode":"adb509038b2d9f62","fromSide":"bottom","toNode":"a577e849aaeda093","toSide":"top"}
-	]
+  "edges": [
+    {
+      "fromNode": "9ee17d25d71222a2",
+      "fromSide": "right",
+      "id": "4aafde4e78df3b27",
+      "toNode": "7cfc8ad6d4256e85",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e2a25db7ff490c2d",
+      "fromSide": "right",
+      "id": "d71d2f21bd9d4241",
+      "toNode": "47c75caf404da6b6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "430cb0209b461afe",
+      "fromSide": "right",
+      "id": "b47543ab87dfa0ad",
+      "toNode": "6d765230e0ab901c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5cc7084cd09dbe89",
+      "fromSide": "right",
+      "id": "c4214f86df5540e5",
+      "toNode": "8d311fa9c900c9ad",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8d311fa9c900c9ad",
+      "fromSide": "right",
+      "id": "308b3366b8bbc518",
+      "toNode": "12ac985e2945ccb1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4a2433064c095e5c",
+      "fromSide": "right",
+      "id": "5150085dc28bbbec",
+      "toNode": "46b70f007587f59d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7cfc8ad6d4256e85",
+      "fromSide": "right",
+      "id": "defb9b3ea96f2ec9",
+      "toNode": "e2a25db7ff490c2d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7cfc8ad6d4256e85",
+      "fromSide": "right",
+      "id": "7dc3be5916ebd0cd",
+      "toNode": "430cb0209b461afe",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7cfc8ad6d4256e85",
+      "fromSide": "right",
+      "id": "2ab24910896ff40d",
+      "toNode": "5cc7084cd09dbe89",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7cfc8ad6d4256e85",
+      "fromSide": "right",
+      "id": "d75b4cfd998b81a1",
+      "toNode": "4a2433064c095e5c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7cfc8ad6d4256e85",
+      "fromSide": "right",
+      "id": "d9587d115f8488af",
+      "toNode": "a80f4e2b6e4fa1a0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a80f4e2b6e4fa1a0",
+      "fromSide": "right",
+      "id": "73903e5564a9222f",
+      "toNode": "665523e1e85b6f03",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7cfc8ad6d4256e85",
+      "fromSide": "right",
+      "id": "e3d361b77c5fc6a0",
+      "toNode": "2a693feb0de4a0de",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2a693feb0de4a0de",
+      "fromSide": "right",
+      "id": "3c387cf17963a626",
+      "toNode": "72c594997c1d17ff",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9ee17d25d71222a2",
+      "fromSide": "right",
+      "id": "dee7a60bb132660b",
+      "toNode": "64e8a6b777985061",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "64e8a6b777985061",
+      "fromSide": "right",
+      "id": "1aa7713b164e0bc4",
+      "toNode": "5575728dda5e951c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5575728dda5e951c",
+      "fromSide": "right",
+      "id": "b6cd0d4143aea81b",
+      "toNode": "f4632b559ef4e5d3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f4632b559ef4e5d3",
+      "fromSide": "right",
+      "id": "c8927dd38172be38",
+      "toNode": "f13c25ce56376520",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5575728dda5e951c",
+      "fromSide": "bottom",
+      "id": "5d83722c7af6e343",
+      "toNode": "398ff4696b8c5482",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "398ff4696b8c5482",
+      "fromSide": "right",
+      "id": "eaabb96f88c9f148",
+      "toNode": "1f83230b3745a1fa",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f4632b559ef4e5d3",
+      "fromSide": "right",
+      "id": "0245dcb09c89eacf",
+      "toNode": "72e5c37d46e0104b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1f83230b3745a1fa",
+      "fromSide": "right",
+      "id": "56167eb1fd1612e6",
+      "toNode": "72e5c37d46e0104b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "398ff4696b8c5482",
+      "fromSide": "bottom",
+      "id": "530613d6bab31b0b",
+      "toNode": "a4bd0d202b1bfaea",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1f83230b3745a1fa",
+      "fromSide": "bottom",
+      "id": "8df401c6a68659b9",
+      "toNode": "06be93f014490280",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9ee17d25d71222a2",
+      "fromSide": "right",
+      "id": "fc7df8c6c035465d",
+      "toNode": "e520f7f5d0974b57",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e520f7f5d0974b57",
+      "fromSide": "right",
+      "id": "4397e3ca4040a805",
+      "toNode": "76a74bbe0daa6536",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "76a74bbe0daa6536",
+      "fromSide": "right",
+      "id": "d6cff68437b0d405",
+      "toNode": "5eb43c50fc676126",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5eb43c50fc676126",
+      "fromSide": "bottom",
+      "id": "e2b2fed08a033cf1",
+      "toNode": "b1ecae0ad2c99a1a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5eb43c50fc676126",
+      "fromSide": "right",
+      "id": "79ef86a777c052ae",
+      "toNode": "bbed5d1ab1402c2d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bbed5d1ab1402c2d",
+      "fromSide": "right",
+      "id": "5c044d422cef5d00",
+      "toNode": "648ea9f1fd1cd8e0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "648ea9f1fd1cd8e0",
+      "fromSide": "bottom",
+      "id": "8710a67839a0c057",
+      "toNode": "c0e4dcc4be36c989",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c0e4dcc4be36c989",
+      "fromSide": "right",
+      "id": "1c5c8e3a3b8f9f20",
+      "toNode": "adb509038b2d9f62",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "adb509038b2d9f62",
+      "fromSide": "right",
+      "id": "28b95cb993454bc9",
+      "toNode": "3148b1c33bf952a4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "adb509038b2d9f62",
+      "fromSide": "bottom",
+      "id": "e0055bfeceabdd44",
+      "toNode": "a577e849aaeda093",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 701,
+      "id": "8267a0533017a5b2",
+      "label": "Работа с циклами и индексацией",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2570,
+      "x": 260,
+      "y": 680
+    },
+    {
+      "height": 744,
+      "id": "899af32d8fbdcc22",
+      "label": "Индексация по строке",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1693,
+      "x": 260,
+      "y": -131
+    },
+    {
+      "height": 779,
+      "id": "b5ee4222c7efc252",
+      "label": "Базовая работа со строкой",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1413,
+      "x": 260,
+      "y": -980
+    },
+    {
+      "height": 117,
+      "id": "7cfc8ad6d4256e85",
+      "styleAttributes": {
+      },
+      "text": "Строки в Python используются, когда надо работать с текстовыми данными",
+      "type": "text",
+      "width": 250,
+      "x": 280,
+      "y": -771
+    },
+    {
+      "height": 80,
+      "id": "47c75caf404da6b6",
+      "styleAttributes": {
+      },
+      "text": "```python\ns1 = 'Python' # Одинарные кавычки\ns2 = \"Pascal\" # Двойные кавычки\n```",
+      "type": "text",
+      "width": 371,
+      "x": 990,
+      "y": -960
+    },
+    {
+      "height": 60,
+      "id": "430cb0209b461afe",
+      "styleAttributes": {
+      },
+      "text": "Считывать",
+      "type": "text",
+      "width": 250,
+      "x": 680,
+      "y": -842
+    },
+    {
+      "height": 60,
+      "id": "e2a25db7ff490c2d",
+      "styleAttributes": {
+      },
+      "text": "Создавать",
+      "type": "text",
+      "width": 250,
+      "x": 680,
+      "y": -950
+    },
+    {
+      "height": 60,
+      "id": "2a693feb0de4a0de",
+      "styleAttributes": {
+      },
+      "text": "Использовать оператор принадлежности `in`",
+      "type": "text",
+      "width": 250,
+      "x": 679,
+      "y": -330
+    },
+    {
+      "height": 60,
+      "id": "4a2433064c095e5c",
+      "styleAttributes": {
+      },
+      "text": "Узнать длину строки",
+      "type": "text",
+      "width": 250,
+      "x": 680,
+      "y": -631
+    },
+    {
+      "height": 60,
+      "id": "a80f4e2b6e4fa1a0",
+      "styleAttributes": {
+      },
+      "text": "Конкатенация и умножение на число",
+      "type": "text",
+      "width": 250,
+      "x": 680,
+      "y": -497
+    },
+    {
+      "height": 60,
+      "id": "5cc7084cd09dbe89",
+      "styleAttributes": {
+      },
+      "text": "Создавать пустую строку",
+      "type": "text",
+      "width": 250,
+      "x": 680,
+      "y": -743
+    },
+    {
+      "height": 60,
+      "id": "b1ecae0ad2c99a1a",
+      "styleAttributes": {
+      },
+      "text": "На каждой строке будет выводится по 1 символу",
+      "type": "text",
+      "width": 250,
+      "x": 959,
+      "y": 922
+    },
+    {
+      "height": 147,
+      "id": "e520f7f5d0974b57",
+      "styleAttributes": {
+      },
+      "text": "Очень часто нужно просканировать всю строку целиком, обрабатывая каждый ее символ",
+      "type": "text",
+      "width": 250,
+      "x": 280,
+      "y": 759
+    },
+    {
+      "height": 60,
+      "id": "76a74bbe0daa6536",
+      "styleAttributes": {
+      },
+      "text": "Для этого удобно использовать цикл `for`",
+      "type": "text",
+      "width": 250,
+      "x": 598,
+      "y": 803
+    },
+    {
+      "height": 80,
+      "id": "6d765230e0ab901c",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = input() # Считывание текста\nnum = int(input()) # Считывание текста и преобразование в целое число\n```",
+      "type": "text",
+      "width": 663,
+      "x": 990,
+      "y": -852
+    },
+    {
+      "height": 118,
+      "id": "bbed5d1ab1402c2d",
+      "styleAttributes": {
+      },
+      "text": "В функцию `range()` передается длина строки `len(s)`. В данном случае длина строки `s`, равна `6`. Таким образом, вызов функции `range(len(s))` имеет вид `range(6)` и переменная цикла `i` последовательно перебирает все значения от 0 до 5.",
+      "type": "text",
+      "width": 540,
+      "x": 1320,
+      "y": 774
+    },
+    {
+      "height": 106,
+      "id": "46b70f007587f59d",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'Hello'\nn = len(s) # Значение переменной = 5\nprint(n)\n```",
+      "type": "text",
+      "width": 383,
+      "x": 990,
+      "y": -654
+    },
+    {
+      "height": 106,
+      "id": "665523e1e85b6f03",
+      "styleAttributes": {
+      },
+      "text": "```python\nresult1 = 'AB' + 'cd' # 'ABcd'\nresult2 = 'A' + '7' + 'B' # A7B\nresult3 = 'Hi' * 4 # HiHiHiHi\n```",
+      "type": "text",
+      "width": 356,
+      "x": 990,
+      "y": -520
+    },
+    {
+      "height": 159,
+      "id": "72c594997c1d17ff",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'All you need is love'\nif 'love' in s: # Проверка подстроки в строке\n\tprint('YES') # Вывод YES если подстрока присутствует в строке\nelse:\n\tprint('NO') # Вывод NO если подстрока отсутствует в строке\n```",
+      "type": "text",
+      "width": 629,
+      "x": 990,
+      "y": -380
+    },
+    {
+      "height": 106,
+      "id": "5eb43c50fc676126",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'abcdef'\nfor i in range(len(s)):\n\tprint(s[i])\n```",
+      "type": "text",
+      "width": 359,
+      "x": 905,
+      "y": 780
+    },
+    {
+      "height": 267,
+      "id": "3148b1c33bf952a4",
+      "styleAttributes": {
+      },
+      "text": "Данный цикл пройдет по строке `s`, придавая переменной цикла `c` значение каждого символа (!) в отличие от предыдущего цикла, в котором переменная цикла \"бегала\" по индексам строки",
+      "type": "text",
+      "width": 250,
+      "x": 2560,
+      "y": 955
+    },
+    {
+      "height": 147,
+      "id": "c0e4dcc4be36c989",
+      "styleAttributes": {
+      },
+      "text": "Если не нужен индекс самого символа, то можно использовать более короткий способ итерации",
+      "type": "text",
+      "width": 250,
+      "x": 1933,
+      "y": 1014
+    },
+    {
+      "height": 106,
+      "id": "adb509038b2d9f62",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'abcdef'\nfor c in s:\n\tprint(c)\n```",
+      "type": "text",
+      "width": 250,
+      "x": 2240,
+      "y": 1035
+    },
+    {
+      "height": 147,
+      "id": "a577e849aaeda093",
+      "styleAttributes": {
+      },
+      "text": "`i` - стандартная идеология наименования переменных цикла\n`c` - первая буква слова `char (символ)`",
+      "type": "text",
+      "width": 250,
+      "x": 2240,
+      "y": 1214
+    },
+    {
+      "height": 267,
+      "id": "648ea9f1fd1cd8e0",
+      "styleAttributes": {
+      },
+      "text": "Это означает, что выражение `s[i]` последовательно вернет все символы строки `s`. Такой способ итерации строки удобен, когда нужен не только сам элемент `s[i]`, но и его индекс `i`",
+      "type": "text",
+      "width": 250,
+      "x": 1933,
+      "y": 700
+    },
+    {
+      "height": 60,
+      "id": "12ac985e2945ccb1",
+      "styleAttributes": {
+      },
+      "text": "Пустая строка - аналог числа `0`",
+      "type": "text",
+      "width": 250,
+      "x": 1283,
+      "y": -743
+    },
+    {
+      "height": 80,
+      "id": "8d311fa9c900c9ad",
+      "styleAttributes": {
+      },
+      "text": "```python\ns1 = \"\"\ns2 = ''\n```",
+      "type": "text",
+      "width": 250,
+      "x": 990,
+      "y": -753
+    },
+    {
+      "height": 117,
+      "id": "64e8a6b777985061",
+      "styleAttributes": {
+      },
+      "text": "Очень часто бывает необходимо обратиться к конкретному символу в строке",
+      "type": "text",
+      "width": 250,
+      "x": 280,
+      "y": -51
+    },
+    {
+      "height": 118,
+      "id": "a4bd0d202b1bfaea",
+      "styleAttributes": {
+      },
+      "text": "Но стоит помнить, что при попытке обращения по несуществующему индексу в строке, будет ошибка:\n`IndexError: string index out of range`",
+      "type": "text",
+      "width": 400,
+      "x": 505,
+      "y": 460
+    },
+    {
+      "height": 60,
+      "id": "9ee17d25d71222a2",
+      "styleAttributes": {
+      },
+      "text": "Индексация",
+      "type": "text",
+      "width": 250,
+      "x": -100,
+      "y": -22
+    },
+    {
+      "height": 147,
+      "id": "5575728dda5e951c",
+      "styleAttributes": {
+      },
+      "text": "В `Python` используются квадратные скобки `[]`, в которых указывается индекс (номер) нужного символа в строке",
+      "type": "text",
+      "width": 250,
+      "x": 580,
+      "y": -66
+    },
+    {
+      "height": 237,
+      "id": "398ff4696b8c5482",
+      "styleAttributes": {
+      },
+      "text": "В `Python` также можно работать с отрицательными индексами. Если первый символ строки имеет индекс `0`, то последнему элементу присваивается индекс `-1`",
+      "type": "text",
+      "width": 250,
+      "x": 580,
+      "y": 174
+    },
+    {
+      "height": 148,
+      "id": "06be93f014490280",
+      "styleAttributes": {
+      },
+      "text": "Если длина строки `s` равна `len(s)`, то при положительной нумерации слева направо, последний элемент имеет индекс равный `len(s)-1`, а при отрицательной индексации справа налево, первый элемент имеет индекс равный `-len(s)`",
+      "type": "text",
+      "width": 462,
+      "x": 914,
+      "y": 445
+    },
+    {
+      "height": 211,
+      "id": "f4632b559ef4e5d3",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'Python'\nprint(s[0]) # P - первый символ строки\nprint(s[1]) # y - второй символ строки\nprint(s[2]) # t - третий символ строки\nprint(s[3]) # h - четвертый символ строки\nprint(s[4]) # o - пятый символ строки\nprint(s[5]) # n - шестой символ строки\n```",
+      "type": "text",
+      "width": 461,
+      "x": 885,
+      "y": -98
+    },
+    {
+      "height": 211,
+      "id": "1f83230b3745a1fa",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'Python'\nprint(s[-6]) # P - первый символ строки\nprint(s[-5]) # y - второй символ строки\nprint(s[-4]) # t - третий символ строки\nprint(s[-3]) # h - четвертый символ строки\nprint(s[-2]) # o - пятый символ строки\nprint(s[-1]) # n - шестой символ строки\n```",
+      "type": "text",
+      "width": 520,
+      "x": 885,
+      "y": 187
+    },
+    {
+      "file": "Cache/Pasted image 20250402093131.png",
+      "height": 138,
+      "id": "72e5c37d46e0104b",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": 1533,
+      "y": 224
+    },
+    {
+      "height": 237,
+      "id": "f13c25ce56376520",
+      "styleAttributes": {
+      },
+      "text": "В `Python` индексация начинается с `0`, по аналогии с функцией `range(n)`, которая генерировала последовательность натуральных чисел от `0` до `n-1`",
+      "type": "text",
+      "width": 250,
+      "x": 1683,
+      "y": -111
+    }
+  ]
 }

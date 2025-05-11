@@ -1,86 +1,830 @@
 {
-	"nodes":[
-		{"id":"4b96d23614f158f6","type":"text","text":"Нормальные формы базы данных. 1-3 НФ.\n[клик](https://www.youtube.com/watch?v=zwQzL80U51c)\n","x":-132,"y":-45,"width":250,"height":87,"color":"1"},
-		{"id":"7b744c8010e29df7","type":"text","text":"Последствия при избыточности","x":-132,"y":-660,"width":250,"height":60,"color":"4"},
-		{"id":"f790e540e6e07a85","type":"text","text":"Увеличение занимаемого места на диске","x":-382,"y":-853,"width":250,"height":96,"color":"4"},
-		{"id":"fc50692d36d9326f","type":"text","text":"Аномалиям включения, обновления, удаления","x":118,"y":-817,"width":250,"height":60,"color":"4"},
-		{"id":"6621afd19637fd17","type":"text","text":"**Нормализация** - удаление избыточности данных","x":-131,"y":-200,"width":249,"height":93,"color":"4"},
-		{"id":"286a8e4828039631","type":"text","text":"Избыточность - ситуация, когда мы храним больше данных, чем это на самом деле необходимо.","x":-132,"y":-440,"width":250,"height":153,"color":"4"},
-		{"id":"473122e89fbd1c14","type":"text","text":"Устранение избыточности производится, как правило, за счет декомпозиции отношений таким образом, что в каждом отношении хранились только первичные факты (то есть факты, не выводимые из других хранимых фактов).","x":260,"y":-482,"width":306,"height":237,"color":"4"},
-		{"id":"63c5d836eade7666","type":"text","text":"## Список нормальных форм\n - 1 НФ\n - 2 НФ\n - 3 НФ\n - НФ Бойса-Кодда (усиленная 3 НФ)\n - 4 НФ\n - 5 НФ\n - 6 НФ\n - Доменно-ключевая НФ","x":760,"y":-157,"width":380,"height":312,"color":"6"},
-		{"id":"79ed6ca07d85a7f4","type":"text","text":"Не должно быть повторяющихся строк","x":-1680,"y":-913,"width":250,"height":60,"color":"5"},
-		{"id":"3a33a7a929bdbe6f","type":"text","text":"Переменная отношения находится в первой нормальной форме, когда в любом допустимом значении отношения каждый его кортеж содержит только одно значение для каждого из атрибутов.","x":-1320,"y":-1073,"width":282,"height":270,"color":"4"},
-		{"id":"f4f98eb13d160846","type":"text","text":"Первая нормальная форма (1 НФ)","x":-830,"y":-968,"width":250,"height":60,"color":"4"},
-		{"id":"b0ee76aa716e2d71","type":"text","text":"В каждой клеточке таблицы должно быть только одно значение","x":-1680,"y":-1073,"width":250,"height":120,"color":"5"},
-		{"id":"75ead4a3bdcac72b","type":"text","text":"Таблица находится в первой нормальной форме","x":-1680,"y":-757,"width":250,"height":86,"color":"5"},
-		{"id":"ba052722801f758b","type":"text","text":"Существует первичный ключ","x":-1680,"y":-646,"width":250,"height":60,"color":"5"},
-		{"id":"a5576aced50fca40","type":"text","text":"Все атрибуты зависят от первичного ключа целиком, а не от какой-то его части","x":-1680,"y":-550,"width":250,"height":119,"color":"5"},
-		{"id":"4c4fcf2f3bc77b25","type":"text","text":"Переменная отношения находится во второй нормальной форме, когда она находится в первой форме и каждый неключевой атрибут полностью функционально зависит от потенциального ключа.","x":-1320,"y":-757,"width":282,"height":281,"color":"4"},
-		{"id":"ebc8c519da963a0c","type":"text","text":"Вторая нормальная форма (2 НФ)","x":-830,"y":-647,"width":250,"height":60,"color":"4"},
-		{"id":"5dc51ee7c5bd4ea9","type":"text","text":"Переменная отношения находится в третьей нормальной форме, когда он находится во второй нормальной форме, и отсутствуют транзитивные функциональные зависимости неключевых атрибутов от ключевых","x":-1320,"y":-390,"width":282,"height":283,"color":"4"},
-		{"id":"87583a5933f38e32","type":"text","text":"Третья нормальная форма (3 НФ)","x":-830,"y":-279,"width":250,"height":60,"color":"4"},
-		{"id":"022fbb1bd440fec5","type":"text","text":"Таблица находится во второй нормальной форме","x":-1680,"y":-381,"width":250,"height":102,"color":"5"},
-		{"id":"ed9a1412b33b0f5c","type":"text","text":"Все атрибуты зависят только от первичного ключа, но не от других атрибутов","x":-1680,"y":-233,"width":250,"height":130,"color":"5"},
-		{"id":"fd398952d673b940","type":"file","file":"Cache/Pasted image 20240825164357.png","x":-3340,"y":-1558,"width":400,"height":227,"color":"6"},
-		{"id":"5168e9cbd771b0fd","type":"file","file":"Cache/Pasted image 20240825164442.png","x":-3340,"y":-1294,"width":400,"height":239,"color":"6"},
-		{"id":"72369577f06cd1a5","type":"file","file":"Cache/Pasted image 20240825164550.png","x":-3340,"y":-1013,"width":400,"height":261,"color":"6"},
-		{"id":"56e402c6f07005c3","type":"text","text":"2 НФ","x":-3265,"y":-1713,"width":250,"height":60,"color":"#000000"},
-		{"id":"c7ca46e3daf02eba","type":"file","file":"Cache/Pasted image 20240825165321.png","x":-2904,"y":-1558,"width":356,"height":227},
-		{"id":"9eac9b8e7b4105bf","type":"file","file":"Cache/Pasted image 20240825165338.png","x":-2904,"y":-1294,"width":356,"height":229},
-		{"id":"4ae90856d1a5fbb9","type":"text","text":"3 НФ","x":-2851,"y":-1713,"width":250,"height":60,"color":"#000000"},
-		{"id":"ff21820023bea62a","type":"file","file":"Cache/Pasted image 20240825164234.png","x":-3780,"y":-1558,"width":400,"height":249,"color":"6"},
-		{"id":"0c4830fd75a9dbea","type":"file","file":"Cache/Pasted image 20240825164256.png","x":-3780,"y":-1278,"width":400,"height":252,"color":"6"},
-		{"id":"54f04740126321c3","type":"text","text":"1 НФ","x":-3705,"y":-1713,"width":250,"height":60,"color":"#000000"},
-		{"id":"f2e966588d50c651","type":"file","file":"Cache/Pasted image 20240825171346.png","x":-2440,"y":-1558,"width":349,"height":227},
-		{"id":"69de09d6d9b2cdc5","type":"file","file":"Cache/Pasted image 20240825171404.png","x":-2440,"y":-1270,"width":349,"height":225},
-		{"id":"69e213958218adf6","type":"text","text":"НФБК / Усиленная третья форма","x":-2390,"y":-1713,"width":250,"height":60,"color":"#000000"},
-		{"id":"a9dfb683da91cbf5","type":"text","text":"Нормальная форма Бойса-Кодда / Усиленная третья форма","x":-830,"y":97,"width":250,"height":100,"color":"4"},
-		{"id":"eccea961604c57f6","type":"text","text":"Ключевые атрибуты не должны зависеть от не-ключевых","x":-1680,"y":197,"width":250,"height":89,"color":"5"},
-		{"id":"c8e4d5331c441d2d","type":"text","text":"Таблица находится в третьей нормальной форме","x":-1680,"y":-1,"width":250,"height":98,"color":"5"},
-		{"id":"7ceaa25cccdf9439","type":"text","text":"Переменная отношения находится в нормальной форме Бойса-Кодда (усиленная третья форма) тогда, когда каждая ее нетривиальная и неприводимая слева функциональная зависимость имеет в качестве своего детерминанта некоторый потенциальный ключ","x":-1320,"y":-29,"width":282,"height":352,"color":"4"},
-		{"id":"55e7866d91133e75","type":"text","text":"Четвертая нормальная форма (4 НФ)","x":-830,"y":520,"width":250,"height":78,"color":"4"},
-		{"id":"3593080c0e8ba623","type":"text","text":"Переменная отношения находится в четвертой нормальной форме, если она находится в нормальной форме Бойса-Кодда и не содержит нетривиальных многозначных зависимостей","x":-1320,"y":456,"width":282,"height":207,"color":"4"},
-		{"id":"a3f464eb23020fcf","type":"text","text":"Таблица находится в НФ БК","x":-1680,"y":456,"width":250,"height":60,"color":"5"},
-		{"id":"c022ac7230179753","type":"text","text":"Устраняются многозначные зависимости","x":-1680,"y":573,"width":250,"height":90,"color":"5"},
-		{"id":"7a01f67e92795373","type":"text","text":"Пятая нормальная форма (5 НФ)","x":-830,"y":840,"width":250,"height":60,"color":"4"},
-		{"id":"4365741325ea4c9f","type":"text","text":"Переменная отношения находится в пятой нормальной форме (проекционно-соединительная нормальная форма) тогда, когда каждая нетривиальная зависимость соединения в ней определяется потенциальным ключом (ключами) этого отношения","x":-1320,"y":710,"width":282,"height":320,"color":"4"},
-		{"id":"0a9e390952e17769","type":"text","text":"Таблица находится в 4 НФ","x":-1677,"y":726,"width":250,"height":60,"color":"5"},
-		{"id":"c2d2e877cdcc21f0","type":"text","text":"Устраняются нетривиальные зависимости","x":-1680,"y":809,"width":250,"height":122,"color":"5"},
-		{"id":"9df110d278266957","type":"text","text":"Декомпозиция без потерь","x":-1680,"y":970,"width":250,"height":60,"color":"5"}
-	],
-	"edges":[
-		{"id":"409139c6e73e06d1","fromNode":"4b96d23614f158f6","fromSide":"top","toNode":"6621afd19637fd17","toSide":"bottom","color":"4"},
-		{"id":"ae3f5acf0e9c441b","fromNode":"6621afd19637fd17","fromSide":"top","toNode":"286a8e4828039631","toSide":"bottom","color":"4"},
-		{"id":"f3e8f2dc37fe07fa","fromNode":"286a8e4828039631","fromSide":"top","toNode":"7b744c8010e29df7","toSide":"bottom","color":"4"},
-		{"id":"6c334db92e9d080b","fromNode":"7b744c8010e29df7","fromSide":"top","toNode":"f790e540e6e07a85","toSide":"bottom","color":"4"},
-		{"id":"9c4139482a504497","fromNode":"7b744c8010e29df7","fromSide":"top","toNode":"fc50692d36d9326f","toSide":"bottom","color":"4"},
-		{"id":"c75493eab5de043c","fromNode":"286a8e4828039631","fromSide":"right","toNode":"473122e89fbd1c14","toSide":"left","color":"4"},
-		{"id":"89bb40ddc798fe97","fromNode":"4b96d23614f158f6","fromSide":"right","toNode":"63c5d836eade7666","toSide":"left","color":"4"},
-		{"id":"77cb6b396916d7ac","fromNode":"4b96d23614f158f6","fromSide":"left","toNode":"f4f98eb13d160846","toSide":"right","color":"4"},
-		{"id":"9fdbbae69ae8ee42","fromNode":"f4f98eb13d160846","fromSide":"left","toNode":"3a33a7a929bdbe6f","toSide":"right","color":"4"},
-		{"id":"5c60bb8a2e65f1bf","fromNode":"3a33a7a929bdbe6f","fromSide":"left","toNode":"b0ee76aa716e2d71","toSide":"right","color":"5"},
-		{"id":"5e9b333c402c8921","fromNode":"3a33a7a929bdbe6f","fromSide":"left","toNode":"79ed6ca07d85a7f4","toSide":"right","color":"5"},
-		{"id":"0ee07f181c707e0a","fromNode":"4b96d23614f158f6","fromSide":"left","toNode":"ebc8c519da963a0c","toSide":"right","color":"4"},
-		{"id":"4c35e0422426e6a6","fromNode":"ebc8c519da963a0c","fromSide":"left","toNode":"4c4fcf2f3bc77b25","toSide":"right","color":"4"},
-		{"id":"f0618b393f917d79","fromNode":"4c4fcf2f3bc77b25","fromSide":"left","toNode":"75ead4a3bdcac72b","toSide":"right","color":"5"},
-		{"id":"3dabfef9679fc1dc","fromNode":"4c4fcf2f3bc77b25","fromSide":"left","toNode":"ba052722801f758b","toSide":"right","color":"5"},
-		{"id":"b7e346e01dfa97cd","fromNode":"4c4fcf2f3bc77b25","fromSide":"left","toNode":"a5576aced50fca40","toSide":"right","color":"5"},
-		{"id":"f66cca1a5bfad692","fromNode":"4b96d23614f158f6","fromSide":"left","toNode":"87583a5933f38e32","toSide":"right","color":"4"},
-		{"id":"5e8f725107ae6b47","fromNode":"87583a5933f38e32","fromSide":"left","toNode":"5dc51ee7c5bd4ea9","toSide":"right","color":"4"},
-		{"id":"2bc5cb55818424b8","fromNode":"5dc51ee7c5bd4ea9","fromSide":"left","toNode":"022fbb1bd440fec5","toSide":"right","color":"5"},
-		{"id":"36bf3f01421005fe","fromNode":"5dc51ee7c5bd4ea9","fromSide":"left","toNode":"ed9a1412b33b0f5c","toSide":"right","color":"5"},
-		{"id":"d80b8230687ebcd6","fromNode":"4b96d23614f158f6","fromSide":"left","toNode":"a9dfb683da91cbf5","toSide":"right","color":"4"},
-		{"id":"f7e986b152d3cd15","fromNode":"a9dfb683da91cbf5","fromSide":"left","toNode":"7ceaa25cccdf9439","toSide":"right","color":"4"},
-		{"id":"09d1709edb0a2942","fromNode":"7ceaa25cccdf9439","fromSide":"left","toNode":"c8e4d5331c441d2d","toSide":"right","color":"5"},
-		{"id":"02ac30de32983048","fromNode":"7ceaa25cccdf9439","fromSide":"left","toNode":"eccea961604c57f6","toSide":"right","color":"5"},
-		{"id":"169a58652c411e39","fromNode":"4b96d23614f158f6","fromSide":"left","toNode":"55e7866d91133e75","toSide":"right","color":"4"},
-		{"id":"6594c8d1bd094e94","fromNode":"55e7866d91133e75","fromSide":"left","toNode":"3593080c0e8ba623","toSide":"right","color":"4"},
-		{"id":"f906f9d56168c857","fromNode":"3593080c0e8ba623","fromSide":"left","toNode":"a3f464eb23020fcf","toSide":"right","color":"5"},
-		{"id":"174767cd208d4621","fromNode":"3593080c0e8ba623","fromSide":"left","toNode":"c022ac7230179753","toSide":"right","color":"5"},
-		{"id":"8314b9775c72c3ff","fromNode":"4b96d23614f158f6","fromSide":"left","toNode":"7a01f67e92795373","toSide":"right","color":"4"},
-		{"id":"7dd3611297b72a04","fromNode":"7a01f67e92795373","fromSide":"left","toNode":"4365741325ea4c9f","toSide":"right","color":"4"},
-		{"id":"7098600c4efb51f4","fromNode":"4365741325ea4c9f","fromSide":"left","toNode":"0a9e390952e17769","toSide":"right","color":"5"},
-		{"id":"0da4a8732b1de6b8","fromNode":"4365741325ea4c9f","fromSide":"left","toNode":"c2d2e877cdcc21f0","toSide":"right","color":"5"},
-		{"id":"60db0394e5f062fd","fromNode":"4365741325ea4c9f","fromSide":"left","toNode":"9df110d278266957","toSide":"right","color":"5"}
-	]
+  "edges": [
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "top",
+      "id": "409139c6e73e06d1",
+      "toNode": "6621afd19637fd17",
+      "toSide": "bottom"
+    },
+    {
+      "color": "4",
+      "fromNode": "6621afd19637fd17",
+      "fromSide": "top",
+      "id": "ae3f5acf0e9c441b",
+      "toNode": "286a8e4828039631",
+      "toSide": "bottom"
+    },
+    {
+      "color": "4",
+      "fromNode": "286a8e4828039631",
+      "fromSide": "top",
+      "id": "f3e8f2dc37fe07fa",
+      "toNode": "7b744c8010e29df7",
+      "toSide": "bottom"
+    },
+    {
+      "color": "4",
+      "fromNode": "7b744c8010e29df7",
+      "fromSide": "top",
+      "id": "6c334db92e9d080b",
+      "toNode": "f790e540e6e07a85",
+      "toSide": "bottom"
+    },
+    {
+      "color": "4",
+      "fromNode": "7b744c8010e29df7",
+      "fromSide": "top",
+      "id": "9c4139482a504497",
+      "toNode": "fc50692d36d9326f",
+      "toSide": "bottom"
+    },
+    {
+      "color": "4",
+      "fromNode": "286a8e4828039631",
+      "fromSide": "right",
+      "id": "c75493eab5de043c",
+      "toNode": "473122e89fbd1c14",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "right",
+      "id": "89bb40ddc798fe97",
+      "toNode": "63c5d836eade7666",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "left",
+      "id": "77cb6b396916d7ac",
+      "toNode": "f4f98eb13d160846",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "f4f98eb13d160846",
+      "fromSide": "left",
+      "id": "9fdbbae69ae8ee42",
+      "toNode": "3a33a7a929bdbe6f",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "3a33a7a929bdbe6f",
+      "fromSide": "left",
+      "id": "5c60bb8a2e65f1bf",
+      "toNode": "b0ee76aa716e2d71",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "3a33a7a929bdbe6f",
+      "fromSide": "left",
+      "id": "5e9b333c402c8921",
+      "toNode": "79ed6ca07d85a7f4",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "left",
+      "id": "0ee07f181c707e0a",
+      "toNode": "ebc8c519da963a0c",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "ebc8c519da963a0c",
+      "fromSide": "left",
+      "id": "4c35e0422426e6a6",
+      "toNode": "4c4fcf2f3bc77b25",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "4c4fcf2f3bc77b25",
+      "fromSide": "left",
+      "id": "f0618b393f917d79",
+      "toNode": "75ead4a3bdcac72b",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "4c4fcf2f3bc77b25",
+      "fromSide": "left",
+      "id": "3dabfef9679fc1dc",
+      "toNode": "ba052722801f758b",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "4c4fcf2f3bc77b25",
+      "fromSide": "left",
+      "id": "b7e346e01dfa97cd",
+      "toNode": "a5576aced50fca40",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "left",
+      "id": "f66cca1a5bfad692",
+      "toNode": "87583a5933f38e32",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "87583a5933f38e32",
+      "fromSide": "left",
+      "id": "5e8f725107ae6b47",
+      "toNode": "5dc51ee7c5bd4ea9",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "5dc51ee7c5bd4ea9",
+      "fromSide": "left",
+      "id": "2bc5cb55818424b8",
+      "toNode": "022fbb1bd440fec5",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "5dc51ee7c5bd4ea9",
+      "fromSide": "left",
+      "id": "36bf3f01421005fe",
+      "toNode": "ed9a1412b33b0f5c",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "left",
+      "id": "d80b8230687ebcd6",
+      "toNode": "a9dfb683da91cbf5",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "a9dfb683da91cbf5",
+      "fromSide": "left",
+      "id": "f7e986b152d3cd15",
+      "toNode": "7ceaa25cccdf9439",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "7ceaa25cccdf9439",
+      "fromSide": "left",
+      "id": "09d1709edb0a2942",
+      "toNode": "c8e4d5331c441d2d",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "7ceaa25cccdf9439",
+      "fromSide": "left",
+      "id": "02ac30de32983048",
+      "toNode": "eccea961604c57f6",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "left",
+      "id": "169a58652c411e39",
+      "toNode": "55e7866d91133e75",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "55e7866d91133e75",
+      "fromSide": "left",
+      "id": "6594c8d1bd094e94",
+      "toNode": "3593080c0e8ba623",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "3593080c0e8ba623",
+      "fromSide": "left",
+      "id": "f906f9d56168c857",
+      "toNode": "a3f464eb23020fcf",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "3593080c0e8ba623",
+      "fromSide": "left",
+      "id": "174767cd208d4621",
+      "toNode": "c022ac7230179753",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "4b96d23614f158f6",
+      "fromSide": "left",
+      "id": "8314b9775c72c3ff",
+      "toNode": "7a01f67e92795373",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "7a01f67e92795373",
+      "fromSide": "left",
+      "id": "7dd3611297b72a04",
+      "toNode": "4365741325ea4c9f",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "4365741325ea4c9f",
+      "fromSide": "left",
+      "id": "7098600c4efb51f4",
+      "toNode": "0a9e390952e17769",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "4365741325ea4c9f",
+      "fromSide": "left",
+      "id": "0da4a8732b1de6b8",
+      "toNode": "c2d2e877cdcc21f0",
+      "toSide": "right"
+    },
+    {
+      "color": "5",
+      "fromNode": "4365741325ea4c9f",
+      "fromSide": "left",
+      "id": "60db0394e5f062fd",
+      "toNode": "9df110d278266957",
+      "toSide": "right"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "1",
+      "height": 87,
+      "id": "4b96d23614f158f6",
+      "styleAttributes": {
+      },
+      "text": "Нормальные формы базы данных. 1-3 НФ.\n[клик](https://www.youtube.com/watch?v=zwQzL80U51c)\n",
+      "type": "text",
+      "width": 250,
+      "x": -132,
+      "y": -45
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "7b744c8010e29df7",
+      "styleAttributes": {
+      },
+      "text": "Последствия при избыточности",
+      "type": "text",
+      "width": 250,
+      "x": -132,
+      "y": -660
+    },
+    {
+      "color": "4",
+      "height": 96,
+      "id": "f790e540e6e07a85",
+      "styleAttributes": {
+      },
+      "text": "Увеличение занимаемого места на диске",
+      "type": "text",
+      "width": 250,
+      "x": -382,
+      "y": -853
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "fc50692d36d9326f",
+      "styleAttributes": {
+      },
+      "text": "Аномалиям включения, обновления, удаления",
+      "type": "text",
+      "width": 250,
+      "x": 118,
+      "y": -817
+    },
+    {
+      "color": "4",
+      "height": 93,
+      "id": "6621afd19637fd17",
+      "styleAttributes": {
+      },
+      "text": "**Нормализация** - удаление избыточности данных",
+      "type": "text",
+      "width": 249,
+      "x": -131,
+      "y": -200
+    },
+    {
+      "color": "4",
+      "height": 153,
+      "id": "286a8e4828039631",
+      "styleAttributes": {
+      },
+      "text": "Избыточность - ситуация, когда мы храним больше данных, чем это на самом деле необходимо.",
+      "type": "text",
+      "width": 250,
+      "x": -132,
+      "y": -440
+    },
+    {
+      "color": "4",
+      "height": 237,
+      "id": "473122e89fbd1c14",
+      "styleAttributes": {
+      },
+      "text": "Устранение избыточности производится, как правило, за счет декомпозиции отношений таким образом, что в каждом отношении хранились только первичные факты (то есть факты, не выводимые из других хранимых фактов).",
+      "type": "text",
+      "width": 306,
+      "x": 260,
+      "y": -482
+    },
+    {
+      "color": "6",
+      "height": 312,
+      "id": "63c5d836eade7666",
+      "styleAttributes": {
+      },
+      "text": "## Список нормальных форм\n - 1 НФ\n - 2 НФ\n - 3 НФ\n - НФ Бойса-Кодда (усиленная 3 НФ)\n - 4 НФ\n - 5 НФ\n - 6 НФ\n - Доменно-ключевая НФ",
+      "type": "text",
+      "width": 380,
+      "x": 760,
+      "y": -157
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "79ed6ca07d85a7f4",
+      "styleAttributes": {
+      },
+      "text": "Не должно быть повторяющихся строк",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -913
+    },
+    {
+      "color": "4",
+      "height": 270,
+      "id": "3a33a7a929bdbe6f",
+      "styleAttributes": {
+      },
+      "text": "Переменная отношения находится в первой нормальной форме, когда в любом допустимом значении отношения каждый его кортеж содержит только одно значение для каждого из атрибутов.",
+      "type": "text",
+      "width": 282,
+      "x": -1320,
+      "y": -1073
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "f4f98eb13d160846",
+      "styleAttributes": {
+      },
+      "text": "Первая нормальная форма (1 НФ)",
+      "type": "text",
+      "width": 250,
+      "x": -830,
+      "y": -968
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "b0ee76aa716e2d71",
+      "styleAttributes": {
+      },
+      "text": "В каждой клеточке таблицы должно быть только одно значение",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -1073
+    },
+    {
+      "color": "5",
+      "height": 86,
+      "id": "75ead4a3bdcac72b",
+      "styleAttributes": {
+      },
+      "text": "Таблица находится в первой нормальной форме",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -757
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "ba052722801f758b",
+      "styleAttributes": {
+      },
+      "text": "Существует первичный ключ",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -646
+    },
+    {
+      "color": "5",
+      "height": 119,
+      "id": "a5576aced50fca40",
+      "styleAttributes": {
+      },
+      "text": "Все атрибуты зависят от первичного ключа целиком, а не от какой-то его части",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -550
+    },
+    {
+      "color": "4",
+      "height": 281,
+      "id": "4c4fcf2f3bc77b25",
+      "styleAttributes": {
+      },
+      "text": "Переменная отношения находится во второй нормальной форме, когда она находится в первой форме и каждый неключевой атрибут полностью функционально зависит от потенциального ключа.",
+      "type": "text",
+      "width": 282,
+      "x": -1320,
+      "y": -757
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "ebc8c519da963a0c",
+      "styleAttributes": {
+      },
+      "text": "Вторая нормальная форма (2 НФ)",
+      "type": "text",
+      "width": 250,
+      "x": -830,
+      "y": -647
+    },
+    {
+      "color": "4",
+      "height": 283,
+      "id": "5dc51ee7c5bd4ea9",
+      "styleAttributes": {
+      },
+      "text": "Переменная отношения находится в третьей нормальной форме, когда он находится во второй нормальной форме, и отсутствуют транзитивные функциональные зависимости неключевых атрибутов от ключевых",
+      "type": "text",
+      "width": 282,
+      "x": -1320,
+      "y": -390
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "87583a5933f38e32",
+      "styleAttributes": {
+      },
+      "text": "Третья нормальная форма (3 НФ)",
+      "type": "text",
+      "width": 250,
+      "x": -830,
+      "y": -279
+    },
+    {
+      "color": "5",
+      "height": 102,
+      "id": "022fbb1bd440fec5",
+      "styleAttributes": {
+      },
+      "text": "Таблица находится во второй нормальной форме",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -381
+    },
+    {
+      "color": "5",
+      "height": 130,
+      "id": "ed9a1412b33b0f5c",
+      "styleAttributes": {
+      },
+      "text": "Все атрибуты зависят только от первичного ключа, но не от других атрибутов",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -233
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240825164357.png",
+      "height": 227,
+      "id": "fd398952d673b940",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -3340,
+      "y": -1558
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240825164442.png",
+      "height": 239,
+      "id": "5168e9cbd771b0fd",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -3340,
+      "y": -1294
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240825164550.png",
+      "height": 261,
+      "id": "72369577f06cd1a5",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -3340,
+      "y": -1013
+    },
+    {
+      "color": "#000000",
+      "height": 60,
+      "id": "56e402c6f07005c3",
+      "styleAttributes": {
+      },
+      "text": "2 НФ",
+      "type": "text",
+      "width": 250,
+      "x": -3265,
+      "y": -1713
+    },
+    {
+      "file": "Cache/Pasted image 20240825165321.png",
+      "height": 227,
+      "id": "c7ca46e3daf02eba",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 356,
+      "x": -2904,
+      "y": -1558
+    },
+    {
+      "file": "Cache/Pasted image 20240825165338.png",
+      "height": 229,
+      "id": "9eac9b8e7b4105bf",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 356,
+      "x": -2904,
+      "y": -1294
+    },
+    {
+      "color": "#000000",
+      "height": 60,
+      "id": "4ae90856d1a5fbb9",
+      "styleAttributes": {
+      },
+      "text": "3 НФ",
+      "type": "text",
+      "width": 250,
+      "x": -2851,
+      "y": -1713
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240825164234.png",
+      "height": 249,
+      "id": "ff21820023bea62a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -3780,
+      "y": -1558
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240825164256.png",
+      "height": 252,
+      "id": "0c4830fd75a9dbea",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -3780,
+      "y": -1278
+    },
+    {
+      "color": "#000000",
+      "height": 60,
+      "id": "54f04740126321c3",
+      "styleAttributes": {
+      },
+      "text": "1 НФ",
+      "type": "text",
+      "width": 250,
+      "x": -3705,
+      "y": -1713
+    },
+    {
+      "file": "Cache/Pasted image 20240825171346.png",
+      "height": 227,
+      "id": "f2e966588d50c651",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 349,
+      "x": -2440,
+      "y": -1558
+    },
+    {
+      "file": "Cache/Pasted image 20240825171404.png",
+      "height": 225,
+      "id": "69de09d6d9b2cdc5",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 349,
+      "x": -2440,
+      "y": -1270
+    },
+    {
+      "color": "#000000",
+      "height": 60,
+      "id": "69e213958218adf6",
+      "styleAttributes": {
+      },
+      "text": "НФБК / Усиленная третья форма",
+      "type": "text",
+      "width": 250,
+      "x": -2390,
+      "y": -1713
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "a9dfb683da91cbf5",
+      "styleAttributes": {
+      },
+      "text": "Нормальная форма Бойса-Кодда / Усиленная третья форма",
+      "type": "text",
+      "width": 250,
+      "x": -830,
+      "y": 97
+    },
+    {
+      "color": "5",
+      "height": 89,
+      "id": "eccea961604c57f6",
+      "styleAttributes": {
+      },
+      "text": "Ключевые атрибуты не должны зависеть от не-ключевых",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": 197
+    },
+    {
+      "color": "5",
+      "height": 98,
+      "id": "c8e4d5331c441d2d",
+      "styleAttributes": {
+      },
+      "text": "Таблица находится в третьей нормальной форме",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": -1
+    },
+    {
+      "color": "4",
+      "height": 352,
+      "id": "7ceaa25cccdf9439",
+      "styleAttributes": {
+      },
+      "text": "Переменная отношения находится в нормальной форме Бойса-Кодда (усиленная третья форма) тогда, когда каждая ее нетривиальная и неприводимая слева функциональная зависимость имеет в качестве своего детерминанта некоторый потенциальный ключ",
+      "type": "text",
+      "width": 282,
+      "x": -1320,
+      "y": -29
+    },
+    {
+      "color": "4",
+      "height": 78,
+      "id": "55e7866d91133e75",
+      "styleAttributes": {
+      },
+      "text": "Четвертая нормальная форма (4 НФ)",
+      "type": "text",
+      "width": 250,
+      "x": -830,
+      "y": 520
+    },
+    {
+      "color": "4",
+      "height": 207,
+      "id": "3593080c0e8ba623",
+      "styleAttributes": {
+      },
+      "text": "Переменная отношения находится в четвертой нормальной форме, если она находится в нормальной форме Бойса-Кодда и не содержит нетривиальных многозначных зависимостей",
+      "type": "text",
+      "width": 282,
+      "x": -1320,
+      "y": 456
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "a3f464eb23020fcf",
+      "styleAttributes": {
+      },
+      "text": "Таблица находится в НФ БК",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": 456
+    },
+    {
+      "color": "5",
+      "height": 90,
+      "id": "c022ac7230179753",
+      "styleAttributes": {
+      },
+      "text": "Устраняются многозначные зависимости",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": 573
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "7a01f67e92795373",
+      "styleAttributes": {
+      },
+      "text": "Пятая нормальная форма (5 НФ)",
+      "type": "text",
+      "width": 250,
+      "x": -830,
+      "y": 840
+    },
+    {
+      "color": "4",
+      "height": 320,
+      "id": "4365741325ea4c9f",
+      "styleAttributes": {
+      },
+      "text": "Переменная отношения находится в пятой нормальной форме (проекционно-соединительная нормальная форма) тогда, когда каждая нетривиальная зависимость соединения в ней определяется потенциальным ключом (ключами) этого отношения",
+      "type": "text",
+      "width": 282,
+      "x": -1320,
+      "y": 710
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "0a9e390952e17769",
+      "styleAttributes": {
+      },
+      "text": "Таблица находится в 4 НФ",
+      "type": "text",
+      "width": 250,
+      "x": -1677,
+      "y": 726
+    },
+    {
+      "color": "5",
+      "height": 122,
+      "id": "c2d2e877cdcc21f0",
+      "styleAttributes": {
+      },
+      "text": "Устраняются нетривиальные зависимости",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": 809
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "9df110d278266957",
+      "styleAttributes": {
+      },
+      "text": "Декомпозиция без потерь",
+      "type": "text",
+      "width": 250,
+      "x": -1680,
+      "y": 970
+    }
+  ]
 }

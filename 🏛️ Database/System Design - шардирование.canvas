@@ -1,109 +1,1032 @@
 {
-	"nodes":[
-		{"id":"b2ab4b62f565eb4c","type":"text","text":"Партиционирование","x":-166,"y":-201,"width":250,"height":60,"color":"4"},
-		{"id":"a43b6f6010150abb","type":"text","text":"Теория шардирования\n[клик](https://www.youtube.com/watch?v=d6BtxBKhQoc)","x":-166,"y":-51,"width":250,"height":60,"color":"1"},
-		{"id":"cfce117ebc7aa390","type":"text","text":"Метод разделения больших таблиц на много маленьких, **и желательно**, чтобы это происходило прозрачным для приложения способом\n(Секции находятся на одном и том же инстансе базы данных)","x":-221,"y":-417,"width":361,"height":178,"color":"4"},
-		{"id":"626d625f545f4c66","type":"text","text":"Необходимо делать это прозрачно, чтобы не грузить клиентское приложение доп. логикой","x":-178,"y":-580,"width":276,"height":119,"color":"4"},
-		{"id":"1b537571b7a60491","type":"text","text":"Вертикальное","x":-580,"y":-358,"width":250,"height":60,"color":"4"},
-		{"id":"4641f5ed25151da5","type":"file","file":"Cache/Pasted image 20240810121421.png","x":-1060,"y":-399,"width":399,"height":143,"color":"6"},
-		{"id":"d428933e37e7f939","type":"text","text":"В примере показана большая таблица, где есть следующие колонки.\n1. ID\n2. Name\n3. Status\n4. Description\n5. Photo\nМы берем и режем эту табличку вертикально, разбивая таблицу на другие, при этом линкуя их между собой","x":-1560,"y":-512,"width":400,"height":370,"color":"4"},
-		{"id":"827e0ef443713f1f","type":"text","text":"Шардирование","x":-166,"y":81,"width":250,"height":60,"color":"4"},
-		{"id":"5b569bc47fd872d2","type":"text","text":"Подход, предполагающий разделение таблиц на независимые сегменты, каждый из который управляется отдельным инстансом базы данных","x":-221,"y":200,"width":361,"height":177,"color":"4"},
-		{"id":"036fa0db3bf36adc","type":"text","text":"Способы шардирования","x":-165,"y":440,"width":250,"height":60,"color":"4"},
-		{"id":"f43706374792f525","type":"text","text":"range based","x":-688,"y":643,"width":250,"height":60,"color":"4"},
-		{"id":"5c7559406f64313e","type":"file","file":"Cache/Pasted image 20240813190327.png","x":-763,"y":800,"width":399,"height":219,"color":"6"},
-		{"id":"8b7022d0872fd342","type":"text","text":"Разнесение данных таблиц между шардами, по фильтру значений (больше или меньше)","x":-696,"y":1130,"width":266,"height":139,"color":"4"},
-		{"id":"077872fce1c8d002","type":"text","text":"key based","x":-166,"y":643,"width":250,"height":60,"color":"4"},
-		{"id":"9f2a5f7af2f3925b","type":"file","file":"Cache/Pasted image 20240813190524.png","x":-249,"y":800,"width":416,"height":219,"color":"6"},
-		{"id":"5525e47bf5b8c193","type":"text","text":"Данные прогоняются через хэш-функцию, затем делится на остаток по делению на количество шардов и заносится в шард","x":-168,"y":1130,"width":252,"height":190,"color":"4"},
-		{"id":"76510a563a33a0e4","type":"text","text":"Directly based","x":285,"y":634,"width":250,"height":60,"color":"4"},
-		{"id":"68387fcbfdd7cd72","type":"file","file":"Cache/Pasted image 20240813191427.png","x":215,"y":800,"width":391,"height":219,"color":"6"},
-		{"id":"a66d4e1f4ed6bbf3","type":"text","text":"Между данными происходит зонирование, похожее на range-based метод","x":286,"y":1130,"width":250,"height":140,"color":"4"},
-		{"id":"44d786a59cfc78ca","type":"text","text":"Routing","x":-165,"y":1540,"width":250,"height":53,"color":"4"},
-		{"id":"91fd8d258d561415","type":"text","text":"Горизонтальное","x":300,"y":-356,"width":250,"height":59,"color":"4"},
-		{"id":"7ee776b7cbbd3e4f","type":"file","file":"Cache/Pasted image 20240810124021.png","x":660,"y":-394,"width":400,"height":136,"color":"6"},
-		{"id":"c47248b785c78f6b","type":"text","text":"В примере показана большая таблица, где есть следующие колонки.\n1. ID\n2. Name\n3. Status\n4. Description\n5. Photo\nМы берем и режем эту табличку вертикально, разбивая таблицу на другие, при этом линкуя их между собой","x":1180,"y":-511,"width":400,"height":370,"color":"4"},
-		{"id":"b68cde5e5f60dc9c","type":"text","text":"PROXY","x":-165,"y":1735,"width":250,"height":60,"color":"4"},
-		{"id":"65245aec247ee5c8","type":"text","text":"Клиентский","x":-946,"y":1735,"width":250,"height":57,"color":"4"},
-		{"id":"e0c3707409de39f8","type":"text","text":"Дополнительная логика в клиенте\nСложности с обновлением хостов","x":-688,"y":1903,"width":250,"height":120,"color":"4"},
-		{"id":"b12a94e3af21784a","type":"file","file":"Cache/Pasted image 20240816134519.png","x":-1021,"y":2280,"width":400,"height":306,"color":"6"},
-		{"id":"45199354712641da","type":"text","text":"Приложение не знает о шардинге","x":-359,"y":1941,"width":250,"height":60,"color":"4"},
-		{"id":"2670ccb2a9c4da14","type":"text","text":"1. Дополнительный сетевой узел\n2. Потеря функциональности\n3. Единая точка отказа","x":17,"y":1894,"width":300,"height":138,"color":"4"},
-		{"id":"80a71d3b847c102a","type":"file","file":"Cache/Pasted image 20240814132558.png","x":-249,"y":2244,"width":400,"height":379,"color":"6"},
-		{"id":"02e5d21f067b3757","type":"text","text":"Coordinator rooting","x":670,"y":1722,"width":250,"height":60,"color":"4"},
-		{"id":"d886c1bcd7c06635","type":"text","text":"1. Кэширование\n2. Приложение не знает о шардировании","x":420,"y":1883,"width":250,"height":160,"color":"4"},
-		{"id":"98df378640f05e98","type":"text","text":"1. Дополнительный сетевой узел\n2. Инфраструктурная сложность\n3. Единичная точка отказа\n4. Высокая нагрузка","x":920,"y":1883,"width":297,"height":190,"color":"4"},
-		{"id":"d9d86e005fb512d2","type":"file","file":"Cache/Pasted image 20240814132934.png","x":595,"y":2260,"width":400,"height":358,"color":"6"},
-		{"id":"cbaa6ae84b676ad8","type":"text","text":"Нет лишних узлов\nКлиент напрямую общается с шардами","x":-1196,"y":1914,"width":250,"height":99,"color":"4"},
-		{"id":"debf06cb0377483b","type":"text","text":"Resharding","x":964,"y":440,"width":250,"height":60,"color":"4"},
-		{"id":"f56f59e426b6b590","type":"text","text":"Принципы resharding'а","x":1826,"y":442,"width":250,"height":60,"color":"4"},
-		{"id":"03234922d1095b93","type":"text","text":"Исправление ошибок при выборе стратегии шандирования","x":961,"y":544,"width":256,"height":90,"color":"4"},
-		{"id":"fd3d6fc6f0ed7740","type":"text","text":"Используется также в тех случаях, когда нужно добавить/удалить ноды","x":961,"y":694,"width":256,"height":86,"color":"4"},
-		{"id":"0d1ab1e837b4d632","type":"text","text":"Hashing","x":1382,"y":740,"width":250,"height":60,"color":"4"},
-		{"id":"23f30cd7445b151d","type":"text","text":"Consistency hashing","x":1826,"y":740,"width":250,"height":60,"color":"4"},
-		{"id":"1df01a8ee71c97c8","type":"file","file":"Cache/Pasted image 20240814182907.png","x":1751,"y":960,"width":400,"height":208,"color":"6"},
-		{"id":"82be172f40214d71","type":"text","text":"Способ распределения данных не очень хорош, ведь балансировка между шардами будет практически отсутствовать, а также если от потока данных лег один шард, то лягут и другие.","x":1815,"y":1440,"width":272,"height":205,"color":"4"},
-		{"id":"1f087e4dd1bd1e1e","type":"text","text":"Метод схож с вычислением номера бакета в мапе, берется хэш и делится с остатком на количество шардов. Значение является индексом шарда","x":1357,"y":1227,"width":301,"height":163,"color":"4"},
-		{"id":"ea2c51463da0a1a4","type":"file","file":"Cache/Pasted image 20240814181628.png","x":1319,"y":960,"width":377,"height":208,"color":"6"},
-		{"id":"71e69274567f5dff","type":"text","text":"Выбор шарда идет \"по часовой стрелке\", если шард недоступен по каким-то причинам, то он пропускается и идет дальше.","x":1815,"y":1227,"width":272,"height":176,"color":"4"},
-		{"id":"10965cf13b2ce9eb","type":"text","text":"К реальным шардам можно добавить виртуальные, тем самим","x":2283,"y":1577,"width":250,"height":137,"color":"4"},
-		{"id":"1fb0afb538af244c","type":"file","file":"Cache/Pasted image 20240814185138.png","x":2208,"y":1286,"width":400,"height":209,"color":"6"},
-		{"id":"eb286383edfecbfa","type":"text","text":"Варианты перебалансировки / переноса данных","x":-1433,"y":-32,"width":313,"height":112,"color":"4"},
-		{"id":"a9d4804dfe0e2ff3","type":"text","text":"1. Только чтение\n2. Все данные неизменяемые (пишем в target, читаем из source + target)\n3. Логическая репликация с source на target, после синхронизации переключаемся на target.\n4. Смешанный подход.","x":-1450,"y":200,"width":347,"height":260,"color":"4"}
-	],
-	"edges":[
-		{"id":"0184f792be093b55","fromNode":"a43b6f6010150abb","fromSide":"top","toNode":"b2ab4b62f565eb4c","toSide":"bottom","color":"4"},
-		{"id":"25770f1cf3c85d6f","fromNode":"91fd8d258d561415","fromSide":"right","toNode":"7ee776b7cbbd3e4f","toSide":"left","color":"4"},
-		{"id":"4e99a3b1d2f6f674","fromNode":"4641f5ed25151da5","fromSide":"left","toNode":"d428933e37e7f939","toSide":"right","color":"4"},
-		{"id":"e025b7248123e071","fromNode":"b2ab4b62f565eb4c","fromSide":"top","toNode":"cfce117ebc7aa390","toSide":"bottom"},
-		{"id":"0b6c6685ca815415","fromNode":"cfce117ebc7aa390","fromSide":"top","toNode":"626d625f545f4c66","toSide":"bottom"},
-		{"id":"005eadfe15111127","fromNode":"cfce117ebc7aa390","fromSide":"right","toNode":"91fd8d258d561415","toSide":"left","color":"4"},
-		{"id":"f205dd8179ac7606","fromNode":"7ee776b7cbbd3e4f","fromSide":"right","toNode":"c47248b785c78f6b","toSide":"left","color":"4"},
-		{"id":"7e8cea683f2c98b0","fromNode":"cfce117ebc7aa390","fromSide":"left","toNode":"1b537571b7a60491","toSide":"right","color":"4"},
-		{"id":"3f47d5bd2687568f","fromNode":"1b537571b7a60491","fromSide":"left","toNode":"4641f5ed25151da5","toSide":"right","color":"4"},
-		{"id":"675e78b50a04ce9d","fromNode":"a43b6f6010150abb","fromSide":"bottom","toNode":"827e0ef443713f1f","toSide":"top","color":"4"},
-		{"id":"13bc24fee147c893","fromNode":"827e0ef443713f1f","fromSide":"bottom","toNode":"5b569bc47fd872d2","toSide":"top"},
-		{"id":"930373a1f99258e8","fromNode":"5b569bc47fd872d2","fromSide":"bottom","toNode":"036fa0db3bf36adc","toSide":"top"},
-		{"id":"7bdd2876f73dcf59","fromNode":"036fa0db3bf36adc","fromSide":"bottom","toNode":"f43706374792f525","toSide":"top","color":"4"},
-		{"id":"6c6cdd2e3ef0701a","fromNode":"f43706374792f525","fromSide":"bottom","toNode":"5c7559406f64313e","toSide":"top","color":"4"},
-		{"id":"7f210527b8819e68","fromNode":"5c7559406f64313e","fromSide":"bottom","toNode":"8b7022d0872fd342","toSide":"top","color":"4"},
-		{"id":"5073858674e304ff","fromNode":"036fa0db3bf36adc","fromSide":"bottom","toNode":"077872fce1c8d002","toSide":"top","color":"4"},
-		{"id":"f8dcdbd1517d0c71","fromNode":"077872fce1c8d002","fromSide":"bottom","toNode":"9f2a5f7af2f3925b","toSide":"top","color":"4"},
-		{"id":"d7bc7b1690ebb592","fromNode":"9f2a5f7af2f3925b","fromSide":"bottom","toNode":"5525e47bf5b8c193","toSide":"top","color":"4"},
-		{"id":"a386add686ba4ace","fromNode":"036fa0db3bf36adc","fromSide":"bottom","toNode":"76510a563a33a0e4","toSide":"top","color":"4"},
-		{"id":"83f55c50cc2ff4db","fromNode":"76510a563a33a0e4","fromSide":"bottom","toNode":"68387fcbfdd7cd72","toSide":"top","color":"4"},
-		{"id":"7d4689419b12f991","fromNode":"68387fcbfdd7cd72","fromSide":"bottom","toNode":"a66d4e1f4ed6bbf3","toSide":"top","color":"4"},
-		{"id":"3e0044d49b9bb17f","fromNode":"8b7022d0872fd342","fromSide":"bottom","toNode":"44d786a59cfc78ca","toSide":"top","color":"4"},
-		{"id":"7a304c9302f05733","fromNode":"5525e47bf5b8c193","fromSide":"bottom","toNode":"44d786a59cfc78ca","toSide":"top","color":"4"},
-		{"id":"dfdb32da610edf96","fromNode":"a66d4e1f4ed6bbf3","fromSide":"bottom","toNode":"44d786a59cfc78ca","toSide":"top","color":"4"},
-		{"id":"8b3f561e5197cf29","fromNode":"44d786a59cfc78ca","fromSide":"bottom","toNode":"65245aec247ee5c8","toSide":"top","color":"4"},
-		{"id":"68c30abaf76d90e6","fromNode":"44d786a59cfc78ca","fromSide":"bottom","toNode":"b68cde5e5f60dc9c","toSide":"top","color":"4"},
-		{"id":"1bbfbcf6df924fd6","fromNode":"b68cde5e5f60dc9c","fromSide":"bottom","toNode":"45199354712641da","toSide":"top","color":"4","label":"+"},
-		{"id":"7ae63f4942571d85","fromNode":"b68cde5e5f60dc9c","fromSide":"bottom","toNode":"2670ccb2a9c4da14","toSide":"top","color":"4","label":"-"},
-		{"id":"ea39ab01ec163b93","fromNode":"2670ccb2a9c4da14","fromSide":"bottom","toNode":"80a71d3b847c102a","toSide":"top","color":"4"},
-		{"id":"e6255d846001321b","fromNode":"45199354712641da","fromSide":"bottom","toNode":"80a71d3b847c102a","toSide":"top","color":"4"},
-		{"id":"9c11476b1ade4622","fromNode":"44d786a59cfc78ca","fromSide":"bottom","toNode":"02e5d21f067b3757","toSide":"top","color":"4"},
-		{"id":"dfb657dd19965771","fromNode":"02e5d21f067b3757","fromSide":"bottom","toNode":"d886c1bcd7c06635","toSide":"top","color":"4","label":"+"},
-		{"id":"982e67fd01105fa9","fromNode":"02e5d21f067b3757","fromSide":"bottom","toNode":"98df378640f05e98","toSide":"top","color":"4","label":"-"},
-		{"id":"ff30108bb1a818fa","fromNode":"d886c1bcd7c06635","fromSide":"bottom","toNode":"d9d86e005fb512d2","toSide":"top","color":"4"},
-		{"id":"99c2e0fc5e04d9eb","fromNode":"98df378640f05e98","fromSide":"bottom","toNode":"d9d86e005fb512d2","toSide":"top","color":"4"},
-		{"id":"8e1983c9e63189b1","fromNode":"65245aec247ee5c8","fromSide":"bottom","toNode":"e0c3707409de39f8","toSide":"top","color":"4","label":"-"},
-		{"id":"266a74ec1f1a6674","fromNode":"65245aec247ee5c8","fromSide":"bottom","toNode":"cbaa6ae84b676ad8","toSide":"top","color":"4","label":"+"},
-		{"id":"b08a6d6e3603187a","fromNode":"cbaa6ae84b676ad8","fromSide":"bottom","toNode":"b12a94e3af21784a","toSide":"top","color":"4"},
-		{"id":"e68652bc6754d379","fromNode":"e0c3707409de39f8","fromSide":"bottom","toNode":"b12a94e3af21784a","toSide":"top","color":"4"},
-		{"id":"094ffed80b962825","fromNode":"036fa0db3bf36adc","fromSide":"right","toNode":"debf06cb0377483b","toSide":"left","color":"4"},
-		{"id":"b3b41c2b5ecc8c2c","fromNode":"debf06cb0377483b","fromSide":"bottom","toNode":"03234922d1095b93","toSide":"top","color":"4"},
-		{"id":"881db538d3689131","fromNode":"debf06cb0377483b","fromSide":"right","toNode":"f56f59e426b6b590","toSide":"left","color":"4"},
-		{"id":"f3d519447e41ffd1","fromNode":"f56f59e426b6b590","fromSide":"bottom","toNode":"0d1ab1e837b4d632","toSide":"top","color":"4"},
-		{"id":"b5b42aafc208c5a2","fromNode":"0d1ab1e837b4d632","fromSide":"bottom","toNode":"ea2c51463da0a1a4","toSide":"top","color":"4"},
-		{"id":"bdf9724d02cce7af","fromNode":"ea2c51463da0a1a4","fromSide":"bottom","toNode":"1f087e4dd1bd1e1e","toSide":"top","color":"4"},
-		{"id":"c52c30ee344ad292","fromNode":"03234922d1095b93","fromSide":"bottom","toNode":"fd3d6fc6f0ed7740","toSide":"top","color":"4"},
-		{"id":"157b92cb3428d9ae","fromNode":"f56f59e426b6b590","fromSide":"bottom","toNode":"23f30cd7445b151d","toSide":"top","color":"4"},
-		{"id":"9975ab68c69dfa0a","fromNode":"23f30cd7445b151d","fromSide":"bottom","toNode":"1df01a8ee71c97c8","toSide":"top","color":"4"},
-		{"id":"eed9d99fe729595f","fromNode":"1df01a8ee71c97c8","fromSide":"bottom","toNode":"71e69274567f5dff","toSide":"top","color":"4"},
-		{"id":"9460d0994aaa878a","fromNode":"71e69274567f5dff","fromSide":"bottom","toNode":"82be172f40214d71","toSide":"top","color":"4"},
-		{"id":"092e646fc90a6245","fromNode":"1df01a8ee71c97c8","fromSide":"right","toNode":"1fb0afb538af244c","toSide":"top","color":"4"},
-		{"id":"f5922701333f38b9","fromNode":"1fb0afb538af244c","fromSide":"bottom","toNode":"10965cf13b2ce9eb","toSide":"top","color":"4"},
-		{"id":"95de5c78c66d1c0c","fromNode":"eb286383edfecbfa","fromSide":"bottom","toNode":"a9d4804dfe0e2ff3","toSide":"top","color":"4"}
-	]
+  "edges": [
+    {
+      "color": "4",
+      "fromNode": "a43b6f6010150abb",
+      "fromSide": "top",
+      "id": "0184f792be093b55",
+      "toNode": "b2ab4b62f565eb4c",
+      "toSide": "bottom"
+    },
+    {
+      "color": "4",
+      "fromNode": "91fd8d258d561415",
+      "fromSide": "right",
+      "id": "25770f1cf3c85d6f",
+      "toNode": "7ee776b7cbbd3e4f",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "4641f5ed25151da5",
+      "fromSide": "left",
+      "id": "4e99a3b1d2f6f674",
+      "toNode": "d428933e37e7f939",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "b2ab4b62f565eb4c",
+      "fromSide": "top",
+      "id": "e025b7248123e071",
+      "toNode": "cfce117ebc7aa390",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "cfce117ebc7aa390",
+      "fromSide": "top",
+      "id": "0b6c6685ca815415",
+      "toNode": "626d625f545f4c66",
+      "toSide": "bottom"
+    },
+    {
+      "color": "4",
+      "fromNode": "cfce117ebc7aa390",
+      "fromSide": "right",
+      "id": "005eadfe15111127",
+      "toNode": "91fd8d258d561415",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "7ee776b7cbbd3e4f",
+      "fromSide": "right",
+      "id": "f205dd8179ac7606",
+      "toNode": "c47248b785c78f6b",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "cfce117ebc7aa390",
+      "fromSide": "left",
+      "id": "7e8cea683f2c98b0",
+      "toNode": "1b537571b7a60491",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "1b537571b7a60491",
+      "fromSide": "left",
+      "id": "3f47d5bd2687568f",
+      "toNode": "4641f5ed25151da5",
+      "toSide": "right"
+    },
+    {
+      "color": "4",
+      "fromNode": "a43b6f6010150abb",
+      "fromSide": "bottom",
+      "id": "675e78b50a04ce9d",
+      "toNode": "827e0ef443713f1f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "827e0ef443713f1f",
+      "fromSide": "bottom",
+      "id": "13bc24fee147c893",
+      "toNode": "5b569bc47fd872d2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5b569bc47fd872d2",
+      "fromSide": "bottom",
+      "id": "930373a1f99258e8",
+      "toNode": "036fa0db3bf36adc",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "036fa0db3bf36adc",
+      "fromSide": "bottom",
+      "id": "7bdd2876f73dcf59",
+      "toNode": "f43706374792f525",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "f43706374792f525",
+      "fromSide": "bottom",
+      "id": "6c6cdd2e3ef0701a",
+      "toNode": "5c7559406f64313e",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "5c7559406f64313e",
+      "fromSide": "bottom",
+      "id": "7f210527b8819e68",
+      "toNode": "8b7022d0872fd342",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "036fa0db3bf36adc",
+      "fromSide": "bottom",
+      "id": "5073858674e304ff",
+      "toNode": "077872fce1c8d002",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "077872fce1c8d002",
+      "fromSide": "bottom",
+      "id": "f8dcdbd1517d0c71",
+      "toNode": "9f2a5f7af2f3925b",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "9f2a5f7af2f3925b",
+      "fromSide": "bottom",
+      "id": "d7bc7b1690ebb592",
+      "toNode": "5525e47bf5b8c193",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "036fa0db3bf36adc",
+      "fromSide": "bottom",
+      "id": "a386add686ba4ace",
+      "toNode": "76510a563a33a0e4",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "76510a563a33a0e4",
+      "fromSide": "bottom",
+      "id": "83f55c50cc2ff4db",
+      "toNode": "68387fcbfdd7cd72",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "68387fcbfdd7cd72",
+      "fromSide": "bottom",
+      "id": "7d4689419b12f991",
+      "toNode": "a66d4e1f4ed6bbf3",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "8b7022d0872fd342",
+      "fromSide": "bottom",
+      "id": "3e0044d49b9bb17f",
+      "toNode": "44d786a59cfc78ca",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "5525e47bf5b8c193",
+      "fromSide": "bottom",
+      "id": "7a304c9302f05733",
+      "toNode": "44d786a59cfc78ca",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "a66d4e1f4ed6bbf3",
+      "fromSide": "bottom",
+      "id": "dfdb32da610edf96",
+      "toNode": "44d786a59cfc78ca",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "44d786a59cfc78ca",
+      "fromSide": "bottom",
+      "id": "8b3f561e5197cf29",
+      "toNode": "65245aec247ee5c8",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "44d786a59cfc78ca",
+      "fromSide": "bottom",
+      "id": "68c30abaf76d90e6",
+      "toNode": "b68cde5e5f60dc9c",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "b68cde5e5f60dc9c",
+      "fromSide": "bottom",
+      "id": "1bbfbcf6df924fd6",
+      "label": "+",
+      "toNode": "45199354712641da",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "b68cde5e5f60dc9c",
+      "fromSide": "bottom",
+      "id": "7ae63f4942571d85",
+      "label": "-",
+      "toNode": "2670ccb2a9c4da14",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "2670ccb2a9c4da14",
+      "fromSide": "bottom",
+      "id": "ea39ab01ec163b93",
+      "toNode": "80a71d3b847c102a",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "45199354712641da",
+      "fromSide": "bottom",
+      "id": "e6255d846001321b",
+      "toNode": "80a71d3b847c102a",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "44d786a59cfc78ca",
+      "fromSide": "bottom",
+      "id": "9c11476b1ade4622",
+      "toNode": "02e5d21f067b3757",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "02e5d21f067b3757",
+      "fromSide": "bottom",
+      "id": "dfb657dd19965771",
+      "label": "+",
+      "toNode": "d886c1bcd7c06635",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "02e5d21f067b3757",
+      "fromSide": "bottom",
+      "id": "982e67fd01105fa9",
+      "label": "-",
+      "toNode": "98df378640f05e98",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "d886c1bcd7c06635",
+      "fromSide": "bottom",
+      "id": "ff30108bb1a818fa",
+      "toNode": "d9d86e005fb512d2",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "98df378640f05e98",
+      "fromSide": "bottom",
+      "id": "99c2e0fc5e04d9eb",
+      "toNode": "d9d86e005fb512d2",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "65245aec247ee5c8",
+      "fromSide": "bottom",
+      "id": "8e1983c9e63189b1",
+      "label": "-",
+      "toNode": "e0c3707409de39f8",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "65245aec247ee5c8",
+      "fromSide": "bottom",
+      "id": "266a74ec1f1a6674",
+      "label": "+",
+      "toNode": "cbaa6ae84b676ad8",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "cbaa6ae84b676ad8",
+      "fromSide": "bottom",
+      "id": "b08a6d6e3603187a",
+      "toNode": "b12a94e3af21784a",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "e0c3707409de39f8",
+      "fromSide": "bottom",
+      "id": "e68652bc6754d379",
+      "toNode": "b12a94e3af21784a",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "036fa0db3bf36adc",
+      "fromSide": "right",
+      "id": "094ffed80b962825",
+      "toNode": "debf06cb0377483b",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "debf06cb0377483b",
+      "fromSide": "bottom",
+      "id": "b3b41c2b5ecc8c2c",
+      "toNode": "03234922d1095b93",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "debf06cb0377483b",
+      "fromSide": "right",
+      "id": "881db538d3689131",
+      "toNode": "f56f59e426b6b590",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "f56f59e426b6b590",
+      "fromSide": "bottom",
+      "id": "f3d519447e41ffd1",
+      "toNode": "0d1ab1e837b4d632",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "0d1ab1e837b4d632",
+      "fromSide": "bottom",
+      "id": "b5b42aafc208c5a2",
+      "toNode": "ea2c51463da0a1a4",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "ea2c51463da0a1a4",
+      "fromSide": "bottom",
+      "id": "bdf9724d02cce7af",
+      "toNode": "1f087e4dd1bd1e1e",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "03234922d1095b93",
+      "fromSide": "bottom",
+      "id": "c52c30ee344ad292",
+      "toNode": "fd3d6fc6f0ed7740",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "f56f59e426b6b590",
+      "fromSide": "bottom",
+      "id": "157b92cb3428d9ae",
+      "toNode": "23f30cd7445b151d",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "23f30cd7445b151d",
+      "fromSide": "bottom",
+      "id": "9975ab68c69dfa0a",
+      "toNode": "1df01a8ee71c97c8",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "1df01a8ee71c97c8",
+      "fromSide": "bottom",
+      "id": "eed9d99fe729595f",
+      "toNode": "71e69274567f5dff",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "71e69274567f5dff",
+      "fromSide": "bottom",
+      "id": "9460d0994aaa878a",
+      "toNode": "82be172f40214d71",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "1df01a8ee71c97c8",
+      "fromSide": "right",
+      "id": "092e646fc90a6245",
+      "toNode": "1fb0afb538af244c",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "1fb0afb538af244c",
+      "fromSide": "bottom",
+      "id": "f5922701333f38b9",
+      "toNode": "10965cf13b2ce9eb",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "eb286383edfecbfa",
+      "fromSide": "bottom",
+      "id": "95de5c78c66d1c0c",
+      "toNode": "a9d4804dfe0e2ff3",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "4",
+      "height": 60,
+      "id": "b2ab4b62f565eb4c",
+      "styleAttributes": {
+      },
+      "text": "Партиционирование",
+      "type": "text",
+      "width": 250,
+      "x": -166,
+      "y": -201
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "a43b6f6010150abb",
+      "styleAttributes": {
+      },
+      "text": "Теория шардирования\n[клик](https://www.youtube.com/watch?v=d6BtxBKhQoc)",
+      "type": "text",
+      "width": 250,
+      "x": -166,
+      "y": -51
+    },
+    {
+      "color": "4",
+      "height": 178,
+      "id": "cfce117ebc7aa390",
+      "styleAttributes": {
+      },
+      "text": "Метод разделения больших таблиц на много маленьких, **и желательно**, чтобы это происходило прозрачным для приложения способом\n(Секции находятся на одном и том же инстансе базы данных)",
+      "type": "text",
+      "width": 361,
+      "x": -221,
+      "y": -417
+    },
+    {
+      "color": "4",
+      "height": 119,
+      "id": "626d625f545f4c66",
+      "styleAttributes": {
+      },
+      "text": "Необходимо делать это прозрачно, чтобы не грузить клиентское приложение доп. логикой",
+      "type": "text",
+      "width": 276,
+      "x": -178,
+      "y": -580
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "1b537571b7a60491",
+      "styleAttributes": {
+      },
+      "text": "Вертикальное",
+      "type": "text",
+      "width": 250,
+      "x": -580,
+      "y": -358
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240810121421.png",
+      "height": 143,
+      "id": "4641f5ed25151da5",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": -1060,
+      "y": -399
+    },
+    {
+      "color": "4",
+      "height": 370,
+      "id": "d428933e37e7f939",
+      "styleAttributes": {
+      },
+      "text": "В примере показана большая таблица, где есть следующие колонки.\n1. ID\n2. Name\n3. Status\n4. Description\n5. Photo\nМы берем и режем эту табличку вертикально, разбивая таблицу на другие, при этом линкуя их между собой",
+      "type": "text",
+      "width": 400,
+      "x": -1560,
+      "y": -512
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "827e0ef443713f1f",
+      "styleAttributes": {
+      },
+      "text": "Шардирование",
+      "type": "text",
+      "width": 250,
+      "x": -166,
+      "y": 81
+    },
+    {
+      "color": "4",
+      "height": 177,
+      "id": "5b569bc47fd872d2",
+      "styleAttributes": {
+      },
+      "text": "Подход, предполагающий разделение таблиц на независимые сегменты, каждый из который управляется отдельным инстансом базы данных",
+      "type": "text",
+      "width": 361,
+      "x": -221,
+      "y": 200
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "036fa0db3bf36adc",
+      "styleAttributes": {
+      },
+      "text": "Способы шардирования",
+      "type": "text",
+      "width": 250,
+      "x": -165,
+      "y": 440
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "f43706374792f525",
+      "styleAttributes": {
+      },
+      "text": "range based",
+      "type": "text",
+      "width": 250,
+      "x": -688,
+      "y": 643
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240813190327.png",
+      "height": 219,
+      "id": "5c7559406f64313e",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": -763,
+      "y": 800
+    },
+    {
+      "color": "4",
+      "height": 139,
+      "id": "8b7022d0872fd342",
+      "styleAttributes": {
+      },
+      "text": "Разнесение данных таблиц между шардами, по фильтру значений (больше или меньше)",
+      "type": "text",
+      "width": 266,
+      "x": -696,
+      "y": 1130
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "077872fce1c8d002",
+      "styleAttributes": {
+      },
+      "text": "key based",
+      "type": "text",
+      "width": 250,
+      "x": -166,
+      "y": 643
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240813190524.png",
+      "height": 219,
+      "id": "9f2a5f7af2f3925b",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 416,
+      "x": -249,
+      "y": 800
+    },
+    {
+      "color": "4",
+      "height": 190,
+      "id": "5525e47bf5b8c193",
+      "styleAttributes": {
+      },
+      "text": "Данные прогоняются через хэш-функцию, затем делится на остаток по делению на количество шардов и заносится в шард",
+      "type": "text",
+      "width": 252,
+      "x": -168,
+      "y": 1130
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "76510a563a33a0e4",
+      "styleAttributes": {
+      },
+      "text": "Directly based",
+      "type": "text",
+      "width": 250,
+      "x": 285,
+      "y": 634
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240813191427.png",
+      "height": 219,
+      "id": "68387fcbfdd7cd72",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 391,
+      "x": 215,
+      "y": 800
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "a66d4e1f4ed6bbf3",
+      "styleAttributes": {
+      },
+      "text": "Между данными происходит зонирование, похожее на range-based метод",
+      "type": "text",
+      "width": 250,
+      "x": 286,
+      "y": 1130
+    },
+    {
+      "color": "4",
+      "height": 53,
+      "id": "44d786a59cfc78ca",
+      "styleAttributes": {
+      },
+      "text": "Routing",
+      "type": "text",
+      "width": 250,
+      "x": -165,
+      "y": 1540
+    },
+    {
+      "color": "4",
+      "height": 59,
+      "id": "91fd8d258d561415",
+      "styleAttributes": {
+      },
+      "text": "Горизонтальное",
+      "type": "text",
+      "width": 250,
+      "x": 300,
+      "y": -356
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240810124021.png",
+      "height": 136,
+      "id": "7ee776b7cbbd3e4f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 660,
+      "y": -394
+    },
+    {
+      "color": "4",
+      "height": 370,
+      "id": "c47248b785c78f6b",
+      "styleAttributes": {
+      },
+      "text": "В примере показана большая таблица, где есть следующие колонки.\n1. ID\n2. Name\n3. Status\n4. Description\n5. Photo\nМы берем и режем эту табличку вертикально, разбивая таблицу на другие, при этом линкуя их между собой",
+      "type": "text",
+      "width": 400,
+      "x": 1180,
+      "y": -511
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "b68cde5e5f60dc9c",
+      "styleAttributes": {
+      },
+      "text": "PROXY",
+      "type": "text",
+      "width": 250,
+      "x": -165,
+      "y": 1735
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "e0c3707409de39f8",
+      "styleAttributes": {
+      },
+      "text": "Дополнительная логика в клиенте\nСложности с обновлением хостов",
+      "type": "text",
+      "width": 250,
+      "x": -688,
+      "y": 1903
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240816134519.png",
+      "height": 306,
+      "id": "b12a94e3af21784a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1021,
+      "y": 2280
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "45199354712641da",
+      "styleAttributes": {
+      },
+      "text": "Приложение не знает о шардинге",
+      "type": "text",
+      "width": 250,
+      "x": -359,
+      "y": 1941
+    },
+    {
+      "color": "4",
+      "height": 138,
+      "id": "2670ccb2a9c4da14",
+      "styleAttributes": {
+      },
+      "text": "1. Дополнительный сетевой узел\n2. Потеря функциональности\n3. Единая точка отказа",
+      "type": "text",
+      "width": 300,
+      "x": 17,
+      "y": 1894
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240814132558.png",
+      "height": 379,
+      "id": "80a71d3b847c102a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -249,
+      "y": 2244
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "02e5d21f067b3757",
+      "styleAttributes": {
+      },
+      "text": "Coordinator rooting",
+      "type": "text",
+      "width": 250,
+      "x": 670,
+      "y": 1722
+    },
+    {
+      "color": "4",
+      "height": 160,
+      "id": "d886c1bcd7c06635",
+      "styleAttributes": {
+      },
+      "text": "1. Кэширование\n2. Приложение не знает о шардировании",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 1883
+    },
+    {
+      "color": "4",
+      "height": 190,
+      "id": "98df378640f05e98",
+      "styleAttributes": {
+      },
+      "text": "1. Дополнительный сетевой узел\n2. Инфраструктурная сложность\n3. Единичная точка отказа\n4. Высокая нагрузка",
+      "type": "text",
+      "width": 297,
+      "x": 920,
+      "y": 1883
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240814132934.png",
+      "height": 358,
+      "id": "d9d86e005fb512d2",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 595,
+      "y": 2260
+    },
+    {
+      "color": "4",
+      "height": 99,
+      "id": "cbaa6ae84b676ad8",
+      "styleAttributes": {
+      },
+      "text": "Нет лишних узлов\nКлиент напрямую общается с шардами",
+      "type": "text",
+      "width": 250,
+      "x": -1196,
+      "y": 1914
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "debf06cb0377483b",
+      "styleAttributes": {
+      },
+      "text": "Resharding",
+      "type": "text",
+      "width": 250,
+      "x": 964,
+      "y": 440
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "f56f59e426b6b590",
+      "styleAttributes": {
+      },
+      "text": "Принципы resharding'а",
+      "type": "text",
+      "width": 250,
+      "x": 1826,
+      "y": 442
+    },
+    {
+      "color": "4",
+      "height": 90,
+      "id": "03234922d1095b93",
+      "styleAttributes": {
+      },
+      "text": "Исправление ошибок при выборе стратегии шандирования",
+      "type": "text",
+      "width": 256,
+      "x": 961,
+      "y": 544
+    },
+    {
+      "color": "4",
+      "height": 86,
+      "id": "fd3d6fc6f0ed7740",
+      "styleAttributes": {
+      },
+      "text": "Используется также в тех случаях, когда нужно добавить/удалить ноды",
+      "type": "text",
+      "width": 256,
+      "x": 961,
+      "y": 694
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "0d1ab1e837b4d632",
+      "styleAttributes": {
+      },
+      "text": "Hashing",
+      "type": "text",
+      "width": 250,
+      "x": 1382,
+      "y": 740
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "23f30cd7445b151d",
+      "styleAttributes": {
+      },
+      "text": "Consistency hashing",
+      "type": "text",
+      "width": 250,
+      "x": 1826,
+      "y": 740
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240814182907.png",
+      "height": 208,
+      "id": "1df01a8ee71c97c8",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1751,
+      "y": 960
+    },
+    {
+      "color": "4",
+      "height": 205,
+      "id": "82be172f40214d71",
+      "styleAttributes": {
+      },
+      "text": "Способ распределения данных не очень хорош, ведь балансировка между шардами будет практически отсутствовать, а также если от потока данных лег один шард, то лягут и другие.",
+      "type": "text",
+      "width": 272,
+      "x": 1815,
+      "y": 1440
+    },
+    {
+      "color": "4",
+      "height": 163,
+      "id": "1f087e4dd1bd1e1e",
+      "styleAttributes": {
+      },
+      "text": "Метод схож с вычислением номера бакета в мапе, берется хэш и делится с остатком на количество шардов. Значение является индексом шарда",
+      "type": "text",
+      "width": 301,
+      "x": 1357,
+      "y": 1227
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240814181628.png",
+      "height": 208,
+      "id": "ea2c51463da0a1a4",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 377,
+      "x": 1319,
+      "y": 960
+    },
+    {
+      "color": "4",
+      "height": 176,
+      "id": "71e69274567f5dff",
+      "styleAttributes": {
+      },
+      "text": "Выбор шарда идет \"по часовой стрелке\", если шард недоступен по каким-то причинам, то он пропускается и идет дальше.",
+      "type": "text",
+      "width": 272,
+      "x": 1815,
+      "y": 1227
+    },
+    {
+      "color": "4",
+      "height": 137,
+      "id": "10965cf13b2ce9eb",
+      "styleAttributes": {
+      },
+      "text": "К реальным шардам можно добавить виртуальные, тем самим",
+      "type": "text",
+      "width": 250,
+      "x": 2283,
+      "y": 1577
+    },
+    {
+      "color": "6",
+      "file": "Cache/Pasted image 20240814185138.png",
+      "height": 209,
+      "id": "1fb0afb538af244c",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 2208,
+      "y": 1286
+    },
+    {
+      "color": "4",
+      "height": 112,
+      "id": "eb286383edfecbfa",
+      "styleAttributes": {
+      },
+      "text": "Варианты перебалансировки / переноса данных",
+      "type": "text",
+      "width": 313,
+      "x": -1433,
+      "y": -32
+    },
+    {
+      "color": "4",
+      "height": 260,
+      "id": "a9d4804dfe0e2ff3",
+      "styleAttributes": {
+      },
+      "text": "1. Только чтение\n2. Все данные неизменяемые (пишем в target, читаем из source + target)\n3. Логическая репликация с source на target, после синхронизации переключаемся на target.\n4. Смешанный подход.",
+      "type": "text",
+      "width": 347,
+      "x": -1450,
+      "y": 200
+    },
+    {
+      "color": "4",
+      "height": 57,
+      "id": "65245aec247ee5c8",
+      "styleAttributes": {
+      },
+      "text": "Клиентский",
+      "type": "text",
+      "width": 250,
+      "x": -946,
+      "y": 1737
+    }
+  ]
 }

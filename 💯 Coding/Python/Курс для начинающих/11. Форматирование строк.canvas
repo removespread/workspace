@@ -1,35 +1,273 @@
 {
-	"nodes":[
-		{"id":"71dc7c098ef2a377","type":"group","x":300,"y":-940,"width":2063,"height":751,"label":"Метод format()"},
-		{"id":"b8931152f193bb3d","x":300,"y":-140,"width":1521,"height":489,"type":"group","label":"f- строки"},
-		{"id":"193819b154b638df","type":"text","text":"Для наглядности можно писать порядковый номер внутри `{}`","x":1195,"y":-498,"width":250,"height":87},
-		{"id":"e9dd13ea5e3cafcd","type":"text","text":"Можно использовать одно и то же число в нескольких заполнителях","x":1195,"y":-334,"width":250,"height":117},
-		{"id":"c4e166d9aaf889de","type":"text","text":"```python\nbirth_year = 1992\nname = 'Timur'\nprofession = 'math teacher'\ntext = 'My name is {0}, I was born in {1}, I am {2}'.format(name, birth_year, profession)\n```","x":1514,"y":-521,"width":829,"height":133},
-		{"id":"de0d5442b64369b4","type":"text","text":"```python\nname = 'Timur'\ncity = 'Moscow'\ntext1 = 'My name is {0}--{0}--{0}'.format(name, city)\ntext2 = '{1} is my city and {0} is my name'.format(name, city)\n```","x":1514,"y":-342,"width":574,"height":133},
-		{"id":"7a3c6e4bbbd92042","type":"text","text":"Метод `format()`","x":320,"y":-884,"width":250,"height":60},
-		{"id":"391be5c2d73d7262","type":"text","text":"Используется для преобразования и автоматического форматирования строк","x":640,"y":-912,"width":250,"height":117},
-		{"id":"631e20c3cdd80a8c","type":"text","text":"Можно передавать необходимые параметры методу, а Python ставит их вместо фигурных скобок `{}`","x":640,"y":-732,"width":250,"height":147},
-		{"id":"51b686c226359c9c","type":"text","text":"```python\nbirth_year = 1992\ntext = 'My name is Timur, I was born in {}'.format(birth_year)\n\nprint(text) # My name is Timur, I was born in 1992\n```","x":940,"y":-920,"width":574,"height":133},
-		{"id":"88315d18b68f3f67","type":"text","text":"```python\nbirth_year = 1992\nname = 'Timur'\nprofession = 'math teacher'\ntext = 'My name is {}, I was born in {}, I am {}'.format(name, birth_year, profession)\n\nprint(text)\n```","x":940,"y":-751,"width":760,"height":185},
-		{"id":"a87e301681e72b54","type":"text","text":"Форматирование строк","x":-136,"y":-38,"width":250,"height":60},
-		{"id":"57c102a4b278b2af","type":"text","text":"Если перед строкой поставить префикс `f`, в заполнители можно будет включить код, например, имя переменной или любые другие выражения. f-строки обеспечивают чистый и интуитивно понятный способ форматирования строк","x":640,"y":-120,"width":250,"height":316},
-		{"id":"8c8e4aa611d74642","type":"text","text":"```python\nfirst_name = 'Taylor'\nlast_name = 'Swift'\ncountry = 'USA'\nbirthday = '1989/12/13'\nbirth_place = 'West Reading, Pennsylvania'\n\ntext = f'{first_name} {last_name} from {country}, she was born in {birth_day} in {birth_place}'\nprint(text)\n```","x":966,"y":-81,"width":835,"height":238},
-		{"id":"ea0e52e9f5737707","type":"text","text":"f-строки","x":320,"y":8,"width":250,"height":60},
-		{"id":"2476e9af11a59e62","type":"text","text":"```python\nprint(f'5 + 2 = {5 + 2}') # 5 + 2 = 7\nprint(f'5 + 7 = {5 + 7}') # 5 + 7 = 12\nprint(f'5 * 2 = {5 * 2}') # 5 * 2 = 10\nprint(f'5 / 2 = {5 / 2}') # 5 / 2 = 2.5\n```","x":966,"y":196,"width":397,"height":133}
-	],
-	"edges":[
-		{"id":"e55ceff619bb7a97","fromNode":"a87e301681e72b54","fromSide":"right","toNode":"7a3c6e4bbbd92042","toSide":"left"},
-		{"id":"5451cac57184f97b","fromNode":"7a3c6e4bbbd92042","fromSide":"right","toNode":"391be5c2d73d7262","toSide":"left"},
-		{"id":"6f845087a95e85ff","fromNode":"391be5c2d73d7262","fromSide":"right","toNode":"51b686c226359c9c","toSide":"left"},
-		{"id":"b6095f2b849a6d06","fromNode":"391be5c2d73d7262","fromSide":"bottom","toNode":"631e20c3cdd80a8c","toSide":"top"},
-		{"id":"af06664d49807441","fromNode":"631e20c3cdd80a8c","fromSide":"right","toNode":"88315d18b68f3f67","toSide":"left"},
-		{"id":"11c50bb69be1002c","fromNode":"88315d18b68f3f67","fromSide":"bottom","toNode":"193819b154b638df","toSide":"top"},
-		{"id":"836da15de15560c2","fromNode":"193819b154b638df","fromSide":"right","toNode":"c4e166d9aaf889de","toSide":"left"},
-		{"id":"5bcebe03f82d19bb","fromNode":"193819b154b638df","fromSide":"bottom","toNode":"e9dd13ea5e3cafcd","toSide":"top"},
-		{"id":"84bb11c27f94c611","fromNode":"e9dd13ea5e3cafcd","fromSide":"right","toNode":"de0d5442b64369b4","toSide":"left"},
-		{"id":"e745a2dc2387bc9a","fromNode":"a87e301681e72b54","fromSide":"right","toNode":"ea0e52e9f5737707","toSide":"left"},
-		{"id":"3c765cad7359beb6","fromNode":"ea0e52e9f5737707","fromSide":"right","toNode":"57c102a4b278b2af","toSide":"left"},
-		{"id":"92483b8cf5b9b692","fromNode":"57c102a4b278b2af","fromSide":"right","toNode":"8c8e4aa611d74642","toSide":"left"},
-		{"id":"2694fd1b13700e97","fromNode":"57c102a4b278b2af","fromSide":"right","toNode":"2476e9af11a59e62","toSide":"left"}
-	]
+  "edges": [
+    {
+      "fromNode": "a87e301681e72b54",
+      "fromSide": "right",
+      "id": "e55ceff619bb7a97",
+      "toNode": "7a3c6e4bbbd92042",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7a3c6e4bbbd92042",
+      "fromSide": "right",
+      "id": "5451cac57184f97b",
+      "toNode": "391be5c2d73d7262",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "391be5c2d73d7262",
+      "fromSide": "right",
+      "id": "6f845087a95e85ff",
+      "toNode": "51b686c226359c9c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "391be5c2d73d7262",
+      "fromSide": "bottom",
+      "id": "b6095f2b849a6d06",
+      "toNode": "631e20c3cdd80a8c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "631e20c3cdd80a8c",
+      "fromSide": "right",
+      "id": "af06664d49807441",
+      "toNode": "88315d18b68f3f67",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "88315d18b68f3f67",
+      "fromSide": "bottom",
+      "id": "11c50bb69be1002c",
+      "toNode": "193819b154b638df",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "193819b154b638df",
+      "fromSide": "right",
+      "id": "836da15de15560c2",
+      "toNode": "c4e166d9aaf889de",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "193819b154b638df",
+      "fromSide": "bottom",
+      "id": "5bcebe03f82d19bb",
+      "toNode": "e9dd13ea5e3cafcd",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e9dd13ea5e3cafcd",
+      "fromSide": "right",
+      "id": "84bb11c27f94c611",
+      "toNode": "de0d5442b64369b4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a87e301681e72b54",
+      "fromSide": "right",
+      "id": "e745a2dc2387bc9a",
+      "toNode": "ea0e52e9f5737707",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ea0e52e9f5737707",
+      "fromSide": "right",
+      "id": "3c765cad7359beb6",
+      "toNode": "57c102a4b278b2af",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "57c102a4b278b2af",
+      "fromSide": "right",
+      "id": "92483b8cf5b9b692",
+      "toNode": "8c8e4aa611d74642",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "57c102a4b278b2af",
+      "fromSide": "right",
+      "id": "2694fd1b13700e97",
+      "toNode": "2476e9af11a59e62",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 751,
+      "id": "71dc7c098ef2a377",
+      "label": "Метод format()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2063,
+      "x": 300,
+      "y": -940
+    },
+    {
+      "height": 489,
+      "id": "b8931152f193bb3d",
+      "label": "f- строки",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1521,
+      "x": 300,
+      "y": -140
+    },
+    {
+      "height": 87,
+      "id": "193819b154b638df",
+      "styleAttributes": {
+      },
+      "text": "Для наглядности можно писать порядковый номер внутри `{}`",
+      "type": "text",
+      "width": 250,
+      "x": 1195,
+      "y": -498
+    },
+    {
+      "height": 117,
+      "id": "e9dd13ea5e3cafcd",
+      "styleAttributes": {
+      },
+      "text": "Можно использовать одно и то же число в нескольких заполнителях",
+      "type": "text",
+      "width": 250,
+      "x": 1195,
+      "y": -334
+    },
+    {
+      "height": 133,
+      "id": "c4e166d9aaf889de",
+      "styleAttributes": {
+      },
+      "text": "```python\nbirth_year = 1992\nname = 'Timur'\nprofession = 'math teacher'\ntext = 'My name is {0}, I was born in {1}, I am {2}'.format(name, birth_year, profession)\n```",
+      "type": "text",
+      "width": 829,
+      "x": 1514,
+      "y": -521
+    },
+    {
+      "height": 133,
+      "id": "de0d5442b64369b4",
+      "styleAttributes": {
+      },
+      "text": "```python\nname = 'Timur'\ncity = 'Moscow'\ntext1 = 'My name is {0}--{0}--{0}'.format(name, city)\ntext2 = '{1} is my city and {0} is my name'.format(name, city)\n```",
+      "type": "text",
+      "width": 574,
+      "x": 1514,
+      "y": -342
+    },
+    {
+      "height": 60,
+      "id": "7a3c6e4bbbd92042",
+      "styleAttributes": {
+      },
+      "text": "Метод `format()`",
+      "type": "text",
+      "width": 250,
+      "x": 320,
+      "y": -884
+    },
+    {
+      "height": 117,
+      "id": "391be5c2d73d7262",
+      "styleAttributes": {
+      },
+      "text": "Используется для преобразования и автоматического форматирования строк",
+      "type": "text",
+      "width": 250,
+      "x": 640,
+      "y": -912
+    },
+    {
+      "height": 147,
+      "id": "631e20c3cdd80a8c",
+      "styleAttributes": {
+      },
+      "text": "Можно передавать необходимые параметры методу, а Python ставит их вместо фигурных скобок `{}`",
+      "type": "text",
+      "width": 250,
+      "x": 640,
+      "y": -732
+    },
+    {
+      "height": 133,
+      "id": "51b686c226359c9c",
+      "styleAttributes": {
+      },
+      "text": "```python\nbirth_year = 1992\ntext = 'My name is Timur, I was born in {}'.format(birth_year)\n\nprint(text) # My name is Timur, I was born in 1992\n```",
+      "type": "text",
+      "width": 574,
+      "x": 940,
+      "y": -920
+    },
+    {
+      "height": 185,
+      "id": "88315d18b68f3f67",
+      "styleAttributes": {
+      },
+      "text": "```python\nbirth_year = 1992\nname = 'Timur'\nprofession = 'math teacher'\ntext = 'My name is {}, I was born in {}, I am {}'.format(name, birth_year, profession)\n\nprint(text)\n```",
+      "type": "text",
+      "width": 760,
+      "x": 940,
+      "y": -751
+    },
+    {
+      "height": 60,
+      "id": "a87e301681e72b54",
+      "styleAttributes": {
+      },
+      "text": "Форматирование строк",
+      "type": "text",
+      "width": 250,
+      "x": -136,
+      "y": -38
+    },
+    {
+      "height": 316,
+      "id": "57c102a4b278b2af",
+      "styleAttributes": {
+      },
+      "text": "Если перед строкой поставить префикс `f`, в заполнители можно будет включить код, например, имя переменной или любые другие выражения. f-строки обеспечивают чистый и интуитивно понятный способ форматирования строк",
+      "type": "text",
+      "width": 250,
+      "x": 640,
+      "y": -120
+    },
+    {
+      "height": 238,
+      "id": "8c8e4aa611d74642",
+      "styleAttributes": {
+      },
+      "text": "```python\nfirst_name = 'Taylor'\nlast_name = 'Swift'\ncountry = 'USA'\nbirthday = '1989/12/13'\nbirth_place = 'West Reading, Pennsylvania'\n\ntext = f'{first_name} {last_name} from {country}, she was born in {birth_day} in {birth_place}'\nprint(text)\n```",
+      "type": "text",
+      "width": 835,
+      "x": 966,
+      "y": -81
+    },
+    {
+      "height": 60,
+      "id": "ea0e52e9f5737707",
+      "styleAttributes": {
+      },
+      "text": "f-строки",
+      "type": "text",
+      "width": 250,
+      "x": 320,
+      "y": 8
+    },
+    {
+      "height": 133,
+      "id": "2476e9af11a59e62",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(f'5 + 2 = {5 + 2}') # 5 + 2 = 7\nprint(f'5 + 7 = {5 + 7}') # 5 + 7 = 12\nprint(f'5 * 2 = {5 * 2}') # 5 * 2 = 10\nprint(f'5 / 2 = {5 / 2}') # 5 / 2 = 2.5\n```",
+      "type": "text",
+      "width": 397,
+      "x": 966,
+      "y": 196
+    }
+  ]
 }

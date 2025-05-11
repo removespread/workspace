@@ -1,0 +1,902 @@
+{
+  "edges": [
+    {
+      "fromNode": "1f51f74fef88db60",
+      "fromSide": "right",
+      "id": "f603c7dbdbbcb1ad",
+      "styleAttributes": {
+      },
+      "toNode": "f22826bac286f3be",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f22826bac286f3be",
+      "fromSide": "right",
+      "id": "a2a7077c386a4363",
+      "styleAttributes": {
+      },
+      "toNode": "cf4db8dc640f8462",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "cf4db8dc640f8462",
+      "fromSide": "right",
+      "id": "a98c1b133c036e88",
+      "styleAttributes": {
+      },
+      "toNode": "0c333f2ec50f234f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "cf4db8dc640f8462",
+      "fromSide": "bottom",
+      "id": "6e99834fb1e75043",
+      "styleAttributes": {
+      },
+      "toNode": "83a805f5492bb618",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "83a805f5492bb618",
+      "fromSide": "right",
+      "id": "96014f6f59ab0d59",
+      "styleAttributes": {
+      },
+      "toNode": "bc938a6c884f34b7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "83a805f5492bb618",
+      "fromSide": "bottom",
+      "id": "70d9e7f84fd02d1c",
+      "styleAttributes": {
+      },
+      "toNode": "2212e9244d42dec4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2212e9244d42dec4",
+      "fromSide": "right",
+      "id": "f7d01b131b47b535",
+      "styleAttributes": {
+      },
+      "toNode": "81e5069d7602423a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "53c1c36afd0ff80a",
+      "fromSide": "right",
+      "id": "69eb50f5b31b4153",
+      "styleAttributes": {
+      },
+      "toNode": "b7fbd2ffade16899",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b7fbd2ffade16899",
+      "fromSide": "right",
+      "id": "57fb872a31faeba0",
+      "styleAttributes": {
+      },
+      "toNode": "b3668f9b78f69780",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b3668f9b78f69780",
+      "fromSide": "right",
+      "id": "bcf7f3a123792eb9",
+      "styleAttributes": {
+      },
+      "toNode": "e28e39d63d29358b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28e39d63d29358b",
+      "fromSide": "right",
+      "id": "d5933cd2d22e5cf6",
+      "styleAttributes": {
+      },
+      "toNode": "5853c8261081a5f4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28e39d63d29358b",
+      "fromSide": "right",
+      "id": "8397898f9a9c2145",
+      "styleAttributes": {
+      },
+      "toNode": "5352a0bb1f3693ce",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28e39d63d29358b",
+      "fromSide": "right",
+      "id": "092c88f9525c41d4",
+      "styleAttributes": {
+      },
+      "toNode": "d1de9dd12e97116d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28e39d63d29358b",
+      "fromSide": "right",
+      "id": "9dbfcb68464b0d19",
+      "styleAttributes": {
+      },
+      "toNode": "cc7768addf362f38",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28e39d63d29358b",
+      "fromSide": "right",
+      "id": "6ae1f257807704ee",
+      "styleAttributes": {
+      },
+      "toNode": "66f506a09b25df89",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e28e39d63d29358b",
+      "fromSide": "bottom",
+      "id": "76f2ae3e7cb0eb49",
+      "styleAttributes": {
+      },
+      "toNode": "ebcd71eb7a2becb2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ebcd71eb7a2becb2",
+      "fromSide": "right",
+      "id": "a7f0d3e8f883d655",
+      "styleAttributes": {
+      },
+      "toNode": "da3f60a9bb05f50c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ebcd71eb7a2becb2",
+      "fromSide": "right",
+      "id": "1be14387c720b938",
+      "styleAttributes": {
+      },
+      "toNode": "eac726bb8475c5d7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3fda9cce31481bc1",
+      "fromSide": "right",
+      "id": "7c046cee4d753214",
+      "styleAttributes": {
+      },
+      "toNode": "cc152ef02567cc03",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "cc152ef02567cc03",
+      "fromSide": "right",
+      "id": "d1a41b9905e0300d",
+      "styleAttributes": {
+      },
+      "toNode": "a5bf3d55c0e5d2df",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f45660fa4bc3281",
+      "fromSide": "right",
+      "id": "3ee07cfaac37e1e6",
+      "styleAttributes": {
+      },
+      "toNode": "5dd2ebad3e7f67d2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5dd2ebad3e7f67d2",
+      "fromSide": "right",
+      "id": "ae658a3add65e7ae",
+      "styleAttributes": {
+      },
+      "toNode": "008799446dbf9da5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5dd2ebad3e7f67d2",
+      "fromSide": "bottom",
+      "id": "f40c370077a30185",
+      "styleAttributes": {
+      },
+      "toNode": "8941fad62dcf2748",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "8941fad62dcf2748",
+      "fromSide": "right",
+      "id": "82ea86a1136f2c0c",
+      "styleAttributes": {
+      },
+      "toNode": "0823aad9c754cd05",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ea07d132d90a8b17",
+      "fromSide": "right",
+      "id": "42eac118ac8e0dff",
+      "styleAttributes": {
+      },
+      "toNode": "e6cf0da98047fb8d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e6cf0da98047fb8d",
+      "fromSide": "right",
+      "id": "eb318292c658e842",
+      "styleAttributes": {
+      },
+      "toNode": "f408da8b78eb386e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ea07d132d90a8b17",
+      "fromSide": "right",
+      "id": "3bb03b4019ca31ea",
+      "styleAttributes": {
+      },
+      "toNode": "28dd7dcef32bfd58",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "28dd7dcef32bfd58",
+      "fromSide": "right",
+      "id": "14d48e14bb0d5325",
+      "styleAttributes": {
+      },
+      "toNode": "d7b0894f49b7e0ba",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f18b3cb64929fc35",
+      "fromSide": "right",
+      "id": "9eb19b5664302faa",
+      "styleAttributes": {
+      },
+      "toNode": "6365c64a1fe76824",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6365c64a1fe76824",
+      "fromSide": "right",
+      "id": "cabed67a144ea8ed",
+      "styleAttributes": {
+      },
+      "toNode": "471cb6def8e0bbfb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b101d2ffca29d964",
+      "fromSide": "right",
+      "id": "fecff774dc183af8",
+      "styleAttributes": {
+      },
+      "toNode": "19fa3f41bf7376cc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "19fa3f41bf7376cc",
+      "fromSide": "right",
+      "id": "1aedd27dfd9ac294",
+      "styleAttributes": {
+      },
+      "toNode": "22c22caea235fe64",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b101d2ffca29d964",
+      "fromSide": "right",
+      "id": "946195efe342f503",
+      "styleAttributes": {
+      },
+      "toNode": "8524068732fcddfb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8524068732fcddfb",
+      "fromSide": "right",
+      "id": "15a048bd19360897",
+      "styleAttributes": {
+      },
+      "toNode": "45cb6379659563c5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "07efc19250c0967b",
+      "fromSide": "right",
+      "id": "cdf56a17ddaad698",
+      "styleAttributes": {
+      },
+      "toNode": "e96c4f4845a0b9aa",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e96c4f4845a0b9aa",
+      "fromSide": "right",
+      "id": "baff55db409bf636",
+      "styleAttributes": {
+      },
+      "toNode": "529edd627b6d084c",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 709,
+      "id": "57a3e43a54a3d477",
+      "label": "02. Использование функции list()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1872,
+      "x": -20,
+      "y": 780
+    },
+    {
+      "height": 326,
+      "id": "05c5fc9599d48ce7",
+      "label": "06. Операция конкатенации и умножения на число",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1560,
+      "x": 2440,
+      "y": -120
+    },
+    {
+      "height": 427,
+      "id": "c8a8a08fa5212d3c",
+      "label": "07. Использование функций sum(), min(), max()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1172,
+      "x": 2440,
+      "y": 360
+    },
+    {
+      "height": 225,
+      "id": "36b15f102d753b7e",
+      "label": "08. Отличие списка от строки",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1271,
+      "x": 2440,
+      "y": 840
+    },
+    {
+      "height": 718,
+      "id": "d8984c5540c1184b",
+      "label": "01. Введение в списки",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1520,
+      "x": -20,
+      "y": -80
+    },
+    {
+      "height": 443,
+      "id": "fc3c21ca8d3df3fd",
+      "label": "05. Использование срезов",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1400,
+      "x": -20,
+      "y": 2400
+    },
+    {
+      "height": 399,
+      "id": "aec1e50dc097b9c2",
+      "label": "04. Использование оператора in",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1112,
+      "x": -20,
+      "y": 1920
+    },
+    {
+      "height": 251,
+      "id": "e6fb999aa15080d8",
+      "label": "03. Использование функции len()",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1158,
+      "x": -20,
+      "y": 1600
+    },
+    {
+      "height": 117,
+      "id": "28dd7dcef32bfd58",
+      "styleAttributes": {
+      },
+      "text": "С помощью среза можно использовать элементы списка в заданном диапазоне",
+      "type": "text",
+      "width": 260,
+      "x": 340,
+      "y": 2700
+    },
+    {
+      "height": 133,
+      "id": "d7b0894f49b7e0ba",
+      "styleAttributes": {
+      },
+      "text": "```python\nfruits = ['apple', 'apricot', 'banana', 'cherry', 'kiwi', 'lemon', 'mango']\nfruits[2:5] = ['Банан', 'вишня', 'киви'] # Замена через срез\n\nprint(fruits) # ['apple', 'Банан', 'вишня', 'киви', 'lemon', 'mango']\n```",
+      "type": "text",
+      "width": 690,
+      "x": 670,
+      "y": 2692
+    },
+    {
+      "height": 87,
+      "id": "cc152ef02567cc03",
+      "styleAttributes": {
+      },
+      "text": "Длиной списка называется количество его элементов",
+      "type": "text",
+      "width": 260,
+      "x": 320,
+      "y": 1687
+    },
+    {
+      "height": 211,
+      "id": "a5bf3d55c0e5d2df",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [2, 4, 6, 8, 10]\nlanguages = ['Python', 'Golang', 'C++', 'Java']\n\nprint(len(numbers)) # 5\nprint(len(languages)) # 4\n\nprint(len(['test', 'test1', 'test2'])) # 3\n```",
+      "type": "text",
+      "width": 458,
+      "x": 660,
+      "y": 1625
+    },
+    {
+      "height": 60,
+      "id": "2212e9244d42dec4",
+      "styleAttributes": {
+      },
+      "text": "Создание пустого списка",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 540
+    },
+    {
+      "height": 100,
+      "id": "83a805f5492bb618",
+      "styleAttributes": {
+      },
+      "text": "Список может принимать сразу несколько типов данных",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 280
+    },
+    {
+      "height": 148,
+      "id": "f22826bac286f3be",
+      "styleAttributes": {
+      },
+      "text": "Представляет собой последовательность элементов, пронумерованных от 0, как символы в строке",
+      "type": "text",
+      "width": 260,
+      "x": 320,
+      "y": -24
+    },
+    {
+      "height": 60,
+      "id": "1f51f74fef88db60",
+      "styleAttributes": {
+      },
+      "text": "Списки",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": 20
+    },
+    {
+      "height": 60,
+      "id": "cf4db8dc640f8462",
+      "styleAttributes": {
+      },
+      "text": "Создание списка",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 20
+    },
+    {
+      "height": 60,
+      "id": "3fda9cce31481bc1",
+      "styleAttributes": {
+      },
+      "text": "Функция `len()` в работе со списками",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": 1700
+    },
+    {
+      "height": 185,
+      "id": "008799446dbf9da5",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [2, 4, 6, 8, 10]\n\nif 2 in numbers:\n\tprint(\"Список содержит число 2\")\nelse:\n\tprint(\"Список не содержит число 2\")\n```",
+      "type": "text",
+      "width": 397,
+      "x": 660,
+      "y": 1931
+    },
+    {
+      "height": 117,
+      "id": "5dd2ebad3e7f67d2",
+      "styleAttributes": {
+      },
+      "text": "Оператор `in` позволяет проверить, содержит ли список некоторый элемент",
+      "type": "text",
+      "width": 260,
+      "x": 320,
+      "y": 1965
+    },
+    {
+      "height": 87,
+      "id": "4f45660fa4bc3281",
+      "styleAttributes": {
+      },
+      "text": "Оператор принадлежности `in` в работе со списками",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": 1980
+    },
+    {
+      "height": 133,
+      "id": "0823aad9c754cd05",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [2, 4, 6, 8, 10]\n\nif 0 not in numbers:\n\tprint(\"Число 0 отсутствует в списке\")\n```",
+      "type": "text",
+      "width": 412,
+      "x": 660,
+      "y": 2157
+    },
+    {
+      "height": 87,
+      "id": "8941fad62dcf2748",
+      "styleAttributes": {
+      },
+      "text": "Можно использовать вместе с логическим оператором `not`",
+      "type": "text",
+      "width": 260,
+      "x": 320,
+      "y": 2180
+    },
+    {
+      "height": 60,
+      "id": "ebcd71eb7a2becb2",
+      "styleAttributes": {
+      },
+      "text": "Примеры",
+      "type": "text",
+      "width": 260,
+      "x": 971,
+      "y": 1280
+    },
+    {
+      "height": 147,
+      "id": "b7fbd2ffade16899",
+      "styleAttributes": {
+      },
+      "text": "Функция, которая помимо создания пустого списка может преобразовывать некоторые типы объектов в списки",
+      "type": "text",
+      "width": 260,
+      "x": 320,
+      "y": 797
+    },
+    {
+      "height": 87,
+      "id": "b3668f9b78f69780",
+      "styleAttributes": {
+      },
+      "text": "В комбинации с функцией `range()` происходит следующее",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 827
+    },
+    {
+      "height": 60,
+      "id": "53c1c36afd0ff80a",
+      "styleAttributes": {
+      },
+      "text": "Встроенная функция `list()`",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": 840
+    },
+    {
+      "height": 54,
+      "id": "e28e39d63d29358b",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = list(range(5))\n```",
+      "type": "text",
+      "width": 281,
+      "x": 960,
+      "y": 844
+    },
+    {
+      "height": 211,
+      "id": "0c333f2ec50f234f",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [2, 4, 6, 8, 10]\nlanguages = ['Python', 'Golang', 'C++', 'Java']\n\nprint(numbers) # [2, 4, 6, 8, 10]\nprint(languages) # ['Python', 'Golang', 'C++', 'Java']\nprint(numbers[0]) # 2\nprint(languages[0]) # 'Python'\n```",
+      "type": "text",
+      "width": 520,
+      "x": 960,
+      "y": -55
+    },
+    {
+      "height": 106,
+      "id": "81e5069d7602423a",
+      "styleAttributes": {
+      },
+      "text": "```python\nmylist = [] # С использованием квадратных скобок\nmylist = list() # С использованием встроенной функции\n```",
+      "type": "text",
+      "width": 500,
+      "x": 960,
+      "y": 517
+    },
+    {
+      "height": 177,
+      "id": "e6cf0da98047fb8d",
+      "styleAttributes": {
+      },
+      "text": "С помощью среза можно получить несколько элементов списка, создав диапазон индексов, разделенных двоеточием `numbers[x:y]`",
+      "type": "text",
+      "width": 260,
+      "x": 340,
+      "y": 2422
+    },
+    {
+      "height": 106,
+      "id": "f408da8b78eb386e",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [2, 4, 6, 8, 10]\nprint(numbers[1:3]) # [4, 6]\nprint(numbers[2:5]) # [6, 8, 10]\n```",
+      "type": "text",
+      "width": 377,
+      "x": 670,
+      "y": 2458
+    },
+    {
+      "height": 60,
+      "id": "ea07d132d90a8b17",
+      "styleAttributes": {
+      },
+      "text": "Срезы в работе со списками",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": 2480
+    },
+    {
+      "height": 159,
+      "id": "bc938a6c884f34b7",
+      "styleAttributes": {
+      },
+      "text": "```python\ninfo = ['Timur', 1992, 61.5]\n\nprint(info[0]) # 'Timur'\nprint(info[1]) # 1992\nprint(info[2]) # 61.5\n```",
+      "type": "text",
+      "width": 312,
+      "x": 960,
+      "y": 251
+    },
+    {
+      "height": 87,
+      "id": "f18b3cb64929fc35",
+      "styleAttributes": {
+      },
+      "text": "Операции конкатенации и умножения на число при работе со списками",
+      "type": "text",
+      "width": 260,
+      "x": 2460,
+      "y": 0
+    },
+    {
+      "height": 177,
+      "id": "6365c64a1fe76824",
+      "styleAttributes": {
+      },
+      "text": "Конкатенация списков должна восприниматься как одна сущность. Для лучшего понимания приведены справа примеры",
+      "type": "text",
+      "width": 260,
+      "x": 2800,
+      "y": -45
+    },
+    {
+      "height": 286,
+      "id": "471cb6def8e0bbfb",
+      "styleAttributes": {
+      },
+      "text": "```python\na = [1, 2, 3, 4] + [5, 6, 7, 8] # [1, 2, 3, 4, 5, 6, 7, 8] - Соединение двух списков в один\nb = [7, 8] * 3 # [7, 8, 7, 8, 7, 8] - Повторение списка 3 раза\nc = [0] * 10 # [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] - Повторение списка 10 раз\n# -------------\n# Следующий пример ниже\n# -------------\na = [1, 2, 3, 4]\nb = [7, 8]\na += b # [1, 2, 3, 4, 7, 8] - Соединение двух списков в один\nb *= 5 # [7, 8, 7, 8, 7, 8, 7, 8, 7, 8] - Повторение списка 5 раз\n```",
+      "type": "text",
+      "width": 800,
+      "x": 3180,
+      "y": -99
+    },
+    {
+      "height": 147,
+      "id": "19fa3f41bf7376cc",
+      "styleAttributes": {
+      },
+      "text": "Функция `sum()` принимает в качестве параметра список чисел и вычисляет сумму его элементов",
+      "type": "text",
+      "width": 260,
+      "x": 2800,
+      "y": 370
+    },
+    {
+      "height": 177,
+      "id": "8524068732fcddfb",
+      "styleAttributes": {
+      },
+      "text": "Функции `min()` и `max()` принимают в качестве параметра список и находят минимальный и максимальный элементы списка",
+      "type": "text",
+      "width": 260,
+      "x": 2800,
+      "y": 580
+    },
+    {
+      "height": 133,
+      "id": "22c22caea235fe64",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nb = sum(numbers)\n\nprint(b) # 55\n```",
+      "type": "text",
+      "width": 412,
+      "x": 3180,
+      "y": 377
+    },
+    {
+      "height": 106,
+      "id": "45cb6379659563c5",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [3, 4, 10, 3333, 12, -7, -5, 4]\nprint(min(numbers)) # -7\nprint(max(numbers)) # 3333\n```",
+      "type": "text",
+      "width": 412,
+      "x": 3180,
+      "y": 616
+    },
+    {
+      "height": 87,
+      "id": "b101d2ffca29d964",
+      "styleAttributes": {
+      },
+      "text": "Использование функций `sum()`, `min()`, `max()` в контексте списков",
+      "type": "text",
+      "width": 260,
+      "x": 2460,
+      "y": 400
+    },
+    {
+      "height": 106,
+      "id": "eac726bb8475c5d7",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'abcde'\nchars = list(s) # ['a', 'b', 'c', 'd', 'e']\n# Происходит преобразование строки в список\n```",
+      "type": "text",
+      "width": 428,
+      "x": 1320,
+      "y": 1360
+    },
+    {
+      "height": 58,
+      "id": "cc7768addf362f38",
+      "styleAttributes": {
+      },
+      "text": "Функция `list()` возвращает список с заданной последовательностью",
+      "type": "text",
+      "width": 380,
+      "x": 1360,
+      "y": 1054
+    },
+    {
+      "height": 60,
+      "id": "d1de9dd12e97116d",
+      "styleAttributes": {
+      },
+      "text": "Последовательность чисел передается в качестве аргумента в функцию `list()`",
+      "type": "text",
+      "width": 380,
+      "x": 1360,
+      "y": 988
+    },
+    {
+      "height": 58,
+      "id": "5352a0bb1f3693ce",
+      "styleAttributes": {
+      },
+      "text": "Функция возвращает последовательность `0, 1, 2, 3, 4`",
+      "type": "text",
+      "width": 380,
+      "x": 1360,
+      "y": 916
+    },
+    {
+      "height": 58,
+      "id": "5853c8261081a5f4",
+      "styleAttributes": {
+      },
+      "text": "Вызывается функция `range()`, в которую в качестве аргумента передается число 5",
+      "type": "text",
+      "width": 380,
+      "x": 1360,
+      "y": 842
+    },
+    {
+      "height": 87,
+      "id": "e96c4f4845a0b9aa",
+      "styleAttributes": {
+      },
+      "text": "Строки - неизменяемые объекты, а списки - изменяемые",
+      "type": "text",
+      "width": 260,
+      "x": 2800,
+      "y": 900
+    },
+    {
+      "height": 60,
+      "id": "07efc19250c0967b",
+      "styleAttributes": {
+      },
+      "text": "Отличие списков от строк",
+      "type": "text",
+      "width": 260,
+      "x": 2460,
+      "y": 914
+    },
+    {
+      "height": 185,
+      "id": "529edd627b6d084c",
+      "styleAttributes": {
+      },
+      "text": "```python\ntest_string = 'abcdefg'\ns[1] = 'x' # error: object does not support item assignment\n\ntest_slice = [1, 2, 3, 4, 5, 6, 7]\ntest_slice[0] = 101\nprint(test_slice) # [101, 2, 3, 4, 5, 6, 7]\n```",
+      "type": "text",
+      "width": 551,
+      "x": 3140,
+      "y": 851
+    },
+    {
+      "height": 60,
+      "id": "66f506a09b25df89",
+      "styleAttributes": {
+      },
+      "text": "Список `[0, 1, 2, 3, 4]` присваивается переменной `numbers`",
+      "type": "text",
+      "width": 380,
+      "x": 1360,
+      "y": 1114
+    },
+    {
+      "height": 80,
+      "id": "da3f60a9bb05f50c",
+      "styleAttributes": {
+      },
+      "text": "```python\neven_numbers = list(range(0, 10, 2)) # [0, 2, 4, 6, 8]\nodd_numbers = list(range(1, 10, 2)) # [1, 3, 5, 7, 9]\n```",
+      "type": "text",
+      "width": 512,
+      "x": 1320,
+      "y": 1270
+    }
+  ]
+}

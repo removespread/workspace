@@ -1,42 +1,334 @@
 {
-	"nodes":[
-		{"id":"8c7b7ed71fa97816","x":-202,"y":-210,"width":1840,"height":921,"type":"group","label":"Основное понятие вложенных циклов"},
-		{"id":"19d938b833c11fc1","type":"text","text":"Вложенные циклы","x":-182,"y":-72,"width":250,"height":60},
-		{"id":"7377ec89bde4609a","x":140,"y":-85,"width":250,"height":87,"type":"text","text":"Вложенный цикл - цикл, расположенный внутри другого цикла"},
-		{"id":"01c54919a43dd7c4","x":430,"y":-71,"width":250,"height":60,"type":"text","text":"Пример - циферблат часов"},
-		{"id":"0da930cb6b6a106a","x":740,"y":-71,"width":250,"height":60,"type":"text","text":"Цикл №2 - минуты"},
-		{"id":"aa2c90c3dfa77f2d","x":740,"y":50,"width":250,"height":60,"type":"text","text":"Цикл №3 - часы"},
-		{"id":"d9b2af216df50a4b","x":1025,"y":27,"width":343,"height":106,"type":"text","text":"```python\nfor hours in range(60):\n\tfor minutes in range(60):\n\t\tfor seconds in range(60)\n```"},
-		{"id":"79ae691905f2e775","x":1025,"y":-81,"width":312,"height":80,"type":"text","text":"```python\nfor minutes in range(60):\n\tfor seconds in range(60)\n```"},
-		{"id":"0a6ff5b4fa0440eb","x":740,"y":-190,"width":250,"height":60,"type":"text","text":"Цикл №1 - секунды"},
-		{"id":"735e5df446564bcb","x":1025,"y":-190,"width":285,"height":60,"type":"text","text":"```python\nfor minutes in range(60)\n```"},
-		{"id":"c07ae8471179cb20","x":1025,"y":167,"width":343,"height":197,"type":"text","text":"Cамый внутренний цикл (seconds) сделает 60 итераций для каждой итерации среднего цикла (minutes).\n\nСредний цикл (minutes) сделает 60 итераций для каждой итерации внешнего цикла (hours)"},
-		{"id":"2544d9df6517185d","x":800,"y":440,"width":250,"height":147,"type":"text","text":"Вложенный цикл выполняет все свои итерации для каждой отдельной итерации внешнего цикла"},
-		{"id":"1b5e2019fdc35de3","x":1072,"y":440,"width":250,"height":117,"type":"text","text":"Вложенные циклы завершают свои итерации быстрее, чем внешние циклы"},
-		{"id":"26ad2214e0194b64","x":1368,"y":440,"width":250,"height":207,"type":"text","text":"Для того, чтобы получить общее количество итераций вложенного цикла, надо перемножить количество итераций всех циклов"},
-		{"id":"2eaddc14504b025b","x":1072,"y":604,"width":250,"height":87,"type":"text","text":"Можно вкладывать друг в друга циклы как `for`, так и `while`"},
-		{"id":"c4da3b594bffd64d","x":140,"y":800,"width":250,"height":117,"type":"text","text":"Оператор `break` выполняет прерывание ближайшего цикла в котором он расположен"},
-		{"id":"cba6f1e0ef114570","x":140,"y":940,"width":250,"height":147,"type":"text","text":"Оператор `continue` осуществляет переход на следующую итерацию ближайшего цикла"},
-		{"id":"ec632263111901e5","x":460,"y":814,"width":250,"height":207,"type":"text","text":"Если необходимо добиться прерывания внешнего цикла из-за выполнения условия во внутреннем, то стоит сделать это через сигнальную метку"},
-		{"id":"5fc5414385abd77b","x":-182,"y":917,"width":250,"height":60,"type":"text","text":"`break` / `continue` во вложенных циклах"}
-	],
-	"edges":[
-		{"id":"07203ccfb49bbbb1","fromNode":"19d938b833c11fc1","fromSide":"right","toNode":"7377ec89bde4609a","toSide":"left"},
-		{"id":"7dc27665355b5bf2","fromNode":"7377ec89bde4609a","fromSide":"right","toNode":"01c54919a43dd7c4","toSide":"left"},
-		{"id":"289da0cdf7b966df","fromNode":"01c54919a43dd7c4","fromSide":"right","toNode":"0a6ff5b4fa0440eb","toSide":"left"},
-		{"id":"bcfe80d777495fb6","fromNode":"01c54919a43dd7c4","fromSide":"right","toNode":"0da930cb6b6a106a","toSide":"left"},
-		{"id":"345e480fa34dd84e","fromNode":"01c54919a43dd7c4","fromSide":"right","toNode":"aa2c90c3dfa77f2d","toSide":"left"},
-		{"id":"9b19a94c024fd116","fromNode":"0a6ff5b4fa0440eb","fromSide":"right","toNode":"735e5df446564bcb","toSide":"left"},
-		{"id":"50b0c5b9ba92e19a","fromNode":"0da930cb6b6a106a","fromSide":"right","toNode":"79ae691905f2e775","toSide":"left"},
-		{"id":"7240ddc68e2f4df9","fromNode":"aa2c90c3dfa77f2d","fromSide":"right","toNode":"d9b2af216df50a4b","toSide":"left"},
-		{"id":"eb957934c7c3b231","fromNode":"d9b2af216df50a4b","fromSide":"bottom","toNode":"c07ae8471179cb20","toSide":"top"},
-		{"id":"f09e9030a4ac8f34","fromNode":"c07ae8471179cb20","fromSide":"bottom","toNode":"2544d9df6517185d","toSide":"top"},
-		{"id":"aa98c36a97e5a71d","fromNode":"c07ae8471179cb20","fromSide":"bottom","toNode":"1b5e2019fdc35de3","toSide":"top"},
-		{"id":"755b9dff17a3521a","fromNode":"c07ae8471179cb20","fromSide":"bottom","toNode":"26ad2214e0194b64","toSide":"top"},
-		{"id":"12595a8575451a7b","fromNode":"1b5e2019fdc35de3","fromSide":"bottom","toNode":"2eaddc14504b025b","toSide":"top"},
-		{"id":"fa218bebac55b4c4","fromNode":"5fc5414385abd77b","fromSide":"right","toNode":"c4da3b594bffd64d","toSide":"left"},
-		{"id":"e87a69a496a543fc","fromNode":"5fc5414385abd77b","fromSide":"right","toNode":"cba6f1e0ef114570","toSide":"left"},
-		{"id":"0e3af6cde22d2364","fromNode":"c4da3b594bffd64d","fromSide":"right","toNode":"ec632263111901e5","toSide":"left"},
-		{"id":"dce1d809adfa905a","fromNode":"cba6f1e0ef114570","fromSide":"right","toNode":"ec632263111901e5","toSide":"left"}
-	]
+  "edges": [
+    {
+      "fromNode": "19d938b833c11fc1",
+      "fromSide": "right",
+      "id": "07203ccfb49bbbb1",
+      "toNode": "7377ec89bde4609a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7377ec89bde4609a",
+      "fromSide": "right",
+      "id": "7dc27665355b5bf2",
+      "toNode": "01c54919a43dd7c4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "01c54919a43dd7c4",
+      "fromSide": "right",
+      "id": "289da0cdf7b966df",
+      "toNode": "0a6ff5b4fa0440eb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "01c54919a43dd7c4",
+      "fromSide": "right",
+      "id": "bcfe80d777495fb6",
+      "toNode": "0da930cb6b6a106a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "01c54919a43dd7c4",
+      "fromSide": "right",
+      "id": "345e480fa34dd84e",
+      "toNode": "aa2c90c3dfa77f2d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0a6ff5b4fa0440eb",
+      "fromSide": "right",
+      "id": "9b19a94c024fd116",
+      "toNode": "735e5df446564bcb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0da930cb6b6a106a",
+      "fromSide": "right",
+      "id": "50b0c5b9ba92e19a",
+      "toNode": "79ae691905f2e775",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa2c90c3dfa77f2d",
+      "fromSide": "right",
+      "id": "7240ddc68e2f4df9",
+      "toNode": "d9b2af216df50a4b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d9b2af216df50a4b",
+      "fromSide": "bottom",
+      "id": "eb957934c7c3b231",
+      "toNode": "c07ae8471179cb20",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c07ae8471179cb20",
+      "fromSide": "bottom",
+      "id": "f09e9030a4ac8f34",
+      "toNode": "2544d9df6517185d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c07ae8471179cb20",
+      "fromSide": "bottom",
+      "id": "aa98c36a97e5a71d",
+      "toNode": "1b5e2019fdc35de3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c07ae8471179cb20",
+      "fromSide": "bottom",
+      "id": "755b9dff17a3521a",
+      "toNode": "26ad2214e0194b64",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1b5e2019fdc35de3",
+      "fromSide": "bottom",
+      "id": "12595a8575451a7b",
+      "toNode": "2eaddc14504b025b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5fc5414385abd77b",
+      "fromSide": "right",
+      "id": "fa218bebac55b4c4",
+      "toNode": "c4da3b594bffd64d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fc5414385abd77b",
+      "fromSide": "right",
+      "id": "e87a69a496a543fc",
+      "toNode": "cba6f1e0ef114570",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c4da3b594bffd64d",
+      "fromSide": "right",
+      "id": "0e3af6cde22d2364",
+      "toNode": "ec632263111901e5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "cba6f1e0ef114570",
+      "fromSide": "right",
+      "id": "dce1d809adfa905a",
+      "toNode": "ec632263111901e5",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 921,
+      "id": "8c7b7ed71fa97816",
+      "label": "Основное понятие вложенных циклов",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1840,
+      "x": -202,
+      "y": -210
+    },
+    {
+      "height": 60,
+      "id": "19d938b833c11fc1",
+      "styleAttributes": {
+      },
+      "text": "Вложенные циклы",
+      "type": "text",
+      "width": 250,
+      "x": -182,
+      "y": -72
+    },
+    {
+      "height": 87,
+      "id": "7377ec89bde4609a",
+      "styleAttributes": {
+      },
+      "text": "Вложенный цикл - цикл, расположенный внутри другого цикла",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": -85
+    },
+    {
+      "height": 60,
+      "id": "01c54919a43dd7c4",
+      "styleAttributes": {
+      },
+      "text": "Пример - циферблат часов",
+      "type": "text",
+      "width": 250,
+      "x": 430,
+      "y": -71
+    },
+    {
+      "height": 60,
+      "id": "0a6ff5b4fa0440eb",
+      "styleAttributes": {
+      },
+      "text": "Цикл №1 - секунды",
+      "type": "text",
+      "width": 250,
+      "x": 740,
+      "y": -190
+    },
+    {
+      "height": 147,
+      "id": "2544d9df6517185d",
+      "styleAttributes": {
+      },
+      "text": "Вложенный цикл выполняет все свои итерации для каждой отдельной итерации внешнего цикла",
+      "type": "text",
+      "width": 250,
+      "x": 800,
+      "y": 440
+    },
+    {
+      "height": 117,
+      "id": "c4da3b594bffd64d",
+      "styleAttributes": {
+      },
+      "text": "Оператор `break` выполняет прерывание ближайшего цикла в котором он расположен",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": 800
+    },
+    {
+      "height": 147,
+      "id": "cba6f1e0ef114570",
+      "styleAttributes": {
+      },
+      "text": "Оператор `continue` осуществляет переход на следующую итерацию ближайшего цикла",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": 940
+    },
+    {
+      "height": 207,
+      "id": "ec632263111901e5",
+      "styleAttributes": {
+      },
+      "text": "Если необходимо добиться прерывания внешнего цикла из-за выполнения условия во внутреннем, то стоит сделать это через сигнальную метку",
+      "type": "text",
+      "width": 250,
+      "x": 460,
+      "y": 814
+    },
+    {
+      "height": 60,
+      "id": "5fc5414385abd77b",
+      "styleAttributes": {
+      },
+      "text": "`break` / `continue` во вложенных циклах",
+      "type": "text",
+      "width": 250,
+      "x": -182,
+      "y": 917
+    },
+    {
+      "height": 60,
+      "id": "0da930cb6b6a106a",
+      "styleAttributes": {
+      },
+      "text": "Цикл №2 - минуты",
+      "type": "text",
+      "width": 250,
+      "x": 740,
+      "y": -71
+    },
+    {
+      "height": 60,
+      "id": "aa2c90c3dfa77f2d",
+      "styleAttributes": {
+      },
+      "text": "Цикл №3 - часы",
+      "type": "text",
+      "width": 250,
+      "x": 740,
+      "y": 50
+    },
+    {
+      "height": 106,
+      "id": "d9b2af216df50a4b",
+      "styleAttributes": {
+      },
+      "text": "```python\nfor hours in range(60):\n\tfor minutes in range(60):\n\t\tfor seconds in range(60)\n```",
+      "type": "text",
+      "width": 343,
+      "x": 1025,
+      "y": 27
+    },
+    {
+      "height": 80,
+      "id": "79ae691905f2e775",
+      "styleAttributes": {
+      },
+      "text": "```python\nfor minutes in range(60):\n\tfor seconds in range(60)\n```",
+      "type": "text",
+      "width": 312,
+      "x": 1025,
+      "y": -81
+    },
+    {
+      "height": 60,
+      "id": "735e5df446564bcb",
+      "styleAttributes": {
+      },
+      "text": "```python\nfor minutes in range(60)\n```",
+      "type": "text",
+      "width": 285,
+      "x": 1025,
+      "y": -190
+    },
+    {
+      "height": 197,
+      "id": "c07ae8471179cb20",
+      "styleAttributes": {
+      },
+      "text": "Cамый внутренний цикл (seconds) сделает 60 итераций для каждой итерации среднего цикла (minutes).\n\nСредний цикл (minutes) сделает 60 итераций для каждой итерации внешнего цикла (hours)",
+      "type": "text",
+      "width": 343,
+      "x": 1025,
+      "y": 167
+    },
+    {
+      "height": 117,
+      "id": "1b5e2019fdc35de3",
+      "styleAttributes": {
+      },
+      "text": "Вложенные циклы завершают свои итерации быстрее, чем внешние циклы",
+      "type": "text",
+      "width": 250,
+      "x": 1072,
+      "y": 440
+    },
+    {
+      "height": 207,
+      "id": "26ad2214e0194b64",
+      "styleAttributes": {
+      },
+      "text": "Для того, чтобы получить общее количество итераций вложенного цикла, надо перемножить количество итераций всех циклов",
+      "type": "text",
+      "width": 250,
+      "x": 1368,
+      "y": 440
+    },
+    {
+      "height": 87,
+      "id": "2eaddc14504b025b",
+      "styleAttributes": {
+      },
+      "text": "Можно вкладывать друг в друга циклы как `for`, так и `while`",
+      "type": "text",
+      "width": 250,
+      "x": 1072,
+      "y": 604
+    }
+  ]
 }

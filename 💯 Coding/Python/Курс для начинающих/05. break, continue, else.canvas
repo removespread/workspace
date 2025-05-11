@@ -1,49 +1,407 @@
 {
-	"nodes":[
-		{"id":"54d5dc083d9ced84","type":"group","x":120,"y":-219,"width":1508,"height":1866,"label":"Оператор break"},
-		{"id":"3a8e2434de670419","x":120,"y":1989,"width":1192,"height":304,"type":"group","label":"Блок else в циклах"},
-		{"id":"548527b1b1383441","type":"group","x":120,"y":1700,"width":1541,"height":217,"label":"Оператор continue"},
-		{"id":"476467cf4dcc1b1d","type":"text","text":"Существуют ситуацию, когда необходимо прервать выполнение цикла преждевременно. Существует оператор `break`, который прерывает ближайший цикл `for` или `while`","x":140,"y":-164,"width":250,"height":237},
-		{"id":"1e4c26616c9597af","type":"text","text":"Пример работы оператора `break`","x":455,"y":-76,"width":250,"height":60},
-		{"id":"994eef2e05ba6c90","type":"text","text":"```python\nnum = int(input())\nflag = True\n\nfor i in range(2, num):\n\tif num % i == 0: # Если исходное число делится на какое-либо отличное от 1 и самого себя\n\t\tflag = False\n\t\tbreak # Останавливается цикл, если встречается делитель числа \nif flag: # Эквивалентно if flag == true\n\tprint(\"Число простое\")\nelse:\n\tprint(\"Число составное\")\n```","x":760,"y":-199,"width":848,"height":307},
-		{"id":"fb0a96591a9b1d8f","type":"text","text":"Оператор прерывания `break` позволяет ускорять программы, т.к. можно избавиться от лишних итераций","x":140,"y":145,"width":250,"height":147},
-		{"id":"cdafdbdaad88d1bf","type":"text","text":"Пример программы, которая использует цикл `for`, которая считывает 10 чисел и суммирует их до тех пор, пока не обнаружит отрицательное число. В этом случае выполнение цикла прерывается командой `break`","x":455,"y":485,"width":250,"height":292},
-		{"id":"f092594b84b8248c","type":"text","text":"```python\nresult = 0\nfor i in range(10):\n\tnum = int(input())\n\tif num < 0: # Если число меньше 0\n\t\tbreak # Остановка цикла\n\tresult += num\nprint(result)\n```","x":762,"y":526,"width":422,"height":211},
-		{"id":"9a92d7a164f07ba7","type":"text","text":"Удобен в связке с сигнальными метками: когда после проверки некоторого условия нет смысла продолжать выполнение цикла","x":140,"y":336,"width":250,"height":177},
-		{"id":"55b6f3167e0bc69a","type":"text","text":"Пример программы, которая определяет, содержит ли введенное число цифру 7","x":454,"y":893,"width":250,"height":117},
-		{"id":"ed28357731a2fa03","type":"text","text":"Как только встречается делитель отличный от 1 и `num`, программа меняет значение сигнальной метки и прерывает цикл, поскольку дальнейшее его выполнение лишено смысла: число гарантированно не является простым","x":1059,"y":171,"width":250,"height":292},
-		{"id":"3a8108c94d6362b2","type":"text","text":"Операторы `break`, `continue`, `else`","x":-520,"y":-76,"width":250,"height":60},
-		{"id":"4a4af35c2a6fe352","type":"text","text":"Оператор `break` может использоваться для выхода из бесконечных циклов","x":140,"y":1415,"width":250,"height":117},
-		{"id":"3417978295d357ae","type":"text","text":"```python\nwhile True:\n\tif условие_1: # Условие для остановки цикла\n\tbreak\n...\n\tif условие_2: # Еще одно условие для остановки цикла\n\tbreak\n...\n\tif условие_3: # Еще одно условие для остановки цикла\n\tbreak\n...\n\n```","x":457,"y":1320,"width":544,"height":307},
-		{"id":"54b573c70e14160f","type":"text","text":"Блок `else` в циклах","x":140,"y":2112,"width":250,"height":60},
-		{"id":"a48e18add1b1364c","type":"text","text":"Python допускает необязательный блок в конце циклов `while` / `for`. Синтаксис конструкции следующий","x":437,"y":2068,"width":250,"height":147},
-		{"id":"0d082303109b9439","type":"text","text":"```python\nwhile условие:\n\tблок_кода1\nelse:\n\tблок_кода2\n\nfor i in range(10):\n\tблок_кода1\nelse:\n\tблок_кода2\n```","x":742,"y":2009,"width":249,"height":264},
-		{"id":"47945f545ba8bd38","type":"text","text":"`блок_кода2` указанный в else, будет выполнен, когда штатным образом завершается цикл `while` или `for`","x":1042,"y":2068,"width":250,"height":147},
-		{"id":"00c3c12a0a54e7e2","type":"text","text":"Оператор `break` прерывает выполнение ближайшего цикла, а не программы, то есть далее будет выполнена команда, следующая сразу за циклом","x":457,"y":1043,"width":250,"height":207},
-		{"id":"14ad79bc7c5c3ac4","type":"text","text":"```python\nnumber = int(input())\nflag = False\nwhile number != 0:\n\tcurrent_digit = number % 10 # Берем последнюю цифру из числа\n\tif current_digit == 7: # Если последнее число равно 7\n\t\tflag = True # Сигнальная метка равна True\n\t\tbreak # Выход из цикла\n\tnumber = number // 10  # Убираем последнюю цифру из числа, если она не равна 7\n\nif flag: # Приравнивается к if flag == True\n\tprint(\"YES\")\nelse:\n\tprint(\"NO\")\n```","x":762,"y":777,"width":765,"height":349},
-		{"id":"572f3952832fdceb","type":"text","text":"Пример: программа, которая выводит все числа от 1 до 100, кроме чисел 7, 17, 29 и 78","x":740,"y":1750,"width":250,"height":117},
-		{"id":"ccb5797c68081770","type":"text","text":"Оператор `continue`","x":140,"y":1779,"width":250,"height":60},
-		{"id":"d87699e17439bfea","type":"text","text":"Оператор `continue` позволяет перейти к следующей итерации цикла, чтобы пропустить отдельные элементы при переборе в цикле","x":437,"y":1720,"width":250,"height":177},
-		{"id":"2e3ffd4fe61dd1a5","type":"text","text":"```python\nfor i in range(101):\n\tif i == 7 or i == 17 or i == 29 or i == 78:\n\t\tcontinue # Пропуск чисел, переход на следующую итерацию\n\tprint(i)\n```","x":1040,"y":1742,"width":601,"height":133}
-	],
-	"edges":[
-		{"id":"2532ac8301953e4c","fromNode":"476467cf4dcc1b1d","fromSide":"right","toNode":"1e4c26616c9597af","toSide":"left"},
-		{"id":"2dc65d1ba7e093da","fromNode":"1e4c26616c9597af","fromSide":"right","toNode":"994eef2e05ba6c90","toSide":"left"},
-		{"id":"ac25bb9556af091c","fromNode":"994eef2e05ba6c90","fromSide":"bottom","toNode":"ed28357731a2fa03","toSide":"top"},
-		{"id":"aca26803261693ab","fromNode":"476467cf4dcc1b1d","fromSide":"bottom","toNode":"fb0a96591a9b1d8f","toSide":"top"},
-		{"id":"822b52f706ecc456","fromNode":"1e4c26616c9597af","fromSide":"bottom","toNode":"cdafdbdaad88d1bf","toSide":"top"},
-		{"id":"8ac7fcce047d8035","fromNode":"cdafdbdaad88d1bf","fromSide":"right","toNode":"f092594b84b8248c","toSide":"left"},
-		{"id":"c89e10432eece0fc","fromNode":"fb0a96591a9b1d8f","fromSide":"bottom","toNode":"9a92d7a164f07ba7","toSide":"top"},
-		{"id":"2edf9186c9e96acf","fromNode":"cdafdbdaad88d1bf","fromSide":"bottom","toNode":"55b6f3167e0bc69a","toSide":"top"},
-		{"id":"482c2aec0165369e","fromNode":"55b6f3167e0bc69a","fromSide":"right","toNode":"14ad79bc7c5c3ac4","toSide":"left"},
-		{"id":"145d87f3f1f2bceb","fromNode":"9a92d7a164f07ba7","fromSide":"bottom","toNode":"4a4af35c2a6fe352","toSide":"top"},
-		{"id":"8861d62a4957c988","fromNode":"4a4af35c2a6fe352","fromSide":"right","toNode":"3417978295d357ae","toSide":"left"},
-		{"id":"bc94d7c8fe566bd5","fromNode":"ccb5797c68081770","fromSide":"right","toNode":"d87699e17439bfea","toSide":"left"},
-		{"id":"8422e22bae1698b0","fromNode":"d87699e17439bfea","fromSide":"right","toNode":"572f3952832fdceb","toSide":"left"},
-		{"id":"0257459e5b120388","fromNode":"572f3952832fdceb","fromSide":"right","toNode":"2e3ffd4fe61dd1a5","toSide":"left"},
-		{"id":"4d5c1a377b3fb172","fromNode":"55b6f3167e0bc69a","fromSide":"bottom","toNode":"00c3c12a0a54e7e2","toSide":"top"},
-		{"id":"1e40ab7460f4220b","fromNode":"54b573c70e14160f","fromSide":"right","toNode":"a48e18add1b1364c","toSide":"left"},
-		{"id":"b2c3a6b794cf6e91","fromNode":"a48e18add1b1364c","fromSide":"right","toNode":"0d082303109b9439","toSide":"left"},
-		{"id":"695cd70588da8bcc","fromNode":"0d082303109b9439","fromSide":"right","toNode":"47945f545ba8bd38","toSide":"left"}
-	]
+  "edges": [
+    {
+      "fromNode": "476467cf4dcc1b1d",
+      "fromSide": "right",
+      "id": "2532ac8301953e4c",
+      "toNode": "1e4c26616c9597af",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1e4c26616c9597af",
+      "fromSide": "right",
+      "id": "2dc65d1ba7e093da",
+      "toNode": "994eef2e05ba6c90",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "994eef2e05ba6c90",
+      "fromSide": "bottom",
+      "id": "ac25bb9556af091c",
+      "toNode": "ed28357731a2fa03",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "476467cf4dcc1b1d",
+      "fromSide": "bottom",
+      "id": "aca26803261693ab",
+      "toNode": "fb0a96591a9b1d8f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1e4c26616c9597af",
+      "fromSide": "bottom",
+      "id": "822b52f706ecc456",
+      "toNode": "cdafdbdaad88d1bf",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "cdafdbdaad88d1bf",
+      "fromSide": "right",
+      "id": "8ac7fcce047d8035",
+      "toNode": "f092594b84b8248c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fb0a96591a9b1d8f",
+      "fromSide": "bottom",
+      "id": "c89e10432eece0fc",
+      "toNode": "9a92d7a164f07ba7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "cdafdbdaad88d1bf",
+      "fromSide": "bottom",
+      "id": "2edf9186c9e96acf",
+      "toNode": "55b6f3167e0bc69a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "55b6f3167e0bc69a",
+      "fromSide": "right",
+      "id": "482c2aec0165369e",
+      "toNode": "14ad79bc7c5c3ac4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9a92d7a164f07ba7",
+      "fromSide": "bottom",
+      "id": "145d87f3f1f2bceb",
+      "toNode": "4a4af35c2a6fe352",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4a4af35c2a6fe352",
+      "fromSide": "right",
+      "id": "8861d62a4957c988",
+      "toNode": "3417978295d357ae",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ccb5797c68081770",
+      "fromSide": "right",
+      "id": "bc94d7c8fe566bd5",
+      "toNode": "d87699e17439bfea",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d87699e17439bfea",
+      "fromSide": "right",
+      "id": "8422e22bae1698b0",
+      "toNode": "572f3952832fdceb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "572f3952832fdceb",
+      "fromSide": "right",
+      "id": "0257459e5b120388",
+      "toNode": "2e3ffd4fe61dd1a5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "55b6f3167e0bc69a",
+      "fromSide": "bottom",
+      "id": "4d5c1a377b3fb172",
+      "toNode": "00c3c12a0a54e7e2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "54b573c70e14160f",
+      "fromSide": "right",
+      "id": "1e40ab7460f4220b",
+      "toNode": "a48e18add1b1364c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a48e18add1b1364c",
+      "fromSide": "right",
+      "id": "b2c3a6b794cf6e91",
+      "toNode": "0d082303109b9439",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0d082303109b9439",
+      "fromSide": "right",
+      "id": "695cd70588da8bcc",
+      "toNode": "47945f545ba8bd38",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1866,
+      "id": "54d5dc083d9ced84",
+      "label": "Оператор break",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1508,
+      "x": 120,
+      "y": -219
+    },
+    {
+      "height": 304,
+      "id": "3a8e2434de670419",
+      "label": "Блок else в циклах",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1192,
+      "x": 120,
+      "y": 1989
+    },
+    {
+      "height": 217,
+      "id": "548527b1b1383441",
+      "label": "Оператор continue",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1541,
+      "x": 120,
+      "y": 1700
+    },
+    {
+      "height": 237,
+      "id": "476467cf4dcc1b1d",
+      "styleAttributes": {
+      },
+      "text": "Существуют ситуацию, когда необходимо прервать выполнение цикла преждевременно. Существует оператор `break`, который прерывает ближайший цикл `for` или `while`",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": -164
+    },
+    {
+      "height": 60,
+      "id": "1e4c26616c9597af",
+      "styleAttributes": {
+      },
+      "text": "Пример работы оператора `break`",
+      "type": "text",
+      "width": 250,
+      "x": 455,
+      "y": -76
+    },
+    {
+      "height": 147,
+      "id": "fb0a96591a9b1d8f",
+      "styleAttributes": {
+      },
+      "text": "Оператор прерывания `break` позволяет ускорять программы, т.к. можно избавиться от лишних итераций",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": 145
+    },
+    {
+      "height": 292,
+      "id": "cdafdbdaad88d1bf",
+      "styleAttributes": {
+      },
+      "text": "Пример программы, которая использует цикл `for`, которая считывает 10 чисел и суммирует их до тех пор, пока не обнаружит отрицательное число. В этом случае выполнение цикла прерывается командой `break`",
+      "type": "text",
+      "width": 250,
+      "x": 455,
+      "y": 485
+    },
+    {
+      "height": 177,
+      "id": "9a92d7a164f07ba7",
+      "styleAttributes": {
+      },
+      "text": "Удобен в связке с сигнальными метками: когда после проверки некоторого условия нет смысла продолжать выполнение цикла",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": 336
+    },
+    {
+      "height": 117,
+      "id": "55b6f3167e0bc69a",
+      "styleAttributes": {
+      },
+      "text": "Пример программы, которая определяет, содержит ли введенное число цифру 7",
+      "type": "text",
+      "width": 250,
+      "x": 454,
+      "y": 893
+    },
+    {
+      "height": 307,
+      "id": "3417978295d357ae",
+      "styleAttributes": {
+      },
+      "text": "```python\nwhile True:\n\tif условие_1: # Условие для остановки цикла\n\tbreak\n...\n\tif условие_2: # Еще одно условие для остановки цикла\n\tbreak\n...\n\tif условие_3: # Еще одно условие для остановки цикла\n\tbreak\n...\n\n```",
+      "type": "text",
+      "width": 544,
+      "x": 457,
+      "y": 1320
+    },
+    {
+      "height": 207,
+      "id": "00c3c12a0a54e7e2",
+      "styleAttributes": {
+      },
+      "text": "Оператор `break` прерывает выполнение ближайшего цикла, а не программы, то есть далее будет выполнена команда, следующая сразу за циклом",
+      "type": "text",
+      "width": 250,
+      "x": 457,
+      "y": 1043
+    },
+    {
+      "height": 349,
+      "id": "14ad79bc7c5c3ac4",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumber = int(input())\nflag = False\nwhile number != 0:\n\tcurrent_digit = number % 10 # Берем последнюю цифру из числа\n\tif current_digit == 7: # Если последнее число равно 7\n\t\tflag = True # Сигнальная метка равна True\n\t\tbreak # Выход из цикла\n\tnumber = number // 10  # Убираем последнюю цифру из числа, если она не равна 7\n\nif flag: # Приравнивается к if flag == True\n\tprint(\"YES\")\nelse:\n\tprint(\"NO\")\n```",
+      "type": "text",
+      "width": 765,
+      "x": 762,
+      "y": 777
+    },
+    {
+      "height": 307,
+      "id": "994eef2e05ba6c90",
+      "styleAttributes": {
+      },
+      "text": "```python\nnum = int(input())\nflag = True\n\nfor i in range(2, num):\n\tif num % i == 0: # Если исходное число делится на какое-либо отличное от 1 и самого себя\n\t\tflag = False\n\t\tbreak # Останавливается цикл, если встречается делитель числа \nif flag: # Эквивалентно if flag == true\n\tprint(\"Число простое\")\nelse:\n\tprint(\"Число составное\")\n```",
+      "type": "text",
+      "width": 848,
+      "x": 760,
+      "y": -199
+    },
+    {
+      "height": 211,
+      "id": "f092594b84b8248c",
+      "styleAttributes": {
+      },
+      "text": "```python\nresult = 0\nfor i in range(10):\n\tnum = int(input())\n\tif num < 0: # Если число меньше 0\n\t\tbreak # Остановка цикла\n\tresult += num\nprint(result)\n```",
+      "type": "text",
+      "width": 422,
+      "x": 762,
+      "y": 526
+    },
+    {
+      "height": 292,
+      "id": "ed28357731a2fa03",
+      "styleAttributes": {
+      },
+      "text": "Как только встречается делитель отличный от 1 и `num`, программа меняет значение сигнальной метки и прерывает цикл, поскольку дальнейшее его выполнение лишено смысла: число гарантированно не является простым",
+      "type": "text",
+      "width": 250,
+      "x": 1059,
+      "y": 171
+    },
+    {
+      "height": 60,
+      "id": "3a8108c94d6362b2",
+      "styleAttributes": {
+      },
+      "text": "Операторы `break`, `continue`, `else`",
+      "type": "text",
+      "width": 250,
+      "x": -520,
+      "y": -76
+    },
+    {
+      "height": 117,
+      "id": "4a4af35c2a6fe352",
+      "styleAttributes": {
+      },
+      "text": "Оператор `break` может использоваться для выхода из бесконечных циклов",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": 1415
+    },
+    {
+      "height": 117,
+      "id": "572f3952832fdceb",
+      "styleAttributes": {
+      },
+      "text": "Пример: программа, которая выводит все числа от 1 до 100, кроме чисел 7, 17, 29 и 78",
+      "type": "text",
+      "width": 250,
+      "x": 740,
+      "y": 1750
+    },
+    {
+      "height": 60,
+      "id": "ccb5797c68081770",
+      "styleAttributes": {
+      },
+      "text": "Оператор `continue`",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": 1779
+    },
+    {
+      "height": 177,
+      "id": "d87699e17439bfea",
+      "styleAttributes": {
+      },
+      "text": "Оператор `continue` позволяет перейти к следующей итерации цикла, чтобы пропустить отдельные элементы при переборе в цикле",
+      "type": "text",
+      "width": 250,
+      "x": 437,
+      "y": 1720
+    },
+    {
+      "height": 133,
+      "id": "2e3ffd4fe61dd1a5",
+      "styleAttributes": {
+      },
+      "text": "```python\nfor i in range(101):\n\tif i == 7 or i == 17 or i == 29 or i == 78:\n\t\tcontinue # Пропуск чисел, переход на следующую итерацию\n\tprint(i)\n```",
+      "type": "text",
+      "width": 601,
+      "x": 1040,
+      "y": 1742
+    },
+    {
+      "height": 60,
+      "id": "54b573c70e14160f",
+      "styleAttributes": {
+      },
+      "text": "Блок `else` в циклах",
+      "type": "text",
+      "width": 250,
+      "x": 140,
+      "y": 2112
+    },
+    {
+      "height": 147,
+      "id": "a48e18add1b1364c",
+      "styleAttributes": {
+      },
+      "text": "Python допускает необязательный блок в конце циклов `while` / `for`. Синтаксис конструкции следующий",
+      "type": "text",
+      "width": 250,
+      "x": 437,
+      "y": 2068
+    },
+    {
+      "height": 264,
+      "id": "0d082303109b9439",
+      "styleAttributes": {
+      },
+      "text": "```python\nwhile условие:\n\tблок_кода1\nelse:\n\tблок_кода2\n\nfor i in range(10):\n\tблок_кода1\nelse:\n\tблок_кода2\n```",
+      "type": "text",
+      "width": 249,
+      "x": 742,
+      "y": 2009
+    },
+    {
+      "height": 147,
+      "id": "47945f545ba8bd38",
+      "styleAttributes": {
+      },
+      "text": "`блок_кода2` указанный в else, будет выполнен, когда штатным образом завершается цикл `while` или `for`",
+      "type": "text",
+      "width": 250,
+      "x": 1042,
+      "y": 2068
+    }
+  ]
 }

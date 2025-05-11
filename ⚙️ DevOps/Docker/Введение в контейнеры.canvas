@@ -1,0 +1,421 @@
+{
+  "edges": [
+    {
+      "fromNode": "748dcc69713759ac",
+      "fromSide": "right",
+      "id": "22981f10a3fb6f02",
+      "styleAttributes": {
+      },
+      "toNode": "8fe0dbb0d0c04285",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "748dcc69713759ac",
+      "fromSide": "right",
+      "id": "7bfb25bececb152c",
+      "styleAttributes": {
+      },
+      "toNode": "80e3e7494e2f969d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "80e3e7494e2f969d",
+      "fromSide": "right",
+      "id": "dbfa0e94cc00266a",
+      "styleAttributes": {
+      },
+      "toNode": "21565a62f31256ff",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "748dcc69713759ac",
+      "fromSide": "right",
+      "id": "321b5e855941ade2",
+      "styleAttributes": {
+      },
+      "toNode": "0b338ec0a57ef648",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "748dcc69713759ac",
+      "fromSide": "right",
+      "id": "61be056a245249d8",
+      "styleAttributes": {
+      },
+      "toNode": "1c93410357efab15",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1c93410357efab15",
+      "fromSide": "right",
+      "id": "935a08868ff7932e",
+      "styleAttributes": {
+      },
+      "toNode": "f8ad35d03abc0d20",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a6d18d2f52e26f2e",
+      "fromSide": "right",
+      "id": "219191c80cd2cc26",
+      "styleAttributes": {
+      },
+      "toNode": "7807affb9699ba6c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a6d18d2f52e26f2e",
+      "fromSide": "right",
+      "id": "e3f3d59345c7621b",
+      "styleAttributes": {
+      },
+      "toNode": "f9493d65a6a722d1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a6d18d2f52e26f2e",
+      "fromSide": "right",
+      "id": "608788e751028a48",
+      "styleAttributes": {
+      },
+      "toNode": "a758ceef9bc232c3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a6d18d2f52e26f2e",
+      "fromSide": "right",
+      "id": "56298df13ef7d47d",
+      "styleAttributes": {
+      },
+      "toNode": "3bfe386e6b01c900",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0b1e7d59bec99417",
+      "fromSide": "right",
+      "id": "83ebe653d75d796c",
+      "styleAttributes": {
+      },
+      "toNode": "96ab3e0e1dc8628d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "96ab3e0e1dc8628d",
+      "fromSide": "right",
+      "id": "2875d631111e56a4",
+      "styleAttributes": {
+      },
+      "toNode": "80b72a8528cc15e9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "80b72a8528cc15e9",
+      "fromSide": "right",
+      "id": "8ac18d08714e256d",
+      "styleAttributes": {
+      },
+      "toNode": "528e8d489f4ca78d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "80b72a8528cc15e9",
+      "fromSide": "right",
+      "id": "a3eb6d8bd63886da",
+      "styleAttributes": {
+      },
+      "toNode": "da2f17b5fc01afac",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "528e8d489f4ca78d",
+      "fromSide": "right",
+      "id": "7fc03b0524c95f2a",
+      "styleAttributes": {
+      },
+      "toNode": "a0ba2921220537fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "da2f17b5fc01afac",
+      "fromSide": "right",
+      "id": "d56105414df7fd1a",
+      "styleAttributes": {
+      },
+      "toNode": "5e2bb17dc5bc94ef",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5e2bb17dc5bc94ef",
+      "fromSide": "right",
+      "id": "30f54ca29d69c7c3",
+      "styleAttributes": {
+      },
+      "toNode": "1d73810ecd01e793",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1d73810ecd01e793",
+      "fromSide": "right",
+      "id": "ed895a166c127a4d",
+      "styleAttributes": {
+      },
+      "toNode": "39cd2170eafaa127",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 817,
+      "id": "0d2b86fb3d5c202e",
+      "label": "02. Какую проблему решает Docker?",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1260,
+      "x": 1480,
+      "y": -400
+    },
+    {
+      "height": 491,
+      "id": "6caf850f2451aa99",
+      "label": "03. Сущность контейнера - что в ней?",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 660,
+      "x": 1480,
+      "y": 520
+    },
+    {
+      "file": "Cache/Pasted image 20250506215604.png",
+      "height": 196,
+      "id": "f8ad35d03abc0d20",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 2320,
+      "y": 191
+    },
+    {
+      "height": 177,
+      "id": "21565a62f31256ff",
+      "styleAttributes": {
+      },
+      "text": "Docker позволяет \"упаковать\" приложение так, чтобы оно всегда работало одинаково, независимо от того, где его запустят",
+      "type": "text",
+      "width": 260,
+      "x": 2200,
+      "y": -218
+    },
+    {
+      "height": 207,
+      "id": "1d73810ecd01e793",
+      "styleAttributes": {
+      },
+      "text": "Те, кто устанавливал Windows, могут вспомнить про ISO-образ, это прекрасная аналогия. Еще аналогия звучит так: контейнер - печенье, образ - пресс-форма",
+      "type": "text",
+      "width": 260,
+      "x": 80,
+      "y": 637
+    },
+    {
+      "height": 60,
+      "id": "0b1e7d59bec99417",
+      "styleAttributes": {
+      },
+      "text": "Docker",
+      "type": "text",
+      "width": 260,
+      "x": -1640,
+      "y": 567
+    },
+    {
+      "height": 117,
+      "id": "96ab3e0e1dc8628d",
+      "styleAttributes": {
+      },
+      "text": "Система, которая позволяет контейнеризировать приложения",
+      "type": "text",
+      "width": 260,
+      "x": -1300,
+      "y": 539
+    },
+    {
+      "height": 87,
+      "id": "80b72a8528cc15e9",
+      "styleAttributes": {
+      },
+      "text": "В своей технологии использует две основные абстрактные сущности",
+      "type": "text",
+      "width": 260,
+      "x": -960,
+      "y": 554
+    },
+    {
+      "height": 60,
+      "id": "528e8d489f4ca78d",
+      "styleAttributes": {
+      },
+      "text": "Контейнер",
+      "type": "text",
+      "width": 260,
+      "x": -600,
+      "y": 410
+    },
+    {
+      "height": 177,
+      "id": "a0ba2921220537fc",
+      "styleAttributes": {
+      },
+      "text": "Исполняемый пакет с приложением, подобен запущенной мини-виртуальной машине с изолированным внутри приложением",
+      "type": "text",
+      "width": 260,
+      "x": -260,
+      "y": 352
+    },
+    {
+      "height": 60,
+      "id": "da2f17b5fc01afac",
+      "styleAttributes": {
+      },
+      "text": "Образ",
+      "type": "text",
+      "width": 260,
+      "x": -600,
+      "y": 710
+    },
+    {
+      "height": 60,
+      "id": "5e2bb17dc5bc94ef",
+      "styleAttributes": {
+      },
+      "text": "Шаблон для запуска такой \"машины\"",
+      "type": "text",
+      "width": 260,
+      "x": -260,
+      "y": 710
+    },
+    {
+      "file": "Cache/Pasted image 20250506220933.png",
+      "height": 109,
+      "id": "39cd2170eafaa127",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 440,
+      "y": 686
+    },
+    {
+      "height": 87,
+      "id": "a6d18d2f52e26f2e",
+      "styleAttributes": {
+      },
+      "text": "В контейнер входит все, что необходимо для запуска приложения",
+      "type": "text",
+      "width": 260,
+      "x": 1500,
+      "y": 540
+    },
+    {
+      "height": 60,
+      "id": "7807affb9699ba6c",
+      "styleAttributes": {
+      },
+      "text": "Код/исполняемый файл приложения",
+      "type": "text",
+      "width": 260,
+      "x": 1860,
+      "y": 554
+    },
+    {
+      "height": 87,
+      "id": "f9493d65a6a722d1",
+      "styleAttributes": {
+      },
+      "text": "Необходимые библиотеки и утилиты для работы приложения",
+      "type": "text",
+      "width": 260,
+      "x": 1860,
+      "y": 631
+    },
+    {
+      "height": 60,
+      "id": "a758ceef9bc232c3",
+      "styleAttributes": {
+      },
+      "text": "Системный минимум из библиотек и утилит",
+      "type": "text",
+      "width": 260,
+      "x": 1860,
+      "y": 731
+    },
+    {
+      "height": 177,
+      "id": "3bfe386e6b01c900",
+      "styleAttributes": {
+      },
+      "text": "Урезанную версию ОС, которая работает в пользовательском пространстве, используя ядро хостовой системы/машины",
+      "type": "text",
+      "width": 260,
+      "x": 1860,
+      "y": 814
+    },
+    {
+      "height": 177,
+      "id": "1c93410357efab15",
+      "styleAttributes": {
+      },
+      "text": "Легковесность: по сравнению с виртуальными машинами контейнеры потребляют меньшее количество ресурсов",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": 201
+    },
+    {
+      "height": 117,
+      "id": "8fe0dbb0d0c04285",
+      "styleAttributes": {
+      },
+      "text": "Изоляций приложений: применяется для того, чтобы не было конфликта между приложениями",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": -390
+    },
+    {
+      "height": 237,
+      "id": "80e3e7494e2f969d",
+      "styleAttributes": {
+      },
+      "text": "Портативность: любая программа с окружением для нее может быть внутри контейнера. Этот контейнер можно запустить на любом ПК и не нужно беспокоиться о окружении",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": -248
+    },
+    {
+      "height": 60,
+      "id": "748dcc69713759ac",
+      "styleAttributes": {
+      },
+      "text": "Для чего нужны контейнеры/Docker?",
+      "type": "text",
+      "width": 260,
+      "x": 1500,
+      "y": -160
+    },
+    {
+      "height": 178,
+      "id": "0b338ec0a57ef648",
+      "styleAttributes": {
+      },
+      "text": "Масштабируемость: возможно запустить сразу несколько инстансов приложения сразу, без необходимости заново все настраивать",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": 0
+    }
+  ]
+}
