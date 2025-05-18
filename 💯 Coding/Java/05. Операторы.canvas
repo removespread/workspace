@@ -1,0 +1,441 @@
+{
+  "edges": [
+    {
+      "fromNode": "1dc912b5496c759f",
+      "fromSide": "right",
+      "id": "d6c44e6014ecfd11",
+      "styleAttributes": {
+      },
+      "toNode": "c709372e1354ecf2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1dc912b5496c759f",
+      "fromSide": "right",
+      "id": "81d01afc5325662d",
+      "styleAttributes": {
+      },
+      "toNode": "8ebdbf25964beb9c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1dc912b5496c759f",
+      "fromSide": "right",
+      "id": "70f87cfb9f6e95ff",
+      "styleAttributes": {
+      },
+      "toNode": "aa275032cdff4cee",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1dc912b5496c759f",
+      "fromSide": "right",
+      "id": "0057e1adeec60181",
+      "styleAttributes": {
+      },
+      "toNode": "54d41866894b51ae",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1dc912b5496c759f",
+      "fromSide": "right",
+      "id": "09c8147137cae82b",
+      "styleAttributes": {
+      },
+      "toNode": "f28288910062cfaf",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c709372e1354ecf2",
+      "fromSide": "right",
+      "id": "22d17513a8c6a386",
+      "styleAttributes": {
+      },
+      "toNode": "766c63f1d1437a4a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "766c63f1d1437a4a",
+      "fromSide": "right",
+      "id": "387c5daec4bb0b9b",
+      "styleAttributes": {
+      },
+      "toNode": "ecb894501566828f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8ebdbf25964beb9c",
+      "fromSide": "right",
+      "id": "3de19f3414099849",
+      "styleAttributes": {
+      },
+      "toNode": "7a00850b6a7a30be",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7a00850b6a7a30be",
+      "fromSide": "right",
+      "id": "01b3af01f480c51f",
+      "styleAttributes": {
+      },
+      "toNode": "c766c4c288b4d277",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa275032cdff4cee",
+      "fromSide": "right",
+      "id": "50ddcc966540ebd3",
+      "styleAttributes": {
+      },
+      "toNode": "e1647860f74b1002",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e1647860f74b1002",
+      "fromSide": "right",
+      "id": "9076154923f45ce0",
+      "styleAttributes": {
+      },
+      "toNode": "2c0164b3815f41eb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "54d41866894b51ae",
+      "fromSide": "right",
+      "id": "51566cf377c57762",
+      "styleAttributes": {
+      },
+      "toNode": "eb503a74639f8722",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "eb503a74639f8722",
+      "fromSide": "right",
+      "id": "f222baf9c5128ac9",
+      "styleAttributes": {
+      },
+      "toNode": "704e340cc602c934",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "704e340cc602c934",
+      "fromSide": "right",
+      "id": "888ba6f53dfe985d",
+      "styleAttributes": {
+      },
+      "toNode": "457395b596a981b7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "704e340cc602c934",
+      "fromSide": "right",
+      "id": "2664ee35edc26ed0",
+      "styleAttributes": {
+      },
+      "toNode": "b68af26c2a21f1b9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "704e340cc602c934",
+      "fromSide": "right",
+      "id": "c3d266ce70ae3861",
+      "styleAttributes": {
+      },
+      "toNode": "acdda71b5499367c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f28288910062cfaf",
+      "fromSide": "right",
+      "id": "d521d155ac9d755c",
+      "styleAttributes": {
+      },
+      "toNode": "26171bb12f549758",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "26171bb12f549758",
+      "fromSide": "right",
+      "id": "5fb83aaf84589cdc",
+      "styleAttributes": {
+      },
+      "toNode": "2276b6cb4cf528c0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "98e5ab4b74349b66",
+      "fromSide": "right",
+      "id": "8e691f7a650f0262",
+      "styleAttributes": {
+      },
+      "toNode": "b09e845389584ea4",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 930,
+      "id": "63c929755f454a88",
+      "label": "01. Математические операторы",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2000,
+      "x": -460,
+      "y": -260
+    },
+    {
+      "height": 220,
+      "id": "8c5b6df5bf3bb914",
+      "label": "02. Сокращенная запись арифметических операторов",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 655,
+      "x": -100,
+      "y": 1000
+    },
+    {
+      "height": 60,
+      "id": "1dc912b5496c759f",
+      "styleAttributes": {
+      },
+      "text": "Математические операторы",
+      "type": "text",
+      "width": 260,
+      "x": -440,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "c709372e1354ecf2",
+      "styleAttributes": {
+      },
+      "text": "\\+ - Сложение",
+      "type": "text",
+      "width": 260,
+      "x": -80,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "8ebdbf25964beb9c",
+      "styleAttributes": {
+      },
+      "text": "\\- - Вычитание",
+      "type": "text",
+      "width": 260,
+      "x": -80,
+      "y": -40
+    },
+    {
+      "height": 60,
+      "id": "7a00850b6a7a30be",
+      "styleAttributes": {
+      },
+      "text": "Вычитает один операнд из другого",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": -40
+    },
+    {
+      "height": 147,
+      "id": "26171bb12f549758",
+      "styleAttributes": {
+      },
+      "text": "Выполняет целочисленное деление одного значения на другое и возвращает остаток от этого деления",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 500
+    },
+    {
+      "height": 117,
+      "id": "457395b596a981b7",
+      "styleAttributes": {
+      },
+      "text": "Если делим одно число типа `int` на другое, также типа `int`, то это будет целочисленное деление",
+      "type": "text",
+      "width": 260,
+      "x": 980,
+      "y": 117
+    },
+    {
+      "height": 147,
+      "id": "b68af26c2a21f1b9",
+      "styleAttributes": {
+      },
+      "text": "Если одно или оба числа имеют тип `float` или `double`, то результатом будет число с плавающей точкой",
+      "type": "text",
+      "width": 260,
+      "x": 980,
+      "y": 363
+    },
+    {
+      "height": 60,
+      "id": "aa275032cdff4cee",
+      "styleAttributes": {
+      },
+      "text": "\\* - Умножение",
+      "type": "text",
+      "width": 260,
+      "x": -80,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "54d41866894b51ae",
+      "styleAttributes": {
+      },
+      "text": "/ - Деление",
+      "type": "text",
+      "width": 260,
+      "x": -80,
+      "y": 280
+    },
+    {
+      "height": 147,
+      "id": "766c63f1d1437a4a",
+      "styleAttributes": {
+      },
+      "text": "Складывает вместе два значения, например, две константы, две переменную или константу и переменную",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": -243
+    },
+    {
+      "height": 211,
+      "id": "acdda71b5499367c",
+      "styleAttributes": {
+      },
+      "text": "```java\n15 / 4 = 3;\n15.0 / 4 = 3.75;\n15 / 4.0 = 3.75;\n\n15 / 3 = 5;\n15.0 / 3 = 5.0;\n15 / 3.0 = 5.0;\n```",
+      "type": "text",
+      "width": 220,
+      "x": 1300,
+      "y": 205
+    },
+    {
+      "height": 106,
+      "id": "ecb894501566828f",
+      "styleAttributes": {
+      },
+      "text": "```java\nint sum1 = 50 + 10\nint sum2 = sum1 + 66\nint sum3 = sum2 + sum2\n```",
+      "type": "text",
+      "width": 266,
+      "x": 640,
+      "y": -222
+    },
+    {
+      "height": 80,
+      "id": "2276b6cb4cf528c0",
+      "styleAttributes": {
+      },
+      "text": "```java\nint myVar = 37;\nint res = myVar % 5; // res = 2\n```",
+      "type": "text",
+      "width": 340,
+      "x": 636,
+      "y": 534
+    },
+    {
+      "height": 60,
+      "id": "f28288910062cfaf",
+      "styleAttributes": {
+      },
+      "text": "% - Остаток от деления",
+      "type": "text",
+      "width": 260,
+      "x": -80,
+      "y": 543
+    },
+    {
+      "height": 106,
+      "id": "c766c4c288b4d277",
+      "styleAttributes": {
+      },
+      "text": "```java\nint sum1 = 1000 - 10\nint sum2 = sum1 - 5\nint sum3 = sum1 - sum2\n```",
+      "type": "text",
+      "width": 266,
+      "x": 640,
+      "y": -63
+    },
+    {
+      "height": 60,
+      "id": "e1647860f74b1002",
+      "styleAttributes": {
+      },
+      "text": "Умножение двух чисел",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 140
+    },
+    {
+      "height": 106,
+      "id": "2c0164b3815f41eb",
+      "styleAttributes": {
+      },
+      "text": "```java\nint num1 = 1000 * 2;\nint num2 = num1 * 10;\nint num3 = num1 * num2;\n```",
+      "type": "text",
+      "width": 274,
+      "x": 636,
+      "y": 117
+    },
+    {
+      "height": 60,
+      "id": "eb503a74639f8722",
+      "styleAttributes": {
+      },
+      "text": "Деление двух чисел",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 280
+    },
+    {
+      "height": 106,
+      "id": "704e340cc602c934",
+      "styleAttributes": {
+      },
+      "text": "```java\nint num1 = 1000 / 5;\nint num2 = num1 / 2;\nint num3 = num1 / num2;\n```",
+      "type": "text",
+      "width": 274,
+      "x": 636,
+      "y": 257
+    },
+    {
+      "height": 87,
+      "id": "fbe01e19a8c0bae2",
+      "styleAttributes": {
+      },
+      "text": "Сокращенная запись арифметических операторов",
+      "type": "text",
+      "width": 260,
+      "x": -440,
+      "y": 1060
+    },
+    {
+      "height": 147,
+      "id": "98e5ab4b74349b66",
+      "styleAttributes": {
+      },
+      "text": "Для экономии времени предусмотрена сокращенная запись арифметических операторов",
+      "type": "text",
+      "width": 260,
+      "x": -80,
+      "y": 1030
+    },
+    {
+      "height": 180,
+      "id": "b09e845389584ea4",
+      "styleAttributes": {
+      },
+      "text": "```java\nx += y; // x = x + y\nx -= y; // x = x - y\nx *= y; // x = x * y\nx /= y; // x = x / y\nx %= y; // x = x % y\n```",
+      "type": "text",
+      "width": 250,
+      "x": 285,
+      "y": 1014
+    }
+  ]
+}

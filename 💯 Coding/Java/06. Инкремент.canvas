@@ -1,0 +1,386 @@
+{
+  "edges": [
+    {
+      "fromNode": "53370a104113212c",
+      "fromSide": "right",
+      "id": "b8bf7de61fad6d51",
+      "styleAttributes": {
+      },
+      "toNode": "8d42e1c66c7d9bfe",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8d42e1c66c7d9bfe",
+      "fromSide": "right",
+      "id": "983e5e381e31b57f",
+      "styleAttributes": {
+      },
+      "toNode": "d63bdc1c9d64928b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d63bdc1c9d64928b",
+      "fromSide": "right",
+      "id": "f761451d459fe4f9",
+      "styleAttributes": {
+      },
+      "toNode": "f8475ddbab1a7a04",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2057aadabdbee745",
+      "fromSide": "right",
+      "id": "693ead0e15fc9565",
+      "styleAttributes": {
+      },
+      "toNode": "658c83ae03528c7f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "658c83ae03528c7f",
+      "fromSide": "right",
+      "id": "a9da6e2f7c7f755a",
+      "styleAttributes": {
+      },
+      "toNode": "fd3edd2530663877",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "658c83ae03528c7f",
+      "fromSide": "right",
+      "id": "2773638a4d4b9a91",
+      "styleAttributes": {
+      },
+      "toNode": "651caa0ff0d035b0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fd3edd2530663877",
+      "fromSide": "right",
+      "id": "5b633929f90fca49",
+      "styleAttributes": {
+      },
+      "toNode": "e5b517b227df4f86",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "651caa0ff0d035b0",
+      "fromSide": "right",
+      "id": "69d3740fc3897837",
+      "styleAttributes": {
+      },
+      "toNode": "b1303bbb24669b23",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "658c83ae03528c7f",
+      "fromSide": "right",
+      "id": "1819ebb769280f2e",
+      "label": "Простое пояснение",
+      "styleAttributes": {
+      },
+      "toNode": "afadebf9b86181ad",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0c5c042d43013841",
+      "fromSide": "right",
+      "id": "5efba2faed692dc8",
+      "styleAttributes": {
+      },
+      "toNode": "bfc208407567e3f4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bfc208407567e3f4",
+      "fromSide": "right",
+      "id": "81d8abfa17256e6f",
+      "styleAttributes": {
+      },
+      "toNode": "b66028b475c964f2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bfc208407567e3f4",
+      "fromSide": "right",
+      "id": "6a280ca9508c6c06",
+      "styleAttributes": {
+      },
+      "toNode": "3dfb34d274d6e22e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bfc208407567e3f4",
+      "fromSide": "right",
+      "id": "8c883bbb6ad2c156",
+      "styleAttributes": {
+      },
+      "toNode": "25dcbfe09d99f7cb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bfc208407567e3f4",
+      "fromSide": "right",
+      "id": "74d240fd97b450ac",
+      "styleAttributes": {
+      },
+      "toNode": "262c2f3a5d441f9a",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 450,
+      "id": "4fbc8b2b9710387b",
+      "label": "02. Префикс и постфикс",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1940,
+      "x": -180,
+      "y": 200
+    },
+    {
+      "height": 440,
+      "id": "0958a4a4abb1f956",
+      "label": "03. Оператор присваивания",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 980,
+      "x": -180,
+      "y": 780
+    },
+    {
+      "height": 247,
+      "id": "4aa2ea2e52243f0b",
+      "label": "01. Инкремент",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1310,
+      "x": -180,
+      "y": -140
+    },
+    {
+      "height": 60,
+      "id": "bcca569e5175c3f6",
+      "styleAttributes": {
+      },
+      "text": "Инкремент",
+      "type": "text",
+      "width": 260,
+      "x": -500,
+      "y": -40
+    },
+    {
+      "height": 177,
+      "id": "53370a104113212c",
+      "styleAttributes": {
+      },
+      "text": "Оператор, который представляет собой удобный и компактный способ увеличения значения переменной на единицу",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": -98
+    },
+    {
+      "height": 147,
+      "id": "8d42e1c66c7d9bfe",
+      "styleAttributes": {
+      },
+      "text": "Существует также декремент. Это оператор, который уменьшает значение переменной на единицу",
+      "type": "text",
+      "width": 260,
+      "x": 180,
+      "y": -83
+    },
+    {
+      "height": 207,
+      "id": "d63bdc1c9d64928b",
+      "styleAttributes": {
+      },
+      "text": "Инкремент записывается с помощью двух последовательных плюсов (++), а декремент - с помощью двух последовательных минусов (--)",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": -113
+    },
+    {
+      "height": 60,
+      "id": "1aa9e78d9f0be12b",
+      "styleAttributes": {
+      },
+      "text": "Префикс и постфикс",
+      "type": "text",
+      "width": 260,
+      "x": -500,
+      "y": 420
+    },
+    {
+      "height": 147,
+      "id": "2057aadabdbee745",
+      "styleAttributes": {
+      },
+      "text": "Существуют две формы использования инкремента/декремента - префиксная и постфиксная",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 377
+    },
+    {
+      "height": 207,
+      "id": "658c83ae03528c7f",
+      "styleAttributes": {
+      },
+      "text": "В префиксной форме оператор появляется перед операндом, в то время как в постфиксной форме оператор появляется после операнда",
+      "type": "text",
+      "width": 260,
+      "x": 180,
+      "y": 347
+    },
+    {
+      "height": 159,
+      "id": "f8475ddbab1a7a04",
+      "styleAttributes": {
+      },
+      "text": "```java\nint test = 5;\n++test; // test == 6\n\nint test = 5;\n--test; // test == 4\n```",
+      "type": "text",
+      "width": 250,
+      "x": 860,
+      "y": -89
+    },
+    {
+      "height": 147,
+      "id": "fd3edd2530663877",
+      "styleAttributes": {
+      },
+      "text": "Префикс: инкремент увеличивает значение переменной и использует новое значение в выражении",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": 230
+    },
+    {
+      "height": 147,
+      "id": "651caa0ff0d035b0",
+      "styleAttributes": {
+      },
+      "text": "Постфикс: значение сначала используется в выражении, а уже потом увеличивается на единицу",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": 481
+    },
+    {
+      "height": 159,
+      "id": "e5b517b227df4f86",
+      "styleAttributes": {
+      },
+      "text": "```java\nint x = 50;\nint y = ++x; // x == 51; y == 51\n\nint x = 50;\nint y = --x // x == 49; y == 49\n```",
+      "type": "text",
+      "width": 343,
+      "x": 860,
+      "y": 224
+    },
+    {
+      "height": 159,
+      "id": "b1303bbb24669b23",
+      "styleAttributes": {
+      },
+      "text": "```java\nint x = 50;\nint y = x++ // x == 51; y == 50\n\nint x = 50;\nint y = x-- // x == 49; y == 50\n```",
+      "type": "text",
+      "width": 335,
+      "x": 860,
+      "y": 475
+    },
+    {
+      "height": 58,
+      "id": "afadebf9b86181ad",
+      "styleAttributes": {
+      },
+      "text": "`++x` - сначала плюсуем 1 к `x`, потом используем `x`\n`x++` - сначала используем `x`, потом плюсуем 1",
+      "type": "text",
+      "width": 480,
+      "x": 1260,
+      "y": 422
+    },
+    {
+      "height": 60,
+      "id": "643fd258998b4e22",
+      "styleAttributes": {
+      },
+      "text": "Оператор присваивания",
+      "type": "text",
+      "width": 260,
+      "x": -500,
+      "y": 920
+    },
+    {
+      "height": 207,
+      "id": "0c5c042d43013841",
+      "styleAttributes": {
+      },
+      "text": "Оператор присваивания дает переменной сразу увеличенное значение другой переменной, или иное значение в соответствии с первым знаком перед `=`",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 847
+    },
+    {
+      "height": 264,
+      "id": "bfc208407567e3f4",
+      "styleAttributes": {
+      },
+      "text": "```java\nint x = 4;\nx += 1; // x == 5\n\nint x = 4;\nx -= 2; // x == 2\n\nint x = 4;\nint y = 5;\nx += y; // x == 9\n```",
+      "type": "text",
+      "width": 227,
+      "x": 180,
+      "y": 819
+    },
+    {
+      "height": 60,
+      "id": "b66028b475c964f2",
+      "styleAttributes": {
+      },
+      "text": "`-=` - Вычитание и присвоение",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": 800
+    },
+    {
+      "height": 60,
+      "id": "3dfb34d274d6e22e",
+      "styleAttributes": {
+      },
+      "text": "`*=` - Умножение и присвоение",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": 920
+    },
+    {
+      "height": 60,
+      "id": "25dcbfe09d99f7cb",
+      "styleAttributes": {
+      },
+      "text": "`/=` - Деление и присвоение",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": 1023
+    },
+    {
+      "height": 60,
+      "id": "262c2f3a5d441f9a",
+      "styleAttributes": {
+      },
+      "text": "`%=` - Остаток от деления и присвоение",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": 1140
+    }
+  ]
+}

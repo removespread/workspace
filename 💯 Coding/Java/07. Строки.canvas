@@ -1,0 +1,1126 @@
+{
+  "edges": [
+    {
+      "fromNode": "06d20fe821f96b1b",
+      "fromSide": "right",
+      "id": "5f639a304370924e",
+      "styleAttributes": {
+      },
+      "toNode": "97ac91ca217825da",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "97ac91ca217825da",
+      "fromSide": "right",
+      "id": "e2ef4a0efaf4dbef",
+      "styleAttributes": {
+      },
+      "toNode": "ca606324d93f55d6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ca606324d93f55d6",
+      "fromSide": "bottom",
+      "id": "58123ad77a5c2af6",
+      "styleAttributes": {
+      },
+      "toNode": "5a09cf069172f7dc",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ca606324d93f55d6",
+      "fromSide": "right",
+      "id": "f5b33acefe8d6f0b",
+      "styleAttributes": {
+      },
+      "toNode": "81ca1ffbe9e40df5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "81ca1ffbe9e40df5",
+      "fromSide": "right",
+      "id": "ac8d1081fc3eaf82",
+      "styleAttributes": {
+      },
+      "toNode": "07ce5a2dce5337b4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "06d20fe821f96b1b",
+      "fromSide": "bottom",
+      "id": "41c36cd7ede6c687",
+      "styleAttributes": {
+      },
+      "toNode": "63620ba216d9837c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "63620ba216d9837c",
+      "fromSide": "right",
+      "id": "0641a6f83267f55a",
+      "styleAttributes": {
+      },
+      "toNode": "72d6a400b566d5b2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5a09cf069172f7dc",
+      "fromSide": "right",
+      "id": "343ff8604ea70a84",
+      "styleAttributes": {
+      },
+      "toNode": "b321f362db351ffd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ce41afbb263560cb",
+      "fromSide": "right",
+      "id": "358380cd668385b9",
+      "styleAttributes": {
+      },
+      "toNode": "4add8751c4108c7e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4add8751c4108c7e",
+      "fromSide": "right",
+      "id": "39422e198d3bf7e7",
+      "styleAttributes": {
+      },
+      "toNode": "4e26ccad77bae364",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4e26ccad77bae364",
+      "fromSide": "right",
+      "id": "0caf833b0d28bd64",
+      "styleAttributes": {
+      },
+      "toNode": "8d4580fd47c2538a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e6c08e7e9aa2f608",
+      "fromSide": "right",
+      "id": "31664adb121c5bb6",
+      "styleAttributes": {
+      },
+      "toNode": "750f314a1021679c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "750f314a1021679c",
+      "fromSide": "right",
+      "id": "cd43deb12edb6ecb",
+      "styleAttributes": {
+      },
+      "toNode": "438cd55b3ca3d7ea",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "438cd55b3ca3d7ea",
+      "fromSide": "right",
+      "id": "37772025fe20a1cb",
+      "styleAttributes": {
+      },
+      "toNode": "418004b3d53be794",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f44878ee35da144",
+      "fromSide": "right",
+      "id": "f2759552b3deb946",
+      "styleAttributes": {
+      },
+      "toNode": "1f6b5778882bcc72",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "33e759d28f583256",
+      "fromSide": "right",
+      "id": "441ac0766b3353cf",
+      "styleAttributes": {
+      },
+      "toNode": "fcdbdffa1c53272f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fcdbdffa1c53272f",
+      "fromSide": "right",
+      "id": "1808b67e625633c8",
+      "styleAttributes": {
+      },
+      "toNode": "65735a65d0a2073a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "65735a65d0a2073a",
+      "fromSide": "right",
+      "id": "09aa9dc49d6654c5",
+      "styleAttributes": {
+      },
+      "toNode": "fafc359abde33f63",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "42a16854e867c0d9",
+      "fromSide": "right",
+      "id": "1a4fd35bc4d20425",
+      "styleAttributes": {
+      },
+      "toNode": "bfefa893a51b07fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bfefa893a51b07fc",
+      "fromSide": "right",
+      "id": "d9c278109ebddd1d",
+      "styleAttributes": {
+      },
+      "toNode": "95f6fc8a477d27a6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "95f6fc8a477d27a6",
+      "fromSide": "right",
+      "id": "cb0eadde3a17823f",
+      "styleAttributes": {
+      },
+      "toNode": "d5514dbc0859773e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f5094ca808e5350f",
+      "fromSide": "right",
+      "id": "863b1111b77c151a",
+      "styleAttributes": {
+      },
+      "toNode": "40f2111116a20834",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "40f2111116a20834",
+      "fromSide": "right",
+      "id": "d08cf11a81b0f046",
+      "styleAttributes": {
+      },
+      "toNode": "adc7dfdc9c0de090",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "adc7dfdc9c0de090",
+      "fromSide": "right",
+      "id": "63a9dbe82972c345",
+      "styleAttributes": {
+      },
+      "toNode": "eee551f138c429e4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "01ae7524838505dd",
+      "fromSide": "right",
+      "id": "394da490a2b08c6f",
+      "styleAttributes": {
+      },
+      "toNode": "9c56455d766eaf6b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9c56455d766eaf6b",
+      "fromSide": "right",
+      "id": "5d2d630c03154ce5",
+      "styleAttributes": {
+      },
+      "toNode": "d9049c720033eb0d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0cfdc65658a36fff",
+      "fromSide": "right",
+      "id": "e3ce1e331cef7702",
+      "styleAttributes": {
+      },
+      "toNode": "1064522f293566a5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1064522f293566a5",
+      "fromSide": "right",
+      "id": "a17a868a7d363b07",
+      "styleAttributes": {
+      },
+      "toNode": "bbf8e9336d43adb2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "04642c66a2cc48cf",
+      "fromSide": "right",
+      "id": "8fe3a36800e57d54",
+      "styleAttributes": {
+      },
+      "toNode": "76cdfbaa9b5c84e4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "76cdfbaa9b5c84e4",
+      "fromSide": "right",
+      "id": "bd59ef6e2b027206",
+      "styleAttributes": {
+      },
+      "toNode": "8c59e59a556f45b5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "debaaa2d5d96121b",
+      "fromSide": "right",
+      "id": "c9e0691d03d78d37",
+      "styleAttributes": {
+      },
+      "toNode": "169d8c407040ce8c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "169d8c407040ce8c",
+      "fromSide": "right",
+      "id": "31107e369a7749c7",
+      "styleAttributes": {
+      },
+      "toNode": "357922c610a082fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a57132a870f9c685",
+      "fromSide": "right",
+      "id": "98b94c71137abf9b",
+      "styleAttributes": {
+      },
+      "toNode": "d07d586c116182d9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d07d586c116182d9",
+      "fromSide": "right",
+      "id": "df8032d18f3afebf",
+      "styleAttributes": {
+      },
+      "toNode": "130b12634341fea7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d07d586c116182d9",
+      "fromSide": "bottom",
+      "id": "fba72deff7a70307",
+      "styleAttributes": {
+      },
+      "toNode": "f963ce4596abb69f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "130b12634341fea7",
+      "fromSide": "right",
+      "id": "c301f8cf7967f61e",
+      "styleAttributes": {
+      },
+      "toNode": "23b4dc17e506e7c9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f963ce4596abb69f",
+      "fromSide": "right",
+      "id": "5957df980ec15921",
+      "styleAttributes": {
+      },
+      "toNode": "65178147d99ebc09",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f963ce4596abb69f",
+      "fromSide": "bottom",
+      "id": "2d5d75233d81eacb",
+      "styleAttributes": {
+      },
+      "toNode": "f1e34227a9dd5c11",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f1e34227a9dd5c11",
+      "fromSide": "right",
+      "id": "26c0f1fe9a111e2e",
+      "styleAttributes": {
+      },
+      "toNode": "1179c4fa1cdd894e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "69cbf9053ede2ba7",
+      "fromSide": "right",
+      "id": "c6f54a220ac7c2f7",
+      "styleAttributes": {
+      },
+      "toNode": "9e46da713caf6a27",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9e46da713caf6a27",
+      "fromSide": "right",
+      "id": "669c55b7749db4c4",
+      "styleAttributes": {
+      },
+      "toNode": "54e13efef95fb8f5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "54e13efef95fb8f5",
+      "fromSide": "right",
+      "id": "06faf44934769014",
+      "styleAttributes": {
+      },
+      "toNode": "6db8b663b12c89cf",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6c097c83805df606",
+      "fromSide": "right",
+      "id": "1768125e48cba31c",
+      "styleAttributes": {
+      },
+      "toNode": "2f61d6baf1b92df5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2f61d6baf1b92df5",
+      "fromSide": "right",
+      "id": "45af438b0c790d86",
+      "styleAttributes": {
+      },
+      "toNode": "a0d42cc90eb9de9b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a0d42cc90eb9de9b",
+      "fromSide": "right",
+      "id": "38cd4412455c4335",
+      "styleAttributes": {
+      },
+      "toNode": "4f5a80eca1d5ac0e",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 3832,
+      "id": "c916c7d2ddceea1c",
+      "label": "03. Методы для работы со строкой",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1718,
+      "x": 260,
+      "y": 1280
+    },
+    {
+      "height": 675,
+      "id": "18e24cfaded0a035",
+      "label": "01. Строки в Java",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1660,
+      "x": 260,
+      "y": -40
+    },
+    {
+      "height": 217,
+      "id": "b7601d8fd8f7ea4b",
+      "label": "02. Конкатенация строк",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2083,
+      "x": 260,
+      "y": 840
+    },
+    {
+      "height": 60,
+      "id": "3c4c6a0c7ba36279",
+      "styleAttributes": {
+      },
+      "text": "Методы строк",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 1400
+    },
+    {
+      "height": 87,
+      "id": "4f44878ee35da144",
+      "styleAttributes": {
+      },
+      "text": "Метод для вывода длины строки (количества символов)",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1740
+    },
+    {
+      "height": 60,
+      "id": "33e759d28f583256",
+      "styleAttributes": {
+      },
+      "text": "Метод сравнения строк",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 2020
+    },
+    {
+      "height": 60,
+      "id": "750f314a1021679c",
+      "styleAttributes": {
+      },
+      "text": "Общий синтаксис всех методов выглядит так",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 1400
+    },
+    {
+      "height": 60,
+      "id": "438cd55b3ca3d7ea",
+      "styleAttributes": {
+      },
+      "text": "```java\nstringName.nameOfMethod()\n```",
+      "type": "text",
+      "width": 289,
+      "x": 1000,
+      "y": 1400
+    },
+    {
+      "height": 159,
+      "id": "1f6b5778882bcc72",
+      "styleAttributes": {
+      },
+      "text": "```java\nstr.length() // Возвращает длину строки str (количество символов, включая пробелы)\n\nString word = \"Java is strong\";\nint x = word.length()\nSystem.out.println(x) // 14\n```",
+      "type": "text",
+      "width": 740,
+      "x": 620,
+      "y": 1704
+    },
+    {
+      "height": 133,
+      "id": "6db8b663b12c89cf",
+      "styleAttributes": {
+      },
+      "text": "```java\nString str = \"Добро пожаловать в мир Java!\";\n\nSystem.out.println(str.substring(6)); // пожаловать в мир Java!\nSystem.out.println(str.substring(6, 15)) // пожаловат\n```",
+      "type": "text",
+      "width": 600,
+      "x": 1300,
+      "y": 4644
+    },
+    {
+      "height": 60,
+      "id": "6c097c83805df606",
+      "styleAttributes": {
+      },
+      "text": "Замена элементов строки",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 4940
+    },
+    {
+      "height": 237,
+      "id": "2f61d6baf1b92df5",
+      "styleAttributes": {
+      },
+      "text": "Изменить строки можно с помощью метода `replace()`, который может заменить один символ на другой. Метод не изменяет строку, а собирает новую по заданным параметрам",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 4852
+    },
+    {
+      "height": 177,
+      "id": "a0d42cc90eb9de9b",
+      "styleAttributes": {
+      },
+      "text": "Метод принимает два обязательных параметра - символ, подлежащий замене, и символ, на который его нужно заменить",
+      "type": "text",
+      "width": 260,
+      "x": 960,
+      "y": 4882
+    },
+    {
+      "height": 60,
+      "id": "ca606324d93f55d6",
+      "styleAttributes": {
+      },
+      "text": "```java\nString s = \"Я изучая Java\";\n```",
+      "type": "text",
+      "width": 304,
+      "x": 980,
+      "y": 0
+    },
+    {
+      "height": 60,
+      "id": "726edfecfffd2147",
+      "styleAttributes": {
+      },
+      "text": "Конкатенация",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 920
+    },
+    {
+      "height": 133,
+      "id": "4add8751c4108c7e",
+      "styleAttributes": {
+      },
+      "text": "```java\nString firstWord, secondWord;\nfirstWord = \"Hello\";\nsecondWord = \"World\";\nSystem.out.println(firstWord + secondWord); // HelloWorld\n```",
+      "type": "text",
+      "width": 540,
+      "x": 640,
+      "y": 884
+    },
+    {
+      "height": 133,
+      "id": "8d4580fd47c2538a",
+      "styleAttributes": {
+      },
+      "text": "```java\nString firstWord, secondWord;\nfirstWord = \"Hello\";\nsecondWord = \"World\";\nSystem.out.println(firstWord + \" \" + secondWord + \"!\"); // Hello World!\n```",
+      "type": "text",
+      "width": 643,
+      "x": 1680,
+      "y": 884
+    },
+    {
+      "height": 267,
+      "id": "418004b3d53be794",
+      "styleAttributes": {
+      },
+      "text": "Метод `nameOfMethod()` применяется к строке `stringName`и вызывается с помощью круглых скобок. Внутри круглых скобок в некоторых методах должны быть обязательные аргументы, а в некоторых нет",
+      "type": "text",
+      "width": 260,
+      "x": 1420,
+      "y": 1297
+    },
+    {
+      "height": 117,
+      "id": "e6c08e7e9aa2f608",
+      "styleAttributes": {
+      },
+      "text": "Класс `String` имеет множество встроенных методов для обработки строк",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1372
+    },
+    {
+      "height": 147,
+      "id": "fcdbdffa1c53272f",
+      "styleAttributes": {
+      },
+      "text": "В Java строки нельзя сравнивать с помощью операторов. Технически можно, но результат будет некорректным",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 1977
+    },
+    {
+      "height": 117,
+      "id": "65735a65d0a2073a",
+      "styleAttributes": {
+      },
+      "text": "Для корректного сравнения строк необходимо использовать следующий метод",
+      "type": "text",
+      "width": 260,
+      "x": 940,
+      "y": 1992
+    },
+    {
+      "height": 106,
+      "id": "4f5a80eca1d5ac0e",
+      "styleAttributes": {
+      },
+      "text": "```java\nString str = \"Добро пожаловать в мир Java\";\n\nSystem.out.println(str.replace('o', 'A')); // ДАбрА пАжалАвать в мир Java\n```",
+      "type": "text",
+      "width": 658,
+      "x": 1300,
+      "y": 4918
+    },
+    {
+      "height": 117,
+      "id": "06d20fe821f96b1b",
+      "styleAttributes": {
+      },
+      "text": "Строка - объект, представляющий последовательность символов",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": -28
+    },
+    {
+      "height": 60,
+      "id": "97ac91ca217825da",
+      "styleAttributes": {
+      },
+      "text": "Базовый класс для строк - `String`",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 0
+    },
+    {
+      "height": 60,
+      "id": "81ca1ffbe9e40df5",
+      "styleAttributes": {
+      },
+      "text": "Можно создать пустую строку",
+      "type": "text",
+      "width": 260,
+      "x": 1340,
+      "y": 0
+    },
+    {
+      "height": 60,
+      "id": "07ce5a2dce5337b4",
+      "styleAttributes": {
+      },
+      "text": "```java\nString str = \"\";\n```",
+      "type": "text",
+      "width": 260,
+      "x": 1640,
+      "y": 0
+    },
+    {
+      "height": 147,
+      "id": "5a09cf069172f7dc",
+      "styleAttributes": {
+      },
+      "text": "Здесь декларируется переменная `s` типа `String` и присваивается ей значение `\"Я изучаю Java\"`",
+      "type": "text",
+      "width": 260,
+      "x": 1002,
+      "y": 120
+    },
+    {
+      "height": 207,
+      "id": "63620ba216d9837c",
+      "styleAttributes": {
+      },
+      "text": "Строка является неизменяемым типом. Чтобы изменить переменную типа `String` нужно создать новый объект, а старый при этом уничтожается",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 400
+    },
+    {
+      "height": 147,
+      "id": "72d6a400b566d5b2",
+      "styleAttributes": {
+      },
+      "text": "Для работы со строками, которые все же нужно менять, существуют дополнительные классы, такие как `StringBuilder`",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 430
+    },
+    {
+      "height": 147,
+      "id": "b321f362db351ffd",
+      "styleAttributes": {
+      },
+      "text": "Количество символов в строке называется ее длиной. Индексация (нумерация) начинается с 0",
+      "type": "text",
+      "width": 260,
+      "x": 1340,
+      "y": 120
+    },
+    {
+      "height": 177,
+      "id": "ce41afbb263560cb",
+      "styleAttributes": {
+      },
+      "text": "Является сложением строк. В результате конкатенации получается также строка: первая строка, соединенная со второй строкой",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 862
+    },
+    {
+      "height": 60,
+      "id": "53a5364ab1985d62",
+      "styleAttributes": {
+      },
+      "text": "Строки",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 0
+    },
+    {
+      "height": 147,
+      "id": "4e26ccad77bae364",
+      "styleAttributes": {
+      },
+      "text": "Пробел также является значимым символом в строке, чтобы его добавить, нужно сделать следующее",
+      "type": "text",
+      "width": 260,
+      "x": 1300,
+      "y": 877
+    },
+    {
+      "height": 117,
+      "id": "eee551f138c429e4",
+      "styleAttributes": {
+      },
+      "text": "Метод возвращает значение типа `char`, а не `String`. Индексация начинается с нуля",
+      "type": "text",
+      "width": 260,
+      "x": 1414,
+      "y": 2606
+    },
+    {
+      "height": 211,
+      "id": "d9049c720033eb0d",
+      "styleAttributes": {
+      },
+      "text": "```java\nString test1 = \"removespread\";\nString test2 = \"     \";\nString test3 = \"\";\n\nSystem.out.println(test1.isEmpty()); // false\nSystem.out.println(test2.isEmpty()); // false, пробел тоже символ\nSystem.out.println(test3.isEmpty()); // true\n```",
+      "type": "text",
+      "width": 597,
+      "x": 960,
+      "y": 2845
+    },
+    {
+      "height": 237,
+      "id": "9c56455d766eaf6b",
+      "styleAttributes": {
+      },
+      "text": "Метод `isEmpty()` возвращает `false`, если строка содержит какие-либо элементы (включая пробел). Возвращает `true`, если строка пустая, то есть не содержит ни одного элемента",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 2832
+    },
+    {
+      "height": 207,
+      "id": "1064522f293566a5",
+      "styleAttributes": {
+      },
+      "text": "Метод `contains()` проверяет, содержится ли одна строка внутри другой, и возвращает соответствующее логическое значение - `true` или `false`",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 3100
+    },
+    {
+      "height": 87,
+      "id": "0cfdc65658a36fff",
+      "styleAttributes": {
+      },
+      "text": "Метод проверки подстроки в другой строке",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 3160
+    },
+    {
+      "height": 237,
+      "id": "bbf8e9336d43adb2",
+      "styleAttributes": {
+      },
+      "text": "```java\nString word = \"removespread\";\nString test1 = \"remove\";\nString test2 = \"spread\";\nString test3 = \"test\";\n\nSystem.out.println(word.contains(test1)); // true\nSystem.out.println(word.contains(test2)); // true\nSystem.out.println(word.contains(test3)); // false\n```",
+      "type": "text",
+      "width": 481,
+      "x": 960,
+      "y": 3085
+    },
+    {
+      "height": 60,
+      "id": "04642c66a2cc48cf",
+      "styleAttributes": {
+      },
+      "text": "Метод преобразования регистра строки",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 3420
+    },
+    {
+      "height": 237,
+      "id": "fafc359abde33f63",
+      "styleAttributes": {
+      },
+      "text": "```java\nString word1 = \"Java\";\nString word2 = \"Python\"\nSystem.out.println(word1.equals(word2)); // False\n\nString word3 = \"Ja\";\nString word4 = \"va\";\nboolean result = word1.equads(word3 + word4); // Ja + va\nSystem.out.println(result); // True\n```",
+      "type": "text",
+      "width": 528,
+      "x": 1280,
+      "y": 1932
+    },
+    {
+      "height": 87,
+      "id": "42a16854e867c0d9",
+      "styleAttributes": {
+      },
+      "text": "Метод получения индекса элемента, который расположен в строке",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 2340
+    },
+    {
+      "height": 147,
+      "id": "bfefa893a51b07fc",
+      "styleAttributes": {
+      },
+      "text": "`indexOf()` ищет в строке заданный символ (или строку), и возвращает индекс его первого вхождения",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 2310
+    },
+    {
+      "height": 60,
+      "id": "95f6fc8a477d27a6",
+      "styleAttributes": {
+      },
+      "text": "Если элемент не найдет, метод возвращает `-1`",
+      "type": "text",
+      "width": 260,
+      "x": 940,
+      "y": 2354
+    },
+    {
+      "height": 185,
+      "id": "d5514dbc0859773e",
+      "styleAttributes": {
+      },
+      "text": "```java\nString word = \"removespread\"\nint x = word.indexOf('e');\nSystem.out.println(x); // 1\n\nint y = word.indexOf('d');\nSystem.out.println(y); // 11\n```",
+      "type": "text",
+      "width": 312,
+      "x": 1280,
+      "y": 2291
+    },
+    {
+      "height": 87,
+      "id": "f5094ca808e5350f",
+      "styleAttributes": {
+      },
+      "text": "Метод получения элемента строки по его индексу",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 2620
+    },
+    {
+      "height": 60,
+      "id": "40f2111116a20834",
+      "styleAttributes": {
+      },
+      "text": "Используется метод `charAt()`",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 2634
+    },
+    {
+      "height": 237,
+      "id": "adc7dfdc9c0de090",
+      "styleAttributes": {
+      },
+      "text": "```java\nString word = \"removespread\"\n\nchar zero_letter = word.charAt(0);\nSystem.out.println(zero_letter); // r\n\nchar first_letter = word.charAt(1);\nSystem.out.println(first_letter); // e\n\n```",
+      "type": "text",
+      "width": 389,
+      "x": 960,
+      "y": 2546
+    },
+    {
+      "height": 60,
+      "id": "01ae7524838505dd",
+      "styleAttributes": {
+      },
+      "text": "Метод проверки строки на пустоту",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 2921
+    },
+    {
+      "height": 133,
+      "id": "1179c4fa1cdd894e",
+      "styleAttributes": {
+      },
+      "text": "```java\nString str = \"12345\";\n\ndouble num = Double.parseDouble(str);\nSystem.out.println(num); // 12345 - int\n```",
+      "type": "text",
+      "width": 397,
+      "x": 960,
+      "y": 4417
+    },
+    {
+      "height": 307,
+      "id": "357922c610a082fc",
+      "styleAttributes": {
+      },
+      "text": "```java\nint n = 12345;\nSystem.out.println(n); // 12345, int\n\nString str1 = Integer.toString(n);\nSystem.out.println(str1); // 12345, string\n\nInteger num = n; // Число-объект класса Integer\nSystem.out.println(num); // 12345\n\nString str2 = num.toString(); // string\nSystem.out.println(str2); // 12345, string\n```",
+      "type": "text",
+      "width": 460,
+      "x": 960,
+      "y": 3550
+    },
+    {
+      "height": 117,
+      "id": "d07d586c116182d9",
+      "styleAttributes": {
+      },
+      "text": "Метод, обратный `toString` - `valueOf()`. Преобразует строку в число нужного типа",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 3960
+    },
+    {
+      "height": 185,
+      "id": "130b12634341fea7",
+      "styleAttributes": {
+      },
+      "text": "```java\nString str = \"12345\"; // строка\nInteger num = Integer.valueOf(str); // num - объект класса Integer\nSystem.out.println(num); // 12345 - число\n\nint num1 = num; // тип: int\nSystem.out.println(num1); // 12345 - число\n```",
+      "type": "text",
+      "width": 605,
+      "x": 960,
+      "y": 3926
+    },
+    {
+      "height": 177,
+      "id": "23b4dc17e506e7c9",
+      "styleAttributes": {
+      },
+      "text": "Поскольку оба метода `toString` и `valueOf` - методы класса Integer, то именно с объектами этого класса их и необходимо использовать",
+      "type": "text",
+      "width": 260,
+      "x": 1620,
+      "y": 3930
+    },
+    {
+      "height": 177,
+      "id": "f963ce4596abb69f",
+      "styleAttributes": {
+      },
+      "text": "Есть более простой способ преобразования строки в число - `parseInt()`, также принадлежащий классу `Integer`",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 4160
+    },
+    {
+      "height": 207,
+      "id": "f1e34227a9dd5c11",
+      "styleAttributes": {
+      },
+      "text": "Если нужно преобразовать строку в число с плавающей точкой, то можно использовать соответствующий метод из класса `Double`",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 4380
+    },
+    {
+      "height": 133,
+      "id": "65178147d99ebc09",
+      "styleAttributes": {
+      },
+      "text": "```java\nString str = \"12345\";\n\nint num = Integer.parseInt(str);\nSystem.out.println(num); // 12345 int\n```",
+      "type": "text",
+      "width": 381,
+      "x": 960,
+      "y": 4182
+    },
+    {
+      "height": 60,
+      "id": "69cbf9053ede2ba7",
+      "styleAttributes": {
+      },
+      "text": "Создание подстроки",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 4680
+    },
+    {
+      "height": 147,
+      "id": "9e46da713caf6a27",
+      "styleAttributes": {
+      },
+      "text": "Метод `substring()` возвращает новую строку, которая является подстрокой данной строки",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 4637
+    },
+    {
+      "height": 177,
+      "id": "54e13efef95fb8f5",
+      "styleAttributes": {
+      },
+      "text": "Подстрока начинается с символа, заданного индексом, и продолжается до конца данной строки или до указанного индекса",
+      "type": "text",
+      "width": 260,
+      "x": 960,
+      "y": 4622
+    },
+    {
+      "height": 147,
+      "id": "76cdfbaa9b5c84e4",
+      "styleAttributes": {
+      },
+      "text": "Методы `toUpperCase()` и `toLowerCase()` приводят всю строку в верхний и нижний регистр соответственно",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 3377
+    },
+    {
+      "height": 133,
+      "id": "8c59e59a556f45b5",
+      "styleAttributes": {
+      },
+      "text": "```java\nString word = \"RemoveSpread\";\n\nSystem.out.println(word.toUpperCase()); // REMOVESPREAD\nSystem.out.println(word.toLowerCase()); // removespread\n```",
+      "type": "text",
+      "width": 520,
+      "x": 960,
+      "y": 3384
+    },
+    {
+      "height": 87,
+      "id": "debaaa2d5d96121b",
+      "styleAttributes": {
+      },
+      "text": "Метод представления числа в строковом формате",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 3660
+    },
+    {
+      "height": 117,
+      "id": "169d8c407040ce8c",
+      "styleAttributes": {
+      },
+      "text": "Для использования метода `toString()` нужно использовать обертку `Integer`",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": 3645
+    },
+    {
+      "height": 60,
+      "id": "a57132a870f9c685",
+      "styleAttributes": {
+      },
+      "text": "Метод преобразования строки в число",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 3988
+    }
+  ]
+}

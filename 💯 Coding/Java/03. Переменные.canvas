@@ -1,0 +1,541 @@
+{
+  "edges": [
+    {
+      "fromNode": "cf1ff0d5573ed9d9",
+      "fromSide": "right",
+      "id": "09cfb915f5b0f3ce",
+      "styleAttributes": {
+      },
+      "toNode": "b2cdb3c6ed96c020",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b2cdb3c6ed96c020",
+      "fromSide": "right",
+      "id": "cbbaf078166eac37",
+      "styleAttributes": {
+      },
+      "toNode": "624abb1f51cc04db",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "624abb1f51cc04db",
+      "fromSide": "right",
+      "id": "4f9b3f05c13279db",
+      "styleAttributes": {
+      },
+      "toNode": "80b849a6f13fb317",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "80b849a6f13fb317",
+      "fromSide": "right",
+      "id": "ca00e3077684b209",
+      "styleAttributes": {
+      },
+      "toNode": "c07646fc5ff0887e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "624abb1f51cc04db",
+      "fromSide": "right",
+      "id": "a7194808ec2daf01",
+      "styleAttributes": {
+      },
+      "toNode": "b5c3c9e7fa4c51fe",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b5c3c9e7fa4c51fe",
+      "fromSide": "right",
+      "id": "44a19f55200cdd54",
+      "styleAttributes": {
+      },
+      "toNode": "b8ee26a96bb811b3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "624abb1f51cc04db",
+      "fromSide": "right",
+      "id": "f74a251d654b7436",
+      "styleAttributes": {
+      },
+      "toNode": "22e4a9a97eb5cf3f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "22e4a9a97eb5cf3f",
+      "fromSide": "right",
+      "id": "d21c5fadea1afe31",
+      "styleAttributes": {
+      },
+      "toNode": "482dc678a5ff8c98",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "624abb1f51cc04db",
+      "fromSide": "bottom",
+      "id": "de29c5a3b220d986",
+      "styleAttributes": {
+      },
+      "toNode": "9bd3d641eae39ad0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9bd3d641eae39ad0",
+      "fromSide": "right",
+      "id": "c82ef3238bb82eeb",
+      "styleAttributes": {
+      },
+      "toNode": "ce7e1758b3310369",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ce7e1758b3310369",
+      "fromSide": "right",
+      "id": "8cfe12711b7cfd4a",
+      "styleAttributes": {
+      },
+      "toNode": "15c815abe94c3f2d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "11ed1f7d753525cc",
+      "fromSide": "right",
+      "id": "e395a833616bfc3e",
+      "styleAttributes": {
+      },
+      "toNode": "088e464e4df988ae",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "088e464e4df988ae",
+      "fromSide": "right",
+      "id": "aa127a4621c2c693",
+      "styleAttributes": {
+      },
+      "toNode": "3c0b78e9ba044d6c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "088e464e4df988ae",
+      "fromSide": "right",
+      "id": "a89848439a44ac1c",
+      "styleAttributes": {
+      },
+      "toNode": "8c4d66f36184b840",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8c4d66f36184b840",
+      "fromSide": "right",
+      "id": "6acd3aeb28fe9c21",
+      "styleAttributes": {
+      },
+      "toNode": "c0463e58d5d996dc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "088e464e4df988ae",
+      "fromSide": "bottom",
+      "id": "257861d83fb2abd8",
+      "styleAttributes": {
+      },
+      "toNode": "66409ccff555953f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "66409ccff555953f",
+      "fromSide": "right",
+      "id": "adf6c09f7488b4c4",
+      "styleAttributes": {
+      },
+      "toNode": "58cfe22c693d2c3f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "66409ccff555953f",
+      "fromSide": "bottom",
+      "id": "850418a601051685",
+      "styleAttributes": {
+      },
+      "toNode": "9f07fe8c2c5b9f14",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9f07fe8c2c5b9f14",
+      "fromSide": "right",
+      "id": "9cbf2e67fb6de424",
+      "styleAttributes": {
+      },
+      "toNode": "bafe948c89f9688d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bafe948c89f9688d",
+      "fromSide": "bottom",
+      "id": "6ee781057939be5e",
+      "styleAttributes": {
+      },
+      "toNode": "c0b38e00e0b82fdf",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "bafe948c89f9688d",
+      "fromSide": "bottom",
+      "id": "259581afa9da8c41",
+      "styleAttributes": {
+      },
+      "toNode": "9c840eadbbdfdfa2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "bafe948c89f9688d",
+      "fromSide": "bottom",
+      "id": "4a367d0b99506a2d",
+      "styleAttributes": {
+      },
+      "toNode": "b0a37445f11dc8a5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "bafe948c89f9688d",
+      "fromSide": "right",
+      "id": "b8bed2793cf76762",
+      "styleAttributes": {
+      },
+      "toNode": "267032c8dec547f4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "267032c8dec547f4",
+      "fromSide": "right",
+      "id": "9f01b5826f7e1a76",
+      "styleAttributes": {
+      },
+      "toNode": "539cfece2bda3227",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1056,
+      "id": "dc34b8b122bf102a",
+      "label": "02. Объявление переменных",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2617,
+      "x": -120,
+      "y": 280
+    },
+    {
+      "height": 728,
+      "id": "cdb2ce8a61875ddc",
+      "label": "01. Введение в переменные",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1760,
+      "x": -120,
+      "y": -520
+    },
+    {
+      "height": 60,
+      "id": "8c95146b42d1a346",
+      "styleAttributes": {
+      },
+      "text": "Переменные",
+      "type": "text",
+      "width": 260,
+      "x": -460,
+      "y": -360
+    },
+    {
+      "height": 60,
+      "id": "cf1ff0d5573ed9d9",
+      "styleAttributes": {
+      },
+      "text": "Хранят данные для обработки",
+      "type": "text",
+      "width": 260,
+      "x": -100,
+      "y": -360
+    },
+    {
+      "height": 237,
+      "id": "b2cdb3c6ed96c020",
+      "styleAttributes": {
+      },
+      "text": "Каждой переменной присваивается имя/идентификатор. Имя идентифицирует каждую переменную, присваивая ей значение или извлекая сохраненное значение, когда это нужно",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": -448
+    },
+    {
+      "height": 117,
+      "id": "624abb1f51cc04db",
+      "styleAttributes": {
+      },
+      "text": "У переменных существуют свои типы данных, некоторые примеры:",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": -388
+    },
+    {
+      "height": 60,
+      "id": "80b849a6f13fb317",
+      "styleAttributes": {
+      },
+      "text": "`int`",
+      "type": "text",
+      "width": 260,
+      "x": 1000,
+      "y": -479
+    },
+    {
+      "height": 87,
+      "id": "c07646fc5ff0887e",
+      "styleAttributes": {
+      },
+      "text": "Целочисленный тип данных. Пример: `123` и `-456`",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": -492
+    },
+    {
+      "height": 60,
+      "id": "b5c3c9e7fa4c51fe",
+      "styleAttributes": {
+      },
+      "text": "`float` и `double`",
+      "type": "text",
+      "width": 260,
+      "x": 1000,
+      "y": -359
+    },
+    {
+      "height": 60,
+      "id": "22e4a9a97eb5cf3f",
+      "styleAttributes": {
+      },
+      "text": "`string`",
+      "type": "text",
+      "width": 260,
+      "x": 1000,
+      "y": -239
+    },
+    {
+      "height": 117,
+      "id": "b8ee26a96bb811b3",
+      "styleAttributes": {
+      },
+      "text": "Числа с плавающей запятой или вещественных чисел. Пример: `3.1416` и `-55.66`",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": -387
+    },
+    {
+      "height": 316,
+      "id": "15c815abe94c3f2d",
+      "styleAttributes": {
+      },
+      "text": "Важно понимать, что переменная связана с типом данных и способна хранить только значения этого конкретного типа. Например, переменная `int` может хранить `123` и другие целочисленные числа, но ни в коем случае не примет `12.34` или `\"string\"`",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": -120
+    },
+    {
+      "height": 185,
+      "id": "ce7e1758b3310369",
+      "styleAttributes": {
+      },
+      "text": "```java\n// первый вариант\nString name;\nname = \"removespread\";\n\n// второй вариант\nString name = \"removespread\";\n```",
+      "type": "text",
+      "width": 320,
+      "x": 970,
+      "y": -55
+    },
+    {
+      "height": 177,
+      "id": "9bd3d641eae39ad0",
+      "styleAttributes": {
+      },
+      "text": "Перед тем, как использовать переменную, ее нужно объявить, а затем присвоить какое-нибудь значение",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": -51
+    },
+    {
+      "height": 87,
+      "id": "482dc678a5ff8c98",
+      "styleAttributes": {
+      },
+      "text": "Текстовый тип данных. Строки заключаются в двойные кавычки",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": -252
+    },
+    {
+      "height": 147,
+      "id": "66409ccff555953f",
+      "styleAttributes": {
+      },
+      "text": "Иногда удобно объявлять несколько переменных одного и того же типа в одной строке через запятую",
+      "type": "text",
+      "width": 260,
+      "x": 347,
+      "y": 600
+    },
+    {
+      "height": 286,
+      "id": "bafe948c89f9688d",
+      "styleAttributes": {
+      },
+      "text": "```java\nint x = 42;\nString y = \"Значение переменной x равно \";\nint z = 58;\nSystem.out.println(x) // 42\nSystem.out.println(x + z) // 100\nSystem.out.println(\"x = \" + 42) // x = 42\nSystem.out.println(y + x) // Значение переменной х равно 42 -> Тут работа со строками\nSystem.out.println(y + x + z) // Значение переменной х равно 4258 -> Тут конкатенация строк\nSystem.out.println(y + (x + z)) // Значение переменной х равно 110 -> К строке добавляется измененное значение Х\n\n```",
+      "type": "text",
+      "width": 965,
+      "x": 680,
+      "y": 756
+    },
+    {
+      "height": 238,
+      "id": "088e464e4df988ae",
+      "styleAttributes": {
+      },
+      "text": "```java\nclass MyClass {\n\tpublic static void main(String[] args) {\n\t\tString name = \"Viktor\";\n\t\tint age = 20;\n\t\tdouble score = 15.9;\n\t\tchar group = 'Z';\n\t}\n}\n```",
+      "type": "text",
+      "width": 435,
+      "x": 260,
+      "y": 291
+    },
+    {
+      "height": 117,
+      "id": "9f07fe8c2c5b9f14",
+      "styleAttributes": {
+      },
+      "text": "Чтобы вывести значение переменной на печать, нужно передать ее в метод `println`",
+      "type": "text",
+      "width": 260,
+      "x": 347,
+      "y": 840
+    },
+    {
+      "height": 60,
+      "id": "c0b38e00e0b82fdf",
+      "styleAttributes": {
+      },
+      "text": "Если передать два числа - метод их складывает",
+      "type": "text",
+      "width": 260,
+      "x": 650,
+      "y": 1160
+    },
+    {
+      "height": 237,
+      "id": "267032c8dec547f4",
+      "styleAttributes": {
+      },
+      "text": "Иногда нужно вывести значение нескольких переменных в одну строку. Для этого можно воспользоваться тем  же способом и перевести все данные в строковый формат",
+      "type": "text",
+      "width": 260,
+      "x": 1740,
+      "y": 781
+    },
+    {
+      "height": 88,
+      "id": "3c0b78e9ba044d6c",
+      "styleAttributes": {
+      },
+      "text": "`char` - используется для хранения одного символа. В отличие от строки, `char` использует одинарные кавычки",
+      "type": "text",
+      "width": 440,
+      "x": 780,
+      "y": 322
+    },
+    {
+      "height": 58,
+      "id": "8c4d66f36184b840",
+      "styleAttributes": {
+      },
+      "text": "`boolean` - тип данных, который принимает только два значения: `false` и `true`",
+      "type": "text",
+      "width": 440,
+      "x": 780,
+      "y": 440
+    },
+    {
+      "height": 60,
+      "id": "c0463e58d5d996dc",
+      "styleAttributes": {
+      },
+      "text": "```java\nboolean atHome = true;\n```",
+      "type": "text",
+      "width": 266,
+      "x": 1300,
+      "y": 440
+    },
+    {
+      "height": 60,
+      "id": "58cfe22c693d2c3f",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 45, b = 11;\n```",
+      "type": "text",
+      "width": 243,
+      "x": 695,
+      "y": 644
+    },
+    {
+      "height": 147,
+      "id": "9c840eadbbdfdfa2",
+      "styleAttributes": {
+      },
+      "text": "Если передать строку и число, выражение автоматически приводится к строчному типу данных",
+      "type": "text",
+      "width": 260,
+      "x": 1033,
+      "y": 1160
+    },
+    {
+      "height": 147,
+      "id": "b0a37445f11dc8a5",
+      "styleAttributes": {
+      },
+      "text": "Если соблюдается очередность операций - вначале производятся операции, заключенные в скобки",
+      "type": "text",
+      "width": 260,
+      "x": 1420,
+      "y": 1160
+    },
+    {
+      "height": 106,
+      "id": "539cfece2bda3227",
+      "styleAttributes": {
+      },
+      "text": "```java\nint x = 42;\nint y = 84;\nSystem.out.println(x + \" \", y) // 42 84\n```",
+      "type": "text",
+      "width": 397,
+      "x": 2080,
+      "y": 847
+    },
+    {
+      "height": 60,
+      "id": "11ed1f7d753525cc",
+      "styleAttributes": {
+      },
+      "text": "Примеры объявления переменных",
+      "type": "text",
+      "width": 260,
+      "x": -100,
+      "y": 380
+    }
+  ]
+}

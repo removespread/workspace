@@ -1,0 +1,408 @@
+{
+  "edges": [
+    {
+      "fromNode": "74ac4c0dc1bbf9ef",
+      "fromSide": "right",
+      "id": "f79d6b6ad3cb43e0",
+      "styleAttributes": {
+      },
+      "toNode": "9153fa2d387ea7c6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9153fa2d387ea7c6",
+      "fromSide": "right",
+      "id": "70f2da7307de2e34",
+      "styleAttributes": {
+      },
+      "toNode": "b9fcdf8e806b7066",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b9fcdf8e806b7066",
+      "fromSide": "right",
+      "id": "0c9ba5dc08fa6864",
+      "styleAttributes": {
+      },
+      "toNode": "ec8a4bfcf848c93e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b9fcdf8e806b7066",
+      "fromSide": "bottom",
+      "id": "43c61cfbf8ed77ec",
+      "styleAttributes": {
+      },
+      "toNode": "5fb20c7166a1d0c7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5fb20c7166a1d0c7",
+      "fromSide": "right",
+      "id": "338d75436a9b8472",
+      "styleAttributes": {
+      },
+      "toNode": "c6f6a89e848ba3b6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fb20c7166a1d0c7",
+      "fromSide": "right",
+      "id": "e66053315b68f906",
+      "styleAttributes": {
+      },
+      "toNode": "8bedf67bb2e303ba",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fb20c7166a1d0c7",
+      "fromSide": "right",
+      "id": "4d0505b5e1976c07",
+      "styleAttributes": {
+      },
+      "toNode": "59480da2804a3da5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fb20c7166a1d0c7",
+      "fromSide": "right",
+      "id": "418f622cb3bccc2d",
+      "styleAttributes": {
+      },
+      "toNode": "d9b33c1d11800c3a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fb20c7166a1d0c7",
+      "fromSide": "right",
+      "id": "5dad3eedb305e163",
+      "styleAttributes": {
+      },
+      "toNode": "c901779d3fb0d089",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fb20c7166a1d0c7",
+      "fromSide": "right",
+      "id": "90fd14f669109ac8",
+      "styleAttributes": {
+      },
+      "toNode": "2582ed61c41adbc4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fb20c7166a1d0c7",
+      "fromSide": "bottom",
+      "id": "dbfaa7c1eb027830",
+      "styleAttributes": {
+      },
+      "toNode": "cb2e3db859a0244f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "cb2e3db859a0244f",
+      "fromSide": "right",
+      "id": "a8d6dc4457f646ae",
+      "styleAttributes": {
+      },
+      "toNode": "f325845b7c40a77e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f325845b7c40a77e",
+      "fromSide": "right",
+      "id": "defe1895aa66d26b",
+      "styleAttributes": {
+      },
+      "toNode": "199e13adc43c753a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "199e13adc43c753a",
+      "fromSide": "right",
+      "id": "b3409de8c688358d",
+      "styleAttributes": {
+      },
+      "toNode": "c88f01c80d0de076",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "199e13adc43c753a",
+      "fromSide": "right",
+      "id": "8df3f0835ae5135b",
+      "styleAttributes": {
+      },
+      "toNode": "ffdb65d8a09ae108",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "199e13adc43c753a",
+      "fromSide": "right",
+      "id": "446f07b4f1eeb195",
+      "styleAttributes": {
+      },
+      "toNode": "51a05feab729da90",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "cb2e3db859a0244f",
+      "fromSide": "bottom",
+      "id": "257aaa367ed7845e",
+      "styleAttributes": {
+      },
+      "toNode": "70a0c1c69553fd09",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "70a0c1c69553fd09",
+      "fromSide": "right",
+      "id": "2ee5ff35c5184968",
+      "styleAttributes": {
+      },
+      "toNode": "e288d711b42b7d51",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e288d711b42b7d51",
+      "fromSide": "right",
+      "id": "b2cf3ea7ebdf21fb",
+      "styleAttributes": {
+      },
+      "toNode": "50e5d76331079897",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1435,
+      "id": "0f3b089a67171c89",
+      "label": "01. Базовый ввод данных",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2220,
+      "x": -260,
+      "y": -180
+    },
+    {
+      "height": 60,
+      "id": "74ac4c0dc1bbf9ef",
+      "styleAttributes": {
+      },
+      "text": "Ввод данных в программу",
+      "type": "text",
+      "width": 260,
+      "x": -240,
+      "y": -60
+    },
+    {
+      "height": 267,
+      "id": "9153fa2d387ea7c6",
+      "styleAttributes": {
+      },
+      "text": "В то время как Java предоставляет множество различных методов для пользовательского ввода, объект `Scanner` является наиболее распространенным и, возможно, самым простым в реализации",
+      "type": "text",
+      "width": 260,
+      "x": 100,
+      "y": -163
+    },
+    {
+      "height": 177,
+      "id": "b9fcdf8e806b7066",
+      "styleAttributes": {
+      },
+      "text": "Для использования необходимо импортировать класс `Scanner` для использования объекта `Scanner`",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": -118
+    },
+    {
+      "height": 60,
+      "id": "ec8a4bfcf848c93e",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n```",
+      "type": "text",
+      "width": 289,
+      "x": 780,
+      "y": -60
+    },
+    {
+      "height": 87,
+      "id": "5fb20c7166a1d0c7",
+      "styleAttributes": {
+      },
+      "text": "Некоторые методы, которые доступны через класс `Scanner`",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 141
+    },
+    {
+      "height": 60,
+      "id": "c6f6a89e848ba3b6",
+      "styleAttributes": {
+      },
+      "text": "Ввести объект int: `nextInt()`",
+      "type": "text",
+      "width": 289,
+      "x": 780,
+      "y": 155
+    },
+    {
+      "height": 60,
+      "id": "8bedf67bb2e303ba",
+      "styleAttributes": {
+      },
+      "text": "Ввести объект float: `nextFloat()`",
+      "type": "text",
+      "width": 289,
+      "x": 780,
+      "y": 229
+    },
+    {
+      "height": 60,
+      "id": "59480da2804a3da5",
+      "styleAttributes": {
+      },
+      "text": "Ввести объект double: `nextDouble()`",
+      "type": "text",
+      "width": 289,
+      "x": 780,
+      "y": 301
+    },
+    {
+      "height": 87,
+      "id": "51a05feab729da90",
+      "styleAttributes": {
+      },
+      "text": "Полученная строка поступает на поток вывода",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 841
+    },
+    {
+      "height": 60,
+      "id": "d9b33c1d11800c3a",
+      "styleAttributes": {
+      },
+      "text": "Ввести объект boolean: `nextBoolean()`",
+      "type": "text",
+      "width": 289,
+      "x": 780,
+      "y": 381
+    },
+    {
+      "height": 238,
+      "id": "f325845b7c40a77e",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass MyClass {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\t\tSystem.out.println(sc.nextLine());\n\t}\n}\n```",
+      "type": "text",
+      "width": 435,
+      "x": 780,
+      "y": 660
+    },
+    {
+      "height": 307,
+      "id": "e288d711b42b7d51",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass MyClass {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\n\t\tint x = sc.nextInt();\n\t\tdouble y = sc.nextDouble();\n\t\tString s = sc.nextLine();\n\t}\n}\n```",
+      "type": "text",
+      "width": 435,
+      "x": 780,
+      "y": 925
+    },
+    {
+      "height": 147,
+      "id": "199e13adc43c753a",
+      "styleAttributes": {
+      },
+      "text": "Программа будет ждать, пока пользователь введет что-то, а затем выведет на печать полученную строку",
+      "type": "text",
+      "width": 260,
+      "x": 1280,
+      "y": 706
+    },
+    {
+      "height": 117,
+      "id": "70a0c1c69553fd09",
+      "styleAttributes": {
+      },
+      "text": "Единственный сканнер может обрабатывать входные данные различных типов",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 1020
+    },
+    {
+      "height": 117,
+      "id": "cb2e3db859a0244f",
+      "styleAttributes": {
+      },
+      "text": "Пример программы, используемой для получения пользовательского ввода",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 720
+    },
+    {
+      "height": 147,
+      "id": "c88f01c80d0de076",
+      "styleAttributes": {
+      },
+      "text": "Сначала идет инициализация нового экземпляра класса `Scanner` и присваивается ему имя `sc`",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 573
+    },
+    {
+      "height": 60,
+      "id": "c901779d3fb0d089",
+      "styleAttributes": {
+      },
+      "text": "Ввести строку целиком: `nextLine()`",
+      "type": "text",
+      "width": 289,
+      "x": 780,
+      "y": 461
+    },
+    {
+      "height": 60,
+      "id": "2582ed61c41adbc4",
+      "styleAttributes": {
+      },
+      "text": "Ввести слово (считается до первого пробела): `next()`",
+      "type": "text",
+      "width": 289,
+      "x": 780,
+      "y": 541
+    },
+    {
+      "height": 177,
+      "id": "50e5d76331079897",
+      "styleAttributes": {
+      },
+      "text": "После использования сканнер желательно закрыть с помощью `sc.Close()`. Незакрытый сканнер может привести к утечке памяти",
+      "type": "text",
+      "width": 260,
+      "x": 1280,
+      "y": 990
+    },
+    {
+      "height": 87,
+      "id": "ffdb65d8a09ae108",
+      "styleAttributes": {
+      },
+      "text": "Даем задание экземпляру считать строку командой `sc.nextLine()`",
+      "type": "text",
+      "width": 260,
+      "x": 1680,
+      "y": 736
+    }
+  ]
+}

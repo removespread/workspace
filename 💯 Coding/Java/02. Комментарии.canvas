@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "fromNode": "a7be747c4d5e492a",
+      "fromSide": "right",
+      "id": "fbea692e6388db2c",
+      "styleAttributes": {
+      },
+      "toNode": "43e580eddcf0f02d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "43e580eddcf0f02d",
+      "fromSide": "right",
+      "id": "479a8a2b5bb47fdf",
+      "styleAttributes": {
+      },
+      "toNode": "7f7bb51ebdf1d536",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7f7bb51ebdf1d536",
+      "fromSide": "bottom",
+      "id": "462076aa24612761",
+      "styleAttributes": {
+      },
+      "toNode": "504acbe20ef468c2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "43e580eddcf0f02d",
+      "fromSide": "bottom",
+      "id": "dd0efedcc24054ea",
+      "styleAttributes": {
+      },
+      "toNode": "1963c2408c5cd3c7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1963c2408c5cd3c7",
+      "fromSide": "right",
+      "id": "bda5afcea00480f7",
+      "styleAttributes": {
+      },
+      "toNode": "ec11269d1d5dd242",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1963c2408c5cd3c7",
+      "fromSide": "bottom",
+      "id": "2c30b44cfa6145bd",
+      "styleAttributes": {
+      },
+      "toNode": "e6b971f6145288ac",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e6b971f6145288ac",
+      "fromSide": "right",
+      "id": "3880993dde822d77",
+      "styleAttributes": {
+      },
+      "toNode": "7431e87bd23544ec",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7431e87bd23544ec",
+      "fromSide": "right",
+      "id": "57a9887c35a154ad",
+      "styleAttributes": {
+      },
+      "toNode": "626c01079a622b67",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "626c01079a622b67",
+      "fromSide": "right",
+      "id": "40f5be159dbcdaab",
+      "styleAttributes": {
+      },
+      "toNode": "420db714fa3f411a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7431e87bd23544ec",
+      "fromSide": "bottom",
+      "id": "4bbce521a33c5bcc",
+      "styleAttributes": {
+      },
+      "toNode": "68d1f606f2363568",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "68d1f606f2363568",
+      "fromSide": "right",
+      "id": "01aab94f28e79043",
+      "styleAttributes": {
+      },
+      "toNode": "47d1f4065527a2f6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "47d1f4065527a2f6",
+      "fromSide": "right",
+      "id": "de797c86335f0b1a",
+      "styleAttributes": {
+      },
+      "toNode": "cc157f485d69a9e4",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1660,
+      "id": "93d2c2c9ef93e7f7",
+      "label": "01. Комментарии",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1831,
+      "x": 180,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "fca7901f0223c073",
+      "styleAttributes": {
+      },
+      "text": "Комментарии",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": -40
+    },
+    {
+      "height": 340,
+      "id": "a7be747c4d5e492a",
+      "styleAttributes": {
+      },
+      "text": "Комментарии в коде - текст, который помогает понять, что делает код. Java поддерживает как однострочные, так и многострочные комментарии. Все символы, которые появляются в комментарии, игнорируются компилятором Java",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": -180
+    },
+    {
+      "height": 147,
+      "id": "43e580eddcf0f02d",
+      "styleAttributes": {
+      },
+      "text": "Однострочный комментарий начинается с двух косых черт `//` и продолжается до конца строки",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -83
+    },
+    {
+      "height": 80,
+      "id": "7f7bb51ebdf1d536",
+      "styleAttributes": {
+      },
+      "text": "```java\n// Это однострочный комментарий\nx = 5; // Это тоже однострочный комментарий, расположенный после кода\n```",
+      "type": "text",
+      "width": 628,
+      "x": 900,
+      "y": -49
+    },
+    {
+      "height": 211,
+      "id": "ec11269d1d5dd242",
+      "styleAttributes": {
+      },
+      "text": "```java\n/* Это многострочный комментарий\n\n\t// Можно поставить однострочный комментарий внутри многострочного\n\t// Зачем? не знаю, но так можно\n\t// и вообще спасите меня, я это пишу в пол первого ночи\n\nконец многострочного комментария*/\n```",
+      "type": "text",
+      "width": 628,
+      "x": 900,
+      "y": 513
+    },
+    {
+      "height": 117,
+      "id": "1963c2408c5cd3c7",
+      "styleAttributes": {
+      },
+      "text": "Многострочный комментарий начинается с конструкции `/*`, а заканчивается `*/`",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": 560
+    },
+    {
+      "height": 60,
+      "id": "e6b971f6145288ac",
+      "styleAttributes": {
+      },
+      "text": "Документационные комментарии (Javadoc)",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": 880
+    },
+    {
+      "height": 267,
+      "id": "7431e87bd23544ec",
+      "styleAttributes": {
+      },
+      "text": "Специальные комментарии, которые имеют вид многострочных комментариев, с той разницей, что они генерируют внешнюю документацию исходного кода",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 777
+    },
+    {
+      "height": 133,
+      "id": "cc157f485d69a9e4",
+      "styleAttributes": {
+      },
+      "text": "```java\n/*******************\n\tЗдесь будет начало метода\n\tТабуляция не обязательна, но приятна глазу\n/*******************\n```",
+      "type": "text",
+      "width": 451,
+      "x": 1540,
+      "y": 1204
+    },
+    {
+      "height": 340,
+      "id": "68d1f606f2363568",
+      "styleAttributes": {
+      },
+      "text": "Javadoc - инструмент, который поставляется вместе с JDK и используется для создания документации Java-кода в формате HTML из исходного кода Java, который имеет необходимую документацию в предопределенном формате",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 1100
+    },
+    {
+      "height": 316,
+      "id": "504acbe20ef468c2",
+      "styleAttributes": {
+      },
+      "text": "Добавление комментариев при написании кода является хорошей практикой, поскольку они дают разъяснение и понимание, когда нужно вернуться к нему, а также для других, кому, возможно, потребуется его прочитать",
+      "type": "text",
+      "width": 260,
+      "x": 1084,
+      "y": 120
+    },
+    {
+      "height": 207,
+      "id": "626c01079a622b67",
+      "styleAttributes": {
+      },
+      "text": "Начинаются с прямой косой черты, за которой следуют две звездочки `/**`, и заканчиваются звездочкой, за которой следует прямая косая черта `*/`",
+      "type": "text",
+      "width": 260,
+      "x": 1214,
+      "y": 807
+    },
+    {
+      "height": 164,
+      "id": "420db714fa3f411a",
+      "styleAttributes": {
+      },
+      "text": "```java\n/** Это документационный комментарий */\n\n/** Это тоже\nдокументационный комментарий */\n```",
+      "type": "text",
+      "width": 420,
+      "x": 1528,
+      "y": 829
+    },
+    {
+      "height": 316,
+      "id": "47d1f4065527a2f6",
+      "styleAttributes": {
+      },
+      "text": "Когда комментарий документации начинается с более чем двух звездочек, Javadoc предполагает, что необходимо создать \"коробку\" вокруг комментария в исходном коде. Он просто игнорирует лишние звездочки",
+      "type": "text",
+      "width": 260,
+      "x": 1214,
+      "y": 1112
+    }
+  ]
+}

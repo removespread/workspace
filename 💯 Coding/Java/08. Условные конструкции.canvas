@@ -1,0 +1,465 @@
+{
+  "edges": [
+    {
+      "fromNode": "14006d304de6c194",
+      "fromSide": "right",
+      "id": "4e9abaf78bc1bf05",
+      "styleAttributes": {
+      },
+      "toNode": "650898af2ad5e45d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "14006d304de6c194",
+      "fromSide": "bottom",
+      "id": "b097df8c3712efa4",
+      "styleAttributes": {
+      },
+      "toNode": "324d9a9955c370f1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "324d9a9955c370f1",
+      "fromSide": "bottom",
+      "id": "7158b8413be69820",
+      "styleAttributes": {
+      },
+      "toNode": "04f37a68debc6d51",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "04f37a68debc6d51",
+      "fromSide": "right",
+      "id": "74d06780fcfef64c",
+      "styleAttributes": {
+      },
+      "toNode": "72eb095c15a97663",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "72eb095c15a97663",
+      "fromSide": "right",
+      "id": "baf33c2446adbe38",
+      "styleAttributes": {
+      },
+      "toNode": "a57cdc061cabac8d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a57cdc061cabac8d",
+      "fromSide": "bottom",
+      "id": "065dc8d45c7e04f9",
+      "styleAttributes": {
+      },
+      "toNode": "65191f598fdcb27e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "65191f598fdcb27e",
+      "fromSide": "right",
+      "id": "524c4232e2eb61f9",
+      "styleAttributes": {
+      },
+      "toNode": "6a3f591f0226af7a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6a3f591f0226af7a",
+      "fromSide": "right",
+      "id": "7fb03ad66284507c",
+      "styleAttributes": {
+      },
+      "toNode": "b43d1a0c47bea0ef",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6a3f591f0226af7a",
+      "fromSide": "right",
+      "id": "f251c69c06c556f0",
+      "styleAttributes": {
+      },
+      "toNode": "d965204318ac8ac9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6a3f591f0226af7a",
+      "fromSide": "right",
+      "id": "a62f9bc24836fe75",
+      "styleAttributes": {
+      },
+      "toNode": "fc0b8893b219b0aa",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6a3f591f0226af7a",
+      "fromSide": "right",
+      "id": "21797f65f7683f18",
+      "styleAttributes": {
+      },
+      "toNode": "678b5e914d767d2a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6a3f591f0226af7a",
+      "fromSide": "right",
+      "id": "a634a92732e89ab3",
+      "styleAttributes": {
+      },
+      "toNode": "48e6c11e8ec6e0b9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6a3f591f0226af7a",
+      "fromSide": "right",
+      "id": "2577c6c2d02a130a",
+      "styleAttributes": {
+      },
+      "toNode": "b6640c408be6200a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1397563ebe0dc6af",
+      "fromSide": "right",
+      "id": "76a5e606297f11dd",
+      "styleAttributes": {
+      },
+      "toNode": "af1a155b13028e7f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "af1a155b13028e7f",
+      "fromSide": "bottom",
+      "id": "4bc726495338bdee",
+      "styleAttributes": {
+      },
+      "toNode": "b81933f69f7de98b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d75767b66764da18",
+      "fromSide": "right",
+      "id": "cf0a9ec96043bad2",
+      "styleAttributes": {
+      },
+      "toNode": "1d5282360f0293e4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1d5282360f0293e4",
+      "fromSide": "right",
+      "id": "0eb67eb8a9b9f38a",
+      "styleAttributes": {
+      },
+      "toNode": "02a32028614cc5b2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "02a32028614cc5b2",
+      "fromSide": "bottom",
+      "id": "058ac21d6b4a4dd5",
+      "styleAttributes": {
+      },
+      "toNode": "27b733a325ec9e67",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1245,
+      "id": "63e397873b84f147",
+      "label": "1. Условный оператор if",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1760,
+      "x": -80,
+      "y": -280
+    },
+    {
+      "height": 743,
+      "id": "6a860971365705fa",
+      "label": "03. Тернарный оператор",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1420,
+      "x": -80,
+      "y": 1580
+    },
+    {
+      "height": 466,
+      "id": "e4c510f2802e5d38",
+      "label": "02. Альтернативная конструкция if/else",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 898,
+      "x": -80,
+      "y": 1080
+    },
+    {
+      "height": 60,
+      "id": "993f4b477e5beeea",
+      "styleAttributes": {
+      },
+      "text": "Принятие решений",
+      "type": "text",
+      "width": 260,
+      "x": -560,
+      "y": -200
+    },
+    {
+      "height": 177,
+      "id": "14006d304de6c194",
+      "styleAttributes": {
+      },
+      "text": "Условные операторы используются для выполнения различных действий в зависимости от того, выполняется ли какое-либо условие",
+      "type": "text",
+      "width": 260,
+      "x": -60,
+      "y": -258
+    },
+    {
+      "height": 117,
+      "id": "650898af2ad5e45d",
+      "styleAttributes": {
+      },
+      "text": "Условие - выражение, принимающее логическое значение `true` или `false`",
+      "type": "text",
+      "width": 260,
+      "x": 320,
+      "y": -228
+    },
+    {
+      "height": 268,
+      "id": "324d9a9955c370f1",
+      "styleAttributes": {
+      },
+      "text": "Оператор `if` является одним из наиболее часто используемых условных операторов. Если выражение внутри оператора является правдой (true), то выполняется блок кода внутри оператора `if`",
+      "type": "text",
+      "width": 260,
+      "x": -60,
+      "y": 40
+    },
+    {
+      "height": 207,
+      "id": "04f37a68debc6d51",
+      "styleAttributes": {
+      },
+      "text": "Если выражение оказывается сложным, то выполняется первый набор кода после окончания оператора if (после закрывающей фигурной скобки)",
+      "type": "text",
+      "width": 260,
+      "x": -60,
+      "y": 400
+    },
+    {
+      "height": 60,
+      "id": "72eb095c15a97663",
+      "styleAttributes": {
+      },
+      "text": "Синтаксис",
+      "type": "text",
+      "width": 260,
+      "x": 300,
+      "y": 474
+    },
+    {
+      "height": 237,
+      "id": "65191f598fdcb27e",
+      "styleAttributes": {
+      },
+      "text": "Условие должны быть заключено в круглые скобки, а выполняемый блок команд - в фигурные. Каждая строка внутри блока команд должна заканчиваться точкой с запятой",
+      "type": "text",
+      "width": 260,
+      "x": 680,
+      "y": 620
+    },
+    {
+      "height": 60,
+      "id": "48e6c11e8ec6e0b9",
+      "styleAttributes": {
+      },
+      "text": "<= - меньше или равно",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": 812
+    },
+    {
+      "height": 60,
+      "id": "b43d1a0c47bea0ef",
+      "styleAttributes": {
+      },
+      "text": "< - меньше",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": 504
+    },
+    {
+      "height": 106,
+      "id": "a57cdc061cabac8d",
+      "styleAttributes": {
+      },
+      "text": "```java\nif (условие) {\n\t// блок кода\n}\n```",
+      "type": "text",
+      "width": 260,
+      "x": 680,
+      "y": 451
+    },
+    {
+      "height": 87,
+      "id": "6a3f591f0226af7a",
+      "styleAttributes": {
+      },
+      "text": "Внутри условия можно использовать операторы сравнения",
+      "type": "text",
+      "width": 260,
+      "x": 1000,
+      "y": 695
+    },
+    {
+      "height": 60,
+      "id": "d965204318ac8ac9",
+      "styleAttributes": {
+      },
+      "text": "\\> - больше",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": 587
+    },
+    {
+      "height": 60,
+      "id": "fc0b8893b219b0aa",
+      "styleAttributes": {
+      },
+      "text": "== - равно",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": 665
+    },
+    {
+      "height": 60,
+      "id": "678b5e914d767d2a",
+      "styleAttributes": {
+      },
+      "text": "!= - не равно",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": 739
+    },
+    {
+      "height": 60,
+      "id": "b6640c408be6200a",
+      "styleAttributes": {
+      },
+      "text": "\\>= - больше или равно",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": 887
+    },
+    {
+      "height": 87,
+      "id": "b3e18fac11e44851",
+      "styleAttributes": {
+      },
+      "text": "Альтернативная конструкция (использование `else`)",
+      "type": "text",
+      "width": 260,
+      "x": -560,
+      "y": 1140
+    },
+    {
+      "height": 177,
+      "id": "1397563ebe0dc6af",
+      "styleAttributes": {
+      },
+      "text": "За оператором `if` может следовать необязательный оператор `else`, который выполняется, когда условие ложно (`false`)",
+      "type": "text",
+      "width": 260,
+      "x": -60,
+      "y": 1095
+    },
+    {
+      "height": 185,
+      "id": "af1a155b13028e7f",
+      "styleAttributes": {
+      },
+      "text": "```java\nint month = 10;\nif (month <= 6) {\n\tSystem.out.println(\"Первая половина года\");\n} else {\n\tSystem.out.println(\"Вторая половина года\");\n}\n```",
+      "type": "text",
+      "width": 458,
+      "x": 340,
+      "y": 1091
+    },
+    {
+      "height": 177,
+      "id": "b81933f69f7de98b",
+      "styleAttributes": {
+      },
+      "text": "Поскольку значение переменной `month` больше, чем 6, выполнится блок команд, расположенный после ключевого слова `else`",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 1340
+    },
+    {
+      "height": 60,
+      "id": "2fe69cf611ce6d89",
+      "styleAttributes": {
+      },
+      "text": "Тернарный оператор",
+      "type": "text",
+      "width": 260,
+      "x": -560,
+      "y": 1720
+    },
+    {
+      "height": 87,
+      "id": "d75767b66764da18",
+      "styleAttributes": {
+      },
+      "text": "Является краткой альтернативой конструкции `if/else`",
+      "type": "text",
+      "width": 260,
+      "x": -60,
+      "y": 1707
+    },
+    {
+      "height": 147,
+      "id": "1d5282360f0293e4",
+      "styleAttributes": {
+      },
+      "text": "Пример: нужно проверить число на четность и вывести на печать соответствующий ответ",
+      "type": "text",
+      "width": 260,
+      "x": 310,
+      "y": 1677
+    },
+    {
+      "height": 307,
+      "id": "02a32028614cc5b2",
+      "styleAttributes": {
+      },
+      "text": "```java\nint x = 24\n\nif (x % 2 == 0) {\n\tSystem.out.println(\"Число четное\");\n} else {\n\tSystem.out.println(\"Число нечетное\");\n}\n\n// С помощью тернарного оператора\nint x = 15\nSystem.out.println((x % 2 == 0)) ? \"Число четное\" : \"Число нечетное\");\n```",
+      "type": "text",
+      "width": 640,
+      "x": 680,
+      "y": 1597
+    },
+    {
+      "height": 340,
+      "id": "27b733a325ec9e67",
+      "styleAttributes": {
+      },
+      "text": "Вопросительный знак заменяет слово `if` и проверяет условие на истинность. В случае, если условие истинно, выполняется выражение, следующее после вопросительного знака. Если ложно - выполняется условие после двоеточие, которое заменяет слово `else`",
+      "type": "text",
+      "width": 260,
+      "x": 870,
+      "y": 1960
+    }
+  ]
+}
