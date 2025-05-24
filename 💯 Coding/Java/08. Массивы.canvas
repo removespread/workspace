@@ -89,13 +89,107 @@
       },
       "toNode": "097f7b30d3424609",
       "toSide": "left"
+    },
+    {
+      "fromNode": "3ca2557b6c48205d",
+      "fromSide": "right",
+      "id": "42b0315731b655ae",
+      "styleAttributes": {
+      },
+      "toNode": "e98b4b2dd03213a8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e98b4b2dd03213a8",
+      "fromSide": "right",
+      "id": "1c5064a6a457ac15",
+      "styleAttributes": {
+      },
+      "toNode": "e3592ae88854c6dd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "df9932a63aac2be1",
+      "fromSide": "right",
+      "id": "73d36bc04ff9172a",
+      "styleAttributes": {
+      },
+      "toNode": "287307f4450c17cb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "287307f4450c17cb",
+      "fromSide": "right",
+      "id": "553f9e3f6041fd6d",
+      "styleAttributes": {
+      },
+      "toNode": "2dd2cac55843a6c1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2dd2cac55843a6c1",
+      "fromSide": "right",
+      "id": "3b9367ac93376505",
+      "styleAttributes": {
+      },
+      "toNode": "62b4e1ef6e7f8530",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2dd2cac55843a6c1",
+      "fromSide": "bottom",
+      "id": "328169500fc277a5",
+      "styleAttributes": {
+      },
+      "toNode": "dba2c602dcc82cbe",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "dba2c602dcc82cbe",
+      "fromSide": "bottom",
+      "id": "fe8e75e5bea563f6",
+      "styleAttributes": {
+      },
+      "toNode": "2418d591089545be",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9252c120bf5bbcf4",
+      "fromSide": "right",
+      "id": "1a3451b6e79d7f00",
+      "styleAttributes": {
+      },
+      "toNode": "e46ab49ad1b02bf7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "302b0956dc51d732",
+      "fromSide": "bottom",
+      "id": "f3f5be58df5c30e1",
+      "styleAttributes": {
+      },
+      "toNode": "bf8ac5caef183c3c",
+      "toSide": "top"
     }
   ],
   "nodes": [
     {
+      "height": 722,
+      "id": "d00fe99063296756",
+      "label": "04. Вывод значений массива в консоль",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1780,
+      "x": 260,
+      "y": 1440
+    },
+    {
       "height": 597,
       "id": "62ec4509eb814388",
       "label": "02. Индексация по структурам данных",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1377,
       "x": 260,
@@ -105,10 +199,34 @@
       "height": 597,
       "id": "da86763ac41a0f78",
       "label": "01. Массив как сущность",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1300,
       "x": 260,
       "y": -300
+    },
+    {
+      "height": 347,
+      "id": "6361be482bae7d4a",
+      "label": "03. Считывание массива",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1360,
+      "x": 260,
+      "y": 1040
+    },
+    {
+      "height": 157,
+      "id": "9bf443ff82518d53",
+      "label": "05. Вывод длины массива",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1050,
+      "x": 260,
+      "y": 2260
     },
     {
       "height": 60,
@@ -144,17 +262,6 @@
       "y": -103
     },
     {
-      "height": 207,
-      "id": "5fe559e5aaaef858",
-      "styleAttributes": {
-      },
-      "text": "Указываем тип данных, который будет лежать в массиве, ставим квадратные скобочки и через конструкцию `new` указываем размерность массива",
-      "type": "text",
-      "width": 260,
-      "x": 940,
-      "y": -133
-    },
-    {
       "height": 117,
       "id": "1f760922bdf4be42",
       "styleAttributes": {
@@ -164,6 +271,72 @@
       "width": 260,
       "x": 940,
       "y": -280
+    },
+    {
+      "height": 60,
+      "id": "9589c727a13a9a26",
+      "styleAttributes": {
+      },
+      "text": "Индексация",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 520
+    },
+    {
+      "height": 133,
+      "id": "9fed25c1e38f97b2",
+      "styleAttributes": {
+      },
+      "text": "```java\nint[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19} // 19 элементов\nSystem.out.println(a[0]); // 1\nSystem.out.println(a[18]); // 19\nSystem.out.println(a[6]); // 7\n```",
+      "type": "text",
+      "width": 813,
+      "x": 747,
+      "y": 464
+    },
+    {
+      "height": 208,
+      "id": "2fb50362c52b2174",
+      "styleAttributes": {
+      },
+      "text": "Для работы с элементами массива существует индексация. Каждому элементу массива просто присваивается номер, по которому к нему можно обратиться. Для обращения к элементу массива достаточно указать его индекс, после переменной в квадратных скобках ",
+      "type": "text",
+      "width": 400,
+      "x": 270,
+      "y": 426
+    },
+    {
+      "height": 117,
+      "id": "bf8ac5caef183c3c",
+      "styleAttributes": {
+      },
+      "text": "Массив - строка, содержащая в себе данные, перечисленные через запятую",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 74
+    },
+    {
+      "height": 328,
+      "id": "097f7b30d3424609",
+      "styleAttributes": {
+      },
+      "text": "```java\n// Создание массива на 15 элемент, каждый элемент которого равен квадрату индекса\n\nclass A {\n\tpublic static void main([]String args) {\n\t\tint n = 15; // Создание переменной n\n\t\tint[] a = new int[n] // Создание целочисленного массива, в котором размерность равна 15 (n)\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\ta[i] = i * i // а[индекс] = итерация цикла * итерация цикла\n\t\t}\n\t\t// Теперь в массиве \"A\" лежат квадраты чисел от 0 до 14\n\t\t// До 14, потому что i < n, \"строгое\" условие\n}\n```",
+      "type": "text",
+      "width": 860,
+      "x": 747,
+      "y": 655
+    },
+    {
+      "height": 207,
+      "id": "5fe559e5aaaef858",
+      "styleAttributes": {
+      },
+      "text": "Указываем тип данных, который будет лежать в массиве, ставим квадратные скобочки и через конструкцию `new` указываем размерность массива",
+      "type": "text",
+      "width": 260,
+      "x": 940,
+      "y": -133
     },
     {
       "height": 177,
@@ -210,50 +383,6 @@
       "y": -59
     },
     {
-      "height": 60,
-      "id": "9589c727a13a9a26",
-      "styleAttributes": {
-      },
-      "text": "Индексация",
-      "type": "text",
-      "width": 260,
-      "x": -160,
-      "y": 520
-    },
-    {
-      "height": 133,
-      "id": "9fed25c1e38f97b2",
-      "styleAttributes": {
-      },
-      "text": "```java\nint[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19} // 19 элементов\nSystem.out.println(a[0]); // 1\nSystem.out.println(a[18]); // 19\nSystem.out.println(a[6]); // 7\n```",
-      "type": "text",
-      "width": 813,
-      "x": 747,
-      "y": 464
-    },
-    {
-      "height": 328,
-      "id": "097f7b30d3424609",
-      "styleAttributes": {
-      },
-      "text": "```java\n// Создание массива на 15 элемент, каждый элемент которого равен квадрату индекса\n\nclass A {\n\tpublic static void main([]String args) {\n\t\tint n = 15; // Создание переменной n\n\t\tint[] a = new int[n] // Создание целочисленного массива, в котором размерность равна 15 (n)\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\ta[i] = i * i // а[индекс] = итерация цикла * итерация цикла\n\t\t}\n\t\t// Теперь в массиве \"A\" лежат квадраты чисел от 0 до 14\n\t\t// До 14, потому что i < n, \"строгое\" условие\n}\n```",
-      "type": "text",
-      "width": 860,
-      "x": 747,
-      "y": 655
-    },
-    {
-      "height": 208,
-      "id": "2fb50362c52b2174",
-      "styleAttributes": {
-      },
-      "text": "Для работы с элементами массива существует индексация. Каждому элементу массива просто присваивается номер, по которому к нему можно обратиться. Для обращения к элементу массива достаточно указать его индекс, после переменной в квадратных скобках ",
-      "type": "text",
-      "width": 400,
-      "x": 270,
-      "y": 426
-    },
-    {
       "height": 117,
       "id": "4893399b684fb66e",
       "styleAttributes": {
@@ -263,6 +392,160 @@
       "width": 260,
       "x": 340,
       "y": 760
+    },
+    {
+      "height": 60,
+      "id": "ff67840de9f6430d",
+      "styleAttributes": {
+      },
+      "text": "Считывание массива",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 1140
+    },
+    {
+      "height": 328,
+      "id": "e3592ae88854c6dd",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\nclass A {\n\tpublic static void main([]String args) {\n\t\tScanner sc = new Scanner(System.in);\n\t\tint number = sc.nextInt();\n\t\tint[] array = new int[number];\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\ta[number] = sc.nextInt();\n\t\t}\n\t\t// Теперь в массиве \"array\" хранятся все введенные n чисел\n\t}\n}\n```",
+      "type": "text",
+      "width": 620,
+      "x": 980,
+      "y": 1047
+    },
+    {
+      "height": 87,
+      "id": "3ca2557b6c48205d",
+      "styleAttributes": {
+      },
+      "text": "С помощью индексации можно считывать массив и выводить его на экран",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1167
+    },
+    {
+      "height": 87,
+      "id": "e98b4b2dd03213a8",
+      "styleAttributes": {
+      },
+      "text": "Сначала вводится число `n`, потом `n` чисел которые нужно считать",
+      "type": "text",
+      "width": 260,
+      "x": 640,
+      "y": 1167
+    },
+    {
+      "height": 60,
+      "id": "4cfb412986dc1e6c",
+      "styleAttributes": {
+      },
+      "text": "Вывод массива на экран",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 1601
+    },
+    {
+      "height": 117,
+      "id": "dba2c602dcc82cbe",
+      "styleAttributes": {
+      },
+      "text": "Массив - не примитивный тип данных, поэтому его просто так на экран не вывести",
+      "type": "text",
+      "width": 260,
+      "x": 1120,
+      "y": 1780
+    },
+    {
+      "height": 207,
+      "id": "2418d591089545be",
+      "styleAttributes": {
+      },
+      "text": "Информацию в консоли можно разбить на 2 части - до и после знака `@`. До собаки указывается тип данных, который ввелся, а после - адрес в памяти компьютера",
+      "type": "text",
+      "width": 260,
+      "x": 1120,
+      "y": 1940
+    },
+    {
+      "height": 349,
+      "id": "287307f4450c17cb",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass A {\n\tpublic static void main([]String args) {\n\t\tScanner sc = new Scanner(System.in);\n\t\tint n = sc.nextInt();\n\t\tint[] array = new int[n];\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\tarray[i] = sc.nextInt();\n\t\t}\n\t\tSystem.out.println(array);\n\t}\n}\n```",
+      "type": "text",
+      "width": 435,
+      "x": 620,
+      "y": 1496
+    },
+    {
+      "height": 412,
+      "id": "62b4e1ef6e7f8530",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass A {\n\tpublic static void main([]String args) {\n\t\tScanner sc = new Scanner(System.in);\n\t\tint n = sc.nextInt();\n\t\tint[] array = new int[n];\n\t\tfor (i = 0; i < n; i++) {\n\t\t\tarray[i] = sc.nextInt();\n\t\t}\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\tSystem.out.println(array[i]);\n\t\t\t// или System.out.println(array[i] + \" \")\n\t\t}\n\t}\n}\n```",
+      "type": "text",
+      "width": 580,
+      "x": 1440,
+      "y": 1465
+    },
+    {
+      "height": 87,
+      "id": "2dd2cac55843a6c1",
+      "styleAttributes": {
+      },
+      "text": "При выводе в консоли можно получить что-то подобное: `[I@2f0e140b`",
+      "type": "text",
+      "width": 260,
+      "x": 1120,
+      "y": 1627
+    },
+    {
+      "height": 60,
+      "id": "df9932a63aac2be1",
+      "styleAttributes": {
+      },
+      "text": "Вывод введенных значений на экран",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1641
+    },
+    {
+      "height": 117,
+      "id": "9252c120bf5bbcf4",
+      "styleAttributes": {
+      },
+      "text": "Чтобы узнать длину массива, можно использовать команду `length`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 2272
+    },
+    {
+      "height": 80,
+      "id": "e46ab49ad1b02bf7",
+      "styleAttributes": {
+      },
+      "text": "```java\nint[] a = {5, 3, -4, 8, 5, -1, -2, -9, 0, 5, 4, 3, -4, 5, 3, 2, 5, -5, 4};\nSystem.out.println(a.length) // 19\n```",
+      "type": "text",
+      "width": 670,
+      "x": 620,
+      "y": 2291
+    },
+    {
+      "height": 60,
+      "id": "9ce5e23b329e67f5",
+      "styleAttributes": {
+      },
+      "text": "Длина массива",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 2301
     }
   ]
 }

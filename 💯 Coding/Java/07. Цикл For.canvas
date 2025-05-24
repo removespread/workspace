@@ -96,6 +96,8 @@
       "height": 557,
       "id": "dbffd0ee7dd1e545",
       "label": "04. Использование флагов/меток в Java",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1337,
       "x": 260,
@@ -105,6 +107,8 @@
       "height": 594,
       "id": "e5498c4e475703ba",
       "label": "01. Цикл for",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1231,
       "x": 260,
@@ -114,6 +118,8 @@
       "height": 251,
       "id": "713134b3423d52cc",
       "label": "02. Ключевое слово break",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1140,
       "x": 260,
@@ -123,6 +129,8 @@
       "height": 251,
       "id": "c04b883ec0bedf19",
       "label": "03. Ключевое слово continue",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1140,
       "x": 260,
@@ -162,28 +170,6 @@
       "y": -73
     },
     {
-      "height": 133,
-      "id": "2f96c48556a1dd40",
-      "styleAttributes": {
-      },
-      "text": "```java\nfor (<создание переменной>; <условие>; <изменение>) {\n\t// block of code\n}\n// next steps\n```",
-      "type": "text",
-      "width": 531,
-      "x": 940,
-      "y": -96
-    },
-    {
-      "height": 60,
-      "id": "9da9d53eb72286f3",
-      "styleAttributes": {
-      },
-      "text": "Пример",
-      "type": "text",
-      "width": 260,
-      "x": 1076,
-      "y": 100
-    },
-    {
       "height": 238,
       "id": "b87f78060b27426d",
       "styleAttributes": {
@@ -215,6 +201,39 @@
       "width": 260,
       "x": -160,
       "y": 900
+    },
+    {
+      "height": 60,
+      "id": "bd73c526bd2cc450",
+      "styleAttributes": {
+      },
+      "text": "Мгновенно завершает любой из циклов",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 620
+    },
+    {
+      "height": 133,
+      "id": "2f96c48556a1dd40",
+      "styleAttributes": {
+      },
+      "text": "```java\nfor (<создание переменной>; <условие>; <изменение>) {\n\t// block of code\n}\n// next steps\n```",
+      "type": "text",
+      "width": 531,
+      "x": 940,
+      "y": -96
+    },
+    {
+      "height": 60,
+      "id": "9da9d53eb72286f3",
+      "styleAttributes": {
+      },
+      "text": "Пример",
+      "type": "text",
+      "width": 260,
+      "x": 1076,
+      "y": 100
     },
     {
       "height": 60,
@@ -250,17 +269,6 @@
       "y": 621
     },
     {
-      "height": 60,
-      "id": "bd73c526bd2cc450",
-      "styleAttributes": {
-      },
-      "text": "Мгновенно завершает любой из циклов",
-      "type": "text",
-      "width": 260,
-      "x": 280,
-      "y": 620
-    },
-    {
       "height": 517,
       "id": "765ad5e03fc0a002",
       "styleAttributes": {
@@ -270,28 +278,6 @@
       "width": 457,
       "x": 1120,
       "y": 1180
-    },
-    {
-      "height": 147,
-      "id": "a0346625b8cb74ed",
-      "styleAttributes": {
-      },
-      "text": "Как правило такие переменные называют очень понятным именем и чаще всего называют начиная с `is`",
-      "type": "text",
-      "width": 260,
-      "x": 643,
-      "y": 1365
-    },
-    {
-      "height": 147,
-      "id": "acc8a81d2dd1ff7e",
-      "styleAttributes": {
-      },
-      "text": "Флаг в программировании - булевая переменная, отвечающая за ответ на какой-либо вопрос",
-      "type": "text",
-      "width": 260,
-      "x": 280,
-      "y": 1365
     },
     {
       "height": 211,
@@ -325,6 +311,28 @@
       "width": 260,
       "x": 280,
       "y": 907
+    },
+    {
+      "height": 147,
+      "id": "a0346625b8cb74ed",
+      "styleAttributes": {
+      },
+      "text": "Как правило такие переменные называют очень понятным именем и чаще всего называют начиная с `is`",
+      "type": "text",
+      "width": 260,
+      "x": 643,
+      "y": 1365
+    },
+    {
+      "height": 147,
+      "id": "acc8a81d2dd1ff7e",
+      "styleAttributes": {
+      },
+      "text": "Флаг в программировании - булевая переменная, отвечающая за ответ на какой-либо вопрос",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1365
     }
   ]
 }
