@@ -1,0 +1,197 @@
+{
+  "edges": [
+    {
+      "fromNode": "8d6e56420e1143a3",
+      "fromSide": "right",
+      "id": "49b337e106c201f8",
+      "styleAttributes": {
+      },
+      "toNode": "ee9c92f2eb95f9bc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ee9c92f2eb95f9bc",
+      "fromSide": "right",
+      "id": "01e7ab2e537f81a8",
+      "styleAttributes": {
+      },
+      "toNode": "2eac13df76c54705",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2eac13df76c54705",
+      "fromSide": "right",
+      "id": "72f0bccc177372c1",
+      "styleAttributes": {
+      },
+      "toNode": "17aea9856ff410b6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "17aea9856ff410b6",
+      "fromSide": "right",
+      "id": "5fd863cbb61d9952",
+      "styleAttributes": {
+      },
+      "toNode": "2f05e64e7c99aac7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2eac13df76c54705",
+      "fromSide": "right",
+      "id": "bf5e4354eebc465c",
+      "styleAttributes": {
+      },
+      "toNode": "690bf187a1b1c517",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "690bf187a1b1c517",
+      "fromSide": "right",
+      "id": "b9fc20aaefa7b991",
+      "styleAttributes": {
+      },
+      "toNode": "2d006c8b35ff9e2d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "690bf187a1b1c517",
+      "fromSide": "bottom",
+      "id": "4225e0171437f0b5",
+      "styleAttributes": {
+      },
+      "toNode": "50f4413ea0dd679c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "50f4413ea0dd679c",
+      "fromSide": "right",
+      "id": "5c17f888a176a152",
+      "styleAttributes": {
+      },
+      "toNode": "a319747bb1b9ba9c",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 945,
+      "id": "40c0c3f1d62501b4",
+      "label": "01. Тернарный оператор",
+      "type": "group",
+      "width": 1897,
+      "x": -100,
+      "y": -460
+    },
+    {
+      "height": 60,
+      "id": "1e00fdfa8a7261fb",
+      "styleAttributes": {
+      },
+      "text": "Тернарный оператор",
+      "type": "text",
+      "width": 260,
+      "x": -420,
+      "y": -120
+    },
+    {
+      "height": 117,
+      "id": "8d6e56420e1143a3",
+      "styleAttributes": {
+      },
+      "text": "Существуют ситуации, в которых ветвление можно записать короче, чем обычно",
+      "type": "text",
+      "width": 260,
+      "x": -80,
+      "y": -148
+    },
+    {
+      "height": 177,
+      "id": "ee9c92f2eb95f9bc",
+      "styleAttributes": {
+      },
+      "text": "Оператор называется \"тернарным\", потому что он принимает 3 значения: одно условие и два результирующих значения",
+      "type": "text",
+      "width": 260,
+      "x": 240,
+      "y": -178
+    },
+    {
+      "height": 87,
+      "id": "2eac13df76c54705",
+      "styleAttributes": {
+      },
+      "text": "Задача - вывести минимальное число из двух",
+      "type": "text",
+      "width": 260,
+      "x": 580,
+      "y": -133
+    },
+    {
+      "height": 60,
+      "id": "17aea9856ff410b6",
+      "styleAttributes": {
+      },
+      "text": "Через обычное ветвление",
+      "type": "text",
+      "width": 260,
+      "x": 960,
+      "y": -280
+    },
+    {
+      "height": 391,
+      "id": "2f05e64e7c99aac7",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass RemovespreadJavaNotes {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\t\tint a = sc.nextInt();\n\t\tint b = sc.nextInt();\n\n\t\tif (a > b) {\n\t\t\tSystem.out.println(b);\n\t\t} else {\n\t\t\tSystem.out.println(a);\n\t\t}\n\t}\n}\n```",
+      "type": "text",
+      "width": 457,
+      "x": 1320,
+      "y": -445
+    },
+    {
+      "height": 60,
+      "id": "690bf187a1b1c517",
+      "styleAttributes": {
+      },
+      "text": "С использованием тернарного оператора",
+      "type": "text",
+      "width": 260,
+      "x": 960,
+      "y": 120
+    },
+    {
+      "height": 307,
+      "id": "2d006c8b35ff9e2d",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass RemovespreadJavaNotes {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\n\t\tint a = sc.nextInt();\n\t\tint b = sc.nextInt();\n\t\tSystem.out.println((a > b) ? b : a)\n\t}\n}\n```",
+      "type": "text",
+      "width": 457,
+      "x": 1320,
+      "y": -3
+    },
+    {
+      "height": 60,
+      "id": "50f4413ea0dd679c",
+      "styleAttributes": {
+      },
+      "text": "Синтаксис тернарного оператора",
+      "type": "text",
+      "width": 260,
+      "x": 960,
+      "y": 400
+    },
+    {
+      "height": 60,
+      "id": "a319747bb1b9ba9c",
+      "styleAttributes": {
+      },
+      "text": "```java\n(<условие>) ? <истина> : <ложь>\n```",
+      "type": "text",
+      "width": 351,
+      "x": 1320,
+      "y": 400
+    }
+  ]
+}

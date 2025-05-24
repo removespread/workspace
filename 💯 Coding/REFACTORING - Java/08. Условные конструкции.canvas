@@ -276,6 +276,28 @@
     },
     {
       "height": 60,
+      "id": "b6640c408be6200a",
+      "styleAttributes": {
+      },
+      "text": "\\>= - больше или равно",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": 887
+    },
+    {
+      "height": 87,
+      "id": "b3e18fac11e44851",
+      "styleAttributes": {
+      },
+      "text": "Альтернативная конструкция (использование `else`)",
+      "type": "text",
+      "width": 260,
+      "x": -560,
+      "y": 1140
+    },
+    {
+      "height": 60,
       "id": "48e6c11e8ec6e0b9",
       "styleAttributes": {
       },
@@ -350,28 +372,6 @@
       "width": 260,
       "x": 1400,
       "y": 739
-    },
-    {
-      "height": 60,
-      "id": "b6640c408be6200a",
-      "styleAttributes": {
-      },
-      "text": "\\>= - больше или равно",
-      "type": "text",
-      "width": 260,
-      "x": 1400,
-      "y": 887
-    },
-    {
-      "height": 87,
-      "id": "b3e18fac11e44851",
-      "styleAttributes": {
-      },
-      "text": "Альтернативная конструкция (использование `else`)",
-      "type": "text",
-      "width": 260,
-      "x": -560,
-      "y": 1140
     },
     {
       "height": 177,

@@ -1,0 +1,330 @@
+{
+  "edges": [
+    {
+      "fromNode": "d378ba9a9ce96425",
+      "fromSide": "right",
+      "id": "e63d1a1520f10026",
+      "styleAttributes": {
+      },
+      "toNode": "9057e7a00e417fe1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9057e7a00e417fe1",
+      "fromSide": "right",
+      "id": "2a887d94000800ee",
+      "styleAttributes": {
+      },
+      "toNode": "2f96c48556a1dd40",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2f96c48556a1dd40",
+      "fromSide": "bottom",
+      "id": "dbc70adbe52921c1",
+      "styleAttributes": {
+      },
+      "toNode": "9da9d53eb72286f3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9da9d53eb72286f3",
+      "fromSide": "bottom",
+      "id": "76640cd673946c86",
+      "styleAttributes": {
+      },
+      "toNode": "b87f78060b27426d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "bd73c526bd2cc450",
+      "fromSide": "right",
+      "id": "d6df9beb6fac8659",
+      "styleAttributes": {
+      },
+      "toNode": "4b0bb1cb27b171f9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "97497d6eb6fb13bc",
+      "fromSide": "right",
+      "id": "f475d69b675ef31c",
+      "styleAttributes": {
+      },
+      "toNode": "48e5bb51c1b42220",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "48e5bb51c1b42220",
+      "fromSide": "right",
+      "id": "cbb7c2e90c4e45e7",
+      "styleAttributes": {
+      },
+      "toNode": "fcb7b0332ca844d1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4b0bb1cb27b171f9",
+      "fromSide": "right",
+      "id": "d40fcc7721ae16b0",
+      "styleAttributes": {
+      },
+      "toNode": "a7190a29634f943e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "acc8a81d2dd1ff7e",
+      "fromSide": "right",
+      "id": "924975a8ba36fcd2",
+      "styleAttributes": {
+      },
+      "toNode": "a0346625b8cb74ed",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a0346625b8cb74ed",
+      "fromSide": "right",
+      "id": "4e5f8be642b25f25",
+      "styleAttributes": {
+      },
+      "toNode": "765ad5e03fc0a002",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 557,
+      "id": "dbffd0ee7dd1e545",
+      "label": "04. Использование флагов/меток в Java",
+      "type": "group",
+      "width": 1337,
+      "x": 260,
+      "y": 1160
+    },
+    {
+      "height": 594,
+      "id": "e5498c4e475703ba",
+      "label": "01. Цикл for",
+      "type": "group",
+      "width": 1231,
+      "x": 260,
+      "y": -120
+    },
+    {
+      "height": 251,
+      "id": "713134b3423d52cc",
+      "label": "02. Ключевое слово break",
+      "type": "group",
+      "width": 1140,
+      "x": 260,
+      "y": 520
+    },
+    {
+      "height": 251,
+      "id": "c04b883ec0bedf19",
+      "label": "03. Ключевое слово continue",
+      "type": "group",
+      "width": 1140,
+      "x": 260,
+      "y": 820
+    },
+    {
+      "height": 60,
+      "id": "094e43d938db0b3b",
+      "styleAttributes": {
+      },
+      "text": "Цикл `for`",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": -60
+    },
+    {
+      "height": 60,
+      "id": "d378ba9a9ce96425",
+      "styleAttributes": {
+      },
+      "text": "Является модификацией цикла `while`",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": -60
+    },
+    {
+      "height": 87,
+      "id": "9057e7a00e417fe1",
+      "styleAttributes": {
+      },
+      "text": "Общий вид цикла выглядит следующим образом",
+      "type": "text",
+      "width": 260,
+      "x": 620,
+      "y": -73
+    },
+    {
+      "height": 133,
+      "id": "2f96c48556a1dd40",
+      "styleAttributes": {
+      },
+      "text": "```java\nfor (<создание переменной>; <условие>; <изменение>) {\n\t// block of code\n}\n// next steps\n```",
+      "type": "text",
+      "width": 531,
+      "x": 940,
+      "y": -96
+    },
+    {
+      "height": 60,
+      "id": "9da9d53eb72286f3",
+      "styleAttributes": {
+      },
+      "text": "Пример",
+      "type": "text",
+      "width": 260,
+      "x": 1076,
+      "y": 100
+    },
+    {
+      "height": 238,
+      "id": "b87f78060b27426d",
+      "styleAttributes": {
+      },
+      "text": "```java\npublic class A {\n\tpublic static void main(String[] args) {\n\t\tfor (int i = 1; i < 101; i++) {\n\t\t\tSystem.out.println(i);\n\t\t}\n\t\tSystem.out.println(\"Done\");\n\t}\n}\n```",
+      "type": "text",
+      "width": 460,
+      "x": 976,
+      "y": 220
+    },
+    {
+      "height": 60,
+      "id": "80329e48af9555df",
+      "styleAttributes": {
+      },
+      "text": "Ключевое слово `break`",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 580
+    },
+    {
+      "height": 60,
+      "id": "bd2f3c6767fa3688",
+      "styleAttributes": {
+      },
+      "text": "Ключевое слово `continue`",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 900
+    },
+    {
+      "height": 60,
+      "id": "6e96f976244fdcad",
+      "styleAttributes": {
+      },
+      "text": "Флаги",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 1328
+    },
+    {
+      "height": 211,
+      "id": "4b0bb1cb27b171f9",
+      "styleAttributes": {
+      },
+      "text": "```java\nfor (int i = 0; i < 15; i++) {\n\tif (i == 9) {\n\t\tSystem.out.println(\"9 найдено\");\n\t\tbreak;\n\t}\n\tSystem.out.println(\"Это число \" + i);\n}\n```",
+      "type": "text",
+      "width": 433,
+      "x": 643,
+      "y": 545
+    },
+    {
+      "height": 60,
+      "id": "a7190a29634f943e",
+      "styleAttributes": {
+      },
+      "text": "Поможет не делать лишних операций",
+      "type": "text",
+      "width": 260,
+      "x": 1120,
+      "y": 621
+    },
+    {
+      "height": 60,
+      "id": "bd73c526bd2cc450",
+      "styleAttributes": {
+      },
+      "text": "Мгновенно завершает любой из циклов",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 620
+    },
+    {
+      "height": 517,
+      "id": "765ad5e03fc0a002",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass A {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\t\tint n = sc.nextInt();\n\t\tboolean is_0 = false;\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\tint a = sc.nextInt();\n\t\t\tif (a == 0) {\n\t\t\t\tis_0 = true;\n\t\t\t\tbreak;\n\t\t\t}\n\t\t}\n\t\tif (is_0) {\n\t\t\tSystem.out.println(\"YES\");\n\t\t} else {\n\t\t\tSystem.out.println(\"NO\");\n\t\t}\n\t}\n}\n```",
+      "type": "text",
+      "width": 457,
+      "x": 1120,
+      "y": 1180
+    },
+    {
+      "height": 147,
+      "id": "a0346625b8cb74ed",
+      "styleAttributes": {
+      },
+      "text": "Как правило такие переменные называют очень понятным именем и чаще всего называют начиная с `is`",
+      "type": "text",
+      "width": 260,
+      "x": 643,
+      "y": 1365
+    },
+    {
+      "height": 147,
+      "id": "acc8a81d2dd1ff7e",
+      "styleAttributes": {
+      },
+      "text": "Флаг в программировании - булевая переменная, отвечающая за ответ на какой-либо вопрос",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 1365
+    },
+    {
+      "height": 211,
+      "id": "48e5bb51c1b42220",
+      "styleAttributes": {
+      },
+      "text": "```java\nfor (int i = 0; i < 15; i++) {\n\tif (i == 9) {\n\t\tSystem.out.println(\"9 найдено\")\n\t\tcontinue\n\t}\n\tSystem.out.println(\"Это число \" + i);\n}\n```",
+      "type": "text",
+      "width": 433,
+      "x": 643,
+      "y": 845
+    },
+    {
+      "height": 87,
+      "id": "fcb7b0332ca844d1",
+      "styleAttributes": {
+      },
+      "text": "Значительно может упростить фильтрацию внутри цикла",
+      "type": "text",
+      "width": 260,
+      "x": 1120,
+      "y": 907
+    },
+    {
+      "height": 87,
+      "id": "97497d6eb6fb13bc",
+      "styleAttributes": {
+      },
+      "text": "Мгновенно завершает итерацию цикла, но не сам цикл",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": 907
+    }
+  ]
+}

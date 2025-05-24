@@ -1,0 +1,268 @@
+{
+  "edges": [
+    {
+      "fromNode": "302b0956dc51d732",
+      "fromSide": "right",
+      "id": "0313209e140e547a",
+      "styleAttributes": {
+      },
+      "toNode": "0160266d3cca3ea5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0160266d3cca3ea5",
+      "fromSide": "right",
+      "id": "5a1b0b5a202ab9bb",
+      "styleAttributes": {
+      },
+      "toNode": "1f760922bdf4be42",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0160266d3cca3ea5",
+      "fromSide": "right",
+      "id": "da0f07c0793fad1a",
+      "styleAttributes": {
+      },
+      "toNode": "5fe559e5aaaef858",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0160266d3cca3ea5",
+      "fromSide": "right",
+      "id": "aad39f3960198088",
+      "styleAttributes": {
+      },
+      "toNode": "b80efc49089e3888",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1f760922bdf4be42",
+      "fromSide": "right",
+      "id": "a30d1429aa6a0b0c",
+      "styleAttributes": {
+      },
+      "toNode": "d2e0bad3b6215c44",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5fe559e5aaaef858",
+      "fromSide": "right",
+      "id": "ae33b22709830573",
+      "styleAttributes": {
+      },
+      "toNode": "fb8b7c1df0586af7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b80efc49089e3888",
+      "fromSide": "right",
+      "id": "e617fc02fab7d96c",
+      "styleAttributes": {
+      },
+      "toNode": "c177936d0e68d186",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2fb50362c52b2174",
+      "fromSide": "right",
+      "id": "153caa5b7cd656b2",
+      "styleAttributes": {
+      },
+      "toNode": "9fed25c1e38f97b2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2fb50362c52b2174",
+      "fromSide": "bottom",
+      "id": "ab4589090712a449",
+      "styleAttributes": {
+      },
+      "toNode": "4893399b684fb66e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4893399b684fb66e",
+      "fromSide": "right",
+      "id": "1ef717091beb9f3f",
+      "styleAttributes": {
+      },
+      "toNode": "097f7b30d3424609",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 597,
+      "id": "62ec4509eb814388",
+      "label": "02. Индексация по структурам данных",
+      "type": "group",
+      "width": 1377,
+      "x": 260,
+      "y": 400
+    },
+    {
+      "height": 597,
+      "id": "da86763ac41a0f78",
+      "label": "01. Массив как сущность",
+      "type": "group",
+      "width": 1300,
+      "x": 260,
+      "y": -300
+    },
+    {
+      "height": 60,
+      "id": "103787dbe4b06057",
+      "styleAttributes": {
+      },
+      "text": "Структуры данных",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": -60
+    },
+    {
+      "height": 60,
+      "id": "0160266d3cca3ea5",
+      "styleAttributes": {
+      },
+      "text": "Массивы создаются следующим образом",
+      "type": "text",
+      "width": 260,
+      "x": 600,
+      "y": -60
+    },
+    {
+      "height": 147,
+      "id": "302b0956dc51d732",
+      "styleAttributes": {
+      },
+      "text": "Массив - самая простая структура данных, которая является упорядоченным набором однотипных элементов",
+      "type": "text",
+      "width": 260,
+      "x": 280,
+      "y": -103
+    },
+    {
+      "height": 207,
+      "id": "5fe559e5aaaef858",
+      "styleAttributes": {
+      },
+      "text": "Указываем тип данных, который будет лежать в массиве, ставим квадратные скобочки и через конструкцию `new` указываем размерность массива",
+      "type": "text",
+      "width": 260,
+      "x": 940,
+      "y": -133
+    },
+    {
+      "height": 117,
+      "id": "1f760922bdf4be42",
+      "styleAttributes": {
+      },
+      "text": "Указываем тип данных, который будет лежать в массиве и ставим квадратные скобочки",
+      "type": "text",
+      "width": 260,
+      "x": 940,
+      "y": -280
+    },
+    {
+      "height": 177,
+      "id": "b80efc49089e3888",
+      "styleAttributes": {
+      },
+      "text": "Указываем тип данных, который будет лежать в массиве, ставим квадратные скобочки и в фигурных скобках указываются значения",
+      "type": "text",
+      "width": 260,
+      "x": 940,
+      "y": 100
+    },
+    {
+      "height": 60,
+      "id": "d2e0bad3b6215c44",
+      "styleAttributes": {
+      },
+      "text": "`double[] a;`",
+      "type": "text",
+      "width": 260,
+      "x": 1240,
+      "y": -251
+    },
+    {
+      "height": 60,
+      "id": "c177936d0e68d186",
+      "styleAttributes": {
+      },
+      "text": "`char[] c = {'c', 'a', 't'};`",
+      "type": "text",
+      "width": 300,
+      "x": 1240,
+      "y": 159
+    },
+    {
+      "height": 60,
+      "id": "fb8b7c1df0586af7",
+      "styleAttributes": {
+      },
+      "text": "`int[] b = new int[20];`",
+      "type": "text",
+      "width": 260,
+      "x": 1240,
+      "y": -59
+    },
+    {
+      "height": 60,
+      "id": "9589c727a13a9a26",
+      "styleAttributes": {
+      },
+      "text": "Индексация",
+      "type": "text",
+      "width": 260,
+      "x": -160,
+      "y": 520
+    },
+    {
+      "height": 133,
+      "id": "9fed25c1e38f97b2",
+      "styleAttributes": {
+      },
+      "text": "```java\nint[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19} // 19 элементов\nSystem.out.println(a[0]); // 1\nSystem.out.println(a[18]); // 19\nSystem.out.println(a[6]); // 7\n```",
+      "type": "text",
+      "width": 813,
+      "x": 747,
+      "y": 464
+    },
+    {
+      "height": 328,
+      "id": "097f7b30d3424609",
+      "styleAttributes": {
+      },
+      "text": "```java\n// Создание массива на 15 элемент, каждый элемент которого равен квадрату индекса\n\nclass A {\n\tpublic static void main([]String args) {\n\t\tint n = 15; // Создание переменной n\n\t\tint[] a = new int[n] // Создание целочисленного массива, в котором размерность равна 15 (n)\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\ta[i] = i * i // а[индекс] = итерация цикла * итерация цикла\n\t\t}\n\t\t// Теперь в массиве \"A\" лежат квадраты чисел от 0 до 14\n\t\t// До 14, потому что i < n, \"строгое\" условие\n}\n```",
+      "type": "text",
+      "width": 860,
+      "x": 747,
+      "y": 655
+    },
+    {
+      "height": 208,
+      "id": "2fb50362c52b2174",
+      "styleAttributes": {
+      },
+      "text": "Для работы с элементами массива существует индексация. Каждому элементу массива просто присваивается номер, по которому к нему можно обратиться. Для обращения к элементу массива достаточно указать его индекс, после переменной в квадратных скобках ",
+      "type": "text",
+      "width": 400,
+      "x": 270,
+      "y": 426
+    },
+    {
+      "height": 117,
+      "id": "4893399b684fb66e",
+      "styleAttributes": {
+      },
+      "text": "С помощью индексации можно генерировать массивы  помощью циклов",
+      "type": "text",
+      "width": 260,
+      "x": 340,
+      "y": 760
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "edges": [
+    {
+      "fromNode": "4ef3584779bbc906",
+      "fromSide": "right",
+      "id": "4d778c97046eacd0",
+      "styleAttributes": {
+      },
+      "toNode": "4fa216631379e4b1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4fa216631379e4b1",
+      "fromSide": "right",
+      "id": "4a97de9dc9002fa7",
+      "styleAttributes": {
+      },
+      "toNode": "05f5a414743be498",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "05f5a414743be498",
+      "fromSide": "right",
+      "id": "3c35c645e358eff3",
+      "styleAttributes": {
+      },
+      "toNode": "9da26b457ea7d3c9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9da26b457ea7d3c9",
+      "fromSide": "right",
+      "id": "c405c6e7c0d4e82e",
+      "styleAttributes": {
+      },
+      "toNode": "29797e3a9d9e688f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "29797e3a9d9e688f",
+      "fromSide": "bottom",
+      "id": "5fd5a56e0b00ce08",
+      "styleAttributes": {
+      },
+      "toNode": "906ce73986af8a8c",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 405,
+      "id": "30020d55c1a9da89",
+      "label": "01. Явное приведение типов в Java",
+      "type": "group",
+      "width": 1800,
+      "x": 120,
+      "y": -160
+    },
+    {
+      "height": 60,
+      "id": "fcd5e0937e07eaa1",
+      "styleAttributes": {
+      },
+      "text": "Явное приведение типов",
+      "type": "text",
+      "width": 260,
+      "x": -240,
+      "y": -60
+    },
+    {
+      "height": 117,
+      "id": "4ef3584779bbc906",
+      "styleAttributes": {
+      },
+      "text": "В Java есть возможность приведения одного типа к другому, при условии что это возможно",
+      "type": "text",
+      "width": 260,
+      "x": 140,
+      "y": -88
+    },
+    {
+      "height": 237,
+      "id": "4fa216631379e4b1",
+      "styleAttributes": {
+      },
+      "text": "Например: в двух целочисленных переменных лежат значения, нужно поделить одно на другое, но при таком делении результатом будет целочисленное значение",
+      "type": "text",
+      "width": 260,
+      "x": 460,
+      "y": -148
+    },
+    {
+      "height": 60,
+      "id": "05f5a414743be498",
+      "styleAttributes": {
+      },
+      "text": "Можно явно привести тип `int` к типу `double`",
+      "type": "text",
+      "width": 260,
+      "x": 780,
+      "y": -60
+    },
+    {
+      "height": 147,
+      "id": "9da26b457ea7d3c9",
+      "styleAttributes": {
+      },
+      "text": "Делается это при помощи дописывания названия типа данных в обычных скобках перед переменной",
+      "type": "text",
+      "width": 260,
+      "x": 1100,
+      "y": -103
+    },
+    {
+      "height": 133,
+      "id": "29797e3a9d9e688f",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 37;\nint b = 4;\nSystem.out.println(a / b); // 9\nSystem.out.println(a / (double)b); // 9.25\n```",
+      "type": "text",
+      "width": 460,
+      "x": 1440,
+      "y": -96
+    },
+    {
+      "height": 117,
+      "id": "906ce73986af8a8c",
+      "styleAttributes": {
+      },
+      "text": "Конструкция `(double)b` - приводит переменную `b` с типом `int` в тип `double`",
+      "type": "text",
+      "width": 260,
+      "x": 1540,
+      "y": 100
+    }
+  ]
+}

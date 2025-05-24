@@ -1,0 +1,226 @@
+{
+  "edges": [
+    {
+      "fromNode": "4fd62477d4ad20c0",
+      "fromSide": "right",
+      "id": "ffbb60bb9a651758",
+      "styleAttributes": {
+      },
+      "toNode": "9967ef3abaff345d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "464ffa46e41523db",
+      "fromSide": "right",
+      "id": "2a54ffb23f506222",
+      "styleAttributes": {
+      },
+      "toNode": "f5802f9d5d75822d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f5802f9d5d75822d",
+      "fromSide": "right",
+      "id": "7d47ac316ad03283",
+      "styleAttributes": {
+      },
+      "toNode": "30dd4dbe820de5fd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "30dd4dbe820de5fd",
+      "fromSide": "right",
+      "id": "04704a22a8596e96",
+      "styleAttributes": {
+      },
+      "toNode": "581177e5074a7173",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "581177e5074a7173",
+      "fromSide": "right",
+      "id": "b768305c437bd944",
+      "styleAttributes": {
+      },
+      "toNode": "98fc3ee12e64b41a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "581177e5074a7173",
+      "fromSide": "bottom",
+      "id": "ad3745cb71d28c6c",
+      "styleAttributes": {
+      },
+      "toNode": "71db4c5bac657c4b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "71db4c5bac657c4b",
+      "fromSide": "right",
+      "id": "6eabfb427be9ad73",
+      "styleAttributes": {
+      },
+      "toNode": "fa69db422dcfeaf5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71db4c5bac657c4b",
+      "fromSide": "bottom",
+      "id": "7f851a5ae2116b52",
+      "styleAttributes": {
+      },
+      "toNode": "b7edb0d5051badde",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b7edb0d5051badde",
+      "fromSide": "right",
+      "id": "e7d2012cc8ae9b63",
+      "styleAttributes": {
+      },
+      "toNode": "cf2909d6b48c0554",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 684,
+      "id": "e9f9af9947dc6919",
+      "label": "02. Цикл while",
+      "type": "group",
+      "width": 1989,
+      "x": -200,
+      "y": 320
+    },
+    {
+      "height": 158,
+      "id": "543a7bf40bbb3457",
+      "label": "01. Понятие из Wikipedia",
+      "type": "group",
+      "width": 880,
+      "x": -200,
+      "y": -80
+    },
+    {
+      "height": 60,
+      "id": "4fd62477d4ad20c0",
+      "styleAttributes": {
+      },
+      "text": "Циклы",
+      "type": "text",
+      "width": 260,
+      "x": -180,
+      "y": -40
+    },
+    {
+      "height": 118,
+      "id": "9967ef3abaff345d",
+      "styleAttributes": {
+      },
+      "text": "Разновидность управляющей конструкции в высокоуровневых языках программирования, предназначенная для организации многократного исполнения набора инструкций",
+      "type": "text",
+      "width": 480,
+      "x": 180,
+      "y": -69
+    },
+    {
+      "height": 60,
+      "id": "464ffa46e41523db",
+      "styleAttributes": {
+      },
+      "text": "Цикл `While` - цикл с предусловием",
+      "type": "text",
+      "width": 260,
+      "x": -180,
+      "y": 380
+    },
+    {
+      "height": 117,
+      "id": "f5802f9d5d75822d",
+      "styleAttributes": {
+      },
+      "text": "Данный цикл выполняет заданный набор команд пока истинно какое-либо условие",
+      "type": "text",
+      "width": 260,
+      "x": 180,
+      "y": 352
+    },
+    {
+      "height": 147,
+      "id": "30dd4dbe820de5fd",
+      "styleAttributes": {
+      },
+      "text": "Название его именно такое, потому что он сначала проверяет условие и только потом выполняет команды",
+      "type": "text",
+      "width": 260,
+      "x": 530,
+      "y": 337
+    },
+    {
+      "height": 60,
+      "id": "581177e5074a7173",
+      "styleAttributes": {
+      },
+      "text": "Синтаксис цикла выглядит следующим образом",
+      "type": "text",
+      "width": 260,
+      "x": 860,
+      "y": 381
+    },
+    {
+      "height": 159,
+      "id": "98fc3ee12e64b41a",
+      "styleAttributes": {
+      },
+      "text": "```java\nwhile (<условие>) {\n\tкоманда1;\n\tкоманда2;\n}\n<продолжение>\n```",
+      "type": "text",
+      "width": 252,
+      "x": 1180,
+      "y": 332
+    },
+    {
+      "height": 147,
+      "id": "71db4c5bac657c4b",
+      "styleAttributes": {
+      },
+      "text": "Например, нужно написать ПО для кондиционера, то схематично часть программы была бы такая",
+      "type": "text",
+      "width": 260,
+      "x": 860,
+      "y": 560
+    },
+    {
+      "height": 133,
+      "id": "fa69db422dcfeaf5",
+      "styleAttributes": {
+      },
+      "text": "```java\nwhile (<комнатная температура> > <нормальная температура>) {\n\t<охлаждение воздуха в комнате>\n}\n<прекращение работы охлаждающего элемента>\n```",
+      "type": "text",
+      "width": 589,
+      "x": 1180,
+      "y": 567
+    },
+    {
+      "height": 87,
+      "id": "b7edb0d5051badde",
+      "styleAttributes": {
+      },
+      "text": "Код для вывода первых ста натуральных чисел на экран",
+      "type": "text",
+      "width": 260,
+      "x": 860,
+      "y": 800
+    },
+    {
+      "height": 264,
+      "id": "cf2909d6b48c0554",
+      "styleAttributes": {
+      },
+      "text": "```java\nclass A {\n\tpublic static void main(String[] args) {\n\t\tint i = 1;\n\t\twhile(i < 101) { // цикл с предусловием\n\t\t\tSystem.out.println(i++);\n\t\t}\n\t\tSystem.out.println(\"end\");\n\t}\n}\n```",
+      "type": "text",
+      "width": 500,
+      "x": 1180,
+      "y": 712
+    }
+  ]
+}

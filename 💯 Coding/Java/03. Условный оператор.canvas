@@ -1,0 +1,1018 @@
+{
+  "edges": [
+    {
+      "fromNode": "1ffb2b163ce92b26",
+      "fromSide": "right",
+      "id": "44a81fc0203ec5ea",
+      "styleAttributes": {
+      },
+      "toNode": "d5b2194cc99ca354",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d5b2194cc99ca354",
+      "fromSide": "right",
+      "id": "6adc2e268dc28a4c",
+      "styleAttributes": {
+      },
+      "toNode": "98321e754be59a01",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "98321e754be59a01",
+      "fromSide": "right",
+      "id": "9d14edb04654da62",
+      "styleAttributes": {
+      },
+      "toNode": "34a69caefcc912db",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "34a69caefcc912db",
+      "fromSide": "bottom",
+      "id": "001e9a9344af0888",
+      "styleAttributes": {
+      },
+      "toNode": "2e7b5bdbd7a3c14d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1ffb2b163ce92b26",
+      "fromSide": "bottom",
+      "id": "c4692c5276cf6c61",
+      "styleAttributes": {
+      },
+      "toNode": "01736e080a884ab4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "01736e080a884ab4",
+      "fromSide": "right",
+      "id": "e34d8acb48187c0a",
+      "styleAttributes": {
+      },
+      "toNode": "ac9fc5f870467580",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "01736e080a884ab4",
+      "fromSide": "right",
+      "id": "c3e6a6ca95d857ee",
+      "styleAttributes": {
+      },
+      "toNode": "34698f9c24b1b2aa",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "34698f9c24b1b2aa",
+      "fromSide": "right",
+      "id": "5418ff1aed8195e5",
+      "styleAttributes": {
+      },
+      "toNode": "c2b76e65d9f422f9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c2b76e65d9f422f9",
+      "fromSide": "right",
+      "id": "70707175ac81d44a",
+      "styleAttributes": {
+      },
+      "toNode": "fb7af3398c3a5a7b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "01736e080a884ab4",
+      "fromSide": "bottom",
+      "id": "62872d663326005a",
+      "styleAttributes": {
+      },
+      "toNode": "c715e03c51130aed",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c715e03c51130aed",
+      "fromSide": "right",
+      "id": "356e7fc8cea7413d",
+      "styleAttributes": {
+      },
+      "toNode": "fd152511a6ee1173",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c715e03c51130aed",
+      "fromSide": "right",
+      "id": "c53b74c63c5e6beb",
+      "styleAttributes": {
+      },
+      "toNode": "bccb95f40cc5cbf7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bccb95f40cc5cbf7",
+      "fromSide": "right",
+      "id": "0b1402475893ff8e",
+      "styleAttributes": {
+      },
+      "toNode": "22612bbbbacbe6fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "38506f35e9106716",
+      "fromSide": "right",
+      "id": "1d459b92833cb0e0",
+      "styleAttributes": {
+      },
+      "toNode": "71302d9b1fa54a65",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71302d9b1fa54a65",
+      "fromSide": "right",
+      "id": "e220cfe23acb1234",
+      "styleAttributes": {
+      },
+      "toNode": "b12167b334e7014c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71302d9b1fa54a65",
+      "fromSide": "right",
+      "id": "5b4ef1b706a42ffa",
+      "styleAttributes": {
+      },
+      "toNode": "f7771a9366abff39",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71302d9b1fa54a65",
+      "fromSide": "right",
+      "id": "811a210980702c2a",
+      "styleAttributes": {
+      },
+      "toNode": "f2bf1b2290a6dc72",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71302d9b1fa54a65",
+      "fromSide": "right",
+      "id": "1efae7a263480eaf",
+      "styleAttributes": {
+      },
+      "toNode": "e3907176c4620fc4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71302d9b1fa54a65",
+      "fromSide": "right",
+      "id": "ce34f27785b122dc",
+      "styleAttributes": {
+      },
+      "toNode": "aa9026230197151f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "71302d9b1fa54a65",
+      "fromSide": "right",
+      "id": "4b5c2cd1fa4e3f1e",
+      "styleAttributes": {
+      },
+      "toNode": "0263e65ec127f496",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b12167b334e7014c",
+      "fromSide": "right",
+      "id": "9e665e4e8361adba",
+      "styleAttributes": {
+      },
+      "toNode": "4cd25f4f4c387beb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4cd25f4f4c387beb",
+      "fromSide": "right",
+      "id": "236299ee48b2a9ec",
+      "styleAttributes": {
+      },
+      "toNode": "d53b233dac819f13",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4cd25f4f4c387beb",
+      "fromSide": "right",
+      "id": "bb3c30e951c4dd56",
+      "styleAttributes": {
+      },
+      "toNode": "580e3e7a678d3e89",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4cd25f4f4c387beb",
+      "fromSide": "right",
+      "id": "f8003439a9c303a0",
+      "styleAttributes": {
+      },
+      "toNode": "761d14f61937d3b9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "761d14f61937d3b9",
+      "fromSide": "right",
+      "id": "36d9d0e7ba7e0424",
+      "styleAttributes": {
+      },
+      "toNode": "67c6c7f939089abf",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "67c6c7f939089abf",
+      "fromSide": "bottom",
+      "id": "edf24ef0c2f3a34f",
+      "styleAttributes": {
+      },
+      "toNode": "8f9f614c5196a20d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "69442f5b9a900fc0",
+      "fromSide": "right",
+      "id": "69b8e249b081b7db",
+      "styleAttributes": {
+      },
+      "toNode": "52bcb5f0291d07f2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "52bcb5f0291d07f2",
+      "fromSide": "right",
+      "id": "7e08e39db7bad581",
+      "styleAttributes": {
+      },
+      "toNode": "b6a6cb858eb0f4c9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9c7998480173b261",
+      "fromSide": "right",
+      "id": "8878756612240d01",
+      "styleAttributes": {
+      },
+      "toNode": "3ab185f9adca1ac0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3ab185f9adca1ac0",
+      "fromSide": "right",
+      "id": "5f44a132b2d895ed",
+      "styleAttributes": {
+      },
+      "toNode": "2b29631a6ae596ad",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2b29631a6ae596ad",
+      "fromSide": "right",
+      "id": "cdba53febf5fd5b9",
+      "styleAttributes": {
+      },
+      "toNode": "b4e4f73e4de92666",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b4e4f73e4de92666",
+      "fromSide": "bottom",
+      "id": "ff254dd84add2fe5",
+      "styleAttributes": {
+      },
+      "toNode": "d5faf6d8ec3e03d9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c316edbfdeb719f3",
+      "fromSide": "right",
+      "id": "b0dcd284666a4b04",
+      "styleAttributes": {
+      },
+      "toNode": "22f744fea9a93714",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c316edbfdeb719f3",
+      "fromSide": "bottom",
+      "id": "6c32aa436dd3a28e",
+      "styleAttributes": {
+      },
+      "toNode": "4938adb891cbc344",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4938adb891cbc344",
+      "fromSide": "right",
+      "id": "dc06ae2936d82fdb",
+      "styleAttributes": {
+      },
+      "toNode": "355fd9187c8c5a78",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4938adb891cbc344",
+      "fromSide": "bottom",
+      "id": "3f0b79b2ca7eab45",
+      "styleAttributes": {
+      },
+      "toNode": "d757f4bf4052d2de",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ee0a56574dcfa500",
+      "fromSide": "right",
+      "id": "8b4280f548209596",
+      "styleAttributes": {
+      },
+      "toNode": "284ac7f3b0927fbf",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "355fd9187c8c5a78",
+      "fromSide": "right",
+      "id": "e4d51d8ffba570b0",
+      "styleAttributes": {
+      },
+      "toNode": "ee0a56574dcfa500",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d757f4bf4052d2de",
+      "fromSide": "right",
+      "id": "8b4e8fe077b8cf48",
+      "styleAttributes": {
+      },
+      "toNode": "6608df9f6c180ba4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bb5778207f1cd3da",
+      "fromSide": "right",
+      "id": "247089203258c105",
+      "styleAttributes": {
+      },
+      "toNode": "54007bcf460d43ad",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa5b8ef4520e043a",
+      "fromSide": "right",
+      "id": "339e965c0992ade5",
+      "styleAttributes": {
+      },
+      "toNode": "bb5778207f1cd3da",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "be5f5f84b936ce22",
+      "fromSide": "right",
+      "id": "6c9f424ab7f6aa9b",
+      "styleAttributes": {
+      },
+      "toNode": "54007bcf460d43ad",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aa5b8ef4520e043a",
+      "fromSide": "right",
+      "id": "4fec0f5ace103306",
+      "styleAttributes": {
+      },
+      "toNode": "be5f5f84b936ce22",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6608df9f6c180ba4",
+      "fromSide": "right",
+      "id": "7f1fcc2a81e8a648",
+      "styleAttributes": {
+      },
+      "toNode": "aa5b8ef4520e043a",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1135,
+      "id": "9bbb8181d2cd1685",
+      "label": "01. Оператор ветвления",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1540,
+      "x": 180,
+      "y": -140
+    },
+    {
+      "height": 954,
+      "id": "8b9cebc9dbce3613",
+      "label": "03. Тип данных boolean и сравнение строк",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1571,
+      "x": 180,
+      "y": 1740
+    },
+    {
+      "height": 610,
+      "id": "d851f0940c1c879c",
+      "label": "02. Операторы сравнения",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2180,
+      "x": 180,
+      "y": 1080
+    },
+    {
+      "height": 677,
+      "id": "f0c0ccc340ef2f97",
+      "label": "04. Оператор присваивания",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1959,
+      "x": 180,
+      "y": 2760
+    },
+    {
+      "height": 60,
+      "id": "bccb95f40cc5cbf7",
+      "styleAttributes": {
+      },
+      "text": "Пример дополненного кода",
+      "type": "text",
+      "width": 260,
+      "x": 556,
+      "y": 840
+    },
+    {
+      "height": 60,
+      "id": "b12167b334e7014c",
+      "styleAttributes": {
+      },
+      "text": "\\> - Больше",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 1120
+    },
+    {
+      "height": 60,
+      "id": "f7771a9366abff39",
+      "styleAttributes": {
+      },
+      "text": "< - Меньше",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 1194
+    },
+    {
+      "height": 87,
+      "id": "4cd25f4f4c387beb",
+      "styleAttributes": {
+      },
+      "text": "Для комбинирования условий используются следующие конструкции",
+      "type": "text",
+      "width": 260,
+      "x": 1204,
+      "y": 1107
+    },
+    {
+      "height": 60,
+      "id": "d53b233dac819f13",
+      "styleAttributes": {
+      },
+      "text": "`&&` - Логическое \"И\"",
+      "type": "text",
+      "width": 260,
+      "x": 1560,
+      "y": 1121
+    },
+    {
+      "height": 60,
+      "id": "580e3e7a678d3e89",
+      "styleAttributes": {
+      },
+      "text": "`||` - Логическое \"ИЛИ\"",
+      "type": "text",
+      "width": 260,
+      "x": 1560,
+      "y": 1200
+    },
+    {
+      "height": 60,
+      "id": "e3907176c4620fc4",
+      "styleAttributes": {
+      },
+      "text": "<= - Меньше или равно",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 1340
+    },
+    {
+      "height": 60,
+      "id": "0263e65ec127f496",
+      "styleAttributes": {
+      },
+      "text": "!= - Не равно",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 1500
+    },
+    {
+      "height": 60,
+      "id": "761d14f61937d3b9",
+      "styleAttributes": {
+      },
+      "text": "Например",
+      "type": "text",
+      "width": 260,
+      "x": 1600,
+      "y": 1400
+    },
+    {
+      "height": 60,
+      "id": "aa9026230197151f",
+      "styleAttributes": {
+      },
+      "text": "== - Равно",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 1420
+    },
+    {
+      "height": 159,
+      "id": "c2b76e65d9f422f9",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nif (a > 0) {\n\tSystem.out.println(\"Число положительное\");\n}\n```",
+      "type": "text",
+      "width": 480,
+      "x": 860,
+      "y": 384
+    },
+    {
+      "height": 211,
+      "id": "fd152511a6ee1173",
+      "styleAttributes": {
+      },
+      "text": "```java\nif (условие) {\n\tкоманда1;\n\tкоманда2;\n} else {\n\tкоманда1;\n\tкоманда2;\n}\n```",
+      "type": "text",
+      "width": 211,
+      "x": 581,
+      "y": 558
+    },
+    {
+      "height": 60,
+      "id": "98321e754be59a01",
+      "styleAttributes": {
+      },
+      "text": "Если перевести на простой пример из жизни",
+      "type": "text",
+      "width": 260,
+      "x": 1100,
+      "y": -60
+    },
+    {
+      "height": 60,
+      "id": "71302d9b1fa54a65",
+      "styleAttributes": {
+      },
+      "text": "Основной перечень операторов",
+      "type": "text",
+      "width": 260,
+      "x": 540,
+      "y": 1120
+    },
+    {
+      "height": 60,
+      "id": "1a40c66ef543b2b1",
+      "styleAttributes": {
+      },
+      "text": "Операторы сравнения",
+      "type": "text",
+      "width": 260,
+      "x": -180,
+      "y": 1120
+    },
+    {
+      "height": 87,
+      "id": "38506f35e9106716",
+      "styleAttributes": {
+      },
+      "text": "Для записи сравнения используются различные операторы",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 1107
+    },
+    {
+      "height": 60,
+      "id": "f2bf1b2290a6dc72",
+      "styleAttributes": {
+      },
+      "text": "\\>= - Больше или равно",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 1260
+    },
+    {
+      "height": 200,
+      "id": "67c6c7f939089abf",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nint b = sc.nextInt();\nif ((a == 6) && (b != 3)) {\n\tSystem.out.println(\"Result\")\n}\n```",
+      "type": "text",
+      "width": 420,
+      "x": 1920,
+      "y": 1330
+    },
+    {
+      "height": 117,
+      "id": "8f9f614c5196a20d",
+      "styleAttributes": {
+      },
+      "text": "Код выведет \"Result\" только при условии, что первое число равно 6, а второе не равно 3",
+      "type": "text",
+      "width": 260,
+      "x": 2000,
+      "y": 1560
+    },
+    {
+      "height": 267,
+      "id": "2e7b5bdbd7a3c14d",
+      "styleAttributes": {
+      },
+      "text": "При выполнении какого-либо условия в конкретной ситуации мы можем вести себя по-разному. Точно так же и программа в зависимости от условия может выполнять различные действия",
+      "type": "text",
+      "width": 260,
+      "x": 1440,
+      "y": 59
+    },
+    {
+      "height": 87,
+      "id": "34698f9c24b1b2aa",
+      "styleAttributes": {
+      },
+      "text": "Пример элементарного блока кода, в котором используется ветвление",
+      "type": "text",
+      "width": 260,
+      "x": 556,
+      "y": 420
+    },
+    {
+      "height": 87,
+      "id": "c715e03c51130aed",
+      "styleAttributes": {
+      },
+      "text": "Полное ветвление записывается следующим образом",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 620
+    },
+    {
+      "height": 60,
+      "id": "a7bfad929fc178c6",
+      "styleAttributes": {
+      },
+      "text": "Ветвление",
+      "type": "text",
+      "width": 260,
+      "x": -180,
+      "y": -60
+    },
+    {
+      "height": 60,
+      "id": "1ffb2b163ce92b26",
+      "styleAttributes": {
+      },
+      "text": "Оператор ветвления",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": -60
+    },
+    {
+      "height": 178,
+      "id": "d5b2194cc99ca354",
+      "styleAttributes": {
+      },
+      "text": "Оператор, конструкция языка программирования, обеспечивающая выполнение определенной команды (набора команд) только при условии истинности некоторого логического выражения, либо выполнение одной из нескольких команд (наборов команд) в зависимости от значения некоторого выражения",
+      "type": "text",
+      "width": 480,
+      "x": 540,
+      "y": -119
+    },
+    {
+      "height": 60,
+      "id": "34a69caefcc912db",
+      "styleAttributes": {
+      },
+      "text": "**Если** на улице идет дождь, то **возьму** зонт",
+      "type": "text",
+      "width": 260,
+      "x": 1440,
+      "y": -60
+    },
+    {
+      "height": 87,
+      "id": "01736e080a884ab4",
+      "styleAttributes": {
+      },
+      "text": "В общем виде оператор ветвления с одной ветвью записывается так",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 180
+    },
+    {
+      "height": 207,
+      "id": "fb7af3398c3a5a7b",
+      "styleAttributes": {
+      },
+      "text": "При выполнении этого кода, если ввести положительное число, то на экране появится соответствующая надпись. В противном случае ничего не будет",
+      "type": "text",
+      "width": 260,
+      "x": 1440,
+      "y": 360
+    },
+    {
+      "height": 60,
+      "id": "7cd1200a3f9d014c",
+      "styleAttributes": {
+      },
+      "text": "Оператор присваивания",
+      "type": "text",
+      "width": 260,
+      "x": -180,
+      "y": 3140
+    },
+    {
+      "height": 87,
+      "id": "ee0a56574dcfa500",
+      "styleAttributes": {
+      },
+      "text": "Данное сокращение работает со всеми операциями",
+      "type": "text",
+      "width": 260,
+      "x": 1078,
+      "y": 2955
+    },
+    {
+      "height": 211,
+      "id": "284ac7f3b0927fbf",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 5; // оператор присваивания\na += 10; // сложение\na *= 2; // умножение\na /= 3; // деление\na -= 2; // вычитание\na %= 3; // остаток от деления\n```",
+      "type": "text",
+      "width": 334,
+      "x": 1420,
+      "y": 2893
+    },
+    {
+      "height": 117,
+      "id": "bb5778207f1cd3da",
+      "styleAttributes": {
+      },
+      "text": "Постинкремент - сначала возвращает значение переменной, а потом увеличивает его",
+      "type": "text",
+      "width": 260,
+      "x": 1420,
+      "y": 3152
+    },
+    {
+      "height": 106,
+      "id": "54007bcf460d43ad",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 10;\nint b = a++; // b == 10, a == 11\nint c = ++a; // c = 12, a == 12\n```",
+      "type": "text",
+      "width": 359,
+      "x": 1760,
+      "y": 3157
+    },
+    {
+      "height": 106,
+      "id": "6608df9f6c180ba4",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 10;\na++; // постинкремент, а = 11\n++a; // прединкремент, а = 12\n```",
+      "type": "text",
+      "width": 334,
+      "x": 520,
+      "y": 3157
+    },
+    {
+      "height": 60,
+      "id": "d757f4bf4052d2de",
+      "styleAttributes": {
+      },
+      "text": "Инкрементирование и декрементирование",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 3180
+    },
+    {
+      "height": 117,
+      "id": "be5f5f84b936ce22",
+      "styleAttributes": {
+      },
+      "text": "Прединкремент - сначала увеличивает значение переменной, а потом возвращает его",
+      "type": "text",
+      "width": 260,
+      "x": 1420,
+      "y": 3292
+    },
+    {
+      "height": 159,
+      "id": "ac9fc5f870467580",
+      "styleAttributes": {
+      },
+      "text": "```java\nif (условие) {\n\tкоманда1;\n\tкоманда2;\n\t// another code\n}\n```",
+      "type": "text",
+      "width": 252,
+      "x": 560,
+      "y": 144
+    },
+    {
+      "height": 211,
+      "id": "22612bbbbacbe6fc",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nif (a > 0) {\n\tSystem.out.println(\"Число положительное\");\n} else {\n\tSystem.out.println(\"Число отрицательное\");\n}\n```",
+      "type": "text",
+      "width": 474,
+      "x": 860,
+      "y": 765
+    },
+    {
+      "height": 88,
+      "id": "52bcb5f0291d07f2",
+      "styleAttributes": {
+      },
+      "text": "Результат такого значения можно занести в переменную",
+      "type": "text",
+      "width": 260,
+      "x": 540,
+      "y": 1849
+    },
+    {
+      "height": 211,
+      "id": "b6a6cb858eb0f4c9",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nboolean a_is_positive = a > 0;\nif (a_is_positive) {\n\tSystem.out.println(\"Число положительное\");\n}\n```",
+      "type": "text",
+      "width": 451,
+      "x": 900,
+      "y": 1788
+    },
+    {
+      "height": 207,
+      "id": "d5faf6d8ec3e03d9",
+      "styleAttributes": {
+      },
+      "text": "Знак `!` обозначает отрицание чего либо. Если поставить его перед конструкцией, которая возвращает значение `boolean`, то `!` его инвертирует",
+      "type": "text",
+      "width": 260,
+      "x": 1376,
+      "y": 2467
+    },
+    {
+      "height": 117,
+      "id": "9c7998480173b261",
+      "styleAttributes": {
+      },
+      "text": "Строки - ссылочный тип данных, поэтому обычное сравнение для него не работает",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 2232
+    },
+    {
+      "height": 148,
+      "id": "aa5b8ef4520e043a",
+      "styleAttributes": {
+      },
+      "text": "Помимо того, что инкремент увеличивает значение переменной, он также и возвращает значение, которое тоже можно записать в переменную, и вот тут и разница между двумя вариантами",
+      "type": "text",
+      "width": 380,
+      "x": 940,
+      "y": 3136
+    },
+    {
+      "height": 117,
+      "id": "c316edbfdeb719f3",
+      "styleAttributes": {
+      },
+      "text": "Специальные команды, которые позволяют занести значение в переменную",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 2772
+    },
+    {
+      "height": 237,
+      "id": "355fd9187c8c5a78",
+      "styleAttributes": {
+      },
+      "text": "```java\n// Представим, что переменную нужно увеличить на 10\nint a = 5;\na += 10;\n\n// или самый простой способ\nint a = 5;\na = a + 10;\n```",
+      "type": "text",
+      "width": 489,
+      "x": 520,
+      "y": 2880
+    },
+    {
+      "height": 117,
+      "id": "4938adb891cbc344",
+      "styleAttributes": {
+      },
+      "text": "Есть и более \"интересные\" операторы, которые позволяют писать код чуть проще",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 2940
+    },
+    {
+      "height": 80,
+      "id": "22f744fea9a93714",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 5; // в переменную \"а\" заносится значение 5\nString b = \"Hi\"; // в переменную \"b\" заносится значение \"Hi\"\n```",
+      "type": "text",
+      "width": 589,
+      "x": 520,
+      "y": 2791
+    },
+    {
+      "height": 60,
+      "id": "975d15eea28a82e4",
+      "styleAttributes": {
+      },
+      "text": "Тип данных `boolean` и сравнение строк",
+      "type": "text",
+      "width": 260,
+      "x": -180,
+      "y": 1863
+    },
+    {
+      "height": 267,
+      "id": "69442f5b9a900fc0",
+      "styleAttributes": {
+      },
+      "text": "Любое выражение, которое может быть либо истинным, либо ложным. Но это и есть тип данных `boolean`. Переменная такого типа может принимать значение либо `true` (истина, 1) либо `false` (ложь, 0)",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 1760
+    },
+    {
+      "height": 60,
+      "id": "3ab185f9adca1ac0",
+      "styleAttributes": {
+      },
+      "text": "Метод - `s1.equals(s2)`",
+      "type": "text",
+      "width": 260,
+      "x": 540,
+      "y": 2261
+    },
+    {
+      "height": 87,
+      "id": "2b29631a6ae596ad",
+      "styleAttributes": {
+      },
+      "text": "Метод вернет истину, если строки, и ложь, если нет",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 2248
+    },
+    {
+      "height": 264,
+      "id": "b4e4f73e4de92666",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nString s1 = sc.nextLine();\nString s2 = sc.nextLine();\nif (!s1.equals(s2)) {\n\tSystem.out.println(\"Строка не совпадают\");\n} else {\n\tSystem.out.println(\"Строки совпадают\");\n}\n```",
+      "type": "text",
+      "width": 451,
+      "x": 1280,
+      "y": 2160
+    }
+  ]
+}
