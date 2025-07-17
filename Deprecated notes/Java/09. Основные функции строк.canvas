@@ -1,0 +1,339 @@
+{
+  "edges": [
+    {
+      "fromNode": "6b3fcd6babdb22aa",
+      "fromSide": "right",
+      "id": "83f17ec02646586b",
+      "styleAttributes": {
+      },
+      "toNode": "c1a13483e9b25af9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c1a13483e9b25af9",
+      "fromSide": "right",
+      "id": "a9f9972707937738",
+      "styleAttributes": {
+      },
+      "toNode": "3d6e611464f2d561",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3d6e611464f2d561",
+      "fromSide": "right",
+      "id": "b79ef90910231f36",
+      "styleAttributes": {
+      },
+      "toNode": "93e9a4920333cbc3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "93e9a4920333cbc3",
+      "fromSide": "right",
+      "id": "e838ba18636a75d1",
+      "styleAttributes": {
+      },
+      "toNode": "3178a758d26ac79a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "93e9a4920333cbc3",
+      "fromSide": "right",
+      "id": "b9af14b1ad41a38a",
+      "styleAttributes": {
+      },
+      "toNode": "2f9ecf1cd522d4fe",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "93e9a4920333cbc3",
+      "fromSide": "right",
+      "id": "eef97ebb5ae79154",
+      "styleAttributes": {
+      },
+      "toNode": "c1781697f0cd135e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "93e9a4920333cbc3",
+      "fromSide": "bottom",
+      "id": "4a38ce151f2ff03d",
+      "styleAttributes": {
+      },
+      "toNode": "62a0b4f19eb6cc4a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1a13483e9b25af9",
+      "fromSide": "bottom",
+      "id": "62ba2906018ecd52",
+      "styleAttributes": {
+      },
+      "toNode": "59ebea6ff23cfdab",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "59ebea6ff23cfdab",
+      "fromSide": "bottom",
+      "id": "4a8ea54df5353945",
+      "styleAttributes": {
+      },
+      "toNode": "36c84c7c8c6d654c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "36c84c7c8c6d654c",
+      "fromSide": "right",
+      "id": "06edd303b5bec776",
+      "styleAttributes": {
+      },
+      "toNode": "74225b301c5d069e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "62a0b4f19eb6cc4a",
+      "fromSide": "bottom",
+      "id": "86d16397b542dcc6",
+      "styleAttributes": {
+      },
+      "toNode": "3ae2c445dd322621",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3ae2c445dd322621",
+      "fromSide": "right",
+      "id": "75fbcd6dc6c9c2d5",
+      "styleAttributes": {
+      },
+      "toNode": "95d4c1075fe58d31",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e59107bfe94a0dca",
+      "fromSide": "right",
+      "id": "bc8e44cc0098aba4",
+      "styleAttributes": {
+      },
+      "toNode": "77006cd183550f37",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "77006cd183550f37",
+      "fromSide": "right",
+      "id": "96c7137b7a01df1f",
+      "styleAttributes": {
+      },
+      "toNode": "e64dcac47833753f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e64dcac47833753f",
+      "fromSide": "right",
+      "id": "d9abec263883b128",
+      "styleAttributes": {
+      },
+      "toNode": "d438b4c588c6f959",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "11bd633605125dff",
+      "styleAttributes": {
+      },
+      "text": "Символы (тип `char`)",
+      "type": "text",
+      "width": 260,
+      "x": -660,
+      "y": -100
+    },
+    {
+      "height": 60,
+      "id": "6b3fcd6babdb22aa",
+      "styleAttributes": {
+      },
+      "text": "Для хранения символов используется тип `char`",
+      "type": "text",
+      "width": 260,
+      "x": -260,
+      "y": -100
+    },
+    {
+      "height": 147,
+      "id": "c1a13483e9b25af9",
+      "styleAttributes": {
+      },
+      "text": "Для `char` используется кодировка Unicode и для хранения символов используется 16 бит или 2 байта",
+      "type": "text",
+      "width": 260,
+      "x": 80,
+      "y": -143
+    },
+    {
+      "height": 87,
+      "id": "3d6e611464f2d561",
+      "styleAttributes": {
+      },
+      "text": "Диапазон допустимых значений: 0 - 65536 (без отрицательных)",
+      "type": "text",
+      "width": 260,
+      "x": 400,
+      "y": -113
+    },
+    {
+      "height": 185,
+      "id": "93e9a4920333cbc3",
+      "styleAttributes": {
+      },
+      "text": "```java\nchar ch1, ch2, ch3;\n\nch1 = 67;\nch2 = 'a';\nch3 = 116;\nSystem.out.println(ch1 + ch2 + ch3); // cat\n```",
+      "type": "text",
+      "width": 428,
+      "x": 740,
+      "y": -162
+    },
+    {
+      "height": 60,
+      "id": "2f9ecf1cd522d4fe",
+      "styleAttributes": {
+      },
+      "text": "`ch2 = 'a';` - a",
+      "type": "text",
+      "width": 260,
+      "x": 1260,
+      "y": -99
+    },
+    {
+      "height": 60,
+      "id": "c1781697f0cd135e",
+      "styleAttributes": {
+      },
+      "text": "`ch3 = 116;` - t",
+      "type": "text",
+      "width": 260,
+      "x": 1260,
+      "y": -7
+    },
+    {
+      "height": 60,
+      "id": "3178a758d26ac79a",
+      "styleAttributes": {
+      },
+      "text": "`ch1 = 67;` - c",
+      "type": "text",
+      "width": 260,
+      "x": 1260,
+      "y": -192
+    },
+    {
+      "height": 207,
+      "id": "62a0b4f19eb6cc4a",
+      "styleAttributes": {
+      },
+      "text": "Из примера видно, что переменной можно присвоить код символа или непосредственно сам символ, который следует окружить одинарными кавычками",
+      "type": "text",
+      "width": 260,
+      "x": 824,
+      "y": 80
+    },
+    {
+      "height": 178,
+      "id": "59ebea6ff23cfdab",
+      "styleAttributes": {
+      },
+      "text": "Стандартные символы ASCII можно выводить сразу. Если нужно вывести специальный символ из Unicode, то можно воспользоваться шестнадцатеричным представлением кода в escape-последовательности",
+      "type": "text",
+      "width": 380,
+      "x": 20,
+      "y": 95
+    },
+    {
+      "height": 60,
+      "id": "36c84c7c8c6d654c",
+      "styleAttributes": {
+      },
+      "text": "```java\nchar myChar = '\\u0054';\n```",
+      "type": "text",
+      "width": 274,
+      "x": 73,
+      "y": 320
+    },
+    {
+      "height": 117,
+      "id": "74225b301c5d069e",
+      "styleAttributes": {
+      },
+      "text": "Внутри одинарных кавычек указывается обратный слэш и четыре цифры после `u`",
+      "type": "text",
+      "width": 260,
+      "x": 400,
+      "y": 292
+    },
+    {
+      "height": 237,
+      "id": "3ae2c445dd322621",
+      "styleAttributes": {
+      },
+      "text": "Хотя тип `char` используется для хранения Unicode-символов, его можно использовать как целочисленный тип, используя сложение или вычитание",
+      "type": "text",
+      "width": 260,
+      "x": 824,
+      "y": 350
+    },
+    {
+      "height": 159,
+      "id": "95d4c1075fe58d31",
+      "styleAttributes": {
+      },
+      "text": "```java\nchar ch1;\nch1 = 'x';\nSystem.out.println(\"ch1 содержит \" + ch1); // ch1 содержит х\nch1++;\nSystem.out.println(\"ch1 содержит \" + ch1); // ch1 содержит у\n```",
+      "type": "text",
+      "width": 558,
+      "x": 1140,
+      "y": 389
+    },
+    {
+      "height": 207,
+      "id": "e59107bfe94a0dca",
+      "styleAttributes": {
+      },
+      "text": "Чтобы узнать, какой символ содержится в значении переменной, заданной как `int`, можно воспользоваться обычным явным приведением типов",
+      "type": "text",
+      "width": 260,
+      "x": 80,
+      "y": 720
+    },
+    {
+      "height": 106,
+      "id": "77006cd183550f37",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 65;\nchar c = (char)a;\nSystem.out.println(c);\n```",
+      "type": "text",
+      "width": 266,
+      "x": 397,
+      "y": 771
+    },
+    {
+      "height": 237,
+      "id": "e64dcac47833753f",
+      "styleAttributes": {
+      },
+      "text": "Для считывания символа с консоли можно использовать один из методов строк. Сначала считать строку, а потом достать первый символ через метод `charAt(index)`",
+      "type": "text",
+      "width": 260,
+      "x": 740,
+      "y": 706
+    },
+    {
+      "height": 80,
+      "id": "d438b4c588c6f959",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in); \nchar c = sc.next().charAt(0);\n```",
+      "type": "text",
+      "width": 374,
+      "x": 1084,
+      "y": 785
+    }
+  ]
+}

@@ -189,50 +189,6 @@
       "y": 720
     },
     {
-      "height": 60,
-      "id": "a4d009cb30a5b54f",
-      "styleAttributes": {
-      },
-      "text": "Методы добавления и удаления элементов",
-      "type": "text",
-      "width": 260,
-      "x": -160,
-      "y": -60
-    },
-    {
-      "height": 117,
-      "id": "aa4c0b5d2fabeb7a",
-      "styleAttributes": {
-      },
-      "text": "Метод `extend()` используется для расширения списка другим списком",
-      "type": "text",
-      "width": 260,
-      "x": 260,
-      "y": -88
-    },
-    {
-      "height": 147,
-      "id": "31daaeab99a98e69",
-      "styleAttributes": {
-      },
-      "text": "Отличие между методами `append()` и `extend()` проявляется при добавлении строки к списку",
-      "type": "text",
-      "width": 260,
-      "x": 560,
-      "y": -103
-    },
-    {
-      "height": 238,
-      "id": "86db3511634c4f24",
-      "styleAttributes": {
-      },
-      "text": "```python\nwords1 = ['iq option', 'stepik', 'beegeek']\nwords2 = ['iq option', 'stepik', 'beegeek']\n\nwords1.append('python')\nwords2.extend('python')\n\nprint(words1) # ['iq option', 'stepik', 'beegeek', 'python']\nprint(words2) # ['iq option', 'stepik', 'beegeek', 'p', 'y', 't', 'h', 'o', 'n']\n```",
-      "type": "text",
-      "width": 712,
-      "x": 860,
-      "y": -148
-    },
-    {
       "height": 207,
       "id": "bf0a1b03f5aafdfc",
       "styleAttributes": {
@@ -244,17 +200,6 @@
       "y": 140
     },
     {
-      "height": 60,
-      "id": "83568da2e0773220",
-      "styleAttributes": {
-      },
-      "text": "Удаление элементов",
-      "type": "text",
-      "width": 260,
-      "x": 260,
-      "y": 780
-    },
-    {
       "height": 117,
       "id": "1b194ada2d8fb165",
       "styleAttributes": {
@@ -264,17 +209,6 @@
       "width": 260,
       "x": 600,
       "y": 752
-    },
-    {
-      "height": 133,
-      "id": "8b37aa2f941e2e91",
-      "styleAttributes": {
-      },
-      "text": "```python\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\ndel numbers[0]\nprint(numbers) # [2, 3, 4, 5, 6, 7, 8, 9]\n# Первый элемент отсутствует \n```",
-      "type": "text",
-      "width": 412,
-      "x": 934,
-      "y": 744
     },
     {
       "height": 117,
@@ -332,6 +266,72 @@
       "y": -493
     },
     {
+      "height": 237,
+      "id": "691992f74e4a0517",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = []\n\nnumbers[0] = 1\nnumbers[1] = 2\nnumbers[2] = 3\n\nprint(numbers)\n# IndexError: list assignment index out of range\n```",
+      "type": "text",
+      "width": 466,
+      "x": 1800,
+      "y": -538
+    },
+    {
+      "height": 117,
+      "id": "aa4c0b5d2fabeb7a",
+      "styleAttributes": {
+      },
+      "text": "Метод `extend()` используется для расширения списка другим списком",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": -88
+    },
+    {
+      "height": 147,
+      "id": "31daaeab99a98e69",
+      "styleAttributes": {
+      },
+      "text": "Отличие между методами `append()` и `extend()` проявляется при добавлении строки к списку",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -103
+    },
+    {
+      "height": 238,
+      "id": "86db3511634c4f24",
+      "styleAttributes": {
+      },
+      "text": "```python\nwords1 = ['iq option', 'stepik', 'beegeek']\nwords2 = ['iq option', 'stepik', 'beegeek']\n\nwords1.append('python')\nwords2.extend('python')\n\nprint(words1) # ['iq option', 'stepik', 'beegeek', 'python']\nprint(words2) # ['iq option', 'stepik', 'beegeek', 'p', 'y', 't', 'h', 'o', 'n']\n```",
+      "type": "text",
+      "width": 712,
+      "x": 860,
+      "y": -148
+    },
+    {
+      "height": 60,
+      "id": "83568da2e0773220",
+      "styleAttributes": {
+      },
+      "text": "Удаление элементов",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": 780
+    },
+    {
+      "height": 133,
+      "id": "8b37aa2f941e2e91",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\ndel numbers[0]\nprint(numbers) # [2, 3, 4, 5, 6, 7, 8, 9]\n# Первый элемент отсутствует \n```",
+      "type": "text",
+      "width": 412,
+      "x": 934,
+      "y": 744
+    },
+    {
       "height": 117,
       "id": "8812957d13362b4a",
       "styleAttributes": {
@@ -376,15 +376,15 @@
       "y": 1180
     },
     {
-      "height": 237,
-      "id": "691992f74e4a0517",
+      "height": 60,
+      "id": "a4d009cb30a5b54f",
       "styleAttributes": {
       },
-      "text": "```python\nnumbers = []\n\nnumbers[0] = 1\nnumbers[1] = 2\nnumbers[2] = 3\n\nprint(numbers)\n# IndexError: list assignment index out of range\n```",
+      "text": "Методы добавления и удаления элементов",
       "type": "text",
-      "width": 466,
-      "x": 1800,
-      "y": -538
+      "width": 260,
+      "x": -160,
+      "y": -60
     }
   ]
 }

@@ -359,6 +359,61 @@
     },
     {
       "height": 60,
+      "id": "947ac08f1660b692",
+      "styleAttributes": {
+      },
+      "text": "if x < 7",
+      "type": "text",
+      "width": 250,
+      "x": 449,
+      "y": 840
+    },
+    {
+      "height": 87,
+      "id": "71734a3ba87743e9",
+      "styleAttributes": {
+      },
+      "text": "Можно объединять в цепочки, к примеру: a == b == c",
+      "type": "text",
+      "width": 250,
+      "x": 89,
+      "y": 954
+    },
+    {
+      "height": 147,
+      "id": "1a2b22cc6ad11687",
+      "styleAttributes": {
+      },
+      "text": "Существует всего три логических оператора, которые позволяют создавать сложные условия",
+      "type": "text",
+      "width": 250,
+      "x": 60,
+      "y": 1389
+    },
+    {
+      "height": 60,
+      "id": "83d38f0ae66bb988",
+      "styleAttributes": {
+      },
+      "text": "and - логическое умножение",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 1432
+    },
+    {
+      "height": 60,
+      "id": "c9342acafa5c88bd",
+      "styleAttributes": {
+      },
+      "text": "Логические операторы",
+      "type": "text",
+      "width": 250,
+      "x": -262,
+      "y": 1432
+    },
+    {
+      "height": 60,
       "id": "7068a032b812f83b",
       "styleAttributes": {
       },
@@ -414,17 +469,6 @@
     },
     {
       "height": 60,
-      "id": "947ac08f1660b692",
-      "styleAttributes": {
-      },
-      "text": "if x < 7",
-      "type": "text",
-      "width": 250,
-      "x": 449,
-      "y": 840
-    },
-    {
-      "height": 60,
       "id": "e1d3aaaf615b33c0",
       "styleAttributes": {
       },
@@ -458,14 +502,25 @@
     },
     {
       "height": 87,
-      "id": "71734a3ba87743e9",
+      "id": "682025d8da3ce468",
       "styleAttributes": {
       },
-      "text": "Можно объединять в цепочки, к примеру: a == b == c",
+      "text": "По соглашению РЕР 8, для отступа блоков кода используются 4 пробела.",
       "type": "text",
       "width": 250,
-      "x": 89,
-      "y": 954
+      "x": 411,
+      "y": 484
+    },
+    {
+      "height": 60,
+      "id": "79f9a870b29cee68",
+      "styleAttributes": {
+      },
+      "text": "if x <= 7",
+      "type": "text",
+      "width": 250,
+      "x": 449,
+      "y": 1000
     },
     {
       "height": 133,
@@ -512,28 +567,6 @@
       "y": 453
     },
     {
-      "height": 87,
-      "id": "682025d8da3ce468",
-      "styleAttributes": {
-      },
-      "text": "По соглашению РЕР 8, для отступа блоков кода используются 4 пробела.",
-      "type": "text",
-      "width": 250,
-      "x": 411,
-      "y": 484
-    },
-    {
-      "height": 177,
-      "id": "3b5b65faa8f6b2a3",
-      "styleAttributes": {
-      },
-      "text": "В Python существует несколько способов проверки, и в каждом случае возможны два исхода: истина (True) или ложь (False)",
-      "type": "text",
-      "width": 250,
-      "x": 390,
-      "y": -146
-    },
-    {
       "height": 60,
       "id": "34b3f04ab08eaac7",
       "styleAttributes": {
@@ -557,17 +590,6 @@
     },
     {
       "height": 60,
-      "id": "79f9a870b29cee68",
-      "styleAttributes": {
-      },
-      "text": "if x <= 7",
-      "type": "text",
-      "width": 250,
-      "x": 449,
-      "y": 1000
-    },
-    {
-      "height": 60,
       "id": "11ef977dda791c52",
       "styleAttributes": {
       },
@@ -587,6 +609,39 @@
       "width": 250,
       "x": 720,
       "y": 204
+    },
+    {
+      "height": 159,
+      "id": "a29b28b1924f4e26",
+      "styleAttributes": {
+      },
+      "text": "```python\nanswer = input(\"What language in this note?\")\nif answer == 'Python':\n\tprint(\"Correct!\")\nelse:\n\tprint(\"Not here buddy!\")\n```",
+      "type": "text",
+      "width": 534,
+      "x": 1686,
+      "y": -136
+    },
+    {
+      "height": 60,
+      "id": "cb15c99164585791",
+      "styleAttributes": {
+      },
+      "text": "Если Х равен 7",
+      "type": "text",
+      "width": 250,
+      "x": 786,
+      "y": 1080
+    },
+    {
+      "height": 177,
+      "id": "3b5b65faa8f6b2a3",
+      "styleAttributes": {
+      },
+      "text": "В Python существует несколько способов проверки, и в каждом случае возможны два исхода: истина (True) или ложь (False)",
+      "type": "text",
+      "width": 250,
+      "x": 390,
+      "y": -146
     },
     {
       "height": 60,
@@ -633,17 +688,6 @@
       "y": 424
     },
     {
-      "height": 159,
-      "id": "a29b28b1924f4e26",
-      "styleAttributes": {
-      },
-      "text": "```python\nanswer = input(\"What language in this note?\")\nif answer == 'Python':\n\tprint(\"Correct!\")\nelse:\n\tprint(\"Not here buddy!\")\n```",
-      "type": "text",
-      "width": 534,
-      "x": 1686,
-      "y": -136
-    },
-    {
       "height": 267,
       "id": "7c22441b88bcefee",
       "styleAttributes": {
@@ -653,17 +697,6 @@
       "width": 250,
       "x": 1827,
       "y": 105
-    },
-    {
-      "height": 60,
-      "id": "cb15c99164585791",
-      "styleAttributes": {
-      },
-      "text": "Если Х равен 7",
-      "type": "text",
-      "width": 250,
-      "x": 786,
-      "y": 1080
     },
     {
       "height": 60,
@@ -678,25 +711,25 @@
     },
     {
       "height": 117,
-      "id": "1b6e9f11a9699531",
+      "id": "a7caeaaf362e084c",
       "styleAttributes": {
       },
-      "text": "Для блока кода достаточно выполнения хотя бы одного из условий",
+      "text": "Позволяет инвертировать результат логического выражения. not true == false",
       "type": "text",
       "width": 250,
       "x": 786,
-      "y": 1579
+      "y": 1792
     },
     {
-      "height": 207,
-      "id": "d14a2cb37110825e",
+      "height": 87,
+      "id": "7b4715a1b72f1304",
       "styleAttributes": {
       },
-      "text": "При таком подходе получается вложенное ветвление: после одной развилки в ходе исполнения программы появляется другая развилка",
+      "text": "Может объединять произвольное количество условий в одно",
       "type": "text",
       "width": 250,
-      "x": 420,
-      "y": 2674
+      "x": 786,
+      "y": 1419
     },
     {
       "height": 60,
@@ -721,28 +754,6 @@
       "y": 2689
     },
     {
-      "height": 147,
-      "id": "1a2b22cc6ad11687",
-      "styleAttributes": {
-      },
-      "text": "Существует всего три логических оператора, которые позволяют создавать сложные условия",
-      "type": "text",
-      "width": 250,
-      "x": 60,
-      "y": 1389
-    },
-    {
-      "height": 316,
-      "id": "1ce2be06f9b55a4f",
-      "styleAttributes": {
-      },
-      "text": "В первую очередь выполняется логическое отрицание NOT\nДалее выполняется логическое умножение AND\nДалее выполняется логическое сложение OR.\nДля явного указания порядка используются скобки",
-      "type": "text",
-      "width": 250,
-      "x": 60,
-      "y": 1579
-    },
-    {
       "file": "Cache/Pasted image 20250218104232.png",
       "height": 164,
       "id": "723fe8bf8c8d4689",
@@ -752,50 +763,6 @@
       "width": 181,
       "x": 1160,
       "y": 1381
-    },
-    {
-      "height": 60,
-      "id": "4bc47a0f87b09303",
-      "styleAttributes": {
-      },
-      "text": "not - логическое отрицание",
-      "type": "text",
-      "width": 250,
-      "x": 420,
-      "y": 1820
-    },
-    {
-      "height": 60,
-      "id": "83d38f0ae66bb988",
-      "styleAttributes": {
-      },
-      "text": "and - логическое умножение",
-      "type": "text",
-      "width": 250,
-      "x": 420,
-      "y": 1432
-    },
-    {
-      "height": 60,
-      "id": "f5d5f9f92f5af681",
-      "styleAttributes": {
-      },
-      "text": "or - логическое сложение",
-      "type": "text",
-      "width": 250,
-      "x": 420,
-      "y": 1608
-    },
-    {
-      "height": 292,
-      "id": "edde12a143656fa0",
-      "styleAttributes": {
-      },
-      "text": "Сначала проверяется условие1. Если оно является истинным, то выполняется блок кода, который следует сразу после него, вплоть до выражения `elif`. Остальная часть конструкции игнорируется",
-      "type": "text",
-      "width": 250,
-      "x": 620,
-      "y": 2338
     },
     {
       "height": 280,
@@ -831,6 +798,105 @@
       "y": 2107
     },
     {
+      "height": 207,
+      "id": "ee4c6b2c10341295",
+      "styleAttributes": {
+      },
+      "text": "Если условие1 считается ложным, то программа перескакивает непосредственно к следующему выражению `elif` и выполняет условие2. И так по кругу",
+      "type": "text",
+      "width": 250,
+      "x": 981,
+      "y": 2338
+    },
+    {
+      "file": "Cache/Pasted image 20250218104422.png",
+      "height": 151,
+      "id": "fb9c98619c879ec9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 181,
+      "x": 1160,
+      "y": 1775
+    },
+    {
+      "file": "Cache/Pasted image 20250218104326.png",
+      "height": 170,
+      "id": "e48494172c8a3165",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 180,
+      "x": 1160,
+      "y": 1553
+    },
+    {
+      "height": 117,
+      "id": "1b6e9f11a9699531",
+      "styleAttributes": {
+      },
+      "text": "Для блока кода достаточно выполнения хотя бы одного из условий",
+      "type": "text",
+      "width": 250,
+      "x": 786,
+      "y": 1579
+    },
+    {
+      "height": 207,
+      "id": "d14a2cb37110825e",
+      "styleAttributes": {
+      },
+      "text": "При таком подходе получается вложенное ветвление: после одной развилки в ходе исполнения программы появляется другая развилка",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 2674
+    },
+    {
+      "height": 316,
+      "id": "1ce2be06f9b55a4f",
+      "styleAttributes": {
+      },
+      "text": "В первую очередь выполняется логическое отрицание NOT\nДалее выполняется логическое умножение AND\nДалее выполняется логическое сложение OR.\nДля явного указания порядка используются скобки",
+      "type": "text",
+      "width": 250,
+      "x": 60,
+      "y": 1579
+    },
+    {
+      "height": 60,
+      "id": "4bc47a0f87b09303",
+      "styleAttributes": {
+      },
+      "text": "not - логическое отрицание",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 1820
+    },
+    {
+      "height": 60,
+      "id": "f5d5f9f92f5af681",
+      "styleAttributes": {
+      },
+      "text": "or - логическое сложение",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 1608
+    },
+    {
+      "height": 292,
+      "id": "edde12a143656fa0",
+      "styleAttributes": {
+      },
+      "text": "Сначала проверяется условие1. Если оно является истинным, то выполняется блок кода, который следует сразу после него, вплоть до выражения `elif`. Остальная часть конструкции игнорируется",
+      "type": "text",
+      "width": 250,
+      "x": 620,
+      "y": 2338
+    },
+    {
       "height": 60,
       "id": "fd192edf7c161da0",
       "styleAttributes": {
@@ -843,39 +909,6 @@
     },
     {
       "height": 117,
-      "id": "a7caeaaf362e084c",
-      "styleAttributes": {
-      },
-      "text": "Позволяет инвертировать результат логического выражения. not true == false",
-      "type": "text",
-      "width": 250,
-      "x": 786,
-      "y": 1792
-    },
-    {
-      "height": 87,
-      "id": "7b4715a1b72f1304",
-      "styleAttributes": {
-      },
-      "text": "Может объединять произвольное количество условий в одно",
-      "type": "text",
-      "width": 250,
-      "x": 786,
-      "y": 1419
-    },
-    {
-      "height": 207,
-      "id": "ee4c6b2c10341295",
-      "styleAttributes": {
-      },
-      "text": "Если условие1 считается ложным, то программа перескакивает непосредственно к следующему выражению `elif` и выполняет условие2. И так по кругу",
-      "type": "text",
-      "width": 250,
-      "x": 981,
-      "y": 2338
-    },
-    {
-      "height": 117,
       "id": "2f48ff20c971c539",
       "styleAttributes": {
       },
@@ -884,17 +917,6 @@
       "width": 250,
       "x": 786,
       "y": 2719
-    },
-    {
-      "file": "Cache/Pasted image 20250218104422.png",
-      "height": 151,
-      "id": "fb9c98619c879ec9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 181,
-      "x": 1160,
-      "y": 1775
     },
     {
       "height": 60,
@@ -917,28 +939,6 @@
       "width": 250,
       "x": 59,
       "y": 2106
-    },
-    {
-      "height": 60,
-      "id": "c9342acafa5c88bd",
-      "styleAttributes": {
-      },
-      "text": "Логические операторы",
-      "type": "text",
-      "width": 250,
-      "x": -262,
-      "y": 1432
-    },
-    {
-      "file": "Cache/Pasted image 20250218104326.png",
-      "height": 170,
-      "id": "e48494172c8a3165",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 180,
-      "x": 1160,
-      "y": 1553
     }
   ]
 }

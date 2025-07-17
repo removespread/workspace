@@ -8,41 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a374f97346b7b1e4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "💯 Coding/Python/Курс для начинающих/13. Списки.canvas",
-                "viewState": {
-                  "x": 1990,
-                  "y": 1361.5,
-                  "zoom": -1.3029316834643896
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "13. Списки"
-            }
-          },
-          {
             "id": "2c5377ba81cb6bfb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "💯 Coding/Java/09. Основные функции строк.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "📥 Message Brokers/Брокеры сообщений - интерлюдия.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "09. Основные функции строк"
+              "icon": "lucide-file",
+              "title": "Брокеры сообщений - интерлюдия"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,40 +170,58 @@
   },
   "active": "2c5377ba81cb6bfb",
   "lastOpenFiles": [
-    "💯 Coding/Java/08. Массивы.canvas",
-    "💯 Coding/Java/09. Основные функции строк.canvas",
-    "💯 Coding/Java/09. Двумерные массивы.canvas",
-    "💯 Coding/Java/07. Цикл For.canvas",
-    "💯 Coding/Java/01. Знакомство с языком.canvas",
-    "💯 Coding/REFACTORING - Java/01. Знакомство с языком.canvas",
-    "💯 Coding/REFACTORING - Java/02. Комментарии.canvas",
+    "📥 Message Brokers/Apache Kafka.md",
+    "💯 Coding/AQA - Python/Подготовка к автоматизации/Основы синтаксиса.md",
+    "🌐 Web, protocols/OSI - Basic Reference Model Open Systems Interconnection Model.md",
+    "🌐 Web, protocols/SSH - Secure Shell.md",
+    "📥 Message Brokers/Брокеры сообщений - интерлюдия.md",
+    "Untitled.md",
+    "Untitled",
+    "Cache/Pasted image 20250402093131.png",
+    "Cache/Pasted image 20250402113555.png",
+    "Cache/Pasted image 20250403153926.png",
+    "Cache/Pasted image 20250413214709.png",
+    "Cache/Pasted image 20250413215132.png",
+    "Cache/Pasted image 20250413215301.png",
+    "Cache/Pasted image 20250413215502.png",
+    "Cache/Pasted image 20250413215618.png",
+    "Cache/Pasted image 20250413215752.png",
+    "Cache/Pasted image 20250413215913.png",
+    "💯 Coding/AQA - Python/Подготовка к автоматизации/Виртуальное окружение.md",
     "README.md",
+    "💯 Coding/AQA - Python/Подготовка к автоматизации",
+    "💯 Coding/AQA - Python",
+    "Deprecated notes",
+    "🌐 Web, protocols/TLS - Transport Layer Security.md",
+    "🌐 Web, protocols/DNS - Domain Name System.md",
+    "🌐 Web, protocols/DHCP - Dynamic Host Configuration Protocol.md",
+    "🌐 Web, protocols/FTP - File Transfer Protocol.md",
+    "📥 Message Brokers",
+    "Deprecated notes/Kotlin/03.1. Целые числа.md",
+    "Deprecated notes/Kotlin/03. Переменные.md",
+    "Deprecated notes/Kotlin/02. Историческая справка.md",
+    "Deprecated notes/Kotlin/01. Введение.md",
+    "Deprecated notes/Kotlin",
+    "Deprecated notes/Python/Курс для начинающих/16. Методы строк split(), join().md",
+    "Deprecated notes/Python/Курс для начинающих/15. Вывод элементов списка.md",
+    "Deprecated notes/Java/08. Условные конструкции.canvas",
+    "Deprecated notes/Java/07. Строки.canvas",
+    "Deprecated notes/Java/06. Инкремент.canvas",
+    "Deprecated notes/Java/05. Операторы.canvas",
+    "Deprecated notes/Java/04. Ввод данных.canvas",
+    "Deprecated notes/Java/03. Переменные.canvas",
+    "Deprecated notes/Java/02. Комментарии.canvas",
+    "Deprecated notes/Java/09. Основные функции строк.canvas",
+    "Deprecated notes/Java/09. Логические конструкции.canvas",
+    "Deprecated notes/Java/08. Массивы.canvas",
     "🧩 QA/Материал на самостоятельное изучение/Бесплатные курсы по тестированию.md",
     "🧩 QA/Материал на самостоятельное изучение/Гайд по тестированию API.pdf",
-    "💯 Coding/Java/02. Основные типы данных.canvas",
-    "💯 Coding/Java/03. Условный оператор.canvas",
-    "💯 Coding/Java/04. Тернарный оператор.canvas",
-    "💯 Coding/Java/05. Явное приведение типов.canvas",
-    "💯 Coding/Java",
+    "Deprecated notes/Java",
     "🧩 QA/Курсы/Основы тестирования, краш-курс.md",
     "🧩 QA/Материал на самостоятельное изучение",
     "test.md",
     "🌐 Web, protocols/1. HTTP + HTTPS/📚 Полезные ссылки на самостоятельное изучение.md",
-    "💯 Coding/REFACTORING - Java",
-    "Cache/Pasted image 20250506220933.png",
-    "Cache/Pasted image 20250506215604.png",
-    "⚙️ DevOps/Kubernetes",
-    "⚙️ DevOps/Docker",
-    "Cache/Pasted image 20250428001847.png",
-    "NOT EVEN SPECIALIST.md",
-    "Cache/Pasted image 20250427112733.png",
-    "🌐 Web, protocols/1. HTTP + HTTPS",
-    "Cache/Pasted image 20250426002029.png",
-    "Cache/Pasted image 20250426001636.png",
-    "Cache/Pasted image 20250426001619.png",
-    "Cache/Pasted image 20250426000916.png",
-    "Cache/Pasted image 20250425235934.png",
-    "Cache/Pasted image 20250425235837.png",
-    "🌐 Web, protocols/refactoring"
+    "Deprecated notes/REFACTORING - Java",
+    "NOT EVEN SPECIALIST.md"
   ]
 }

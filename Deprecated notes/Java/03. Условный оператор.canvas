@@ -444,17 +444,6 @@
     },
     {
       "height": 60,
-      "id": "bccb95f40cc5cbf7",
-      "styleAttributes": {
-      },
-      "text": "Пример дополненного кода",
-      "type": "text",
-      "width": 260,
-      "x": 556,
-      "y": 840
-    },
-    {
-      "height": 60,
       "id": "b12167b334e7014c",
       "styleAttributes": {
       },
@@ -553,15 +542,26 @@
       "y": 1420
     },
     {
-      "height": 159,
-      "id": "c2b76e65d9f422f9",
+      "height": 60,
+      "id": "1a40c66ef543b2b1",
       "styleAttributes": {
       },
-      "text": "```java\nScanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nif (a > 0) {\n\tSystem.out.println(\"Число положительное\");\n}\n```",
+      "text": "Операторы сравнения",
       "type": "text",
-      "width": 480,
-      "x": 860,
-      "y": 384
+      "width": 260,
+      "x": -180,
+      "y": 1120
+    },
+    {
+      "height": 60,
+      "id": "bccb95f40cc5cbf7",
+      "styleAttributes": {
+      },
+      "text": "Пример дополненного кода",
+      "type": "text",
+      "width": 260,
+      "x": 556,
+      "y": 840
     },
     {
       "height": 211,
@@ -576,17 +576,6 @@
     },
     {
       "height": 60,
-      "id": "98321e754be59a01",
-      "styleAttributes": {
-      },
-      "text": "Если перевести на простой пример из жизни",
-      "type": "text",
-      "width": 260,
-      "x": 1100,
-      "y": -60
-    },
-    {
-      "height": 60,
       "id": "71302d9b1fa54a65",
       "styleAttributes": {
       },
@@ -594,17 +583,6 @@
       "type": "text",
       "width": 260,
       "x": 540,
-      "y": 1120
-    },
-    {
-      "height": 60,
-      "id": "1a40c66ef543b2b1",
-      "styleAttributes": {
-      },
-      "text": "Операторы сравнения",
-      "type": "text",
-      "width": 260,
-      "x": -180,
       "y": 1120
     },
     {
@@ -652,17 +630,6 @@
       "y": 1560
     },
     {
-      "height": 267,
-      "id": "2e7b5bdbd7a3c14d",
-      "styleAttributes": {
-      },
-      "text": "При выполнении какого-либо условия в конкретной ситуации мы можем вести себя по-разному. Точно так же и программа в зависимости от условия может выполнять различные действия",
-      "type": "text",
-      "width": 260,
-      "x": 1440,
-      "y": 59
-    },
-    {
       "height": 87,
       "id": "34698f9c24b1b2aa",
       "styleAttributes": {
@@ -683,6 +650,39 @@
       "width": 260,
       "x": 200,
       "y": 620
+    },
+    {
+      "height": 159,
+      "id": "c2b76e65d9f422f9",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nif (a > 0) {\n\tSystem.out.println(\"Число положительное\");\n}\n```",
+      "type": "text",
+      "width": 480,
+      "x": 860,
+      "y": 384
+    },
+    {
+      "height": 60,
+      "id": "98321e754be59a01",
+      "styleAttributes": {
+      },
+      "text": "Если перевести на простой пример из жизни",
+      "type": "text",
+      "width": 260,
+      "x": 1100,
+      "y": -60
+    },
+    {
+      "height": 267,
+      "id": "2e7b5bdbd7a3c14d",
+      "styleAttributes": {
+      },
+      "text": "При выполнении какого-либо условия в конкретной ситуации мы можем вести себя по-разному. Точно так же и программа в зависимости от условия может выполнять различные действия",
+      "type": "text",
+      "width": 260,
+      "x": 1440,
+      "y": 59
     },
     {
       "height": 60,
@@ -751,28 +751,6 @@
       "y": 360
     },
     {
-      "height": 60,
-      "id": "7cd1200a3f9d014c",
-      "styleAttributes": {
-      },
-      "text": "Оператор присваивания",
-      "type": "text",
-      "width": 260,
-      "x": -180,
-      "y": 3140
-    },
-    {
-      "height": 87,
-      "id": "ee0a56574dcfa500",
-      "styleAttributes": {
-      },
-      "text": "Данное сокращение работает со всеми операциями",
-      "type": "text",
-      "width": 260,
-      "x": 1078,
-      "y": 2955
-    },
-    {
       "height": 211,
       "id": "284ac7f3b0927fbf",
       "styleAttributes": {
@@ -804,28 +782,6 @@
       "width": 359,
       "x": 1760,
       "y": 3157
-    },
-    {
-      "height": 106,
-      "id": "6608df9f6c180ba4",
-      "styleAttributes": {
-      },
-      "text": "```java\nint a = 10;\na++; // постинкремент, а = 11\n++a; // прединкремент, а = 12\n```",
-      "type": "text",
-      "width": 334,
-      "x": 520,
-      "y": 3157
-    },
-    {
-      "height": 60,
-      "id": "d757f4bf4052d2de",
-      "styleAttributes": {
-      },
-      "text": "Инкрементирование и декрементирование",
-      "type": "text",
-      "width": 260,
-      "x": 200,
-      "y": 3180
     },
     {
       "height": 117,
@@ -861,17 +817,6 @@
       "y": 765
     },
     {
-      "height": 88,
-      "id": "52bcb5f0291d07f2",
-      "styleAttributes": {
-      },
-      "text": "Результат такого значения можно занести в переменную",
-      "type": "text",
-      "width": 260,
-      "x": 540,
-      "y": 1849
-    },
-    {
       "height": 211,
       "id": "b6a6cb858eb0f4c9",
       "styleAttributes": {
@@ -894,15 +839,70 @@
       "y": 2467
     },
     {
-      "height": 117,
-      "id": "9c7998480173b261",
+      "height": 87,
+      "id": "2b29631a6ae596ad",
       "styleAttributes": {
       },
-      "text": "Строки - ссылочный тип данных, поэтому обычное сравнение для него не работает",
+      "text": "Метод вернет истину, если строки, и ложь, если нет",
+      "type": "text",
+      "width": 260,
+      "x": 900,
+      "y": 2248
+    },
+    {
+      "height": 264,
+      "id": "b4e4f73e4de92666",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nString s1 = sc.nextLine();\nString s2 = sc.nextLine();\nif (!s1.equals(s2)) {\n\tSystem.out.println(\"Строка не совпадают\");\n} else {\n\tSystem.out.println(\"Строки совпадают\");\n}\n```",
+      "type": "text",
+      "width": 451,
+      "x": 1280,
+      "y": 2160
+    },
+    {
+      "height": 60,
+      "id": "7cd1200a3f9d014c",
+      "styleAttributes": {
+      },
+      "text": "Оператор присваивания",
+      "type": "text",
+      "width": 260,
+      "x": -180,
+      "y": 3140
+    },
+    {
+      "height": 87,
+      "id": "ee0a56574dcfa500",
+      "styleAttributes": {
+      },
+      "text": "Данное сокращение работает со всеми операциями",
+      "type": "text",
+      "width": 260,
+      "x": 1078,
+      "y": 2955
+    },
+    {
+      "height": 106,
+      "id": "6608df9f6c180ba4",
+      "styleAttributes": {
+      },
+      "text": "```java\nint a = 10;\na++; // постинкремент, а = 11\n++a; // прединкремент, а = 12\n```",
+      "type": "text",
+      "width": 334,
+      "x": 520,
+      "y": 3157
+    },
+    {
+      "height": 60,
+      "id": "d757f4bf4052d2de",
+      "styleAttributes": {
+      },
+      "text": "Инкрементирование и декрементирование",
       "type": "text",
       "width": 260,
       "x": 200,
-      "y": 2232
+      "y": 3180
     },
     {
       "height": 148,
@@ -960,6 +960,28 @@
       "y": 2791
     },
     {
+      "height": 88,
+      "id": "52bcb5f0291d07f2",
+      "styleAttributes": {
+      },
+      "text": "Результат такого значения можно занести в переменную",
+      "type": "text",
+      "width": 260,
+      "x": 540,
+      "y": 1849
+    },
+    {
+      "height": 117,
+      "id": "9c7998480173b261",
+      "styleAttributes": {
+      },
+      "text": "Строки - ссылочный тип данных, поэтому обычное сравнение для него не работает",
+      "type": "text",
+      "width": 260,
+      "x": 200,
+      "y": 2232
+    },
+    {
       "height": 60,
       "id": "975d15eea28a82e4",
       "styleAttributes": {
@@ -991,28 +1013,6 @@
       "width": 260,
       "x": 540,
       "y": 2261
-    },
-    {
-      "height": 87,
-      "id": "2b29631a6ae596ad",
-      "styleAttributes": {
-      },
-      "text": "Метод вернет истину, если строки, и ложь, если нет",
-      "type": "text",
-      "width": 260,
-      "x": 900,
-      "y": 2248
-    },
-    {
-      "height": 264,
-      "id": "b4e4f73e4de92666",
-      "styleAttributes": {
-      },
-      "text": "```java\nScanner sc = new Scanner(System.in);\nString s1 = sc.nextLine();\nString s2 = sc.nextLine();\nif (!s1.equals(s2)) {\n\tSystem.out.println(\"Строка не совпадают\");\n} else {\n\tSystem.out.println(\"Строки совпадают\");\n}\n```",
-      "type": "text",
-      "width": 451,
-      "x": 1280,
-      "y": 2160
     }
   ]
 }

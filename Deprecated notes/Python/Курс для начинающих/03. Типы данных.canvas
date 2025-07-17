@@ -518,490 +518,6 @@
       "y": 920
     },
     {
-      "height": 292,
-      "id": "29fc1d4c5d7b4fe1",
-      "styleAttributes": {
-      },
-      "text": "Любое целое число можно использовать там, где ожидается число с плавающей точкой, поскольку при необходимости Python автоматически преобразует целые числа в числа с плавающей точкой",
-      "type": "text",
-      "width": 250,
-      "x": 420,
-      "y": 1640
-    },
-    {
-      "height": 267,
-      "id": "8009c17e55e7beea",
-      "styleAttributes": {
-      },
-      "text": "Число с плавающей точкой нельзя неявно преобразовать в целое число. Для такого преобразования необходимо использование явное преобразование с помощью команды `int()`",
-      "type": "text",
-      "width": 250,
-      "x": 420,
-      "y": 1938
-    },
-    {
-      "height": 117,
-      "id": "a1ae5aea52b3b6c9",
-      "styleAttributes": {
-      },
-      "text": "При указании чисел с дробной частью, между целой и дробной частью указывается точка",
-      "type": "text",
-      "width": 250,
-      "x": 460,
-      "y": 1103
-    },
-    {
-      "height": 60,
-      "id": "c51d120542f4e34c",
-      "styleAttributes": {
-      },
-      "text": "```python\nnum = float(input())\n```",
-      "type": "text",
-      "width": 250,
-      "x": 460,
-      "y": 1234
-    },
-    {
-      "height": 60,
-      "id": "65ebe5af8fc25b05",
-      "styleAttributes": {
-      },
-      "text": "```python\nn = float('1.2345')\n```",
-      "type": "text",
-      "width": 250,
-      "x": 460,
-      "y": 1354
-    },
-    {
-      "height": 60,
-      "id": "a09011b266e258fc",
-      "styleAttributes": {
-      },
-      "text": "Преобразование между int и float",
-      "type": "text",
-      "width": 250,
-      "x": -227,
-      "y": 1756
-    },
-    {
-      "height": 60,
-      "id": "a499c79fb8a9cf46",
-      "styleAttributes": {
-      },
-      "text": "Неявное преобразование",
-      "type": "text",
-      "width": 250,
-      "x": 99,
-      "y": 1756
-    },
-    {
-      "height": 60,
-      "id": "03a8864bf616bba8",
-      "styleAttributes": {
-      },
-      "text": "Явное преобразование",
-      "type": "text",
-      "width": 250,
-      "x": 99,
-      "y": 2042
-    },
-    {
-      "height": 80,
-      "id": "977b29effff2a19b",
-      "styleAttributes": {
-      },
-      "text": "```python\nnum = int(input()) \n# Преобразование считанной строки в целое число\n```",
-      "type": "text",
-      "width": 480,
-      "x": 440,
-      "y": 310
-    },
-    {
-      "height": 80,
-      "id": "bf50925d47da1202",
-      "styleAttributes": {
-      },
-      "text": "```python\nn = int('12345')\n# Преобразование строки в целое число\n```",
-      "type": "text",
-      "width": 398,
-      "x": 440,
-      "y": 408
-    },
-    {
-      "height": 133,
-      "id": "243feaab97b3c741",
-      "styleAttributes": {
-      },
-      "text": "```python\nnumber1 = 25_000_000\nnumber2 = 25000000\nprint(number1) # 25000000\nprint(number2) # 25000000\n```",
-      "type": "text",
-      "width": 297,
-      "x": 440,
-      "y": 547
-    },
-    {
-      "height": 177,
-      "id": "d24363c3ca446e96",
-      "styleAttributes": {
-      },
-      "text": "Явно указанное численное значение в коде программы называется целочисленным литералом",
-      "type": "text",
-      "width": 250,
-      "x": 460,
-      "y": 42
-    },
-    {
-      "height": 80,
-      "id": "7836c37e437dcd67",
-      "styleAttributes": {
-      },
-      "text": "```python\na = 17 # Целочисленный литерал\na = 7 # Целочисленный литерал\n```",
-      "type": "text",
-      "width": 333,
-      "x": 780,
-      "y": 90
-    },
-    {
-      "height": 185,
-      "id": "bf8b5c9586da0955",
-      "styleAttributes": {
-      },
-      "text": "```python\nnum1 = 17.89\nnum2 = -13.56\nnum3 = int(num1)\nnum4 = int(num2)\nprint(num3) # 17\nprint(num4) # -13\n```",
-      "type": "text",
-      "width": 250,
-      "x": 720,
-      "y": 1979
-    },
-    {
-      "height": 60,
-      "id": "7b02a2d8987a5c27",
-      "styleAttributes": {
-      },
-      "text": "```python\na = max(3, 8, -3, 12, 9) # 12\n```",
-      "type": "text",
-      "width": 329,
-      "x": 433,
-      "y": 2609
-    },
-    {
-      "height": 60,
-      "id": "e81bf7bd0d73f913",
-      "styleAttributes": {
-      },
-      "text": "```python\na = min(3, 8, -3, 12, 9) # -3\n```",
-      "type": "text",
-      "width": 332,
-      "x": 430,
-      "y": 2777
-    },
-    {
-      "height": 80,
-      "id": "eafbbb75b06b2992",
-      "styleAttributes": {
-      },
-      "text": "```python\nprint(abs(10))\nprint(abs(-7))\n```",
-      "type": "text",
-      "width": 334,
-      "x": 428,
-      "y": 2899
-    },
-    {
-      "height": 207,
-      "id": "af5cf46cb516df77",
-      "styleAttributes": {
-      },
-      "text": "Преобразование чисел с плавающей точкой в целое производится с округлением в сторону нуля, или же - дробная часть просто отбрасывается",
-      "type": "text",
-      "width": 250,
-      "x": 720,
-      "y": 2220
-    },
-    {
-      "height": 207,
-      "id": "9fc9582c8a097c1a",
-      "styleAttributes": {
-      },
-      "text": "В Python при использовании операции деления, результат всегда будет числом с плавающей точкой, даже если оба числа являются целыми",
-      "type": "text",
-      "width": 250,
-      "x": 460,
-      "y": 846
-    },
-    {
-      "height": 117,
-      "id": "2e5ddf84467aa9c3",
-      "styleAttributes": {
-      },
-      "text": "`max()` - Определяет максимальное значение из заданных в него аргументов",
-      "type": "text",
-      "width": 250,
-      "x": 113,
-      "y": 2580
-    },
-    {
-      "height": 60,
-      "id": "d5b6065d87f4a73e",
-      "styleAttributes": {
-      },
-      "text": "Встроенные функции",
-      "type": "text",
-      "width": 250,
-      "x": -227,
-      "y": 2608
-    },
-    {
-      "height": 117,
-      "id": "503c5ad2079bac2a",
-      "styleAttributes": {
-      },
-      "text": "`min()` - Определяет минимальное значение из заданных в него аргументов",
-      "type": "text",
-      "width": 250,
-      "x": 113,
-      "y": 2748
-    },
-    {
-      "height": 60,
-      "id": "4ea93768cbe1ee7c",
-      "styleAttributes": {
-      },
-      "text": "`abs()` - Определяет модуль числа",
-      "type": "text",
-      "width": 250,
-      "x": 113,
-      "y": 2909
-    },
-    {
-      "height": 117,
-      "id": "d1e1f49882e8bb82",
-      "styleAttributes": {
-      },
-      "text": "Такие функции работают как с целыми числами, так и с числами с плавающей точкой",
-      "type": "text",
-      "width": 250,
-      "x": -227,
-      "y": 2744
-    },
-    {
-      "height": 147,
-      "id": "db6e14ad94978bc1",
-      "styleAttributes": {
-      },
-      "text": "Для преобразования строки к числу с плавающей точкой используется команда `float()`",
-      "type": "text",
-      "width": 250,
-      "x": 120,
-      "y": 1190
-    },
-    {
-      "height": 60,
-      "id": "14a0239086b15b02",
-      "styleAttributes": {
-      },
-      "text": "Числа с плавающей точкой",
-      "type": "text",
-      "width": 250,
-      "x": -227,
-      "y": 920
-    },
-    {
-      "height": 177,
-      "id": "3585e2943376a9ce",
-      "styleAttributes": {
-      },
-      "text": "Представлен типом данных `int` (int - integer). Для определения числа типа `int` используется последовательность цифр от 0 до 9",
-      "type": "text",
-      "width": 250,
-      "x": 120,
-      "y": 42
-    },
-    {
-      "height": 117,
-      "id": "3cd98a87df08899d",
-      "styleAttributes": {
-      },
-      "text": "Для преобразование строки в целое число, используется команда `int()`",
-      "type": "text",
-      "width": 250,
-      "x": 120,
-      "y": 291
-    },
-    {
-      "height": 117,
-      "id": "e692ea5b4985235c",
-      "styleAttributes": {
-      },
-      "text": "Если строка не является числом, то при преобразовании возникнет ошибка",
-      "type": "text",
-      "width": 250,
-      "x": 120,
-      "y": 430
-    },
-    {
-      "height": 117,
-      "id": "005379a9d3fa4543",
-      "styleAttributes": {
-      },
-      "text": "Для удобного чтение чисел можно использовать символ подчеркивания",
-      "type": "text",
-      "width": 250,
-      "x": 120,
-      "y": 555
-    },
-    {
-      "height": 60,
-      "id": "4c6c1d6d54404c41",
-      "styleAttributes": {
-      },
-      "text": "Ссылка на курс: [клик](https://stepik.org/lesson/265105/step/1?unit=246053)",
-      "type": "text",
-      "width": 250,
-      "x": -226,
-      "y": -190
-    },
-    {
-      "height": 60,
-      "id": "bd088b0b4dacd92d",
-      "styleAttributes": {
-      },
-      "text": "Целочисленный тип данных",
-      "type": "text",
-      "width": 250,
-      "x": -226,
-      "y": 100
-    },
-    {
-      "height": 60,
-      "id": "37927f8e3b4fdb5b",
-      "styleAttributes": {
-      },
-      "text": "Числа, с дробными (вещественными) числами\n",
-      "type": "text",
-      "width": 250,
-      "x": 120,
-      "y": 920
-    },
-    {
-      "height": 87,
-      "id": "b0df57b2f2f6ab78",
-      "styleAttributes": {
-      },
-      "text": "Преобразование строки к числу с плавающей точкой",
-      "type": "text",
-      "width": 250,
-      "x": -227,
-      "y": 1220
-    },
-    {
-      "height": 117,
-      "id": "f498d25429353581",
-      "styleAttributes": {
-      },
-      "text": "Если строка не является числом, то при преобразовании возникнет ошибка",
-      "type": "text",
-      "width": 250,
-      "x": 120,
-      "y": 1404
-    },
-    {
-      "height": 60,
-      "id": "a384435c20caceed",
-      "styleAttributes": {
-      },
-      "text": "Преобразование строки в целое число",
-      "type": "text",
-      "width": 250,
-      "x": -226,
-      "y": 320
-    },
-    {
-      "height": 60,
-      "id": "160c510fa174f1a9",
-      "styleAttributes": {
-      },
-      "text": "Символ разделитель",
-      "type": "text",
-      "width": 250,
-      "x": -227,
-      "y": 583
-    },
-    {
-      "height": 87,
-      "id": "0f87c88505b5e071",
-      "styleAttributes": {
-      },
-      "text": "Позволяет проверить, что одна строка находится внутри другой",
-      "type": "text",
-      "width": 250,
-      "x": 1529,
-      "y": 1240
-    },
-    {
-      "height": 60,
-      "id": "64df9d8412983308",
-      "styleAttributes": {
-      },
-      "text": "Оператор `in`",
-      "type": "text",
-      "width": 250,
-      "x": 1241,
-      "y": 1253
-    },
-    {
-      "height": 60,
-      "id": "ce818b24c62390e9",
-      "styleAttributes": {
-      },
-      "text": "Особенности подключения модулей",
-      "type": "text",
-      "width": 250,
-      "x": 1240,
-      "y": 1820
-    },
-    {
-      "height": 60,
-      "id": "9c92b35ef2ad7680",
-      "styleAttributes": {
-      },
-      "text": "```python\nimport packagename\n```",
-      "type": "text",
-      "width": 250,
-      "x": 1867,
-      "y": 1821
-    },
-    {
-      "height": 117,
-      "id": "d0e15f80ace6e5bf",
-      "styleAttributes": {
-      },
-      "text": "Для того чтобы всегда писать только наименование функции, но не указывать сам пакет",
-      "type": "text",
-      "width": 250,
-      "x": 1867,
-      "y": 1920
-    },
-    {
-      "height": 60,
-      "id": "02bcb08b785dc44b",
-      "styleAttributes": {
-      },
-      "text": "```python\nfrom packagename import * \n```",
-      "type": "text",
-      "width": 321,
-      "x": 2210,
-      "y": 1949
-    },
-    {
-      "height": 117,
-      "id": "8b80c54dba79bd8b",
-      "styleAttributes": {
-      },
-      "text": "Звездочка - импорт всех функций. Можно указать конкретные функции, которые нужны",
-      "type": "text",
-      "width": 250,
-      "x": 2246,
-      "y": 2073
-    },
-    {
       "height": 147,
       "id": "21f8fdc33372cbc1",
       "styleAttributes": {
@@ -1044,6 +560,94 @@
       "width": 250,
       "x": 1540,
       "y": 459
+    },
+    {
+      "height": 132,
+      "id": "cd4d15f758030c87",
+      "styleAttributes": {
+      },
+      "text": "```python\nnum1 = 1777\nnum2 = 17.77\ns1 = str(num1)\ns2 = str(num2)\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1880,
+      "y": 452
+    },
+    {
+      "height": 60,
+      "id": "9e22edc8f39c91dd",
+      "styleAttributes": {
+      },
+      "text": "Умножение строки на число",
+      "type": "text",
+      "width": 250,
+      "x": 1240,
+      "y": 853
+    },
+    {
+      "height": 87,
+      "id": "abf6485b7933b7a8",
+      "styleAttributes": {
+      },
+      "text": "Тройные кавычки в Python используются для многострочного текста",
+      "type": "text",
+      "width": 250,
+      "x": 1240,
+      "y": 1000
+    },
+    {
+      "height": 132,
+      "id": "f1164d2f8a95ae66",
+      "styleAttributes": {
+      },
+      "text": "```python\ns1 = 'ab' + 'bc'\ns2 = 'bc' + 'ab'\ns3 = s1 + s2 + \"!!\"\nprint(s1, s2, s3)\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1880,
+      "y": 640
+    },
+    {
+      "height": 80,
+      "id": "ed6c18dd74fe5f21",
+      "styleAttributes": {
+      },
+      "text": "```python\ns = 'Hi' * 4\nprint(s) # HiHiHiHi\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1880,
+      "y": 842
+    },
+    {
+      "height": 207,
+      "id": "9fc9582c8a097c1a",
+      "styleAttributes": {
+      },
+      "text": "В Python при использовании операции деления, результат всегда будет числом с плавающей точкой, даже если оба числа являются целыми",
+      "type": "text",
+      "width": 250,
+      "x": 460,
+      "y": 846
+    },
+    {
+      "height": 87,
+      "id": "0f87c88505b5e071",
+      "styleAttributes": {
+      },
+      "text": "Позволяет проверить, что одна строка находится внутри другой",
+      "type": "text",
+      "width": 250,
+      "x": 1529,
+      "y": 1240
+    },
+    {
+      "height": 60,
+      "id": "64df9d8412983308",
+      "styleAttributes": {
+      },
+      "text": "Оператор `in`",
+      "type": "text",
+      "width": 250,
+      "x": 1241,
+      "y": 1253
     },
     {
       "height": 159,
@@ -1101,59 +705,202 @@
       "y": 1425
     },
     {
-      "height": 60,
-      "id": "0d45e5ec8b024db5",
-      "styleAttributes": {
-      },
-      "text": "Для импорта используется ключевое слово `import`",
-      "type": "text",
-      "width": 250,
-      "x": 1555,
-      "y": 1820
-    },
-    {
-      "height": 132,
-      "id": "cd4d15f758030c87",
-      "styleAttributes": {
-      },
-      "text": "```python\nnum1 = 1777\nnum2 = 17.77\ns1 = str(num1)\ns2 = str(num2)\n```",
-      "type": "text",
-      "width": 250,
-      "x": 1880,
-      "y": 452
-    },
-    {
-      "height": 60,
-      "id": "9e22edc8f39c91dd",
-      "styleAttributes": {
-      },
-      "text": "Умножение строки на число",
-      "type": "text",
-      "width": 250,
-      "x": 1240,
-      "y": 853
-    },
-    {
       "height": 87,
-      "id": "abf6485b7933b7a8",
+      "id": "7b8b153f134bd327",
       "styleAttributes": {
       },
-      "text": "Тройные кавычки в Python используются для многострочного текста",
+      "text": "Использование вместе с логическими операторами",
       "type": "text",
       "width": 250,
       "x": 1240,
-      "y": 1000
+      "y": 1591
     },
     {
       "height": 117,
-      "id": "5ea3abed3dade007",
+      "id": "a1ae5aea52b3b6c9",
       "styleAttributes": {
       },
-      "text": "Строковый тип данных имеет название `str` (string - строка, струна, ряд)",
+      "text": "При указании чисел с дробной частью, между целой и дробной частью указывается точка",
       "type": "text",
       "width": 250,
-      "x": 1540,
-      "y": 72
+      "x": 460,
+      "y": 1103
+    },
+    {
+      "height": 60,
+      "id": "c51d120542f4e34c",
+      "styleAttributes": {
+      },
+      "text": "```python\nnum = float(input())\n```",
+      "type": "text",
+      "width": 250,
+      "x": 460,
+      "y": 1234
+    },
+    {
+      "height": 60,
+      "id": "65ebe5af8fc25b05",
+      "styleAttributes": {
+      },
+      "text": "```python\nn = float('1.2345')\n```",
+      "type": "text",
+      "width": 250,
+      "x": 460,
+      "y": 1354
+    },
+    {
+      "height": 80,
+      "id": "bf50925d47da1202",
+      "styleAttributes": {
+      },
+      "text": "```python\nn = int('12345')\n# Преобразование строки в целое число\n```",
+      "type": "text",
+      "width": 398,
+      "x": 440,
+      "y": 408
+    },
+    {
+      "height": 147,
+      "id": "db6e14ad94978bc1",
+      "styleAttributes": {
+      },
+      "text": "Для преобразования строки к числу с плавающей точкой используется команда `float()`",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 1190
+    },
+    {
+      "height": 60,
+      "id": "14a0239086b15b02",
+      "styleAttributes": {
+      },
+      "text": "Числа с плавающей точкой",
+      "type": "text",
+      "width": 250,
+      "x": -227,
+      "y": 920
+    },
+    {
+      "height": 60,
+      "id": "37927f8e3b4fdb5b",
+      "styleAttributes": {
+      },
+      "text": "Числа, с дробными (вещественными) числами\n",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 920
+    },
+    {
+      "height": 87,
+      "id": "b0df57b2f2f6ab78",
+      "styleAttributes": {
+      },
+      "text": "Преобразование строки к числу с плавающей точкой",
+      "type": "text",
+      "width": 250,
+      "x": -227,
+      "y": 1220
+    },
+    {
+      "height": 117,
+      "id": "f498d25429353581",
+      "styleAttributes": {
+      },
+      "text": "Если строка не является числом, то при преобразовании возникнет ошибка",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 1404
+    },
+    {
+      "height": 80,
+      "id": "977b29effff2a19b",
+      "styleAttributes": {
+      },
+      "text": "```python\nnum = int(input()) \n# Преобразование считанной строки в целое число\n```",
+      "type": "text",
+      "width": 480,
+      "x": 440,
+      "y": 310
+    },
+    {
+      "height": 133,
+      "id": "243feaab97b3c741",
+      "styleAttributes": {
+      },
+      "text": "```python\nnumber1 = 25_000_000\nnumber2 = 25000000\nprint(number1) # 25000000\nprint(number2) # 25000000\n```",
+      "type": "text",
+      "width": 297,
+      "x": 440,
+      "y": 547
+    },
+    {
+      "height": 177,
+      "id": "d24363c3ca446e96",
+      "styleAttributes": {
+      },
+      "text": "Явно указанное численное значение в коде программы называется целочисленным литералом",
+      "type": "text",
+      "width": 250,
+      "x": 460,
+      "y": 42
+    },
+    {
+      "height": 80,
+      "id": "7836c37e437dcd67",
+      "styleAttributes": {
+      },
+      "text": "```python\na = 17 # Целочисленный литерал\na = 7 # Целочисленный литерал\n```",
+      "type": "text",
+      "width": 333,
+      "x": 780,
+      "y": 90
+    },
+    {
+      "height": 177,
+      "id": "3585e2943376a9ce",
+      "styleAttributes": {
+      },
+      "text": "Представлен типом данных `int` (int - integer). Для определения числа типа `int` используется последовательность цифр от 0 до 9",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 42
+    },
+    {
+      "height": 117,
+      "id": "3cd98a87df08899d",
+      "styleAttributes": {
+      },
+      "text": "Для преобразование строки в целое число, используется команда `int()`",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 291
+    },
+    {
+      "height": 117,
+      "id": "e692ea5b4985235c",
+      "styleAttributes": {
+      },
+      "text": "Если строка не является числом, то при преобразовании возникнет ошибка",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 430
+    },
+    {
+      "height": 117,
+      "id": "005379a9d3fa4543",
+      "styleAttributes": {
+      },
+      "text": "Для удобного чтение чисел можно использовать символ подчеркивания",
+      "type": "text",
+      "width": 250,
+      "x": 120,
+      "y": 555
     },
     {
       "height": 147,
@@ -1165,6 +912,39 @@
       "width": 250,
       "x": 1880,
       "y": 57
+    },
+    {
+      "height": 60,
+      "id": "4c6c1d6d54404c41",
+      "styleAttributes": {
+      },
+      "text": "Ссылка на курс: [клик](https://stepik.org/lesson/265105/step/1?unit=246053)",
+      "type": "text",
+      "width": 250,
+      "x": -226,
+      "y": -190
+    },
+    {
+      "height": 60,
+      "id": "160c510fa174f1a9",
+      "styleAttributes": {
+      },
+      "text": "Символ разделитель",
+      "type": "text",
+      "width": 250,
+      "x": -227,
+      "y": 583
+    },
+    {
+      "height": 117,
+      "id": "5ea3abed3dade007",
+      "styleAttributes": {
+      },
+      "text": "Строковый тип данных имеет название `str` (string - строка, струна, ряд)",
+      "type": "text",
+      "width": 250,
+      "x": 1540,
+      "y": 72
     },
     {
       "height": 80,
@@ -1187,28 +967,6 @@
       "width": 250,
       "x": 1540,
       "y": 260
-    },
-    {
-      "height": 132,
-      "id": "f1164d2f8a95ae66",
-      "styleAttributes": {
-      },
-      "text": "```python\ns1 = 'ab' + 'bc'\ns2 = 'bc' + 'ab'\ns3 = s1 + s2 + \"!!\"\nprint(s1, s2, s3)\n```",
-      "type": "text",
-      "width": 250,
-      "x": 1880,
-      "y": 640
-    },
-    {
-      "height": 80,
-      "id": "ed6c18dd74fe5f21",
-      "styleAttributes": {
-      },
-      "text": "```python\ns = 'Hi' * 4\nprint(s) # HiHiHiHi\n```",
-      "type": "text",
-      "width": 250,
-      "x": 1880,
-      "y": 842
     },
     {
       "height": 60,
@@ -1255,15 +1013,257 @@
       "y": 991
     },
     {
-      "height": 87,
-      "id": "7b8b153f134bd327",
+      "height": 60,
+      "id": "7b02a2d8987a5c27",
       "styleAttributes": {
       },
-      "text": "Использование вместе с логическими операторами",
+      "text": "```python\na = max(3, 8, -3, 12, 9) # 12\n```",
+      "type": "text",
+      "width": 329,
+      "x": 433,
+      "y": 2609
+    },
+    {
+      "height": 60,
+      "id": "e81bf7bd0d73f913",
+      "styleAttributes": {
+      },
+      "text": "```python\na = min(3, 8, -3, 12, 9) # -3\n```",
+      "type": "text",
+      "width": 332,
+      "x": 430,
+      "y": 2777
+    },
+    {
+      "height": 80,
+      "id": "eafbbb75b06b2992",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(abs(10))\nprint(abs(-7))\n```",
+      "type": "text",
+      "width": 334,
+      "x": 428,
+      "y": 2899
+    },
+    {
+      "height": 60,
+      "id": "d5b6065d87f4a73e",
+      "styleAttributes": {
+      },
+      "text": "Встроенные функции",
+      "type": "text",
+      "width": 250,
+      "x": -227,
+      "y": 2608
+    },
+    {
+      "height": 117,
+      "id": "503c5ad2079bac2a",
+      "styleAttributes": {
+      },
+      "text": "`min()` - Определяет минимальное значение из заданных в него аргументов",
+      "type": "text",
+      "width": 250,
+      "x": 113,
+      "y": 2748
+    },
+    {
+      "height": 60,
+      "id": "4ea93768cbe1ee7c",
+      "styleAttributes": {
+      },
+      "text": "`abs()` - Определяет модуль числа",
+      "type": "text",
+      "width": 250,
+      "x": 113,
+      "y": 2909
+    },
+    {
+      "height": 117,
+      "id": "d1e1f49882e8bb82",
+      "styleAttributes": {
+      },
+      "text": "Такие функции работают как с целыми числами, так и с числами с плавающей точкой",
+      "type": "text",
+      "width": 250,
+      "x": -227,
+      "y": 2744
+    },
+    {
+      "height": 60,
+      "id": "bd088b0b4dacd92d",
+      "styleAttributes": {
+      },
+      "text": "Целочисленный тип данных",
+      "type": "text",
+      "width": 250,
+      "x": -226,
+      "y": 100
+    },
+    {
+      "height": 60,
+      "id": "a384435c20caceed",
+      "styleAttributes": {
+      },
+      "text": "Преобразование строки в целое число",
+      "type": "text",
+      "width": 250,
+      "x": -226,
+      "y": 320
+    },
+    {
+      "height": 60,
+      "id": "03a8864bf616bba8",
+      "styleAttributes": {
+      },
+      "text": "Явное преобразование",
+      "type": "text",
+      "width": 250,
+      "x": 99,
+      "y": 2042
+    },
+    {
+      "height": 117,
+      "id": "2e5ddf84467aa9c3",
+      "styleAttributes": {
+      },
+      "text": "`max()` - Определяет максимальное значение из заданных в него аргументов",
+      "type": "text",
+      "width": 250,
+      "x": 113,
+      "y": 2580
+    },
+    {
+      "height": 60,
+      "id": "ce818b24c62390e9",
+      "styleAttributes": {
+      },
+      "text": "Особенности подключения модулей",
       "type": "text",
       "width": 250,
       "x": 1240,
-      "y": 1591
+      "y": 1820
+    },
+    {
+      "height": 60,
+      "id": "9c92b35ef2ad7680",
+      "styleAttributes": {
+      },
+      "text": "```python\nimport packagename\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1867,
+      "y": 1821
+    },
+    {
+      "height": 117,
+      "id": "d0e15f80ace6e5bf",
+      "styleAttributes": {
+      },
+      "text": "Для того чтобы всегда писать только наименование функции, но не указывать сам пакет",
+      "type": "text",
+      "width": 250,
+      "x": 1867,
+      "y": 1920
+    },
+    {
+      "height": 60,
+      "id": "02bcb08b785dc44b",
+      "styleAttributes": {
+      },
+      "text": "```python\nfrom packagename import * \n```",
+      "type": "text",
+      "width": 321,
+      "x": 2210,
+      "y": 1949
+    },
+    {
+      "height": 117,
+      "id": "8b80c54dba79bd8b",
+      "styleAttributes": {
+      },
+      "text": "Звездочка - импорт всех функций. Можно указать конкретные функции, которые нужны",
+      "type": "text",
+      "width": 250,
+      "x": 2246,
+      "y": 2073
+    },
+    {
+      "height": 60,
+      "id": "0d45e5ec8b024db5",
+      "styleAttributes": {
+      },
+      "text": "Для импорта используется ключевое слово `import`",
+      "type": "text",
+      "width": 250,
+      "x": 1555,
+      "y": 1820
+    },
+    {
+      "height": 292,
+      "id": "29fc1d4c5d7b4fe1",
+      "styleAttributes": {
+      },
+      "text": "Любое целое число можно использовать там, где ожидается число с плавающей точкой, поскольку при необходимости Python автоматически преобразует целые числа в числа с плавающей точкой",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 1640
+    },
+    {
+      "height": 267,
+      "id": "8009c17e55e7beea",
+      "styleAttributes": {
+      },
+      "text": "Число с плавающей точкой нельзя неявно преобразовать в целое число. Для такого преобразования необходимо использование явное преобразование с помощью команды `int()`",
+      "type": "text",
+      "width": 250,
+      "x": 420,
+      "y": 1938
+    },
+    {
+      "height": 60,
+      "id": "a09011b266e258fc",
+      "styleAttributes": {
+      },
+      "text": "Преобразование между int и float",
+      "type": "text",
+      "width": 250,
+      "x": -227,
+      "y": 1756
+    },
+    {
+      "height": 60,
+      "id": "a499c79fb8a9cf46",
+      "styleAttributes": {
+      },
+      "text": "Неявное преобразование",
+      "type": "text",
+      "width": 250,
+      "x": 99,
+      "y": 1756
+    },
+    {
+      "height": 185,
+      "id": "bf8b5c9586da0955",
+      "styleAttributes": {
+      },
+      "text": "```python\nnum1 = 17.89\nnum2 = -13.56\nnum3 = int(num1)\nnum4 = int(num2)\nprint(num3) # 17\nprint(num4) # -13\n```",
+      "type": "text",
+      "width": 250,
+      "x": 720,
+      "y": 1979
+    },
+    {
+      "height": 207,
+      "id": "af5cf46cb516df77",
+      "styleAttributes": {
+      },
+      "text": "Преобразование чисел с плавающей точкой в целое производится с округлением в сторону нуля, или же - дробная часть просто отбрасывается",
+      "type": "text",
+      "width": 250,
+      "x": 720,
+      "y": 2220
     }
   ]
 }

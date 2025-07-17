@@ -639,6 +639,105 @@
       "y": 1640
     },
     {
+      "height": 181,
+      "id": "8779fbc3c1e5c327",
+      "styleAttributes": {
+      },
+      "text": "Таким образом, команда `input()` получает от пользователя какие-то данные и вместо вызова подставляет строковое значение",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 1220
+    },
+    {
+      "height": 60,
+      "id": "841e8c60e6ce1dd4",
+      "styleAttributes": {
+      },
+      "text": "Любая переменная имеет имя и значение",
+      "type": "text",
+      "width": 250,
+      "x": 515,
+      "y": 1039
+    },
+    {
+      "height": 93,
+      "id": "5d10ec64a844b606",
+      "styleAttributes": {
+      },
+      "text": "Имя переменной не может начинаться с цифры",
+      "type": "text",
+      "width": 250,
+      "x": 840,
+      "y": 1206
+    },
+    {
+      "height": 101,
+      "id": "e5a2dbd7e9417957",
+      "styleAttributes": {
+      },
+      "text": "Имя переменной не может содержать пробелы",
+      "type": "text",
+      "width": 250,
+      "x": 840,
+      "y": 1331
+    },
+    {
+      "height": 60,
+      "id": "2cfadc0a9ddde4b9",
+      "styleAttributes": {
+      },
+      "text": "```python\na = 123\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1469,
+      "y": 855
+    },
+    {
+      "height": 89,
+      "id": "801e43ff71a45e8f",
+      "styleAttributes": {
+      },
+      "text": "Для считывания данных используется команда `input()`",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 840
+    },
+    {
+      "height": 60,
+      "id": "1d65c89120df7da6",
+      "styleAttributes": {
+      },
+      "text": "Комбинация вместе с `input()` и `print()`",
+      "type": "text",
+      "width": 250,
+      "x": 1469,
+      "y": 1010
+    },
+    {
+      "height": 211,
+      "id": "850f33e492777db2",
+      "styleAttributes": {
+      },
+      "text": "```python\nprint(\"Enter your name:\")\n\nname = input()\nprint(\"Hello,\", name) # Hello, %user_input%\n\nname = 'Viktor'\nprint(\"Hello,\", name) # Hello, Viktor\n```",
+      "type": "text",
+      "width": 455,
+      "x": 1782,
+      "y": 935
+    },
+    {
+      "height": 94,
+      "id": "62215dc2cc3993ad",
+      "styleAttributes": {
+      },
+      "text": "Можно принимать сразу несколько строк и работать с ними",
+      "type": "text",
+      "width": 250,
+      "x": 1469,
+      "y": 1237
+    },
+    {
       "height": 99,
       "id": "edb54e8b1cb4b049",
       "styleAttributes": {
@@ -692,6 +791,61 @@
       "width": 250,
       "x": 1280,
       "y": 153
+    },
+    {
+      "height": 221,
+      "id": "45b5fcacf1fc8688",
+      "styleAttributes": {
+      },
+      "text": "Когда программа доходит до места, где есть `input()`, она ждет, пока пользователь введет текст с клавиатуры. Введенная строка подставляется на место `input()`",
+      "type": "text",
+      "width": 250,
+      "x": 180,
+      "y": 960
+    },
+    {
+      "height": 60,
+      "id": "632e0dc459fc9040",
+      "styleAttributes": {
+      },
+      "text": "Переменные - область в памяти компьютера",
+      "type": "text",
+      "width": 250,
+      "x": 515,
+      "y": 855
+    },
+    {
+      "height": 218,
+      "id": "5e5d7e69ce4699e0",
+      "styleAttributes": {
+      },
+      "text": "В имени переменной рекомендуется использовать только латинские буквы \"a-z\", \"A-Z\", цифры и символ нижнего подчеркивания (_)",
+      "type": "text",
+      "width": 250,
+      "x": 840,
+      "y": 960
+    },
+    {
+      "height": 124,
+      "id": "32f92dec4381707a",
+      "styleAttributes": {
+      },
+      "text": "Для инициализации переменной используется оператор присваивания \"=\"",
+      "type": "text",
+      "width": 250,
+      "x": 1120,
+      "y": 823
+    },
+    {
+      "height": 147,
+      "id": "97e31fac40a89685",
+      "styleAttributes": {
+      },
+      "text": "```python\na = input()\nb = input()\n\nprint(a, b)\n```",
+      "type": "text",
+      "width": 250,
+      "x": 1782,
+      "y": 1211
     },
     {
       "height": 108,
@@ -826,70 +980,180 @@
       "y": -75
     },
     {
-      "height": 181,
-      "id": "8779fbc3c1e5c327",
+      "height": 60,
+      "id": "e28eca7857aab032",
       "styleAttributes": {
       },
-      "text": "Таким образом, команда `input()` получает от пользователя какие-то данные и вместо вызова подставляет строковое значение",
+      "text": "\"-\" Вычитание",
       "type": "text",
       "width": 250,
-      "x": 180,
-      "y": 1220
+      "x": 2198,
+      "y": 2260
     },
     {
       "height": 60,
-      "id": "841e8c60e6ce1dd4",
+      "id": "c5d4342302a03821",
       "styleAttributes": {
       },
-      "text": "Любая переменная имеет имя и значение",
+      "text": "\"\\*\" Умножение",
       "type": "text",
       "width": 250,
-      "x": 515,
-      "y": 1039
+      "x": 2198,
+      "y": 2340
     },
     {
-      "height": 93,
-      "id": "5d10ec64a844b606",
+      "height": 207,
+      "id": "fdd39eea488039d0",
       "styleAttributes": {
       },
-      "text": "Имя переменной не может начинаться с цифры",
+      "text": "Переменная \"s\" имеет строковый тип данных. С помощью команды `int()` было преобразование из строки к целому числу, а результат был записан в переменную \"year\"",
       "type": "text",
       "width": 250,
-      "x": 840,
-      "y": 1206
+      "x": 2484,
+      "y": 2920
     },
     {
-      "height": 101,
-      "id": "e5a2dbd7e9417957",
+      "height": 118,
+      "id": "42a9f67ddd6fa847",
       "styleAttributes": {
       },
-      "text": "Имя переменной не может содержать пробелы",
+      "text": "Чтобы преобразовать число в строку, используется команда `str()`",
       "type": "text",
       "width": 250,
-      "x": 840,
-      "y": 1331
-    },
-    {
-      "height": 100,
-      "id": "96e0e7228216ac78",
-      "styleAttributes": {
-      },
-      "text": "Имя переменной по возможности должно отражать ее назначение",
-      "type": "text",
-      "width": 250,
-      "x": 840,
-      "y": 1459
+      "x": 1829,
+      "y": 3247
     },
     {
       "height": 60,
-      "id": "2cfadc0a9ddde4b9",
+      "id": "9b1693183aab0274",
       "styleAttributes": {
       },
-      "text": "```python\na = 123\n```",
+      "text": "Преобразование типов",
       "type": "text",
       "width": 250,
-      "x": 1469,
-      "y": 855
+      "x": 1500,
+      "y": 2993
+    },
+    {
+      "height": 60,
+      "id": "739eeb5b0cf2e59c",
+      "styleAttributes": {
+      },
+      "text": "Обработка цифр числа",
+      "type": "text",
+      "width": 250,
+      "x": 1500,
+      "y": 3560
+    },
+    {
+      "height": 148,
+      "id": "dc68198635e21c04",
+      "styleAttributes": {
+      },
+      "text": "При помощи операции нахождения остатка и целочисленного деления можно вычислить любую цифру числа",
+      "type": "text",
+      "width": 250,
+      "x": 1829,
+      "y": 3516
+    },
+    {
+      "height": 177,
+      "id": "89ee67053090dcc0",
+      "styleAttributes": {
+      },
+      "text": "Порядок выполнения операций в Python аналогичен порядку выполнения операций, как в обычной школьной математике",
+      "type": "text",
+      "width": 250,
+      "x": 2609,
+      "y": 2253
+    },
+    {
+      "height": 148,
+      "id": "67da8eccdfb31a13",
+      "styleAttributes": {
+      },
+      "text": "Для изменения порядка выполнения операций под свои нужны, необходимо использовать скобки",
+      "type": "text",
+      "width": 250,
+      "x": 2940,
+      "y": 2268
+    },
+    {
+      "height": 60,
+      "id": "76ea74d0cc1e4148",
+      "styleAttributes": {
+      },
+      "text": "Минус может быть как бинарным, так и унарным",
+      "type": "text",
+      "width": 250,
+      "x": 2707,
+      "y": 2138
+    },
+    {
+      "height": 80,
+      "id": "5a160d6d40c28fda",
+      "styleAttributes": {
+      },
+      "text": "```python\nnum1 = -6 # Унарный минус\nnum2 = 17 - 7 # Бинарный минус\n```",
+      "type": "text",
+      "width": 361,
+      "x": 3081,
+      "y": 2128
+    },
+    {
+      "height": 60,
+      "id": "dd297db0a70f3c40",
+      "styleAttributes": {
+      },
+      "text": "Можно совершать 4 основные операции",
+      "type": "text",
+      "width": 250,
+      "x": 1824,
+      "y": 2181
+    },
+    {
+      "height": 60,
+      "id": "1f78a249a5a79a29",
+      "styleAttributes": {
+      },
+      "text": "\"+\" Сложение",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2182
+    },
+    {
+      "height": 117,
+      "id": "de100232c766783b",
+      "styleAttributes": {
+      },
+      "text": "Сначала выводится последняя цифра числа, затем средняя, а после и первая цифра числа",
+      "type": "text",
+      "width": 250,
+      "x": 2484,
+      "y": 3949
+    },
+    {
+      "height": 87,
+      "id": "50457e93fa29cca6",
+      "styleAttributes": {
+      },
+      "text": "Можно совершать 3 дополнительные операции",
+      "type": "text",
+      "width": 250,
+      "x": 1824,
+      "y": 2554
+    },
+    {
+      "height": 60,
+      "id": "0c453dbc8b153344",
+      "styleAttributes": {
+      },
+      "text": "Работа с целыми числами",
+      "type": "text",
+      "width": 250,
+      "x": 1500,
+      "y": 2181
     },
     {
       "height": 133,
@@ -947,103 +1211,59 @@
       "y": 2270
     },
     {
-      "height": 89,
-      "id": "801e43ff71a45e8f",
+      "height": 160,
+      "id": "9673f38c736a0e2d",
       "styleAttributes": {
       },
-      "text": "Для считывания данных используется команда `input()`",
+      "text": "```python\nseparation = \"*\"\nprint('aa', 'bb', 'cc', sep=separation)\n# Вывод: aa*bb*cc\n# В качестве значения для аргумента sep можно использовать переменные\n```",
       "type": "text",
-      "width": 250,
-      "x": 180,
-      "y": 840
+      "width": 426,
+      "x": 805,
+      "y": 1990
     },
     {
-      "height": 221,
-      "id": "45b5fcacf1fc8688",
+      "height": 117,
+      "id": "8d7e8b0b0d10801b",
       "styleAttributes": {
       },
-      "text": "Когда программа доходит до места, где есть `input()`, она ждет, пока пользователь введет текст с клавиатуры. Введенная строка подставляется на место `input()`",
+      "text": "Чтобы преобразовать строку к целому числу, используется команда `int()`",
       "type": "text",
       "width": 250,
-      "x": 180,
-      "y": 960
+      "x": 1824,
+      "y": 2965
     },
     {
-      "height": 60,
-      "id": "632e0dc459fc9040",
+      "height": 199,
+      "id": "5cfe94b39a5b9d79",
       "styleAttributes": {
       },
-      "text": "Переменные - область в памяти компьютера",
+      "text": "```python\nprint(\"A great man doesn't seek to lead.\", end='\\n')\nprint(\"He's called to it. And he answers.\", end='\\n')\n\nprint(\"A great man doesn't seek to lead.\")\nprint(\"He's called to it. And he answers.\")\n#  Строки идентичны по выводу между собой\n```",
       "type": "text",
-      "width": 250,
-      "x": 515,
-      "y": 855
+      "width": 569,
+      "x": 841,
+      "y": 2241
     },
     {
-      "height": 218,
-      "id": "5e5d7e69ce4699e0",
+      "height": 170,
+      "id": "cccf2764b12d30f6",
       "styleAttributes": {
       },
-      "text": "В имени переменной рекомендуется использовать только латинские буквы \"a-z\", \"A-Z\", цифры и символ нижнего подчеркивания (_)",
+      "text": "```python\nprint(\"a\", \"\\n\", 'b', '\\n', 'c', sep=\"*\", end=\"#)\n# Вывод:\n# a*\n# *b*\n# *c#\n```\n",
+      "type": "text",
+      "width": 500,
+      "x": 841,
+      "y": 2485
+    },
+    {
+      "height": 100,
+      "id": "96e0e7228216ac78",
+      "styleAttributes": {
+      },
+      "text": "Имя переменной по возможности должно отражать ее назначение",
       "type": "text",
       "width": 250,
       "x": 840,
-      "y": 960
-    },
-    {
-      "height": 124,
-      "id": "32f92dec4381707a",
-      "styleAttributes": {
-      },
-      "text": "Для инициализации переменной используется оператор присваивания \"=\"",
-      "type": "text",
-      "width": 250,
-      "x": 1120,
-      "y": 823
-    },
-    {
-      "height": 60,
-      "id": "1d65c89120df7da6",
-      "styleAttributes": {
-      },
-      "text": "Комбинация вместе с `input()` и `print()`",
-      "type": "text",
-      "width": 250,
-      "x": 1469,
-      "y": 1010
-    },
-    {
-      "height": 211,
-      "id": "850f33e492777db2",
-      "styleAttributes": {
-      },
-      "text": "```python\nprint(\"Enter your name:\")\n\nname = input()\nprint(\"Hello,\", name) # Hello, %user_input%\n\nname = 'Viktor'\nprint(\"Hello,\", name) # Hello, Viktor\n```",
-      "type": "text",
-      "width": 455,
-      "x": 1782,
-      "y": 935
-    },
-    {
-      "height": 94,
-      "id": "62215dc2cc3993ad",
-      "styleAttributes": {
-      },
-      "text": "Можно принимать сразу несколько строк и работать с ними",
-      "type": "text",
-      "width": 250,
-      "x": 1469,
-      "y": 1237
-    },
-    {
-      "height": 147,
-      "id": "97e31fac40a89685",
-      "styleAttributes": {
-      },
-      "text": "```python\na = input()\nb = input()\n\nprint(a, b)\n```",
-      "type": "text",
-      "width": 250,
-      "x": 1782,
-      "y": 1211
+      "y": 1459
     },
     {
       "height": 118,
@@ -1066,94 +1286,6 @@
       "width": 250,
       "x": 1829,
       "y": 1902
-    },
-    {
-      "height": 60,
-      "id": "b73af49e96253410",
-      "styleAttributes": {
-      },
-      "text": "\"\\\\\" Деление",
-      "type": "text",
-      "width": 250,
-      "x": 2198,
-      "y": 2420
-    },
-    {
-      "height": 177,
-      "id": "89ee67053090dcc0",
-      "styleAttributes": {
-      },
-      "text": "Порядок выполнения операций в Python аналогичен порядку выполнения операций, как в обычной школьной математике",
-      "type": "text",
-      "width": 250,
-      "x": 2609,
-      "y": 2253
-    },
-    {
-      "height": 148,
-      "id": "67da8eccdfb31a13",
-      "styleAttributes": {
-      },
-      "text": "Для изменения порядка выполнения операций под свои нужны, необходимо использовать скобки",
-      "type": "text",
-      "width": 250,
-      "x": 2940,
-      "y": 2268
-    },
-    {
-      "height": 60,
-      "id": "76ea74d0cc1e4148",
-      "styleAttributes": {
-      },
-      "text": "Минус может быть как бинарным, так и унарным",
-      "type": "text",
-      "width": 250,
-      "x": 2707,
-      "y": 2138
-    },
-    {
-      "height": 80,
-      "id": "5a160d6d40c28fda",
-      "styleAttributes": {
-      },
-      "text": "```python\nnum1 = -6 # Унарный минус\nnum2 = 17 - 7 # Бинарный минус\n```",
-      "type": "text",
-      "width": 361,
-      "x": 3081,
-      "y": 2128
-    },
-    {
-      "height": 60,
-      "id": "8777c95e8dbc79eb",
-      "styleAttributes": {
-      },
-      "text": "\"**\" Возведение в степень",
-      "type": "text",
-      "width": 250,
-      "x": 2198,
-      "y": 2567
-    },
-    {
-      "height": 60,
-      "id": "bda4c66b8ee533f8",
-      "styleAttributes": {
-      },
-      "text": "\"%\" Остаток от деления",
-      "type": "text",
-      "width": 250,
-      "x": 2198,
-      "y": 2663
-    },
-    {
-      "height": 60,
-      "id": "8aea56b3de74504e",
-      "styleAttributes": {
-      },
-      "text": "\"//\" - Целочисленное деление",
-      "type": "text",
-      "width": 250,
-      "x": 2198,
-      "y": 2759
     },
     {
       "height": 127,
@@ -1189,48 +1321,37 @@
       "y": 1899
     },
     {
-      "height": 60,
-      "id": "dd297db0a70f3c40",
+      "height": 96,
+      "id": "f1ecc7f93170a582",
       "styleAttributes": {
       },
-      "text": "Можно совершать 4 основные операции",
+      "text": "```python\nprint('aa', 'bb', 'cc', sep=\"*\")\n# Вывод: aa*bb*cc\n```",
       "type": "text",
-      "width": 250,
-      "x": 1824,
-      "y": 2181
+      "width": 354,
+      "x": 841,
+      "y": 1850
     },
     {
-      "height": 60,
-      "id": "1f78a249a5a79a29",
+      "height": 120,
+      "id": "540f4f200d55f308",
       "styleAttributes": {
       },
-      "text": "\"+\" Сложение",
+      "text": "Отвечает параметр `end`. По умолчанию параметр равен символу перевода строки \"\\n\"",
       "type": "text",
       "width": 250,
-      "x": 2198,
-      "y": 2182
+      "x": 507,
+      "y": 2280
     },
     {
-      "height": 60,
-      "id": "e28eca7857aab032",
+      "height": 159,
+      "id": "867be2ad44f85e89",
       "styleAttributes": {
       },
-      "text": "\"-\" Вычитание",
+      "text": "Последовательность символов \"\\n\" называется управляющей последовательностью и задает перевод строки",
       "type": "text",
       "width": 250,
-      "x": 2198,
-      "y": 2260
-    },
-    {
-      "height": 60,
-      "id": "c5d4342302a03821",
-      "styleAttributes": {
-      },
-      "text": "\"\\*\" Умножение",
-      "type": "text",
-      "width": 250,
-      "x": 2198,
-      "y": 2340
+      "x": 507,
+      "y": 2490
     },
     {
       "height": 159,
@@ -1264,17 +1385,6 @@
       "width": 262,
       "x": 2151,
       "y": 3902
-    },
-    {
-      "height": 207,
-      "id": "fdd39eea488039d0",
-      "styleAttributes": {
-      },
-      "text": "Переменная \"s\" имеет строковый тип данных. С помощью команды `int()` было преобразование из строки к целому числу, а результат был записан в переменную \"year\"",
-      "type": "text",
-      "width": 250,
-      "x": 2484,
-      "y": 2920
     },
     {
       "height": 133,
@@ -1332,59 +1442,59 @@
       "y": 3253
     },
     {
-      "height": 118,
-      "id": "42a9f67ddd6fa847",
-      "styleAttributes": {
-      },
-      "text": "Чтобы преобразовать число в строку, используется команда `str()`",
-      "type": "text",
-      "width": 250,
-      "x": 1829,
-      "y": 3247
-    },
-    {
       "height": 60,
-      "id": "9b1693183aab0274",
+      "id": "09e300daa52031ff",
       "styleAttributes": {
       },
-      "text": "Преобразование типов",
+      "text": "Множественное присваивание",
       "type": "text",
       "width": 250,
       "x": 1500,
-      "y": 2993
+      "y": 1736
     },
     {
       "height": 60,
-      "id": "739eeb5b0cf2e59c",
+      "id": "b15cd0666ade775f",
       "styleAttributes": {
       },
-      "text": "Обработка цифр числа",
+      "text": "Алгоритм получения цифр n-значного числа",
       "type": "text",
       "width": 250,
-      "x": 1500,
-      "y": 3560
+      "x": 2748,
+      "y": 3808
     },
     {
-      "height": 117,
-      "id": "de100232c766783b",
+      "height": 60,
+      "id": "b73af49e96253410",
       "styleAttributes": {
       },
-      "text": "Сначала выводится последняя цифра числа, затем средняя, а после и первая цифра числа",
+      "text": "\"\\\\\" Деление",
       "type": "text",
       "width": 250,
-      "x": 2484,
-      "y": 3949
+      "x": 2198,
+      "y": 2420
     },
     {
-      "height": 160,
-      "id": "9673f38c736a0e2d",
+      "height": 60,
+      "id": "8777c95e8dbc79eb",
       "styleAttributes": {
       },
-      "text": "```python\nseparation = \"*\"\nprint('aa', 'bb', 'cc', sep=separation)\n# Вывод: aa*bb*cc\n# В качестве значения для аргумента sep можно использовать переменные\n```",
+      "text": "\"**\" Возведение в степень",
       "type": "text",
-      "width": 426,
-      "x": 805,
-      "y": 1990
+      "width": 250,
+      "x": 2198,
+      "y": 2567
+    },
+    {
+      "height": 60,
+      "id": "bda4c66b8ee533f8",
+      "styleAttributes": {
+      },
+      "text": "\"%\" Остаток от деления",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2663
     },
     {
       "height": 207,
@@ -1453,127 +1563,6 @@
       "y": 2749
     },
     {
-      "height": 117,
-      "id": "8d7e8b0b0d10801b",
-      "styleAttributes": {
-      },
-      "text": "Чтобы преобразовать строку к целому числу, используется команда `int()`",
-      "type": "text",
-      "width": 250,
-      "x": 1824,
-      "y": 2965
-    },
-    {
-      "height": 87,
-      "id": "50457e93fa29cca6",
-      "styleAttributes": {
-      },
-      "text": "Можно совершать 3 дополнительные операции",
-      "type": "text",
-      "width": 250,
-      "x": 1824,
-      "y": 2554
-    },
-    {
-      "height": 148,
-      "id": "dc68198635e21c04",
-      "styleAttributes": {
-      },
-      "text": "При помощи операции нахождения остатка и целочисленного деления можно вычислить любую цифру числа",
-      "type": "text",
-      "width": 250,
-      "x": 1829,
-      "y": 3516
-    },
-    {
-      "height": 96,
-      "id": "f1ecc7f93170a582",
-      "styleAttributes": {
-      },
-      "text": "```python\nprint('aa', 'bb', 'cc', sep=\"*\")\n# Вывод: aa*bb*cc\n```",
-      "type": "text",
-      "width": 354,
-      "x": 841,
-      "y": 1850
-    },
-    {
-      "height": 199,
-      "id": "5cfe94b39a5b9d79",
-      "styleAttributes": {
-      },
-      "text": "```python\nprint(\"A great man doesn't seek to lead.\", end='\\n')\nprint(\"He's called to it. And he answers.\", end='\\n')\n\nprint(\"A great man doesn't seek to lead.\")\nprint(\"He's called to it. And he answers.\")\n#  Строки идентичны по выводу между собой\n```",
-      "type": "text",
-      "width": 569,
-      "x": 841,
-      "y": 2241
-    },
-    {
-      "height": 120,
-      "id": "540f4f200d55f308",
-      "styleAttributes": {
-      },
-      "text": "Отвечает параметр `end`. По умолчанию параметр равен символу перевода строки \"\\n\"",
-      "type": "text",
-      "width": 250,
-      "x": 507,
-      "y": 2280
-    },
-    {
-      "height": 170,
-      "id": "cccf2764b12d30f6",
-      "styleAttributes": {
-      },
-      "text": "```python\nprint(\"a\", \"\\n\", 'b', '\\n', 'c', sep=\"*\", end=\"#)\n# Вывод:\n# a*\n# *b*\n# *c#\n```\n",
-      "type": "text",
-      "width": 500,
-      "x": 841,
-      "y": 2485
-    },
-    {
-      "height": 159,
-      "id": "867be2ad44f85e89",
-      "styleAttributes": {
-      },
-      "text": "Последовательность символов \"\\n\" называется управляющей последовательностью и задает перевод строки",
-      "type": "text",
-      "width": 250,
-      "x": 507,
-      "y": 2490
-    },
-    {
-      "height": 60,
-      "id": "09e300daa52031ff",
-      "styleAttributes": {
-      },
-      "text": "Множественное присваивание",
-      "type": "text",
-      "width": 250,
-      "x": 1500,
-      "y": 1736
-    },
-    {
-      "height": 60,
-      "id": "0c453dbc8b153344",
-      "styleAttributes": {
-      },
-      "text": "Работа с целыми числами",
-      "type": "text",
-      "width": 250,
-      "x": 1500,
-      "y": 2181
-    },
-    {
-      "height": 60,
-      "id": "b15cd0666ade775f",
-      "styleAttributes": {
-      },
-      "text": "Алгоритм получения цифр n-значного числа",
-      "type": "text",
-      "width": 250,
-      "x": 2748,
-      "y": 3808
-    },
-    {
       "height": 178,
       "id": "78f394850bf90558",
       "styleAttributes": {
@@ -1583,6 +1572,17 @@
       "width": 440,
       "x": 3080,
       "y": 3749
+    },
+    {
+      "height": 60,
+      "id": "8aea56b3de74504e",
+      "styleAttributes": {
+      },
+      "text": "\"//\" - Целочисленное деление",
+      "type": "text",
+      "width": 250,
+      "x": 2198,
+      "y": 2759
     }
   ]
 }

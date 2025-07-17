@@ -480,28 +480,6 @@
     },
     {
       "height": 60,
-      "id": "909e60e6129098da",
-      "styleAttributes": {
-      },
-      "text": "Примитивные типы данных в Java",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": -200
-    },
-    {
-      "height": 60,
-      "id": "33d5e79789ec7ee2",
-      "styleAttributes": {
-      },
-      "text": "`float`",
-      "type": "text",
-      "width": 260,
-      "x": 60,
-      "y": -134
-    },
-    {
-      "height": 60,
       "id": "e3b18ba2297d0983",
       "styleAttributes": {
       },
@@ -510,50 +488,6 @@
       "width": 260,
       "x": 380,
       "y": 180
-    },
-    {
-      "height": 60,
-      "id": "2eae29a197205125",
-      "styleAttributes": {
-      },
-      "text": "Должно отражать суть того, что в ней хранится",
-      "type": "text",
-      "width": 260,
-      "x": 440,
-      "y": 1080
-    },
-    {
-      "height": 147,
-      "id": "fa85bdedb139df00",
-      "styleAttributes": {
-      },
-      "text": "Если название состоит из нескольких слов, то используют \"верблюжий регистр\" (пример: currentDateTime)",
-      "type": "text",
-      "width": 260,
-      "x": 440,
-      "y": 1160
-    },
-    {
-      "height": 87,
-      "id": "b089530d74771eb6",
-      "styleAttributes": {
-      },
-      "text": "Не стоит писать транслитом, лучше использовать переводчик",
-      "type": "text",
-      "width": 260,
-      "x": 440,
-      "y": 1320
-    },
-    {
-      "height": 60,
-      "id": "4f1fae0a203264c6",
-      "styleAttributes": {
-      },
-      "text": "Должно начинаться с маленькой буквы",
-      "type": "text",
-      "width": 260,
-      "x": 440,
-      "y": 1000
     },
     {
       "height": 60,
@@ -579,28 +513,6 @@
     },
     {
       "height": 60,
-      "id": "9420696539c91193",
-      "styleAttributes": {
-      },
-      "text": "Переменные",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": 540
-    },
-    {
-      "height": 60,
-      "id": "ce75a75dc9dbd012",
-      "styleAttributes": {
-      },
-      "text": "`double`",
-      "type": "text",
-      "width": 260,
-      "x": 60,
-      "y": -60
-    },
-    {
-      "height": 60,
       "id": "588d28650b04fda6",
       "styleAttributes": {
       },
@@ -609,94 +521,6 @@
       "width": 260,
       "x": 700,
       "y": 180
-    },
-    {
-      "height": 117,
-      "id": "56fc732e2c55e0f6",
-      "styleAttributes": {
-      },
-      "text": "Пример создания переменных. Переменная `a` только создается, но не инициализируется",
-      "type": "text",
-      "width": 260,
-      "x": 780,
-      "y": 791
-    },
-    {
-      "height": 87,
-      "id": "9fa286c369f6ce44",
-      "styleAttributes": {
-      },
-      "text": "Не должно содержать специальных символов, пробелов и кириллицы",
-      "type": "text",
-      "width": 260,
-      "x": 440,
-      "y": 894
-    },
-    {
-      "height": 60,
-      "id": "e25f611036befa22",
-      "styleAttributes": {
-      },
-      "text": "Не должно начинаться с цифры",
-      "type": "text",
-      "width": 260,
-      "x": 440,
-      "y": 819
-    },
-    {
-      "height": 328,
-      "id": "51dac974d7314bd5",
-      "styleAttributes": {
-      },
-      "text": "```java\nclass Test_variable {\n\tpublic static void main(String[] args) {\n\t\tint a;\n\t\tint b = 5;\n\t\tfloat c = 21.6f;\n\t\tString name = \"removespread\";\n\t\tdouble myVar = 0.58386;\n\t\tboolean mvp = true;\n\t\tSystem.out.println(b); // может выводить и переменные\n\t\tSystem.out.println(\"2\") // может выводить и строку\n\t}\n}\n```",
-      "type": "text",
-      "width": 600,
-      "x": 1120,
-      "y": 686
-    },
-    {
-      "height": 207,
-      "id": "54063ed6f83e248d",
-      "styleAttributes": {
-      },
-      "text": "Когда разработчик создает переменную, компьютер выделяет память для хранения какого-либо значения, и позволяет обраться к ней по имени",
-      "type": "text",
-      "width": 260,
-      "x": 400,
-      "y": 467
-    },
-    {
-      "height": 87,
-      "id": "f7a619bcc76c51e3",
-      "styleAttributes": {
-      },
-      "text": "Является именованной областью в памяти компьютера",
-      "type": "text",
-      "width": 260,
-      "x": 60,
-      "y": 527
-    },
-    {
-      "height": 177,
-      "id": "2ae13d29b95a1bd0",
-      "styleAttributes": {
-      },
-      "text": "Для создания переменной сначала указывается тип, а потом наименование переменной. Имя может быть любым, но есть ряд правил",
-      "type": "text",
-      "width": 260,
-      "x": 60,
-      "y": 760
-    },
-    {
-      "height": 60,
-      "id": "4fc59e5988b87a2a",
-      "styleAttributes": {
-      },
-      "text": "`char`",
-      "type": "text",
-      "width": 260,
-      "x": 60,
-      "y": 14
     },
     {
       "height": 60,
@@ -752,6 +576,72 @@
       "width": 260,
       "x": 700,
       "y": 100
+    },
+    {
+      "height": 60,
+      "id": "ff815d2659b23cee",
+      "styleAttributes": {
+      },
+      "text": "`String`",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": 180
+    },
+    {
+      "height": 60,
+      "id": "909e60e6129098da",
+      "styleAttributes": {
+      },
+      "text": "Примитивные типы данных в Java",
+      "type": "text",
+      "width": 260,
+      "x": -300,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "33d5e79789ec7ee2",
+      "styleAttributes": {
+      },
+      "text": "`float`",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": -134
+    },
+    {
+      "height": 60,
+      "id": "9420696539c91193",
+      "styleAttributes": {
+      },
+      "text": "Переменные",
+      "type": "text",
+      "width": 260,
+      "x": -300,
+      "y": 540
+    },
+    {
+      "height": 60,
+      "id": "ce75a75dc9dbd012",
+      "styleAttributes": {
+      },
+      "text": "`double`",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": -60
+    },
+    {
+      "height": 60,
+      "id": "4fc59e5988b87a2a",
+      "styleAttributes": {
+      },
+      "text": "`char`",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": 14
     },
     {
       "height": 87,
@@ -908,28 +798,6 @@
       "y": -214
     },
     {
-      "height": 147,
-      "id": "6ece07da0e0a7873",
-      "styleAttributes": {
-      },
-      "text": "`System.in` - говорит о том, откуда будут считываться данные с клавиатуры. В данном случае - с клавиатуры",
-      "type": "text",
-      "width": 260,
-      "x": 824,
-      "y": 2820
-    },
-    {
-      "height": 60,
-      "id": "e3e9d7cf46d7c590",
-      "styleAttributes": {
-      },
-      "text": "```java\nimport java.util.Scanner;\n```",
-      "type": "text",
-      "width": 302,
-      "x": 803,
-      "y": 3049
-    },
-    {
       "height": 60,
       "id": "de27f4295255dfdc",
       "styleAttributes": {
@@ -939,72 +807,6 @@
       "width": 392,
       "x": 758,
       "y": 2621
-    },
-    {
-      "height": 87,
-      "id": "74b9e799b9ad7fa6",
-      "styleAttributes": {
-      },
-      "text": "Сначала указывается тип данных `Scanner`, затем название переменной `sc`",
-      "type": "text",
-      "width": 260,
-      "x": 824,
-      "y": 2700
-    },
-    {
-      "height": 177,
-      "id": "fb6a9adb7e779e9e",
-      "styleAttributes": {
-      },
-      "text": "Для считывания данных достаточно после названия переменной поставить точку, и начать вводить `next` и нужную команду",
-      "type": "text",
-      "width": 260,
-      "x": 50,
-      "y": 3220
-    },
-    {
-      "height": 237,
-      "id": "620c94536649a32d",
-      "styleAttributes": {
-      },
-      "text": "```java\nScanner sc = new Scanner(System.in);\nString s1 = sc.next(); // Считает строку до первого пробела\nString s2 = sc.nextLine(); // Считает следующую строку полностью\nint i = sc.nextInt();\ndouble d = sc.nextDouble();\nfloat f = sc.nextFloat();\nboolean b = sc.nextBoolean();\n// и т.д\n```",
-      "type": "text",
-      "width": 621,
-      "x": 400,
-      "y": 3190
-    },
-    {
-      "height": 87,
-      "id": "503e8d64ff4b790e",
-      "styleAttributes": {
-      },
-      "text": "Пример программы для считывания двух чисел и поиска их суммы",
-      "type": "text",
-      "width": 260,
-      "x": 50,
-      "y": 3570
-    },
-    {
-      "height": 307,
-      "id": "8a8392cd1410750c",
-      "styleAttributes": {
-      },
-      "text": "```java\nimport java.util.Scanner;\n\nclass Solution {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\n\t\tint a = sc.nextInt();\n\t\tint b = sc.nextInt();\n\t\tSystem.out.println(a + b);\n\t}\n}\n```",
-      "type": "text",
-      "width": 457,
-      "x": 400,
-      "y": 3460
-    },
-    {
-      "height": 60,
-      "id": "ff815d2659b23cee",
-      "styleAttributes": {
-      },
-      "text": "`String`",
-      "type": "text",
-      "width": 260,
-      "x": 60,
-      "y": 180
     },
     {
       "height": 60,
@@ -1063,50 +865,6 @@
     },
     {
       "height": 60,
-      "id": "e91377e4a829e9a0",
-      "styleAttributes": {
-      },
-      "text": "Ввод данных с клавиатуры",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": 2620
-    },
-    {
-      "height": 117,
-      "id": "a01ad21ea7df21ae",
-      "styleAttributes": {
-      },
-      "text": "Для того чтобы создать переменную типа `Scanner` надо сначала импортировать этот тип",
-      "type": "text",
-      "width": 260,
-      "x": 400,
-      "y": 3020
-    },
-    {
-      "height": 60,
-      "id": "b5dfbe4b24db5e0a",
-      "styleAttributes": {
-      },
-      "text": "Для его создания используется",
-      "type": "text",
-      "width": 260,
-      "x": 400,
-      "y": 2621
-    },
-    {
-      "height": 177,
-      "id": "4ea723bd460a91ea",
-      "styleAttributes": {
-      },
-      "text": "Для ввода данных с клавиатуры служит специальный сканер. Он умеет считывать данные из разных источников, в том числе и с клавиатуры",
-      "type": "text",
-      "width": 260,
-      "x": 60,
-      "y": 2563
-    },
-    {
-      "height": 60,
       "id": "d9b585146ab94356",
       "styleAttributes": {
       },
@@ -1148,6 +906,138 @@
       "width": 920,
       "x": 160,
       "y": 2240
+    },
+    {
+      "height": 147,
+      "id": "6ece07da0e0a7873",
+      "styleAttributes": {
+      },
+      "text": "`System.in` - говорит о том, откуда будут считываться данные с клавиатуры. В данном случае - с клавиатуры",
+      "type": "text",
+      "width": 260,
+      "x": 824,
+      "y": 2820
+    },
+    {
+      "height": 60,
+      "id": "e3e9d7cf46d7c590",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n```",
+      "type": "text",
+      "width": 302,
+      "x": 803,
+      "y": 3049
+    },
+    {
+      "height": 87,
+      "id": "74b9e799b9ad7fa6",
+      "styleAttributes": {
+      },
+      "text": "Сначала указывается тип данных `Scanner`, затем название переменной `sc`",
+      "type": "text",
+      "width": 260,
+      "x": 824,
+      "y": 2700
+    },
+    {
+      "height": 177,
+      "id": "fb6a9adb7e779e9e",
+      "styleAttributes": {
+      },
+      "text": "Для считывания данных достаточно после названия переменной поставить точку, и начать вводить `next` и нужную команду",
+      "type": "text",
+      "width": 260,
+      "x": 50,
+      "y": 3220
+    },
+    {
+      "height": 237,
+      "id": "620c94536649a32d",
+      "styleAttributes": {
+      },
+      "text": "```java\nScanner sc = new Scanner(System.in);\nString s1 = sc.next(); // Считает строку до первого пробела\nString s2 = sc.nextLine(); // Считает следующую строку полностью\nint i = sc.nextInt();\ndouble d = sc.nextDouble();\nfloat f = sc.nextFloat();\nboolean b = sc.nextBoolean();\n// и т.д\n```",
+      "type": "text",
+      "width": 621,
+      "x": 400,
+      "y": 3190
+    },
+    {
+      "height": 87,
+      "id": "503e8d64ff4b790e",
+      "styleAttributes": {
+      },
+      "text": "Пример программы для считывания двух чисел и поиска их суммы",
+      "type": "text",
+      "width": 260,
+      "x": 50,
+      "y": 3570
+    },
+    {
+      "height": 307,
+      "id": "8a8392cd1410750c",
+      "styleAttributes": {
+      },
+      "text": "```java\nimport java.util.Scanner;\n\nclass Solution {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\n\t\tint a = sc.nextInt();\n\t\tint b = sc.nextInt();\n\t\tSystem.out.println(a + b);\n\t}\n}\n```",
+      "type": "text",
+      "width": 457,
+      "x": 400,
+      "y": 3460
+    },
+    {
+      "height": 60,
+      "id": "e91377e4a829e9a0",
+      "styleAttributes": {
+      },
+      "text": "Ввод данных с клавиатуры",
+      "type": "text",
+      "width": 260,
+      "x": -300,
+      "y": 2620
+    },
+    {
+      "height": 117,
+      "id": "a01ad21ea7df21ae",
+      "styleAttributes": {
+      },
+      "text": "Для того чтобы создать переменную типа `Scanner` надо сначала импортировать этот тип",
+      "type": "text",
+      "width": 260,
+      "x": 400,
+      "y": 3020
+    },
+    {
+      "height": 87,
+      "id": "9fa286c369f6ce44",
+      "styleAttributes": {
+      },
+      "text": "Не должно содержать специальных символов, пробелов и кириллицы",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 894
+    },
+    {
+      "height": 60,
+      "id": "b5dfbe4b24db5e0a",
+      "styleAttributes": {
+      },
+      "text": "Для его создания используется",
+      "type": "text",
+      "width": 260,
+      "x": 400,
+      "y": 2621
+    },
+    {
+      "height": 177,
+      "id": "4ea723bd460a91ea",
+      "styleAttributes": {
+      },
+      "text": "Для ввода данных с клавиатуры служит специальный сканер. Он умеет считывать данные из разных источников, в том числе и с клавиатуры",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": 2563
     },
     {
       "height": 60,
@@ -1214,6 +1104,116 @@
       "width": 260,
       "x": 1120,
       "y": 1934
+    },
+    {
+      "height": 60,
+      "id": "2eae29a197205125",
+      "styleAttributes": {
+      },
+      "text": "Должно отражать суть того, что в ней хранится",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 1080
+    },
+    {
+      "height": 147,
+      "id": "fa85bdedb139df00",
+      "styleAttributes": {
+      },
+      "text": "Если название состоит из нескольких слов, то используют \"верблюжий регистр\" (пример: currentDateTime)",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 1160
+    },
+    {
+      "height": 87,
+      "id": "b089530d74771eb6",
+      "styleAttributes": {
+      },
+      "text": "Не стоит писать транслитом, лучше использовать переводчик",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 1320
+    },
+    {
+      "height": 60,
+      "id": "4f1fae0a203264c6",
+      "styleAttributes": {
+      },
+      "text": "Должно начинаться с маленькой буквы",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 1000
+    },
+    {
+      "height": 117,
+      "id": "56fc732e2c55e0f6",
+      "styleAttributes": {
+      },
+      "text": "Пример создания переменных. Переменная `a` только создается, но не инициализируется",
+      "type": "text",
+      "width": 260,
+      "x": 780,
+      "y": 791
+    },
+    {
+      "height": 328,
+      "id": "51dac974d7314bd5",
+      "styleAttributes": {
+      },
+      "text": "```java\nclass Test_variable {\n\tpublic static void main(String[] args) {\n\t\tint a;\n\t\tint b = 5;\n\t\tfloat c = 21.6f;\n\t\tString name = \"removespread\";\n\t\tdouble myVar = 0.58386;\n\t\tboolean mvp = true;\n\t\tSystem.out.println(b); // может выводить и переменные\n\t\tSystem.out.println(\"2\") // может выводить и строку\n\t}\n}\n```",
+      "type": "text",
+      "width": 600,
+      "x": 1120,
+      "y": 686
+    },
+    {
+      "height": 207,
+      "id": "54063ed6f83e248d",
+      "styleAttributes": {
+      },
+      "text": "Когда разработчик создает переменную, компьютер выделяет память для хранения какого-либо значения, и позволяет обраться к ней по имени",
+      "type": "text",
+      "width": 260,
+      "x": 400,
+      "y": 467
+    },
+    {
+      "height": 87,
+      "id": "f7a619bcc76c51e3",
+      "styleAttributes": {
+      },
+      "text": "Является именованной областью в памяти компьютера",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": 527
+    },
+    {
+      "height": 177,
+      "id": "2ae13d29b95a1bd0",
+      "styleAttributes": {
+      },
+      "text": "Для создания переменной сначала указывается тип, а потом наименование переменной. Имя может быть любым, но есть ряд правил",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": 760
+    },
+    {
+      "height": 60,
+      "id": "e25f611036befa22",
+      "styleAttributes": {
+      },
+      "text": "Не должно начинаться с цифры",
+      "type": "text",
+      "width": 260,
+      "x": 440,
+      "y": 819
     }
   ]
 }
